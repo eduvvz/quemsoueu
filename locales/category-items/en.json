@@ -1,0 +1,686 @@
+{
+  "categoryItems": {
+    "movies_tv": {
+      "movies_tv_1": {
+        "name": "Harry Potter",
+        "description": "Wizard from the Harry Potter film series."
+      },
+      "movies_tv_2": {
+        "name": "Darth Vader",
+        "description": "Sith Lord from the Star Wars franchise."
+      },
+      "movies_tv_3": {
+        "name": "Spider-Man",
+        "description": "Superhero from Marvel movies and series."
+      },
+      "movies_tv_4": {
+        "name": "Homer Simpson",
+        "description": "Father from the animated TV show The Simpsons."
+      },
+      "movies_tv_5": {
+        "name": "Elsa",
+        "description": "Queen with ice powers from Disney's Frozen."
+      },
+      "movies_tv_6": {
+        "name": "Batman",
+        "description": "Masked vigilante from DC Comics movies."
+      },
+      "movies_tv_7": {
+        "name": "Iron Man",
+        "description": "Genius billionaire hero from Marvel films."
+      },
+      "movies_tv_8": {
+        "name": "Shrek",
+        "description": "Ogre from the animated Shrek movie series."
+      },
+      "movies_tv_9": {
+        "name": "Goku",
+        "description": "Main character from the anime Dragon Ball series."
+      },
+      "movies_tv_10": {
+        "name": "Naruto Uzumaki",
+        "description": "Ninja protagonist from Naruto anime series."
+      },
+      "movies_tv_11": {
+        "name": "Mickey Mouse",
+        "description": "Iconic Disney character appearing in films and shows."
+      },
+      "movies_tv_12": {
+        "name": "SpongeBob SquarePants",
+        "description": "Main character from the Nickelodeon TV show."
+      },
+      "movies_tv_13": {
+        "name": "Simba",
+        "description": "Lion prince from Disney's The Lion King."
+      },
+      "movies_tv_14": {
+        "name": "Woody",
+        "description": "Cowboy toy from Toy Story movies."
+      },
+      "movies_tv_15": {
+        "name": "Buzz Lightyear",
+        "description": "Space ranger toy from Toy Story films."
+      },
+      "movies_tv_16": {
+        "name": "Deadpool",
+        "description": "Antihero from Marvel movies known for humor."
+      },
+      "movies_tv_17": {
+        "name": "Thor",
+        "description": "God of thunder from Marvel Cinematic Universe."
+      },
+      "movies_tv_18": {
+        "name": "Loki",
+        "description": "Trickster god from Marvel movies and series."
+      },
+      "movies_tv_19": {
+        "name": "Joker",
+        "description": "Villain from DC Batman movies."
+      },
+      "movies_tv_20": {
+        "name": "Wonder Woman",
+        "description": "Amazon warrior hero from DC films."
+      },
+      "movies_tv_21": {
+        "name": "Captain America",
+        "description": "Super soldier from Marvel movies."
+      },
+      "movies_tv_22": {
+        "name": "Hulk",
+        "description": "Green giant hero from Marvel films."
+      },
+      "movies_tv_23": {
+        "name": "Black Widow",
+        "description": "Spy from Marvel Cinematic Universe."
+      },
+      "movies_tv_24": {
+        "name": "Doctor Strange",
+        "description": "Sorcerer from Marvel movies."
+      },
+      "movies_tv_25": {
+        "name": "Aladdin",
+        "description": "Street thief hero from Disney's Aladdin."
+      },
+      "movies_tv_26": {
+        "name": "Genie",
+        "description": "Magical being from Disney's Aladdin."
+      },
+      "movies_tv_27": {
+        "name": "Ariel",
+        "description": "Mermaid princess from The Little Mermaid."
+      },
+      "movies_tv_28": {
+        "name": "Belle",
+        "description": "Book-loving heroine from Beauty and the Beast."
+      },
+      "movies_tv_29": {
+        "name": "Cinderella",
+        "description": "Princess from the classic Disney movie."
+      },
+      "movies_tv_30": {
+        "name": "Snow White",
+        "description": "Princess from Disney's first animated film."
+      },
+      "movies_tv_31": {
+        "name": "Moana",
+        "description": "Voyager heroine from Disney's Moana."
+      },
+      "movies_tv_32": {
+        "name": "Rapunzel",
+        "description": "Princess with long hair from Tangled."
+      },
+      "movies_tv_33": {
+        "name": "Jack Sparrow",
+        "description": "Pirate captain from Pirates of the Caribbean."
+      },
+      "movies_tv_34": {
+        "name": "Indiana Jones",
+        "description": "Archaeologist adventurer from film series."
+      },
+      "movies_tv_35": {
+        "name": "Rocky Balboa",
+        "description": "Boxer from the Rocky film series."
+      },
+      "movies_tv_36": {
+        "name": "John Wick",
+        "description": "Assassin from the John Wick movies."
+      },
+      "movies_tv_37": {
+        "name": "Forrest Gump",
+        "description": "Main character from the film Forrest Gump."
+      },
+      "movies_tv_38": {
+        "name": "Neo",
+        "description": "Chosen one from The Matrix films."
+      },
+      "movies_tv_39": {
+        "name": "Trinity",
+        "description": "Character from The Matrix series."
+      },
+      "movies_tv_40": {
+        "name": "Morpheus",
+        "description": "Mentor figure from The Matrix movies."
+      },
+      "movies_tv_41": {
+        "name": "Terminator",
+        "description": "Cyborg from Terminator film series."
+      },
+      "movies_tv_42": {
+        "name": "Rambo",
+        "description": "Soldier from Rambo movies."
+      },
+      "movies_tv_43": {
+        "name": "Yoda",
+        "description": "Jedi master from Star Wars."
+      },
+      "movies_tv_44": {
+        "name": "Luke Skywalker",
+        "description": "Hero from Star Wars original trilogy."
+      },
+      "movies_tv_45": {
+        "name": "Princess Leia",
+        "description": "Leader from Star Wars saga."
+      },
+      "movies_tv_46": {
+        "name": "Han Solo",
+        "description": "Smuggler from Star Wars films."
+      },
+      "movies_tv_47": {
+        "name": "Chewbacca",
+        "description": "Wookiee companion from Star Wars."
+      },
+      "movies_tv_48": {
+        "name": "Anakin Skywalker",
+        "description": "Jedi who becomes Darth Vader in Star Wars."
+      },
+      "movies_tv_49": {
+        "name": "Obi-Wan Kenobi",
+        "description": "Jedi master from Star Wars."
+      },
+      "movies_tv_50": {
+        "name": "Kylo Ren",
+        "description": "Villain from Star Wars sequel trilogy."
+      }
+    },
+    "superheroes_villains": {
+      "superheroes_villains_1": {
+        "name": "Spider-Man",
+        "description": "Marvel superhero who gained spider powers after a bite."
+      },
+      "superheroes_villains_2": {
+        "name": "Batman",
+        "description": "DC vigilante who protects Gotham City."
+      },
+      "superheroes_villains_3": {
+        "name": "Superman",
+        "description": "Alien hero from Krypton in DC Comics."
+      },
+      "superheroes_villains_4": {
+        "name": "Iron Man",
+        "description": "Marvel hero in a high-tech armored suit."
+      },
+      "superheroes_villains_5": {
+        "name": "Captain America",
+        "description": "Marvel super soldier with a shield."
+      },
+      "superheroes_villains_6": {
+        "name": "Thor",
+        "description": "Norse god from Marvel wielding a hammer."
+      },
+      "superheroes_villains_7": {
+        "name": "Hulk",
+        "description": "Marvel hero who transforms into a green giant."
+      },
+      "superheroes_villains_8": {
+        "name": "Wonder Woman",
+        "description": "Amazon warrior from DC Comics."
+      },
+      "superheroes_villains_9": {
+        "name": "Black Panther",
+        "description": "King and hero of Wakanda in Marvel."
+      },
+      "superheroes_villains_10": {
+        "name": "Flash",
+        "description": "DC hero known for super speed."
+      },
+      "superheroes_villains_11": {
+        "name": "Joker",
+        "description": "Iconic villain and enemy of Batman."
+      },
+      "superheroes_villains_12": {
+        "name": "Thanos",
+        "description": "Marvel villain seeking balance with Infinity Stones."
+      },
+      "superheroes_villains_13": {
+        "name": "Loki",
+        "description": "Marvel trickster god and antihero."
+      },
+      "superheroes_villains_14": {
+        "name": "Green Goblin",
+        "description": "Spider-Man villain using advanced tech."
+      },
+      "superheroes_villains_15": {
+        "name": "Magneto",
+        "description": "Mutant villain who controls metal in X-Men."
+      },
+      "superheroes_villains_16": {
+        "name": "Venom",
+        "description": "Alien symbiote antihero from Marvel."
+      },
+      "superheroes_villains_17": {
+        "name": "Deadpool",
+        "description": "Marvel antihero known for humor and healing."
+      },
+      "superheroes_villains_18": {
+        "name": "Harley Quinn",
+        "description": "DC villain and Joker's former partner."
+      },
+      "superheroes_villains_19": {
+        "name": "Lex Luthor",
+        "description": "Superman's genius enemy in DC."
+      },
+      "superheroes_villains_20": {
+        "name": "Darkseid",
+        "description": "Powerful DC villain from Apokolips."
+      },
+      "superheroes_villains_21": {
+        "name": "Doctor Strange",
+        "description": "Marvel sorcerer who protects reality."
+      },
+      "superheroes_villains_22": {
+        "name": "Scarlet Witch",
+        "description": "Marvel hero with chaos magic powers."
+      },
+      "superheroes_villains_23": {
+        "name": "Vision",
+        "description": "Android Avenger from Marvel."
+      },
+      "superheroes_villains_24": {
+        "name": "Ant-Man",
+        "description": "Marvel hero who can shrink in size."
+      },
+      "superheroes_villains_25": {
+        "name": "Wasp",
+        "description": "Marvel hero with shrinking and flying powers."
+      },
+      "superheroes_villains_26": {
+        "name": "Aquaman",
+        "description": "DC hero who rules Atlantis."
+      },
+      "superheroes_villains_27": {
+        "name": "Cyborg",
+        "description": "DC hero with advanced cybernetic body."
+      },
+      "superheroes_villains_28": {
+        "name": "Green Lantern",
+        "description": "DC hero using a power ring."
+      },
+      "superheroes_villains_29": {
+        "name": "Shazam",
+        "description": "DC hero who transforms with magic word."
+      },
+      "superheroes_villains_30": {
+        "name": "Black Adam",
+        "description": "Powerful antihero from DC Comics."
+      },
+      "superheroes_villains_31": {
+        "name": "Wolverine",
+        "description": "Mutant hero with claws from X-Men."
+      },
+      "superheroes_villains_32": {
+        "name": "Professor X",
+        "description": "Leader of the X-Men with telepathy."
+      },
+      "superheroes_villains_33": {
+        "name": "Storm",
+        "description": "X-Men hero who controls the weather."
+      },
+      "superheroes_villains_34": {
+        "name": "Jean Grey",
+        "description": "Powerful mutant with telekinesis."
+      },
+      "superheroes_villains_35": {
+        "name": "Cyclops",
+        "description": "X-Men leader with optic blast powers."
+      },
+      "superheroes_villains_36": {
+        "name": "Mystique",
+        "description": "Shape-shifting mutant villain."
+      },
+      "superheroes_villains_37": {
+        "name": "Apocalypse",
+        "description": "Ancient mutant villain from X-Men."
+      },
+      "superheroes_villains_38": {
+        "name": "Nightcrawler",
+        "description": "Teleporting mutant from X-Men."
+      },
+      "superheroes_villains_39": {
+        "name": "Rogue",
+        "description": "Mutant who absorbs powers."
+      },
+      "superheroes_villains_40": {
+        "name": "Beast",
+        "description": "Blue-furred genius mutant from X-Men."
+      },
+      "superheroes_villains_41": {
+        "name": "Doctor Octopus",
+        "description": "Spider-Man villain with mechanical arms."
+      },
+      "superheroes_villains_42": {
+        "name": "Electro",
+        "description": "Villain with electricity powers."
+      },
+      "superheroes_villains_43": {
+        "name": "Rhino",
+        "description": "Strong armored Spider-Man villain."
+      },
+      "superheroes_villains_44": {
+        "name": "Vulture",
+        "description": "Flying villain from Spider-Man."
+      },
+      "superheroes_villains_45": {
+        "name": "Kingpin",
+        "description": "Crime boss villain in Marvel."
+      },
+      "superheroes_villains_46": {
+        "name": "Punisher",
+        "description": "Antihero using lethal force against crime."
+      },
+      "superheroes_villains_47": {
+        "name": "Blade",
+        "description": "Vampire hunter from Marvel."
+      },
+      "superheroes_villains_48": {
+        "name": "Ghost Rider",
+        "description": "Supernatural antihero with flaming skull."
+      },
+      "superheroes_villains_49": {
+        "name": "Silver Surfer",
+        "description": "Cosmic hero serving Galactus."
+      },
+      "superheroes_villains_50": {
+        "name": "Galactus",
+        "description": "Cosmic entity who consumes planets."
+      },
+      "superheroes_villains_51": {
+        "name": "Captain Marvel",
+        "description": "Powerful cosmic hero from Marvel."
+      },
+      "superheroes_villains_52": {
+        "name": "Star-Lord",
+        "description": "Leader of Guardians of the Galaxy."
+      },
+      "superheroes_villains_53": {
+        "name": "Gamora",
+        "description": "Deadly assassin from Marvel."
+      },
+      "superheroes_villains_54": {
+        "name": "Drax",
+        "description": "Strong warrior from Marvel."
+      },
+      "superheroes_villains_55": {
+        "name": "Rocket Raccoon",
+        "description": "Talking raccoon from Marvel."
+      },
+      "superheroes_villains_56": {
+        "name": "Groot",
+        "description": "Tree-like hero from Marvel."
+      },
+      "superheroes_villains_57": {
+        "name": "Nebula",
+        "description": "Cyborg assassin from Marvel."
+      },
+      "superheroes_villains_58": {
+        "name": "Mantis",
+        "description": "Empath from Marvel."
+      },
+      "superheroes_villains_59": {
+        "name": "Ultron",
+        "description": "AI villain from Avengers."
+      },
+      "superheroes_villains_60": {
+        "name": "Red Skull",
+        "description": "Nazi villain from Marvel."
+      },
+      "superheroes_villains_61": {
+        "name": "Hela",
+        "description": "Goddess of death from Marvel."
+      },
+      "superheroes_villains_62": {
+        "name": "Killmonger",
+        "description": "Villain from Black Panther."
+      },
+      "superheroes_villains_63": {
+        "name": "Taskmaster",
+        "description": "Villain who copies fighting styles."
+      },
+      "superheroes_villains_64": {
+        "name": "Moon Knight",
+        "description": "Marvel hero with multiple identities."
+      },
+      "superheroes_villains_65": {
+        "name": "She-Hulk",
+        "description": "Green lawyer hero from Marvel."
+      },
+      "superheroes_villains_66": {
+        "name": "Ms Marvel",
+        "description": "Young stretching hero from Marvel."
+      },
+      "superheroes_villains_67": {
+        "name": "Nova",
+        "description": "Cosmic hero from Marvel."
+      },
+      "superheroes_villains_68": {
+        "name": "Adam Warlock",
+        "description": "Powerful cosmic being from Marvel."
+      },
+      "superheroes_villains_69": {
+        "name": "Kang",
+        "description": "Time-traveling villain from Marvel."
+      },
+      "superheroes_villains_70": {
+        "name": "MODOK",
+        "description": "Big-headed villain from Marvel."
+      },
+      "superheroes_villains_71": {
+        "name": "Saitama",
+        "description": "Hero who defeats enemies with one punch from anime One Punch Man."
+      },
+      "superheroes_villains_72": {
+        "name": "Genos",
+        "description": "Cyborg hero from One Punch Man."
+      },
+      "superheroes_villains_73": {
+        "name": "All Might",
+        "description": "Top hero from My Hero Academia."
+      },
+      "superheroes_villains_74": {
+        "name": "Deku",
+        "description": "Young hero from My Hero Academia."
+      },
+      "superheroes_villains_75": {
+        "name": "Bakugo",
+        "description": "Explosive hero from My Hero Academia."
+      },
+      "superheroes_villains_76": {
+        "name": "Todoroki",
+        "description": "Hero with fire and ice powers from My Hero Academia."
+      },
+      "superheroes_villains_77": {
+        "name": "Shigaraki",
+        "description": "Main villain from My Hero Academia."
+      },
+      "superheroes_villains_78": {
+        "name": "Dabi",
+        "description": "Fire villain from My Hero Academia."
+      },
+      "superheroes_villains_79": {
+        "name": "Hawks",
+        "description": "Winged hero from My Hero Academia."
+      },
+      "superheroes_villains_80": {
+        "name": "Endeavor",
+        "description": "Fire hero from My Hero Academia."
+      },
+      "superheroes_villains_81": {
+        "name": "Omni-Man",
+        "description": "Powerful villain from Invincible."
+      },
+      "superheroes_villains_82": {
+        "name": "Invincible",
+        "description": "Hero from Invincible series."
+      },
+      "superheroes_villains_83": {
+        "name": "Homelander",
+        "description": "Villain from The Boys."
+      },
+      "superheroes_villains_84": {
+        "name": "Starlight",
+        "description": "Heroine from The Boys."
+      },
+      "superheroes_villains_85": {
+        "name": "A-Train",
+        "description": "Speedster from The Boys."
+      },
+      "superheroes_villains_86": {
+        "name": "Maeve",
+        "description": "Warrior from The Boys."
+      },
+      "superheroes_villains_87": {
+        "name": "Black Noir",
+        "description": "Silent assassin from The Boys."
+      },
+      "superheroes_villains_88": {
+        "name": "Soldier Boy",
+        "description": "Veteran hero from The Boys."
+      },
+      "superheroes_villains_89": {
+        "name": "Spawn",
+        "description": "Supernatural antihero from comics."
+      },
+      "superheroes_villains_90": {
+        "name": "Hellboy",
+        "description": "Demon hero from Dark Horse comics."
+      },
+      "superheroes_villains_91": {
+        "name": "Optimus Prime",
+        "description": "Leader of Autobots from Transformers."
+      },
+      "superheroes_villains_92": {
+        "name": "Megatron",
+        "description": "Leader of Decepticons from Transformers."
+      },
+      "superheroes_villains_93": {
+        "name": "Bumblebee",
+        "description": "Autobot hero from Transformers."
+      },
+      "superheroes_villains_94": {
+        "name": "He-Man",
+        "description": "Hero from Masters of the Universe."
+      },
+      "superheroes_villains_95": {
+        "name": "Skeletor",
+        "description": "Villain from Masters of the Universe."
+      },
+      "superheroes_villains_96": {
+        "name": "Ben 10",
+        "description": "Kid hero with alien transformations."
+      },
+      "superheroes_villains_97": {
+        "name": "Vilgax",
+        "description": "Villain from Ben 10."
+      },
+      "superheroes_villains_98": {
+        "name": "Samurai Jack",
+        "description": "Time-traveling hero from Cartoon Network."
+      },
+      "superheroes_villains_99": {
+        "name": "Aku",
+        "description": "Villain from Samurai Jack."
+      },
+      "superheroes_villains_100": {
+        "name": "Kim Possible",
+        "description": "Teen spy hero from Disney Channel."
+      }
+    },
+    "video_game_characters": {
+      "video_game_characters_1": {
+        "name": "Mario",
+        "description": "Iconic plumber hero from Nintendo video games."
+      }
+    },
+    "celebrities": {
+      "celebrities_1": {
+        "name": "Tom Cruise",
+        "description": "World-famous actor known for major film franchises."
+      }
+    },
+    "athletes": {
+      "athletes_1": {
+        "name": "Lionel Messi",
+        "description": "Legendary football player from Argentina."
+      }
+    },
+    "musicians": {
+      "musicians_1": {
+        "name": "Beyonce",
+        "description": "Globally recognized singer and performer."
+      }
+    },
+    "cartoons_animation": {
+      "cartoons_animation_1": {
+        "name": "SpongeBob SquarePants",
+        "description": "Main character from the Nickelodeon animated series."
+      }
+    },
+    "fantasy_creatures": {
+      "fantasy_creatures_1": {
+        "name": "Dragon",
+        "description": "Legendary fire-breathing creature from fantasy stories."
+      }
+    },
+    "animals": {
+      "animals_1": {
+        "name": "Dog",
+        "description": "Popular domestic animal known as a loyal companion."
+      }
+    },
+    "food": {
+      "food_1": {
+        "name": "Pizza",
+        "description": "Popular dish made with dough, sauce, and toppings."
+      }
+    },
+    "professions": {
+      "professions_1": {
+        "name": "Doctor",
+        "description": "Healthcare professional who diagnoses and treats patients."
+      }
+    },
+    "everyday_objects": {
+      "everyday_objects_1": {
+        "name": "Smartphone",
+        "description": "Portable device used for calls, messages, and apps."
+      }
+    },
+    "famous_brands": {
+      "famous_brands_1": {
+        "name": "Nike",
+        "description": "Global sports brand known for shoes and apparel."
+      }
+    },
+    "countries": {
+      "countries_1": {
+        "name": "Brazil",
+        "description": "Country in South America known for its culture and size."
+      }
+    },
+    "party_mode": {
+      "party_mode_1": {
+        "name": "Mime Challenge",
+        "description": "Group challenge where one person acts and the others guess."
+      }
+    }
+  }
+}

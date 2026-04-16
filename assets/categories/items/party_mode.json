@@ -1,0 +1,9 @@
+[
+  {
+    "id": "party_mode_1",
+    "categoryId": "party_mode",
+    "nameKey": "categoryItems.party_mode.party_mode_1.name",
+    "descriptionKey": "categoryItems.party_mode.party_mode_1.description",
+    "order": 1
+  }
+]

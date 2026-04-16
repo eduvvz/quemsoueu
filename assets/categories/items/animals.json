@@ -1,0 +1,9 @@
+[
+  {
+    "id": "animals_1",
+    "categoryId": "animals",
+    "nameKey": "categoryItems.animals.animals_1.name",
+    "descriptionKey": "categoryItems.animals.animals_1.description",
+    "order": 1
+  }
+]

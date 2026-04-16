@@ -1,0 +1,64 @@
+{
+  "categories": {
+    "movies_tv": {
+      "name": "Filmes e TV",
+      "description": "Filmes, séries, cenas icônicas e personagens marcantes."
+    },
+    "superheroes_villains": {
+      "name": "Super-heróis e Vilões",
+      "description": "Heróis, anti-heróis e vilões dos quadrinhos, jogos e cinema."
+    },
+    "video_game_characters": {
+      "name": "Personagens de Videogame",
+      "description": "Personagens de franquias clássicas e sucessos modernos."
+    },
+    "celebrities": {
+      "name": "Celebridades",
+      "description": "Atores, influenciadores, apresentadores e figuras públicas famosas."
+    },
+    "athletes": {
+      "name": "Atletas",
+      "description": "Estrelas do esporte de futebol, basquete, lutas e muito mais."
+    },
+    "musicians": {
+      "name": "Músicos",
+      "description": "Cantores, bandas, DJs e artistas de diferentes gêneros."
+    },
+    "cartoons_animation": {
+      "name": "Desenhos e Animação",
+      "description": "Personagens de desenhos animados, séries animadas e filmes."
+    },
+    "fantasy_creatures": {
+      "name": "Criaturas Fantásticas",
+      "description": "Dragões, monstros, seres míticos e criaturas mágicas."
+    },
+    "animals": {
+      "name": "Animais",
+      "description": "Pets, vida selvagem e criaturas da natureza."
+    },
+    "food": {
+      "name": "Comida",
+      "description": "Pratos, ingredientes, sobremesas, bebidas e lanches populares."
+    },
+    "professions": {
+      "name": "Profissões",
+      "description": "Trabalhos, carreiras e funções que as pessoas exercem no dia a dia."
+    },
+    "everyday_objects": {
+      "name": "Objetos do Dia a Dia",
+      "description": "Objetos comuns que você vê e usa na rotina."
+    },
+    "famous_brands": {
+      "name": "Marcas Famosas",
+      "description": "Marcas, logotipos e produtos reconhecidos no mundo todo."
+    },
+    "countries": {
+      "name": "Países",
+      "description": "Países, bandeiras, pontos turísticos e geografia mundial."
+    },
+    "party_mode": {
+      "name": "Modo Festa",
+      "description": "Desafios rápidos e animados pensados para jogar em grupo."
+    }
+  }
+}

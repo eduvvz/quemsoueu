@@ -1,0 +1,64 @@
+{
+  "categories": {
+    "movies_tv": {
+      "name": "Movies & TV",
+      "description": "Films, series, iconic scenes, and memorable characters."
+    },
+    "superheroes_villains": {
+      "name": "Superheroes & Villains",
+      "description": "Heroes, antiheroes, and villains from comics, games, and cinema."
+    },
+    "video_game_characters": {
+      "name": "Video Game Characters",
+      "description": "Characters from classic franchises and modern hits."
+    },
+    "celebrities": {
+      "name": "Celebrities",
+      "description": "Actors, influencers, presenters, and famous public figures."
+    },
+    "athletes": {
+      "name": "Athletes",
+      "description": "Sports stars from football, basketball, fighting, and more."
+    },
+    "musicians": {
+      "name": "Musicians",
+      "description": "Singers, bands, DJs, and artists from different genres."
+    },
+    "cartoons_animation": {
+      "name": "Cartoons & Animation",
+      "description": "Characters from cartoons, animated series, and movies."
+    },
+    "fantasy_creatures": {
+      "name": "Fantasy Creatures",
+      "description": "Dragons, monsters, mythical beings, and magical creatures."
+    },
+    "animals": {
+      "name": "Animals",
+      "description": "Pets, wildlife, and creatures from nature."
+    },
+    "food": {
+      "name": "Food",
+      "description": "Dishes, ingredients, desserts, drinks, and popular snacks."
+    },
+    "professions": {
+      "name": "Professions",
+      "description": "Jobs, careers, and roles people perform every day."
+    },
+    "everyday_objects": {
+      "name": "Everyday Objects",
+      "description": "Common items you see and use in daily life."
+    },
+    "famous_brands": {
+      "name": "Famous Brands",
+      "description": "Brands, logos, and products recognized around the world."
+    },
+    "countries": {
+      "name": "Countries",
+      "description": "Countries, flags, landmarks, and world geography."
+    },
+    "party_mode": {
+      "name": "Party Mode",
+      "description": "Fast, energetic prompts made for playing in a group."
+    }
+  }
+}

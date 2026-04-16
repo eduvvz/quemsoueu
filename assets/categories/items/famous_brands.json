@@ -1,0 +1,9 @@
+[
+  {
+    "id": "famous_brands_1",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_1.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_1.description",
+    "order": 1
+  }
+]

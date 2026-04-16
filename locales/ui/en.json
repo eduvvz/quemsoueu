@@ -1,0 +1,31 @@
+{
+  "app": {
+    "navigation": {
+      "back": "Back",
+      "categories": "Categories"
+    },
+    "home": {
+      "start": "Start"
+    },
+    "categories": {
+      "title": "Choose one or more categories",
+      "subtitle": "Select as many as you want to build the next step.",
+      "advance": "Continue",
+      "selection": {
+        "empty": "No category selected.",
+        "one": "1 category selected.",
+        "other": "%{count} categories selected."
+      }
+    },
+    "game": {
+      "pass": "Pass",
+      "correct": "Correct",
+      "finished": "Match finished",
+      "timeUp": "Time is up",
+      "scoreLabel": "Correct answers",
+      "empty": "No items found.",
+      "restart": "Restart match",
+      "newMatch": "New match"
+    }
+  }
+}

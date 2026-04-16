@@ -1,0 +1,9 @@
+[
+  {
+    "id": "athletes_1",
+    "categoryId": "athletes",
+    "nameKey": "categoryItems.athletes.athletes_1.name",
+    "descriptionKey": "categoryItems.athletes.athletes_1.description",
+    "order": 1
+  }
+]

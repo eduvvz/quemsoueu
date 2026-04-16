@@ -1,0 +1,64 @@
+{
+  "categories": {
+    "movies_tv": {
+      "name": "Películas y TV",
+      "description": "Películas, series, escenas icónicas y personajes inolvidables."
+    },
+    "superheroes_villains": {
+      "name": "Superhéroes y Villanos",
+      "description": "Héroes, antihéroes y villanos de cómics, juegos y cine."
+    },
+    "video_game_characters": {
+      "name": "Personajes de Videojuegos",
+      "description": "Personajes de franquicias clásicas y éxitos modernos."
+    },
+    "celebrities": {
+      "name": "Celebridades",
+      "description": "Actores, influencers, presentadores y figuras públicas famosas."
+    },
+    "athletes": {
+      "name": "Atletas",
+      "description": "Estrellas del deporte de fútbol, baloncesto, peleas y más."
+    },
+    "musicians": {
+      "name": "Músicos",
+      "description": "Cantantes, bandas, DJs y artistas de distintos géneros."
+    },
+    "cartoons_animation": {
+      "name": "Dibujos y Animación",
+      "description": "Personajes de dibujos animados, series animadas y películas."
+    },
+    "fantasy_creatures": {
+      "name": "Criaturas Fantásticas",
+      "description": "Dragones, monstruos, seres míticos y criaturas mágicas."
+    },
+    "animals": {
+      "name": "Animales",
+      "description": "Mascotas, fauna salvaje y criaturas de la naturaleza."
+    },
+    "food": {
+      "name": "Comida",
+      "description": "Platos, ingredientes, postres, bebidas y snacks populares."
+    },
+    "professions": {
+      "name": "Profesiones",
+      "description": "Trabajos, carreras y funciones que las personas realizan cada día."
+    },
+    "everyday_objects": {
+      "name": "Objetos Cotidianos",
+      "description": "Objetos comunes que ves y usas en la vida diaria."
+    },
+    "famous_brands": {
+      "name": "Marcas Famosas",
+      "description": "Marcas, logotipos y productos reconocidos en todo el mundo."
+    },
+    "countries": {
+      "name": "Países",
+      "description": "Países, banderas, monumentos y geografía mundial."
+    },
+    "party_mode": {
+      "name": "Modo Fiesta",
+      "description": "Desafíos rápidos y enérgicos pensados para jugar en grupo."
+    }
+  }
+}

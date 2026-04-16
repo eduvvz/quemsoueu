@@ -1,0 +1,9 @@
+[
+  {
+    "id": "countries_1",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_1.name",
+    "descriptionKey": "categoryItems.countries.countries_1.description",
+    "order": 1
+  }
+]

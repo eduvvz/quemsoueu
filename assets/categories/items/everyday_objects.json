@@ -1,0 +1,9 @@
+[
+  {
+    "id": "everyday_objects_1",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_1.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_1.description",
+    "order": 1
+  }
+]

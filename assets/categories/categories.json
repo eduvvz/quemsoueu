@@ -3,6 +3,7 @@
     "id": "movies_tv",
     "nameKey": "categories.movies_tv.name",
     "descriptionKey": "categories.movies_tv.description",
+    "itemsFile": "items/movies_tv.json",
     "icon": "clapperboard",
     "isPremium": false,
     "order": 1
@@ -11,6 +12,7 @@
     "id": "superheroes_villains",
     "nameKey": "categories.superheroes_villains.name",
     "descriptionKey": "categories.superheroes_villains.description",
+    "itemsFile": "items/superheroes_villains.json",
     "icon": "shield",
     "isPremium": true,
     "order": 2
@@ -19,6 +21,7 @@
     "id": "video_game_characters",
     "nameKey": "categories.video_game_characters.name",
     "descriptionKey": "categories.video_game_characters.description",
+    "itemsFile": "items/video_game_characters.json",
     "icon": "gamepad",
     "isPremium": true,
     "order": 3
@@ -27,6 +30,7 @@
     "id": "celebrities",
     "nameKey": "categories.celebrities.name",
     "descriptionKey": "categories.celebrities.description",
+    "itemsFile": "items/celebrities.json",
     "icon": "star",
     "isPremium": false,
     "order": 4
@@ -35,6 +39,7 @@
     "id": "athletes",
     "nameKey": "categories.athletes.name",
     "descriptionKey": "categories.athletes.description",
+    "itemsFile": "items/athletes.json",
     "icon": "trophy",
     "isPremium": false,
     "order": 5
@@ -43,6 +48,7 @@
     "id": "musicians",
     "nameKey": "categories.musicians.name",
     "descriptionKey": "categories.musicians.description",
+    "itemsFile": "items/musicians.json",
     "icon": "music",
     "isPremium": false,
     "order": 6
@@ -51,6 +57,7 @@
     "id": "cartoons_animation",
     "nameKey": "categories.cartoons_animation.name",
     "descriptionKey": "categories.cartoons_animation.description",
+    "itemsFile": "items/cartoons_animation.json",
     "icon": "sparkles",
     "isPremium": false,
     "order": 7
@@ -59,6 +66,7 @@
     "id": "fantasy_creatures",
     "nameKey": "categories.fantasy_creatures.name",
     "descriptionKey": "categories.fantasy_creatures.description",
+    "itemsFile": "items/fantasy_creatures.json",
     "icon": "ghost",
     "isPremium": true,
     "order": 8
@@ -67,6 +75,7 @@
     "id": "animals",
     "nameKey": "categories.animals.name",
     "descriptionKey": "categories.animals.description",
+    "itemsFile": "items/animals.json",
     "icon": "paw",
     "isPremium": false,
     "order": 9
@@ -75,6 +84,7 @@
     "id": "food",
     "nameKey": "categories.food.name",
     "descriptionKey": "categories.food.description",
+    "itemsFile": "items/food.json",
     "icon": "utensils",
     "isPremium": false,
     "order": 10
@@ -83,6 +93,7 @@
     "id": "professions",
     "nameKey": "categories.professions.name",
     "descriptionKey": "categories.professions.description",
+    "itemsFile": "items/professions.json",
     "icon": "briefcase",
     "isPremium": true,
     "order": 11
@@ -91,6 +102,7 @@
     "id": "everyday_objects",
     "nameKey": "categories.everyday_objects.name",
     "descriptionKey": "categories.everyday_objects.description",
+    "itemsFile": "items/everyday_objects.json",
     "icon": "box",
     "isPremium": true,
     "order": 12
@@ -99,6 +111,7 @@
     "id": "famous_brands",
     "nameKey": "categories.famous_brands.name",
     "descriptionKey": "categories.famous_brands.description",
+    "itemsFile": "items/famous_brands.json",
     "icon": "shopping-bag",
     "isPremium": true,
     "order": 13
@@ -107,6 +120,7 @@
     "id": "countries",
     "nameKey": "categories.countries.name",
     "descriptionKey": "categories.countries.description",
+    "itemsFile": "items/countries.json",
     "icon": "globe",
     "isPremium": false,
     "order": 14
@@ -115,6 +129,7 @@
     "id": "party_mode",
     "nameKey": "categories.party_mode.name",
     "descriptionKey": "categories.party_mode.description",
+    "itemsFile": "items/party_mode.json",
     "icon": "party-popper",
     "isPremium": true,
     "order": 15

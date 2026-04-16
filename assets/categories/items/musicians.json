@@ -1,0 +1,9 @@
+[
+  {
+    "id": "musicians_1",
+    "categoryId": "musicians",
+    "nameKey": "categoryItems.musicians.musicians_1.name",
+    "descriptionKey": "categoryItems.musicians.musicians_1.description",
+    "order": 1
+  }
+]

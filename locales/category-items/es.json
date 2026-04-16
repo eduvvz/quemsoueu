@@ -1,0 +1,94 @@
+{
+  "categoryItems": {
+    "movies_tv": {
+      "movies_tv_1": {
+        "name": "Harry Potter",
+        "description": "Mago de la franquicia cinematografica de Harry Potter."
+      }
+    },
+    "superheroes_villains": {
+      "superheroes_villains_1": {
+        "name": "Spider-Man",
+        "description": "Superheroe de Marvel que obtuvo poderes aracnidos tras una picadura."
+      }
+    },
+    "video_game_characters": {
+      "video_game_characters_1": {
+        "name": "Mario",
+        "description": "Heroe plomero iconico de los videojuegos de Nintendo."
+      }
+    },
+    "celebrities": {
+      "celebrities_1": {
+        "name": "Tom Cruise",
+        "description": "Actor mundialmente famoso conocido por grandes franquicias del cine."
+      }
+    },
+    "athletes": {
+      "athletes_1": {
+        "name": "Lionel Messi",
+        "description": "Legendario futbolista de Argentina."
+      }
+    },
+    "musicians": {
+      "musicians_1": {
+        "name": "Beyonce",
+        "description": "Cantante e interprete reconocida en todo el mundo."
+      }
+    },
+    "cartoons_animation": {
+      "cartoons_animation_1": {
+        "name": "SpongeBob SquarePants",
+        "description": "Personaje principal de la serie animada de Nickelodeon."
+      }
+    },
+    "fantasy_creatures": {
+      "fantasy_creatures_1": {
+        "name": "Dragon",
+        "description": "Criatura legendaria que escupe fuego en historias de fantasia."
+      }
+    },
+    "animals": {
+      "animals_1": {
+        "name": "Perro",
+        "description": "Animal domestico popular conocido como companero leal."
+      }
+    },
+    "food": {
+      "food_1": {
+        "name": "Pizza",
+        "description": "Plato popular hecho con masa, salsa e ingredientes."
+      }
+    },
+    "professions": {
+      "professions_1": {
+        "name": "Medico",
+        "description": "Profesional de la salud que diagnostica y trata pacientes."
+      }
+    },
+    "everyday_objects": {
+      "everyday_objects_1": {
+        "name": "Smartphone",
+        "description": "Dispositivo portatil usado para llamadas, mensajes y aplicaciones."
+      }
+    },
+    "famous_brands": {
+      "famous_brands_1": {
+        "name": "Nike",
+        "description": "Marca deportiva global conocida por zapatillas y ropa."
+      }
+    },
+    "countries": {
+      "countries_1": {
+        "name": "Brasil",
+        "description": "Pais de America del Sur conocido por su cultura y tamano."
+      }
+    },
+    "party_mode": {
+      "party_mode_1": {
+        "name": "Desafio de Mimica",
+        "description": "Desafio grupal en el que una persona actua y las demas adivinan."
+      }
+    }
+  }
+}

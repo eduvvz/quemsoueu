@@ -1,0 +1,9 @@
+[
+  {
+    "id": "professions_1",
+    "categoryId": "professions",
+    "nameKey": "categoryItems.professions.professions_1.name",
+    "descriptionKey": "categoryItems.professions.professions_1.description",
+    "order": 1
+  }
+]

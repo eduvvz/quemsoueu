@@ -1,0 +1,31 @@
+{
+  "app": {
+    "navigation": {
+      "back": "Volver",
+      "categories": "Categorías"
+    },
+    "home": {
+      "start": "Empezar"
+    },
+    "categories": {
+      "title": "Elige una o más categorías",
+      "subtitle": "Selecciona todas las que quieras para armar la siguiente etapa.",
+      "advance": "Avanzar",
+      "selection": {
+        "empty": "Ninguna categoría seleccionada.",
+        "one": "1 categoría seleccionada.",
+        "other": "%{count} categorías seleccionadas."
+      }
+    },
+    "game": {
+      "pass": "Pasar",
+      "correct": "Acertó",
+      "finished": "Partida finalizada",
+      "timeUp": "Se acabó el tiempo",
+      "scoreLabel": "Aciertos",
+      "empty": "No se encontraron elementos.",
+      "restart": "Reiniciar partida",
+      "newMatch": "Nueva partida"
+    }
+  }
+}

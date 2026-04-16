@@ -1,12 +1,15 @@
+import { router } from 'expo-router';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
+
+import { t } from '@/lib/i18n';
 
 export default function HomeScreen() {
   return (
     <View style={styles.container}>
       <Pressable
-        onPress={() => {}}
+        onPress={() => router.push('/categories')}
         style={({ pressed }) => [styles.button, pressed && styles.buttonPressed]}>
-        <Text style={styles.buttonText}>começar</Text>
+        <Text style={styles.buttonText}>{t('app.home.start')}</Text>
       </Pressable>
     </View>
   );

@@ -1,0 +1,9 @@
+[
+  {
+    "id": "video_game_characters_1",
+    "categoryId": "video_game_characters",
+    "nameKey": "categoryItems.video_game_characters.video_game_characters_1.name",
+    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_1.description",
+    "order": 1
+  }
+]

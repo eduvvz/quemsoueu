@@ -1,0 +1,9 @@
+[
+  {
+    "id": "celebrities_1",
+    "categoryId": "celebrities",
+    "nameKey": "categoryItems.celebrities.celebrities_1.name",
+    "descriptionKey": "categoryItems.celebrities.celebrities_1.description",
+    "order": 1
+  }
+]

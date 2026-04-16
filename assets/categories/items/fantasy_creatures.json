@@ -1,0 +1,9 @@
+[
+  {
+    "id": "fantasy_creatures_1",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_1.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_1.description",
+    "order": 1
+  }
+]
