@@ -24,6 +24,10 @@
       "timeUp": "Time is up",
       "scoreLabel": "Correct answers",
       "empty": "No items found.",
+      "paused": "Paused",
+      "tiltHint": "Tilt firmly left to score and right to pass.",
+      "tiltHintPortraitTitle": "Hold your phone horizontally",
+      "tiltHintPortrait": "Rotate your phone to landscape to use tilt.",
       "restart": "Restart match",
       "newMatch": "New match"
     }

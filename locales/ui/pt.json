@@ -24,6 +24,10 @@
       "timeUp": "Tempo esgotado",
       "scoreLabel": "Acertos",
       "empty": "Nenhum item encontrado.",
+      "paused": "Pausado",
+      "tiltHint": "Incline forte para a esquerda para acertar e para a direita para passar.",
+      "tiltHintPortraitTitle": "Posicione o celular na horizontal",
+      "tiltHintPortrait": "Gire o celular para landscape para usar a inclinacao.",
       "restart": "Reiniciar partida",
       "newMatch": "Nova partida"
     }

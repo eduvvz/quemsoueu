@@ -3,7 +3,7 @@
     "name": "quemsoueu",
     "slug": "quemsoueu",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "default",
     "icon": "./assets/images/icon.png",
     "scheme": "quemsoueu",
     "userInterfaceStyle": "automatic",

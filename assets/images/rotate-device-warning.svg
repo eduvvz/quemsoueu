@@ -1,0 +1,36 @@
+<svg width="960" height="640" viewBox="0 0 960 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="640" rx="64" fill="#FFF7ED"/>
+  <circle cx="244" cy="320" r="168" fill="#FFEDD5"/>
+  <circle cx="716" cy="320" r="168" fill="#DBEAFE"/>
+
+  <g transform="translate(174 184)">
+    <rect x="0" y="0" width="140" height="272" rx="32" fill="#0F172A"/>
+    <rect x="12" y="18" width="116" height="222" rx="22" fill="#F8FAFC"/>
+    <rect x="50" y="248" width="40" height="8" rx="4" fill="#94A3B8"/>
+    <circle cx="70" cy="132" r="34" fill="#FECACA"/>
+    <path d="M70 112V152" stroke="#DC2626" stroke-width="10" stroke-linecap="round"/>
+    <path d="M52 130H88" stroke="#DC2626" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(580 252) rotate(90 110 70)">
+    <rect x="0" y="0" width="140" height="272" rx="32" fill="#0F172A"/>
+    <rect x="12" y="18" width="116" height="222" rx="22" fill="#F8FAFC"/>
+    <rect x="50" y="248" width="40" height="8" rx="4" fill="#94A3B8"/>
+    <circle cx="70" cy="132" r="34" fill="#BBF7D0"/>
+    <path d="M52 132L66 146L92 118" stroke="#16A34A" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <path d="M405 170C468 112 566 106 636 158" stroke="#F97316" stroke-width="24" stroke-linecap="round"/>
+  <path d="M614 114L668 170L590 182" fill="#F97316"/>
+
+  <path d="M624 466C561 524 462 530 394 480" stroke="#F97316" stroke-width="24" stroke-linecap="round"/>
+  <path d="M418 522L364 466L442 454" fill="#F97316"/>
+
+  <rect x="334" y="260" width="292" height="120" rx="28" fill="#FFFFFF" fill-opacity="0.9"/>
+  <text x="480" y="314" text-anchor="middle" fill="#9A3412" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700">
+    Gire o celular
+  </text>
+  <text x="480" y="352" text-anchor="middle" fill="#C2410C" font-family="Arial, Helvetica, sans-serif" font-size="24">
+    para jogar na horizontal
+  </text>
+</svg>

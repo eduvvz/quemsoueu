@@ -24,6 +24,10 @@
       "timeUp": "Se acabó el tiempo",
       "scoreLabel": "Aciertos",
       "empty": "No se encontraron elementos.",
+      "paused": "Pausado",
+      "tiltHint": "Inclina con fuerza a la izquierda para acertar y a la derecha para pasar.",
+      "tiltHintPortraitTitle": "Coloca el telefono en horizontal",
+      "tiltHintPortrait": "Gira el telefono a landscape para usar la inclinacion.",
       "restart": "Reiniciar partida",
       "newMatch": "Nueva partida"
     }
