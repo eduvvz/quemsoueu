@@ -36,6 +36,7 @@ const PORTRAIT_STABILITY_MS = 300;
 const LANDSCAPE_STABILITY_MS = 120;
 const FINAL_COUNTDOWN_SECONDS = 10;
 const URGENT_COUNTDOWN_SECONDS = 5;
+const RESUME_COUNTDOWN_SECONDS = 3;
 
 type FeedbackTone = 'pass' | 'correct' | null;
 
@@ -182,6 +183,7 @@ export default function GameScreen() {
   const [selectedTimeMode, setSelectedTimeMode] = useState<TimeMode>('normal');
   const [isRoundActive, setIsRoundActive] = useState(false);
   const [isTutorialVisible, setIsTutorialVisible] = useState(false);
+  const [resumeCountdown, setResumeCountdown] = useState<number | null>(null);
   const isLandscape = devicePosture === 'landscape';
   const totalTimeInSeconds = TIME_MODES[selectedTimeMode];
   const selectedCategoryIds = useMemo(
@@ -235,12 +237,14 @@ export default function GameScreen() {
   const postureCandidateSinceRef = useRef(0);
   const recordedFinishedRoundSeedRef = useRef<number | null>(null);
   const didShowPostRoundPaywallRef = useRef(false);
+  const wasPausedDuringRoundRef = useRef(false);
 
   const hasItems = items.length > 0;
   const isFinished = timeLeft === 0;
   const currentItem = hasItems ? items[currentIndex] : undefined;
   const isFeedbackActive = feedbackTone !== null;
   const isOrientationBlocked = isRoundActive && !isLandscape && !isFinished;
+  const isResumeCountingDown = resumeCountdown !== null;
   const feedbackColor = feedbackTone === 'correct' ? '#22C55E' : '#EF4444';
   const progressText = hasItems ? `${currentIndex + 1}/${items.length}` : '--';
   const timerProgress = timeLeft / totalTimeInSeconds;
@@ -284,6 +288,45 @@ export default function GameScreen() {
   useEffect(() => {
     devicePostureRef.current = devicePosture;
   }, [devicePosture]);
+
+  useEffect(() => {
+    if (!isRoundActive || isFinished) {
+      wasPausedDuringRoundRef.current = false;
+      setResumeCountdown(null);
+      return;
+    }
+
+    if (isOrientationBlocked) {
+      wasPausedDuringRoundRef.current = true;
+      setResumeCountdown(null);
+      return;
+    }
+
+    if (wasPausedDuringRoundRef.current && resumeCountdown === null) {
+      wasPausedDuringRoundRef.current = false;
+      setResumeCountdown(RESUME_COUNTDOWN_SECONDS);
+      Vibration.vibrate(30);
+    }
+  }, [isFinished, isOrientationBlocked, isRoundActive, resumeCountdown]);
+
+  useEffect(() => {
+    if (resumeCountdown === null) {
+      return;
+    }
+
+    const timer = setTimeout(() => {
+      setResumeCountdown((current) => {
+        if (current === null || current <= 1) {
+          return null;
+        }
+
+        Vibration.vibrate(24);
+        return current - 1;
+      });
+    }, 1000);
+
+    return () => clearTimeout(timer);
+  }, [resumeCountdown]);
 
   useEffect(() => {
     if (isRoundActive) {
@@ -342,7 +385,7 @@ export default function GameScreen() {
   }, [currentIndex, itemOpacity, itemTranslateX, roundSeed]);
 
   useEffect(() => {
-    if (!isRoundActive || isFinished || !isLandscape) {
+    if (!isRoundActive || isFinished || !isLandscape || isResumeCountingDown) {
       return;
     }
 
@@ -358,7 +401,7 @@ export default function GameScreen() {
     }, 1000);
 
     return () => clearInterval(timer);
-  }, [isFinished, isLandscape, isRoundActive]);
+  }, [isFinished, isLandscape, isResumeCountingDown, isRoundActive]);
 
   useEffect(() => {
     if (!isRoundActive || isFinished || !isLandscape || !isFinalCountdown) {
@@ -424,6 +467,7 @@ export default function GameScreen() {
       if (
         devicePostureRef.current !== 'landscape' ||
         !isRoundActive ||
+        isResumeCountingDown ||
         isFinishedRef.current ||
         isFeedbackActiveRef.current ||
         !hasItemsRef.current
@@ -466,7 +510,7 @@ export default function GameScreen() {
     return () => {
       subscription.remove();
     };
-  }, [isRoundActive]);
+  }, [isResumeCountingDown, isRoundActive]);
 
   handlePassRef.current = handlePass;
   handleCorrectRef.current = handleCorrect;
@@ -577,7 +621,13 @@ export default function GameScreen() {
   }
 
   function handlePass() {
-    if (!isRoundActive || isFinished || isOrientationBlocked || isFeedbackActive) {
+    if (
+      !isRoundActive ||
+      isFinished ||
+      isOrientationBlocked ||
+      isResumeCountingDown ||
+      isFeedbackActive
+    ) {
       return;
     }
 
@@ -591,7 +641,13 @@ export default function GameScreen() {
   }
 
   function handleCorrect() {
-    if (!isRoundActive || isFinished || isOrientationBlocked || isFeedbackActive) {
+    if (
+      !isRoundActive ||
+      isFinished ||
+      isOrientationBlocked ||
+      isResumeCountingDown ||
+      isFeedbackActive
+    ) {
       return;
     }
 
@@ -643,6 +699,8 @@ export default function GameScreen() {
     setPasses(0);
     setCorrectItems([]);
     setMissedItems([]);
+    setResumeCountdown(null);
+    wasPausedDuringRoundRef.current = false;
     recordedFinishedRoundSeedRef.current = null;
     setRoundSeed((current) => current + 1);
   }
@@ -858,6 +916,8 @@ export default function GameScreen() {
               </View>
             </View>
           </View>
+        ) : isResumeCountingDown ? (
+          <View style={styles.hiddenPromptStage} />
         ) : isOrientationBlocked ? (
           <View style={styles.orientationWarning}>
             <Image
@@ -939,6 +999,15 @@ export default function GameScreen() {
         </Animated.View>
       ) : null}
 
+      {resumeCountdown !== null ? (
+        <View pointerEvents="none" style={styles.resumeCountdownOverlay}>
+          <View style={styles.resumeCountdownPanel}>
+            <Text style={styles.resumeCountdownNumber}>{resumeCountdown}</Text>
+            <Text style={styles.resumeCountdownLabel}>{t('app.game.resumeCountdown')}</Text>
+          </View>
+        </View>
+      ) : null}
+
       <View style={[styles.bottomArea, isLandscape && styles.bottomAreaLandscape]}>
         {!isRoundActive ? null : isFinished ? (
           <View style={styles.finishedActions}>
@@ -969,12 +1038,12 @@ export default function GameScreen() {
             </Text>
             <View style={[styles.actions, isLandscape && styles.actionsLandscape]}>
               <Pressable
-                disabled={isOrientationBlocked || isFeedbackActive}
+                disabled={isOrientationBlocked || isResumeCountingDown || isFeedbackActive}
                 onPress={handleCorrect}
                 style={({ pressed }) => [
                   styles.correctButton,
                   isLandscape && styles.actionButtonLandscape,
-                  isOrientationBlocked && styles.disabledButton,
+                  (isOrientationBlocked || isResumeCountingDown) && styles.disabledButton,
                   isFeedbackActive && styles.inverseButton,
                   pressed && styles.buttonPressed,
                 ]}>
@@ -988,12 +1057,12 @@ export default function GameScreen() {
               </Pressable>
 
               <Pressable
-                disabled={isOrientationBlocked || isFeedbackActive}
+                disabled={isOrientationBlocked || isResumeCountingDown || isFeedbackActive}
                 onPress={handlePass}
                 style={({ pressed }) => [
                   styles.secondaryButton,
                   isLandscape && styles.actionButtonLandscape,
-                  isOrientationBlocked && styles.disabledButton,
+                  (isOrientationBlocked || isResumeCountingDown) && styles.disabledButton,
                   isFeedbackActive && styles.inverseButton,
                   pressed && styles.buttonPressed,
                 ]}>
@@ -1161,6 +1230,15 @@ const styles = StyleSheet.create({
   },
   stageTapTarget: {
     width: '100%',
+  },
+  hiddenPromptStage: {
+    width: '100%',
+    maxWidth: 900,
+    minHeight: 154,
+    borderRadius: 26,
+    backgroundColor: 'rgba(11, 18, 32, 0.68)',
+    borderWidth: 2,
+    borderColor: 'rgba(250, 204, 21, 0.28)',
   },
   stageCard: {
     width: '100%',
@@ -1587,6 +1665,37 @@ const styles = StyleSheet.create({
     color: 'rgba(255, 255, 255, 0.42)',
     fontSize: 13,
     fontWeight: '900',
+  },
+  resumeCountdownOverlay: {
+    ...StyleSheet.absoluteFillObject,
+    zIndex: 4,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: 'rgba(17, 24, 39, 0.48)',
+  },
+  resumeCountdownPanel: {
+    minWidth: 150,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRadius: 28,
+    backgroundColor: 'rgba(11, 18, 32, 0.94)',
+    borderWidth: 2,
+    borderColor: '#FACC15',
+    paddingHorizontal: 26,
+    paddingVertical: 18,
+  },
+  resumeCountdownNumber: {
+    color: '#FACC15',
+    fontSize: 74,
+    fontWeight: '900',
+    lineHeight: 80,
+  },
+  resumeCountdownLabel: {
+    color: '#FFFFFF',
+    fontSize: 13,
+    fontWeight: '900',
+    textAlign: 'center',
+    textTransform: 'uppercase',
   },
   feedbackOverlay: {
     ...StyleSheet.absoluteFillObject,
