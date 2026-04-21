@@ -14,7 +14,7 @@
       "startHint": "Choose modes and start a round",
       "categories": "Browse categories",
       "removeAds": "Remove ads",
-      "adsRemoved": "Ads removed"
+      "premiumActive": "Premium active"
     },
     "categories": {
       "eyebrow": "Mode select",
@@ -25,7 +25,8 @@
       "badges": {
         "free": "Free",
         "locked": "PRO",
-        "temporary": "24h",
+        "ad_session": "Session",
+        "pass_24h": "Pass",
         "lifetime": "Yours",
         "selected": "On"
       },
@@ -41,31 +42,70 @@
       "finished": "Match finished",
       "timeUp": "Time is up",
       "scoreLabel": "Correct answers",
+      "passLabel": "Passes",
+      "correctDetails": "Correct",
+      "missedDetails": "Misses",
+      "noCorrect": "No correct answers",
+      "noMisses": "No misses",
       "deckLabel": "Deck",
       "currentPrompt": "Who am I?",
       "feedbackCorrect": "Point",
       "feedbackPass": "Pass",
       "empty": "No items found.",
       "paused": "Paused",
+      "timeModeEyebrow": "Round time",
+      "timeModeTitle": "Choose the pace",
+      "timeModes": {
+        "quick": {
+          "name": "Quick",
+          "duration": "60 seconds"
+        },
+        "normal": {
+          "name": "Normal",
+          "duration": "90 seconds"
+        },
+        "party": {
+          "name": "Party",
+          "duration": "120 seconds"
+        }
+      },
+      "tutorialLeft": "Tilt left or tap left to score",
+      "tutorialRight": "Tilt right or tap right to pass",
       "tiltHint": "Tilt firmly left to score and right to pass.",
       "tiltHintPortraitTitle": "Hold your phone horizontally",
-      "tiltHintPortrait": "Rotate your phone to landscape to use tilt.",
+      "tiltHintPortrait": "Turn your phone to continue.",
       "restart": "Restart match",
       "newMatch": "New match"
     },
     "premium": {
-      "title": "Unlock premium play",
+      "offerBadge": "UPGRADE",
+      "title": "Choose your play style",
       "titleCategory": "Unlock %{category}",
-      "subtitle": "Choose a quick 24-hour unlock or remove ads forever.",
-      "watchAdLabel": "Rewarded ad",
-      "watchAdTitle": "Unlock for 24 hours",
-      "watchAdDescription": "Open this premium deck for tonight's games.",
-      "watchAdCta": "Watch",
-      "removeAdsLabel": "Lifetime",
-      "removeAdsTitle": "Remove ads forever",
-      "removeAdsDescription": "Keep every premium deck open and play without ad breaks.",
-      "removeAdsCta": "Unlock",
-      "bestValue": "Best",
+      "subtitle": "Ads unlock a short session. Pass unlocks everything for 24h. Lifetime keeps it forever.",
+      "freeName": "Free",
+      "freeValue": "Ads on",
+      "passName": "24h Pass",
+      "lifetimeName": "Lifetime",
+      "benefitNoAds": "No Ads",
+      "benefitAllCategories": "All Categories",
+      "benefitUnlimitedPlay": "Unlimited Play",
+      "freeLabel": "Free",
+      "freeTitle": "Watch ad for a session",
+      "freeTitleBrowse": "Keep playing free",
+      "freeDescription": "Unlock this deck for %{rounds} rounds. Great for trying it now.",
+      "freeDescriptionBrowse": "Keep playing free decks and use ads only when you choose premium.",
+      "freeCtaAd": "Watch",
+      "freeCtaCooldown": "%{time}",
+      "freeCtaBrowse": "Continue",
+      "passLabel": "24h Pass",
+      "passTitle": "All decks, no ads today",
+      "passDescription": "Best for a party night: everything open with no ad breaks.",
+      "passCta": "Get pass",
+      "lifetimeLabel": "Lifetime",
+      "lifetimeTitle": "Unlock everything forever",
+      "lifetimeDescription": "Permanent access, no ads, and every current category.",
+      "lifetimeCta": "Go lifetime",
+      "mostPopular": "Most popular",
       "notNow": "Not now"
     }
   }

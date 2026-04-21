@@ -4,12 +4,604 @@
       "movies_tv_1": {
         "name": "Harry Potter",
         "description": "Bruxo da franquia de filmes Harry Potter."
+      },
+      "movies_tv_2": {
+        "name": "Darth Vader",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_3": {
+        "name": "Homem-Aranha",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_4": {
+        "name": "Homer Simpson",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_5": {
+        "name": "Elsa",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_6": {
+        "name": "Batman",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_7": {
+        "name": "Homem de Ferro",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_8": {
+        "name": "Shrek",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_9": {
+        "name": "Goku",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_10": {
+        "name": "Naruto Uzumaki",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_11": {
+        "name": "Mickey Mouse",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_12": {
+        "name": "Bob Esponja",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_13": {
+        "name": "Simba",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_14": {
+        "name": "Woody",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_15": {
+        "name": "Buzz Lightyear",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_16": {
+        "name": "Deadpool",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_17": {
+        "name": "Thor",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_18": {
+        "name": "Loki",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_19": {
+        "name": "Coringa",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_20": {
+        "name": "Mulher-Maravilha",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_21": {
+        "name": "Capitao America",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_22": {
+        "name": "Hulk",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_23": {
+        "name": "Viuva Negra",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_24": {
+        "name": "Doutor Estranho",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_25": {
+        "name": "Aladdin",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_26": {
+        "name": "Genio",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_27": {
+        "name": "Ariel",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_28": {
+        "name": "Bela",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_29": {
+        "name": "Cinderela",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_30": {
+        "name": "Branca de Neve",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_31": {
+        "name": "Moana",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_32": {
+        "name": "Rapunzel",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_33": {
+        "name": "Jack Sparrow",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_34": {
+        "name": "Indiana Jones",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_35": {
+        "name": "Rocky Balboa",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_36": {
+        "name": "John Wick",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_37": {
+        "name": "Forrest Gump",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_38": {
+        "name": "Neo",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_39": {
+        "name": "Trinity",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_40": {
+        "name": "Morpheus",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_41": {
+        "name": "Exterminador do Futuro",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_42": {
+        "name": "Rambo",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_43": {
+        "name": "Yoda",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_44": {
+        "name": "Luke Skywalker",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_45": {
+        "name": "Princesa Leia",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_46": {
+        "name": "Han Solo",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_47": {
+        "name": "Chewbacca",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_48": {
+        "name": "Anakin Skywalker",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_49": {
+        "name": "Obi-Wan Kenobi",
+        "description": "Personagem famoso de filmes, series ou animacoes."
+      },
+      "movies_tv_50": {
+        "name": "Kylo Ren",
+        "description": "Personagem famoso de filmes, series ou animacoes."
       }
     },
     "superheroes_villains": {
       "superheroes_villains_1": {
-        "name": "Spider-Man",
+        "name": "Homem-Aranha",
         "description": "Super-heroi da Marvel que ganhou poderes de aranha apos uma picada."
+      },
+      "superheroes_villains_2": {
+        "name": "Batman",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_3": {
+        "name": "Superman",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_4": {
+        "name": "Homem de Ferro",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_5": {
+        "name": "Capitao America",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_6": {
+        "name": "Thor",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_7": {
+        "name": "Hulk",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_8": {
+        "name": "Mulher-Maravilha",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_9": {
+        "name": "Pantera Negra",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_10": {
+        "name": "Flash",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_11": {
+        "name": "Coringa",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_12": {
+        "name": "Thanos",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_13": {
+        "name": "Loki",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_14": {
+        "name": "Duende Verde",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_15": {
+        "name": "Magneto",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_16": {
+        "name": "Venom",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_17": {
+        "name": "Deadpool",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_18": {
+        "name": "Harley Quinn",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_19": {
+        "name": "Lex Luthor",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_20": {
+        "name": "Darkseid",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_21": {
+        "name": "Doutor Estranho",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_22": {
+        "name": "Feiticeira Escarlate",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_23": {
+        "name": "Vision",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_24": {
+        "name": "Homem-Formiga",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_25": {
+        "name": "Vespa",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_26": {
+        "name": "Aquaman",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_27": {
+        "name": "Cyborg",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_28": {
+        "name": "Lanterna Verde",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_29": {
+        "name": "Shazam",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_30": {
+        "name": "Adao Negro",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_31": {
+        "name": "Wolverine",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_32": {
+        "name": "Professor Xavier",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_33": {
+        "name": "Tempestade",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_34": {
+        "name": "Jean Grey",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_35": {
+        "name": "Ciclope",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_36": {
+        "name": "Mistica",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_37": {
+        "name": "Apocalipse",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_38": {
+        "name": "Noturno",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_39": {
+        "name": "Vampira",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_40": {
+        "name": "Fera",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_41": {
+        "name": "Doutor Octopus",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_42": {
+        "name": "Electro",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_43": {
+        "name": "Rino",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_44": {
+        "name": "Abutre",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_45": {
+        "name": "Rei do Crime",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_46": {
+        "name": "Justiceiro",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_47": {
+        "name": "Blade",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_48": {
+        "name": "Motoqueiro Fantasma",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_49": {
+        "name": "Surfista Prateado",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_50": {
+        "name": "Galactus",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_51": {
+        "name": "Capita Marvel",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_52": {
+        "name": "Senhor das Estrelas",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_53": {
+        "name": "Gamora",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_54": {
+        "name": "Drax",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_55": {
+        "name": "Rocket Raccoon",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_56": {
+        "name": "Groot",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_57": {
+        "name": "Nebula",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_58": {
+        "name": "Mantis",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_59": {
+        "name": "Ultron",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_60": {
+        "name": "Caveira Vermelha",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_61": {
+        "name": "Hela",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_62": {
+        "name": "Killmonger",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_63": {
+        "name": "Treinador",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_64": {
+        "name": "Cavaleiro da Lua",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_65": {
+        "name": "Mulher-Hulk",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_66": {
+        "name": "Miss Marvel",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_67": {
+        "name": "Nova",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_68": {
+        "name": "Adam Warlock",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_69": {
+        "name": "Kang",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_70": {
+        "name": "MODOK",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_71": {
+        "name": "Saitama",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_72": {
+        "name": "Genos",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_73": {
+        "name": "All Might",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_74": {
+        "name": "Deku",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_75": {
+        "name": "Bakugo",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_76": {
+        "name": "Todoroki",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_77": {
+        "name": "Shigaraki",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_78": {
+        "name": "Dabi",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_79": {
+        "name": "Hawks",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_80": {
+        "name": "Endeavor",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_81": {
+        "name": "Omni-Man",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_82": {
+        "name": "Invencivel",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_83": {
+        "name": "Capitao Patria",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_84": {
+        "name": "Luz-Estrela",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_85": {
+        "name": "Trem-Bala",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_86": {
+        "name": "Maeve",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_87": {
+        "name": "Black Noir",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_88": {
+        "name": "Soldier Boy",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_89": {
+        "name": "Spawn",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_90": {
+        "name": "Hellboy",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_91": {
+        "name": "Optimus Prime",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_92": {
+        "name": "Megatron",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_93": {
+        "name": "Bumblebee",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_94": {
+        "name": "He-Man",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_95": {
+        "name": "Esqueleto",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_96": {
+        "name": "Ben 10",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_97": {
+        "name": "Vilgax",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_98": {
+        "name": "Samurai Jack",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_99": {
+        "name": "Aku",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
+      },
+      "superheroes_villains_100": {
+        "name": "Kim Possible",
+        "description": "Heroi, vilao ou anti-heroi famoso dos quadrinhos, filmes, series ou animes."
       }
     },
     "video_game_characters": {

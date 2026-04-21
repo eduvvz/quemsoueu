@@ -6,11 +6,15 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import categoriesData from '@/assets/categories/categories.json';
 import { PremiumOfferModal } from '@/components/PremiumOfferModal';
 import { t } from '@/lib/i18n';
-import { usePremiumAccess } from '@/lib/premium-access';
+import { monetizationConfig, useMonetization } from '@/lib/monetization';
 
 type Category = (typeof categoriesData)[number];
 
 const categories = [...categoriesData].sort((first, second) => first.order - second.order);
+const freeCategoryIds = categories
+  .filter((category) => !category.isPremium)
+  .slice(0, monetizationConfig.free.maxFreeCategories)
+  .map((category) => category.id);
 
 const categoryMarks: Record<string, string> = {
   movies_tv: 'TV',
@@ -32,17 +36,41 @@ const categoryMarks: Record<string, string> = {
 
 export default function CategoriesScreen() {
   const [selectedIds, setSelectedIds] = useState<string[]>([]);
-  const [premiumCategory, setPremiumCategory] = useState<Category | null>(null);
+  const [isPaywallOpen, setIsPaywallOpen] = useState(false);
+  const [paywallCategory, setPaywallCategory] = useState<Category | null>(null);
   const insets = useSafeAreaInsets();
-  const { adsRemoved, getUnlockLabel, isCategoryUnlocked, removeAdsForever, unlockCategoryFor24h } =
-    usePremiumAccess();
+  const {
+    adCooldownRemainingMs,
+    canWatchRewardedAd,
+    getCategoryUnlockState,
+    isCategoryUnlocked,
+    isPremiumUser,
+    trackMonetizationEvent,
+    unlock24hPass,
+    unlockLifetime,
+    watchAdToUnlockSession,
+  } = useMonetization();
   const isAdvanceEnabled = selectedIds.length > 0;
 
+  function categoryRequiresUnlock(category: Category) {
+    return category.isPremium || !freeCategoryIds.includes(category.id);
+  }
+
+  function openPaywall(category: Category | null, trigger: 'home' | 'locked_category') {
+    setPaywallCategory(category);
+    setIsPaywallOpen(true);
+    trackMonetizationEvent('paywall_viewed', {
+      trigger,
+      categoryId: category?.id,
+    });
+  }
+
   function toggleCategory(category: Category) {
-    const isUnlocked = isCategoryUnlocked(category.id, category.isPremium);
+    const requiresUnlock = categoryRequiresUnlock(category);
+    const isUnlocked = isCategoryUnlocked(category.id, requiresUnlock);
 
     if (!isUnlocked) {
-      setPremiumCategory(category);
+      openPaywall(category, 'locked_category');
       return;
     }
 
@@ -53,39 +81,55 @@ export default function CategoriesScreen() {
     );
   }
 
-  function handleWatchAdUnlock() {
-    if (!premiumCategory) {
+  function handleWatchAdToUnlockSession() {
+    if (!paywallCategory) {
+      setIsPaywallOpen(false);
       return;
     }
 
-    unlockCategoryFor24h(premiumCategory.id);
+    const didUnlock = watchAdToUnlockSession(paywallCategory.id);
+
+    if (!didUnlock) {
+      return;
+    }
+
     setSelectedIds((current) =>
-      current.includes(premiumCategory.id) ? current : [...current, premiumCategory.id]
+      current.includes(paywallCategory.id) ? current : [...current, paywallCategory.id]
     );
-    setPremiumCategory(null);
+    setIsPaywallOpen(false);
   }
 
-  function handleRemoveAds() {
-    removeAdsForever();
+  function handleUnlock24hPass() {
+    unlock24hPass();
 
-    if (premiumCategory) {
+    if (paywallCategory) {
       setSelectedIds((current) =>
-        current.includes(premiumCategory.id) ? current : [...current, premiumCategory.id]
+        current.includes(paywallCategory.id) ? current : [...current, paywallCategory.id]
       );
     }
 
-    setPremiumCategory(null);
+    setIsPaywallOpen(false);
+  }
+
+  function handleUnlockLifetime() {
+    unlockLifetime();
+
+    if (paywallCategory) {
+      setSelectedIds((current) =>
+        current.includes(paywallCategory.id) ? current : [...current, paywallCategory.id]
+      );
+    }
+
+    setIsPaywallOpen(false);
   }
 
   function renderCategory({ item }: { item: Category }) {
     const isSelected = selectedIds.includes(item.id);
-    const isPremium = item.isPremium;
-    const isUnlocked = isCategoryUnlocked(item.id, isPremium);
-    const unlockLabel = isPremium ? getUnlockLabel(item.id) : 'free';
-    const isLocked = isPremium && !isUnlocked;
-    const badgeText = isPremium
-      ? t(`app.categories.badges.${unlockLabel}`)
-      : t('app.categories.badges.free');
+    const requiresUnlock = categoryRequiresUnlock(item);
+    const isUnlocked = isCategoryUnlocked(item.id, requiresUnlock);
+    const unlockState = getCategoryUnlockState(item.id, requiresUnlock);
+    const isLocked = requiresUnlock && !isUnlocked;
+    const badgeText = t(`app.categories.badges.${unlockState}`);
 
     return (
       <View style={styles.tileSlot}>
@@ -93,7 +137,7 @@ export default function CategoriesScreen() {
           onPress={() => toggleCategory(item)}
           style={({ pressed }) => [
             styles.modeTile,
-            isPremium && styles.modeTilePremium,
+            requiresUnlock && styles.modeTilePremium,
             isLocked && styles.modeTileLocked,
             isSelected && styles.modeTileSelected,
             pressed && styles.tilePressed,
@@ -102,23 +146,28 @@ export default function CategoriesScreen() {
             <View
               style={[
                 styles.mark,
-                isPremium && styles.markPremium,
+                requiresUnlock && styles.markPremium,
                 isSelected && styles.markSelected,
               ]}>
-              <Text style={[styles.markText, isPremium && styles.markTextPremium]}>
+              <Text
+                style={[
+                  styles.markText,
+                  requiresUnlock && styles.markTextPremium,
+                  isSelected && styles.markTextSelected,
+                ]}>
                 {categoryMarks[item.id] ?? 'PLAY'}
               </Text>
             </View>
             <View
               style={[
                 styles.statePill,
-                isPremium && styles.statePillPremium,
+                requiresUnlock && styles.statePillPremium,
                 isSelected && styles.statePillSelected,
               ]}>
               <Text
                 style={[
                   styles.statePillText,
-                  isPremium && styles.statePillTextPremium,
+                  requiresUnlock && styles.statePillTextPremium,
                   isSelected && styles.statePillTextSelected,
                 ]}>
                 {isSelected ? t('app.categories.badges.selected') : badgeText}
@@ -127,17 +176,17 @@ export default function CategoriesScreen() {
           </View>
 
           <View style={styles.tileCopy}>
-            <Text style={[styles.cardTitle, isLocked && styles.lockedText]} numberOfLines={2}>
+            <Text style={[styles.cardTitle, requiresUnlock && styles.lockedText]} numberOfLines={2}>
               {t(item.nameKey)}
             </Text>
             <Text
-              style={[styles.cardDescription, isLocked && styles.lockedDescription]}
+              style={[styles.cardDescription, requiresUnlock && styles.lockedDescription]}
               numberOfLines={3}>
               {t(item.descriptionKey)}
             </Text>
           </View>
 
-          <View style={[styles.tileAccent, isPremium && styles.tileAccentPremium]} />
+          <View style={[styles.tileAccent, requiresUnlock && styles.tileAccentPremium]} />
         </Pressable>
       </View>
     );
@@ -182,10 +231,10 @@ export default function CategoriesScreen() {
                 <Text style={styles.backButtonText}>{t('app.navigation.back')}</Text>
               </Pressable>
               <Pressable
-                onPress={() => setPremiumCategory(categories.find((category) => category.isPremium) ?? null)}
+                onPress={() => openPaywall(null, 'home')}
                 style={({ pressed }) => [styles.premiumButton, pressed && styles.tilePressed]}>
                 <Text style={styles.premiumButtonText}>
-                  {adsRemoved ? t('app.home.adsRemoved') : t('app.home.removeAds')}
+                  {isPremiumUser ? t('app.home.premiumActive') : t('app.home.removeAds')}
                 </Text>
               </Pressable>
             </View>
@@ -226,11 +275,14 @@ export default function CategoriesScreen() {
         </Pressable>
       </View>
       <PremiumOfferModal
-        visible={premiumCategory !== null}
-        categoryName={premiumCategory ? t(premiumCategory.nameKey) : undefined}
-        onClose={() => setPremiumCategory(null)}
-        onWatchAd={handleWatchAdUnlock}
-        onRemoveAds={handleRemoveAds}
+        visible={isPaywallOpen}
+        categoryName={paywallCategory ? t(paywallCategory.nameKey) : undefined}
+        adCooldownRemainingMs={adCooldownRemainingMs}
+        canWatchAd={canWatchRewardedAd()}
+        onClose={() => setIsPaywallOpen(false)}
+        onWatchAdToUnlockSession={handleWatchAdToUnlockSession}
+        onUnlock24hPass={handleUnlock24hPass}
+        onUnlockLifetime={handleUnlockLifetime}
       />
     </View>
   );
@@ -393,6 +445,9 @@ const styles = StyleSheet.create({
   },
   markTextPremium: {
     color: '#111827',
+  },
+  markTextSelected: {
+    color: '#FFFFFF',
   },
   statePill: {
     borderRadius: 999,

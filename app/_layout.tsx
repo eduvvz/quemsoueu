@@ -6,8 +6,8 @@ import { useEffect } from 'react';
 import { StyleSheet } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
-import { PremiumAccessProvider } from '@/lib/premium-access';
 import { t } from '@/lib/i18n';
+import { MonetizationProvider } from '@/lib/monetization';
 
 export default function RootLayout() {
   useEffect(() => {
@@ -17,7 +17,7 @@ export default function RootLayout() {
   return (
     <GestureHandlerRootView style={styles.root}>
       <BottomSheetModalProvider>
-        <PremiumAccessProvider>
+        <MonetizationProvider>
           <Stack>
             <Stack.Screen name="index" options={{ headerShown: false }} />
             <Stack.Screen
@@ -30,7 +30,7 @@ export default function RootLayout() {
             <Stack.Screen name="game" options={{ headerShown: false }} />
           </Stack>
           <StatusBar style="light" />
-        </PremiumAccessProvider>
+        </MonetizationProvider>
       </BottomSheetModalProvider>
     </GestureHandlerRootView>
   );

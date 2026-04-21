@@ -4,31 +4,43 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { router, useLocalSearchParams } from 'expo-router';
 import {
   Animated,
+  Dimensions,
   Easing,
   Image,
   Platform,
   Pressable,
+  ScrollView,
   StyleSheet,
   Text,
+  Vibration,
   View,
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
+import { PremiumOfferModal } from '@/components/PremiumOfferModal';
 import { getCategoryItems } from '@/lib/category-items';
 import { t } from '@/lib/i18n';
+import { useMonetization } from '@/lib/monetization';
 
-const TOTAL_TIME_IN_SECONDS = 120;
+const TIME_MODES = {
+  quick: 60,
+  normal: 90,
+  party: 120,
+} as const;
 const TILT_TRIGGER_THRESHOLD = 0.58;
 const TILT_NEUTRAL_THRESHOLD = 0.14;
 const TILT_COOLDOWN_MS = 500;
 const DEVICE_MOTION_UPDATE_MS = 100;
 const ACCELEROMETER_UPDATE_MS = 70;
-const PORTRAIT_STABILITY_MS = 420;
+const PORTRAIT_STABILITY_MS = 300;
 const LANDSCAPE_STABILITY_MS = 120;
+const FINAL_COUNTDOWN_SECONDS = 10;
+const URGENT_COUNTDOWN_SECONDS = 5;
 
 type FeedbackTone = 'pass' | 'correct' | null;
 
 type DevicePosture = 'portrait' | 'landscape' | 'unknown';
+type TimeMode = keyof typeof TIME_MODES;
 
 const rotateDeviceWarningImage = require('../assets/images/rotate-device-warning.png');
 
@@ -105,11 +117,73 @@ function formatTime(totalSeconds: number) {
   return `${minutes}:${seconds}`;
 }
 
+function playTone(frequency: number, endFrequency: number, duration: number, wave: OscillatorType) {
+  if (Platform.OS !== 'web') {
+    return;
+  }
+
+  const audioContextConstructor =
+    (globalThis as typeof globalThis & {
+      AudioContext?: typeof AudioContext;
+      webkitAudioContext?: typeof AudioContext;
+    }).AudioContext ??
+    (globalThis as typeof globalThis & { webkitAudioContext?: typeof AudioContext })
+      .webkitAudioContext;
+
+  if (!audioContextConstructor) {
+    return;
+  }
+
+  const audioContext = new audioContextConstructor();
+  const oscillator = audioContext.createOscillator();
+  const gain = audioContext.createGain();
+  const now = audioContext.currentTime;
+
+  oscillator.type = wave;
+  oscillator.frequency.setValueAtTime(frequency, now);
+  oscillator.frequency.exponentialRampToValueAtTime(endFrequency, now + duration * 0.75);
+  gain.gain.setValueAtTime(0.0001, now);
+  gain.gain.exponentialRampToValueAtTime(0.18, now + 0.01);
+  gain.gain.exponentialRampToValueAtTime(0.0001, now + duration);
+  oscillator.connect(gain);
+  gain.connect(audioContext.destination);
+  oscillator.start(now);
+  oscillator.stop(now + duration + 0.01);
+}
+
+function playFeedbackSound(tone: Exclude<FeedbackTone, null>) {
+  playTone(
+    tone === 'correct' ? 880 : 220,
+    tone === 'correct' ? 1320 : 160,
+    0.16,
+    tone === 'correct' ? 'sine' : 'triangle'
+  );
+}
+
+function playCountdownSound(isUrgent: boolean) {
+  playTone(isUrgent ? 740 : 520, isUrgent ? 820 : 560, isUrgent ? 0.08 : 0.06, 'square');
+}
+
 export default function GameScreen() {
   const insets = useSafeAreaInsets();
+  const screenWidth = Dimensions.get('window').width;
   const params = useLocalSearchParams<{ categories?: string }>();
+  const {
+    adCooldownRemainingMs,
+    canWatchRewardedAd,
+    markRoundCompleted,
+    shouldShowPaywall,
+    trackMonetizationEvent,
+    unlock24hPass,
+    unlockLifetime,
+  } = useMonetization();
   const [devicePosture, setDevicePosture] = useState<DevicePosture>('unknown');
+  const [isPostRoundPaywallOpen, setIsPostRoundPaywallOpen] = useState(false);
+  const [selectedTimeMode, setSelectedTimeMode] = useState<TimeMode>('normal');
+  const [isRoundActive, setIsRoundActive] = useState(false);
+  const [isTutorialVisible, setIsTutorialVisible] = useState(false);
   const isLandscape = devicePosture === 'landscape';
+  const totalTimeInSeconds = TIME_MODES[selectedTimeMode];
   const selectedCategoryIds = useMemo(
     () => (params.categories ? params.categories.split(',').filter(Boolean) : []),
     [params.categories]
@@ -137,28 +211,42 @@ export default function GameScreen() {
     return shuffleItems(uniqueItems);
   }, [roundSeed, selectedCategoryIds]);
 
-  const [timeLeft, setTimeLeft] = useState(TOTAL_TIME_IN_SECONDS);
+  const [timeLeft, setTimeLeft] = useState<number>(totalTimeInSeconds);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [score, setScore] = useState(0);
+  const [passes, setPasses] = useState(0);
+  const [correctItems, setCorrectItems] = useState<string[]>([]);
+  const [missedItems, setMissedItems] = useState<string[]>([]);
   const [feedbackTone, setFeedbackTone] = useState<FeedbackTone>(null);
 
   const flashOpacity = useRef(new Animated.Value(0)).current;
   const contentScale = useRef(new Animated.Value(1)).current;
   const contentTranslateY = useRef(new Animated.Value(0)).current;
+  const itemOpacity = useRef(new Animated.Value(1)).current;
+  const itemTranslateX = useRef(new Animated.Value(0)).current;
+  const pointOpacity = useRef(new Animated.Value(0)).current;
+  const pointTranslateY = useRef(new Animated.Value(10)).current;
+  const tutorialOpacity = useRef(new Animated.Value(0)).current;
   const tiltReadyRef = useRef(false);
   const lastTiltTriggerAtRef = useRef(0);
   const orientationRef = useRef(ScreenOrientation.Orientation.PORTRAIT_UP);
   const devicePostureRef = useRef<DevicePosture>(devicePosture);
   const postureCandidateRef = useRef<DevicePosture | null>(null);
   const postureCandidateSinceRef = useRef(0);
+  const recordedFinishedRoundSeedRef = useRef<number | null>(null);
+  const didShowPostRoundPaywallRef = useRef(false);
 
   const hasItems = items.length > 0;
   const isFinished = timeLeft === 0;
   const currentItem = hasItems ? items[currentIndex] : undefined;
   const isFeedbackActive = feedbackTone !== null;
-  const isOrientationBlocked = !isLandscape && !isFinished;
+  const isOrientationBlocked = isRoundActive && !isLandscape && !isFinished;
   const feedbackColor = feedbackTone === 'correct' ? '#22C55E' : '#EF4444';
   const progressText = hasItems ? `${currentIndex + 1}/${items.length}` : '--';
+  const timerProgress = timeLeft / totalTimeInSeconds;
+  const isFinalCountdown = isRoundActive && timeLeft <= FINAL_COUNTDOWN_SECONDS && !isFinished;
+  const isUrgentCountdown = isRoundActive && timeLeft <= URGENT_COUNTDOWN_SECONDS && !isFinished;
+  const tapBoundaryX = screenWidth / 2;
   const isFinishedRef = useRef(isFinished);
   const isFeedbackActiveRef = useRef(isFeedbackActive);
   const hasItemsRef = useRef(hasItems);
@@ -198,12 +286,63 @@ export default function GameScreen() {
   }, [devicePosture]);
 
   useEffect(() => {
+    if (isRoundActive) {
+      return;
+    }
+
+    setTimeLeft(totalTimeInSeconds);
+  }, [isRoundActive, totalTimeInSeconds]);
+
+  useEffect(() => {
+    if (!isRoundActive || !isFinished || recordedFinishedRoundSeedRef.current === roundSeed) {
+      return;
+    }
+
+    recordedFinishedRoundSeedRef.current = roundSeed;
+    markRoundCompleted(selectedCategoryIds);
+
+    if (!didShowPostRoundPaywallRef.current && shouldShowPaywall('post_round')) {
+      didShowPostRoundPaywallRef.current = true;
+      trackMonetizationEvent('paywall_viewed', { trigger: 'post_round' });
+      setIsPostRoundPaywallOpen(true);
+    }
+  }, [
+    isFinished,
+    isRoundActive,
+    markRoundCompleted,
+    roundSeed,
+    selectedCategoryIds,
+    shouldShowPaywall,
+    trackMonetizationEvent,
+  ]);
+
+  useEffect(() => {
     tiltReadyRef.current = false;
     lastTiltTriggerAtRef.current = 0;
   }, [roundSeed]);
 
   useEffect(() => {
-    if (isFinished || !isLandscape) {
+    itemOpacity.setValue(0);
+    itemTranslateX.setValue(18);
+
+    Animated.parallel([
+      Animated.timing(itemOpacity, {
+        toValue: 1,
+        duration: 150,
+        easing: Easing.out(Easing.cubic),
+        useNativeDriver: true,
+      }),
+      Animated.timing(itemTranslateX, {
+        toValue: 0,
+        duration: 150,
+        easing: Easing.out(Easing.cubic),
+        useNativeDriver: true,
+      }),
+    ]).start();
+  }, [currentIndex, itemOpacity, itemTranslateX, roundSeed]);
+
+  useEffect(() => {
+    if (!isRoundActive || isFinished || !isLandscape) {
       return;
     }
 
@@ -219,7 +358,16 @@ export default function GameScreen() {
     }, 1000);
 
     return () => clearInterval(timer);
-  }, [isFinished, isLandscape]);
+  }, [isFinished, isLandscape, isRoundActive]);
+
+  useEffect(() => {
+    if (!isRoundActive || isFinished || !isLandscape || !isFinalCountdown) {
+      return;
+    }
+
+    Vibration.vibrate(isUrgentCountdown ? 34 : 18);
+    playCountdownSound(isUrgentCountdown);
+  }, [isFinalCountdown, isFinished, isLandscape, isRoundActive, isUrgentCountdown, timeLeft]);
 
   useEffect(() => {
     if (Platform.OS === 'web') {
@@ -275,6 +423,7 @@ export default function GameScreen() {
     const subscription = Accelerometer.addListener(({ x, y }) => {
       if (
         devicePostureRef.current !== 'landscape' ||
+        !isRoundActive ||
         isFinishedRef.current ||
         isFeedbackActiveRef.current ||
         !hasItemsRef.current
@@ -317,7 +466,7 @@ export default function GameScreen() {
     return () => {
       subscription.remove();
     };
-  }, []);
+  }, [isRoundActive]);
 
   handlePassRef.current = handlePass;
   handleCorrectRef.current = handleCorrect;
@@ -339,8 +488,38 @@ export default function GameScreen() {
     });
   }
 
+  function animatePointPop() {
+    pointOpacity.setValue(0);
+    pointTranslateY.setValue(10);
+
+    Animated.parallel([
+      Animated.sequence([
+        Animated.timing(pointOpacity, {
+          toValue: 1,
+          duration: 90,
+          easing: Easing.out(Easing.quad),
+          useNativeDriver: true,
+        }),
+        Animated.timing(pointOpacity, {
+          toValue: 0,
+          duration: 380,
+          easing: Easing.inOut(Easing.quad),
+          useNativeDriver: true,
+        }),
+      ]),
+      Animated.timing(pointTranslateY, {
+        toValue: -22,
+        duration: 470,
+        easing: Easing.out(Easing.cubic),
+        useNativeDriver: true,
+      }),
+    ]).start();
+  }
+
   function animateFeedback(tone: Exclude<FeedbackTone, null>, callback?: () => void) {
     setFeedbackTone(tone);
+    Vibration.vibrate(tone === 'correct' ? 36 : [0, 18, 32, 18]);
+    playFeedbackSound(tone);
 
     flashOpacity.setValue(0);
     contentScale.setValue(0.94);
@@ -350,13 +529,13 @@ export default function GameScreen() {
       Animated.sequence([
         Animated.timing(flashOpacity, {
           toValue: 1,
-          duration: 110,
+          duration: 70,
           easing: Easing.out(Easing.quad),
           useNativeDriver: false,
         }),
         Animated.timing(flashOpacity, {
           toValue: 0,
-          duration: 260,
+          duration: 130,
           easing: Easing.inOut(Easing.quad),
           useNativeDriver: false,
         }),
@@ -398,25 +577,56 @@ export default function GameScreen() {
   }
 
   function handlePass() {
-    if (isFinished) {
+    if (!isRoundActive || isFinished || isOrientationBlocked || isFeedbackActive) {
       return;
     }
 
-    animateFeedback('pass', goToNextItem);
-  }
+    const itemName = currentItem ? t(currentItem.nameKey) : t('app.game.empty');
 
-  function handleCorrect() {
-    if (isFinished) {
-      return;
-    }
-
-    animateFeedback('correct', () => {
-      setScore((current) => current + 1);
+    animateFeedback('pass', () => {
+      setPasses((current) => current + 1);
+      setMissedItems((current) => [...current, itemName]);
       goToNextItem();
     });
   }
 
-  function handleRestart() {
+  function handleCorrect() {
+    if (!isRoundActive || isFinished || isOrientationBlocked || isFeedbackActive) {
+      return;
+    }
+
+    const itemName = currentItem ? t(currentItem.nameKey) : t('app.game.empty');
+
+    animateFeedback('correct', () => {
+      animatePointPop();
+      setScore((current) => current + 1);
+      setCorrectItems((current) => [...current, itemName]);
+      goToNextItem();
+    });
+  }
+
+  function showTutorial() {
+    setIsTutorialVisible(true);
+    tutorialOpacity.setValue(0);
+
+    Animated.sequence([
+      Animated.timing(tutorialOpacity, {
+        toValue: 1,
+        duration: 180,
+        easing: Easing.out(Easing.quad),
+        useNativeDriver: true,
+      }),
+      Animated.delay(1600),
+      Animated.timing(tutorialOpacity, {
+        toValue: 0,
+        duration: 220,
+        easing: Easing.inOut(Easing.quad),
+        useNativeDriver: true,
+      }),
+    ]).start(() => setIsTutorialVisible(false));
+  }
+
+  function resetRound(nextTimeMode = selectedTimeMode) {
     flashOpacity.stopAnimation();
     contentScale.stopAnimation();
     contentTranslateY.stopAnimation();
@@ -424,16 +634,58 @@ export default function GameScreen() {
     flashOpacity.setValue(0);
     contentScale.setValue(1);
     contentTranslateY.setValue(0);
+    pointOpacity.setValue(0);
+    pointTranslateY.setValue(10);
     setFeedbackTone(null);
-    setTimeLeft(TOTAL_TIME_IN_SECONDS);
+    setTimeLeft(TIME_MODES[nextTimeMode]);
     setCurrentIndex(0);
     setScore(0);
+    setPasses(0);
+    setCorrectItems([]);
+    setMissedItems([]);
+    recordedFinishedRoundSeedRef.current = null;
     setRoundSeed((current) => current + 1);
+  }
+
+  function startRound(timeMode: TimeMode) {
+    setSelectedTimeMode(timeMode);
+    resetRound(timeMode);
+    setIsRoundActive(true);
+    showTutorial();
+  }
+
+  function handleStageTap(pageX: number) {
+    if (pageX <= tapBoundaryX) {
+      handleCorrect();
+      return;
+    }
+
+    handlePass();
+  }
+
+  function handleRestart() {
+    resetRound();
+    setIsRoundActive(true);
+    showTutorial();
   }
 
   function handleNewMatch() {
     router.dismissAll();
     router.replace('/categories');
+  }
+
+  function handleContinueAfterOffer() {
+    setIsPostRoundPaywallOpen(false);
+  }
+
+  function handleUnlock24hPass() {
+    unlock24hPass();
+    setIsPostRoundPaywallOpen(false);
+  }
+
+  function handleUnlockLifetime() {
+    unlockLifetime();
+    setIsPostRoundPaywallOpen(false);
   }
 
   return (
@@ -462,8 +714,13 @@ export default function GameScreen() {
           <Text style={styles.hudValue}>{score}</Text>
         </View>
 
-        <View style={[styles.timerContainer, isFeedbackActive && styles.timerFeedback]}>
-          <Text style={[styles.timer, isFeedbackActive && styles.inverseText]}>
+        <View
+          style={[
+            styles.timerContainer,
+            isFinalCountdown && styles.timerDanger,
+            isFeedbackActive && styles.timerFeedback,
+          ]}>
+          <Text style={[styles.timer, isFinalCountdown && styles.timerDangerText, isFeedbackActive && styles.inverseText]}>
             {formatTime(timeLeft)}
           </Text>
           {isFeedbackActive ? (
@@ -471,6 +728,15 @@ export default function GameScreen() {
               {t(feedbackTone === 'correct' ? 'app.game.feedbackCorrect' : 'app.game.feedbackPass')}
             </Text>
           ) : null}
+          <View style={styles.timerBarTrack}>
+            <View
+              style={[
+                styles.timerBarFill,
+                isFinalCountdown && styles.timerBarFillDanger,
+                { width: `${Math.max(timerProgress, 0) * 100}%` },
+              ]}
+            />
+          </View>
         </View>
 
         <View style={styles.hudPill}>
@@ -493,11 +759,104 @@ export default function GameScreen() {
             transform: [{ scale: contentScale }, { translateY: contentTranslateY }],
           },
         ]}>
-        {isFinished ? (
-          <View style={styles.resultContainer}>
-            <Text style={styles.resultTitle}>{t('app.game.timeUp')}</Text>
-            <Text style={styles.resultLabel}>{t('app.game.scoreLabel')}</Text>
-            <Text style={styles.resultScore}>{score}</Text>
+        {!isRoundActive ? (
+          <View style={styles.setupContainer}>
+            <Text style={styles.setupEyebrow}>{t('app.game.timeModeEyebrow')}</Text>
+            <Text style={styles.setupTitle}>{t('app.game.timeModeTitle')}</Text>
+            <View style={styles.timeModeGrid}>
+              {(['quick', 'normal', 'party'] as const).map((timeMode) => (
+                <Pressable
+                  key={timeMode}
+                  onPress={() => startRound(timeMode)}
+                  style={({ pressed }) => [
+                    styles.timeModeButton,
+                    timeMode === 'normal' && styles.timeModeButtonHot,
+                    pressed && styles.buttonPressed,
+                  ]}>
+                  <Text
+                    style={[
+                      styles.timeModeTitle,
+                      timeMode === 'normal' && styles.timeModeTitleHot,
+                    ]}>
+                    {t(`app.game.timeModes.${timeMode}.name`)}
+                  </Text>
+                  <Text
+                    style={[
+                      styles.timeModeMeta,
+                      timeMode === 'normal' && styles.timeModeMetaHot,
+                    ]}>
+                    {t(`app.game.timeModes.${timeMode}.duration`)}
+                  </Text>
+                </Pressable>
+              ))}
+            </View>
+          </View>
+        ) : isFinished ? (
+          <View style={[styles.resultContainer, isLandscape && styles.resultContainerLandscape]}>
+            <Text style={[styles.resultTitle, isLandscape && styles.resultTitleLandscape]}>
+              {t('app.game.timeUp')}
+            </Text>
+            <View style={styles.resultStats}>
+              <View
+                style={[
+                  styles.resultStatCard,
+                  styles.resultStatCorrect,
+                  isLandscape && styles.resultStatCardLandscape,
+                ]}>
+                <Text style={styles.resultLabel}>{t('app.game.scoreLabel')}</Text>
+                <Text style={[styles.resultScore, isLandscape && styles.resultScoreLandscape]}>
+                  {score}
+                </Text>
+              </View>
+              <View
+                style={[
+                  styles.resultStatCard,
+                  styles.resultStatPass,
+                  isLandscape && styles.resultStatCardLandscape,
+                ]}>
+                <Text style={styles.resultLabel}>{t('app.game.passLabel')}</Text>
+                <Text style={[styles.resultPassScore, isLandscape && styles.resultScoreLandscape]}>
+                  {passes}
+                </Text>
+              </View>
+            </View>
+            <View style={[styles.resultDetails, isLandscape && styles.resultDetailsLandscape]}>
+              <View style={styles.resultDetailColumn}>
+                <Text style={styles.resultDetailTitle}>{t('app.game.correctDetails')}</Text>
+                <ScrollView
+                  nestedScrollEnabled
+                  showsVerticalScrollIndicator={false}
+                  style={[styles.resultDetailList, isLandscape && styles.resultDetailListLandscape]}>
+                  {correctItems.length > 0 ? (
+                    correctItems.map((itemName, index) => (
+                      <Text key={`${itemName}-${index}`} style={styles.resultDetailItem}>
+                        {itemName}
+                      </Text>
+                    ))
+                  ) : (
+                    <Text style={styles.resultDetailEmpty}>{t('app.game.noCorrect')}</Text>
+                  )}
+                </ScrollView>
+              </View>
+
+              <View style={styles.resultDetailColumn}>
+                <Text style={styles.resultDetailTitle}>{t('app.game.missedDetails')}</Text>
+                <ScrollView
+                  nestedScrollEnabled
+                  showsVerticalScrollIndicator={false}
+                  style={[styles.resultDetailList, isLandscape && styles.resultDetailListLandscape]}>
+                  {missedItems.length > 0 ? (
+                    missedItems.map((itemName, index) => (
+                      <Text key={`${itemName}-${index}`} style={styles.resultDetailItem}>
+                        {itemName}
+                      </Text>
+                    ))
+                  ) : (
+                    <Text style={styles.resultDetailEmpty}>{t('app.game.noMisses')}</Text>
+                  )}
+                </ScrollView>
+              </View>
+            </View>
           </View>
         ) : isOrientationBlocked ? (
           <View style={styles.orientationWarning}>
@@ -515,42 +874,73 @@ export default function GameScreen() {
           </View>
         ) : (
           <View style={[styles.itemContent, isLandscape && styles.itemContentLandscape]}>
-            <View
-              style={[
-                styles.stageCard,
-                isLandscape && styles.stageCardLandscape,
-                isFeedbackActive && styles.stageCardFeedback,
-              ]}>
-              <Text style={styles.stageKicker}>{t('app.game.currentPrompt')}</Text>
-              <Text
+            <Pressable
+              onPress={(event) => handleStageTap(event.nativeEvent.pageX)}
+              style={styles.stageTapTarget}>
+              <Animated.View
                 style={[
-                  styles.nameText,
-                  isLandscape && styles.nameTextLandscape,
-                  isFeedbackActive && styles.inverseText,
-                ]}
-                adjustsFontSizeToFit
-                minimumFontScale={0.62}
-                numberOfLines={isLandscape ? 2 : 3}>
-                {currentItem ? t(currentItem.nameKey) : t('app.game.empty')}
-              </Text>
-              {currentItem ? (
+                  styles.stageCard,
+                  isLandscape && styles.stageCardLandscape,
+                  isFeedbackActive && styles.stageCardFeedback,
+                  {
+                    opacity: itemOpacity,
+                    transform: [{ translateX: itemTranslateX }],
+                  },
+                ]}>
+                <Text style={[styles.stageKicker, isLandscape && styles.stageKickerLandscape]}>
+                  {t('app.game.currentPrompt')}
+                </Text>
                 <Text
                   style={[
-                    styles.descriptionText,
-                    isLandscape && styles.descriptionTextLandscape,
-                    isFeedbackActive && styles.inverseSubtext,
+                    styles.nameText,
+                    isLandscape && styles.nameTextLandscape,
+                    isFeedbackActive && styles.inverseText,
                   ]}
+                  adjustsFontSizeToFit
+                  minimumFontScale={0.62}
                   numberOfLines={isLandscape ? 2 : 3}>
-                  {t(currentItem.descriptionKey)}
+                  {currentItem ? t(currentItem.nameKey) : t('app.game.empty')}
                 </Text>
-              ) : null}
-            </View>
+                {currentItem ? (
+                  <Text
+                    style={[
+                      styles.descriptionText,
+                      isLandscape && styles.descriptionTextLandscape,
+                      isFeedbackActive && styles.inverseSubtext,
+                    ]}
+                    numberOfLines={isLandscape ? 2 : 3}>
+                    {t(currentItem.descriptionKey)}
+                  </Text>
+                ) : null}
+                <Animated.Text
+                  pointerEvents="none"
+                  style={[
+                    styles.pointPop,
+                    {
+                      opacity: pointOpacity,
+                      transform: [{ translateY: pointTranslateY }],
+                    },
+                  ]}>
+                  +1
+                </Animated.Text>
+              </Animated.View>
+            </Pressable>
           </View>
         )}
       </Animated.View>
 
+      {isTutorialVisible ? (
+        <Animated.View pointerEvents="none" style={[styles.tutorialOverlay, { opacity: tutorialOpacity }]}>
+          <View style={styles.tutorialPanel}>
+            <Text style={styles.tutorialText}>{t('app.game.tutorialLeft')}</Text>
+            <Text style={styles.tutorialDivider}>|</Text>
+            <Text style={styles.tutorialText}>{t('app.game.tutorialRight')}</Text>
+          </View>
+        </Animated.View>
+      ) : null}
+
       <View style={[styles.bottomArea, isLandscape && styles.bottomAreaLandscape]}>
-        {isFinished ? (
+        {!isRoundActive ? null : isFinished ? (
           <View style={styles.finishedActions}>
             <Pressable
               onPress={handleRestart}
@@ -619,6 +1009,15 @@ export default function GameScreen() {
           </View>
         )}
       </View>
+      <PremiumOfferModal
+        visible={isPostRoundPaywallOpen}
+        adCooldownRemainingMs={adCooldownRemainingMs}
+        canWatchAd={canWatchRewardedAd()}
+        onClose={() => setIsPostRoundPaywallOpen(false)}
+        onWatchAdToUnlockSession={handleContinueAfterOffer}
+        onUnlock24hPass={handleUnlock24hPass}
+        onUnlockLifetime={handleUnlockLifetime}
+      />
     </View>
   );
 }
@@ -669,7 +1068,9 @@ const styles = StyleSheet.create({
     minWidth: 116,
     minHeight: 70,
     borderRadius: 22,
-    backgroundColor: '#FFF8EA',
+    backgroundColor: 'rgba(255, 248, 234, 0.12)',
+    borderWidth: 1,
+    borderColor: 'rgba(255, 255, 255, 0.18)',
     paddingHorizontal: 14,
     paddingVertical: 8,
     shadowColor: '#000000',
@@ -683,14 +1084,38 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: 'rgba(255, 255, 255, 0.32)',
   },
+  timerDanger: {
+    backgroundColor: 'rgba(239, 68, 68, 0.18)',
+    borderWidth: 2,
+    borderColor: '#EF4444',
+  },
   timer: {
     fontSize: 31,
     fontWeight: '900',
-    color: '#111827',
+    color: '#FFFFFF',
+  },
+  timerDangerText: {
+    color: '#FEE2E2',
+  },
+  timerBarTrack: {
+    width: '100%',
+    height: 5,
+    overflow: 'hidden',
+    borderRadius: 999,
+    backgroundColor: 'rgba(255, 255, 255, 0.16)',
+    marginTop: 4,
+  },
+  timerBarFill: {
+    height: '100%',
+    borderRadius: 999,
+    backgroundColor: '#22C55E',
+  },
+  timerBarFillDanger: {
+    backgroundColor: '#EF4444',
   },
   feedbackText: {
     marginTop: -2,
-    color: '#111827',
+    color: '#FFFFFF',
     fontSize: 11,
     fontWeight: '900',
     textTransform: 'uppercase',
@@ -725,6 +1150,7 @@ const styles = StyleSheet.create({
   },
   contentLandscape: {
     justifyContent: 'center',
+    paddingVertical: 6,
   },
   itemContent: {
     width: '100%',
@@ -733,6 +1159,9 @@ const styles = StyleSheet.create({
   itemContentLandscape: {
     maxWidth: 900,
   },
+  stageTapTarget: {
+    width: '100%',
+  },
   stageCard: {
     width: '100%',
     minHeight: 310,
@@ -740,9 +1169,9 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     gap: 14,
     borderRadius: 30,
-    backgroundColor: '#FFF8EA',
-    borderWidth: 3,
-    borderColor: '#FFFFFF',
+    backgroundColor: '#1F2937',
+    borderWidth: 2,
+    borderColor: 'rgba(255, 255, 255, 0.18)',
     paddingHorizontal: 24,
     paddingVertical: 26,
     shadowColor: '#000000',
@@ -752,10 +1181,15 @@ const styles = StyleSheet.create({
     elevation: 20,
   },
   stageCardLandscape: {
-    minHeight: 210,
+    minHeight: 154,
     borderRadius: 26,
-    paddingHorizontal: 36,
-    paddingVertical: 22,
+    backgroundColor: '#0B1220',
+    borderColor: '#F97316',
+    gap: 8,
+    paddingHorizontal: 28,
+    paddingVertical: 12,
+    shadowColor: '#F97316',
+    shadowOpacity: 0.18,
   },
   stageCardFeedback: {
     backgroundColor: 'rgba(255, 255, 255, 0.16)',
@@ -772,17 +1206,92 @@ const styles = StyleSheet.create({
     paddingVertical: 7,
     textTransform: 'uppercase',
   },
+  stageKickerLandscape: {
+    fontSize: 10,
+    paddingHorizontal: 10,
+    paddingVertical: 5,
+  },
+  pointPop: {
+    position: 'absolute',
+    top: 26,
+    right: 28,
+    color: '#22C55E',
+    fontSize: 34,
+    fontWeight: '900',
+  },
+  setupContainer: {
+    width: '100%',
+    maxWidth: 560,
+    alignItems: 'center',
+    gap: 14,
+    borderRadius: 30,
+    backgroundColor: '#1F2937',
+    borderWidth: 2,
+    borderColor: 'rgba(255, 255, 255, 0.18)',
+    padding: 22,
+  },
+  setupEyebrow: {
+    overflow: 'hidden',
+    borderRadius: 999,
+    backgroundColor: '#F97316',
+    color: '#FFFFFF',
+    fontSize: 12,
+    fontWeight: '900',
+    paddingHorizontal: 12,
+    paddingVertical: 7,
+    textTransform: 'uppercase',
+  },
+  setupTitle: {
+    color: '#FFFFFF',
+    fontSize: 28,
+    fontWeight: '900',
+    textAlign: 'center',
+  },
+  timeModeGrid: {
+    width: '100%',
+    gap: 10,
+  },
+  timeModeButton: {
+    minHeight: 66,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRadius: 18,
+    backgroundColor: 'rgba(255, 255, 255, 0.1)',
+    borderWidth: 1,
+    borderColor: 'rgba(255, 255, 255, 0.16)',
+  },
+  timeModeButtonHot: {
+    backgroundColor: '#FACC15',
+    borderColor: '#FACC15',
+  },
+  timeModeTitle: {
+    color: '#FFFFFF',
+    fontSize: 18,
+    fontWeight: '900',
+  },
+  timeModeTitleHot: {
+    color: '#111827',
+  },
+  timeModeMeta: {
+    color: 'rgba(255, 255, 255, 0.68)',
+    fontSize: 13,
+    fontWeight: '800',
+    marginTop: 3,
+  },
+  timeModeMetaHot: {
+    color: 'rgba(17, 24, 39, 0.72)',
+  },
   nameText: {
     width: '100%',
     fontSize: 52,
     lineHeight: 58,
     fontWeight: '900',
     textAlign: 'center',
-    color: '#111827',
+    color: '#FFFFFF',
   },
   nameTextLandscape: {
-    fontSize: 54,
-    lineHeight: 60,
+    fontSize: 42,
+    lineHeight: 46,
   },
   descriptionText: {
     maxWidth: 360,
@@ -790,12 +1299,12 @@ const styles = StyleSheet.create({
     lineHeight: 25,
     fontWeight: '700',
     textAlign: 'center',
-    color: '#6B5A39',
+    color: 'rgba(255, 255, 255, 0.74)',
   },
   descriptionTextLandscape: {
     maxWidth: 680,
-    fontSize: 18,
-    lineHeight: 25,
+    fontSize: 15,
+    lineHeight: 20,
   },
   inverseSubtext: {
     color: 'rgba(255, 255, 255, 0.92)',
@@ -807,9 +1316,17 @@ const styles = StyleSheet.create({
     width: '100%',
     minHeight: 320,
     borderRadius: 30,
-    backgroundColor: '#FFF8EA',
-    borderWidth: 3,
-    borderColor: '#FFFFFF',
+    backgroundColor: '#1F2937',
+    borderWidth: 2,
+    borderColor: '#F97316',
+    padding: 18,
+  },
+  resultContainerLandscape: {
+    minHeight: 188,
+    maxWidth: 760,
+    gap: 8,
+    paddingHorizontal: 14,
+    paddingVertical: 10,
   },
   orientationWarning: {
     width: '100%',
@@ -819,8 +1336,8 @@ const styles = StyleSheet.create({
     paddingHorizontal: 24,
     paddingVertical: 28,
     borderRadius: 28,
-    backgroundColor: '#FFF8EA',
-    borderWidth: 3,
+    backgroundColor: '#1F2937',
+    borderWidth: 2,
     borderColor: '#F97316',
   },
   orientationWarningImage: {
@@ -832,29 +1349,115 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: '900',
     textAlign: 'center',
-    color: '#111827',
+    color: '#FFFFFF',
   },
   orientationWarningDescription: {
     fontSize: 17,
     lineHeight: 26,
     fontWeight: '700',
     textAlign: 'center',
-    color: '#6B5A39',
+    color: 'rgba(255, 255, 255, 0.72)',
   },
   resultTitle: {
     fontSize: 34,
     fontWeight: '900',
-    color: '#111827',
+    color: '#FFFFFF',
+  },
+  resultTitleLandscape: {
+    fontSize: 24,
+  },
+  resultStats: {
+    width: '100%',
+    flexDirection: 'row',
+    gap: 12,
+  },
+  resultStatCard: {
+    flex: 1,
+    minHeight: 104,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRadius: 20,
+    backgroundColor: 'rgba(255, 255, 255, 0.1)',
+    borderWidth: 1,
+    borderColor: 'rgba(255, 255, 255, 0.14)',
+    paddingVertical: 10,
+  },
+  resultStatCardLandscape: {
+    minHeight: 68,
+    borderRadius: 16,
+    paddingVertical: 6,
+  },
+  resultStatCorrect: {
+    borderColor: 'rgba(34, 197, 94, 0.58)',
+  },
+  resultStatPass: {
+    borderColor: 'rgba(249, 115, 22, 0.58)',
   },
   resultLabel: {
-    fontSize: 18,
+    fontSize: 14,
     fontWeight: '800',
-    color: '#6B5A39',
+    textAlign: 'center',
+    color: 'rgba(255, 255, 255, 0.72)',
   },
   resultScore: {
-    fontSize: 86,
+    fontSize: 54,
     fontWeight: '900',
     color: '#22C55E',
+  },
+  resultPassScore: {
+    fontSize: 54,
+    fontWeight: '900',
+    color: '#F97316',
+  },
+  resultScoreLandscape: {
+    fontSize: 34,
+  },
+  resultDetails: {
+    width: '100%',
+    flexDirection: 'row',
+    gap: 12,
+  },
+  resultDetailsLandscape: {
+    gap: 8,
+  },
+  resultDetailColumn: {
+    flex: 1,
+    gap: 6,
+  },
+  resultDetailTitle: {
+    color: '#FFFFFF',
+    fontSize: 12,
+    fontWeight: '900',
+    textAlign: 'center',
+    textTransform: 'uppercase',
+  },
+  resultDetailList: {
+    maxHeight: 116,
+    borderRadius: 14,
+    backgroundColor: 'rgba(255, 255, 255, 0.08)',
+    borderWidth: 1,
+    borderColor: 'rgba(255, 255, 255, 0.12)',
+    paddingHorizontal: 10,
+    paddingVertical: 8,
+  },
+  resultDetailListLandscape: {
+    maxHeight: 56,
+    paddingHorizontal: 8,
+    paddingVertical: 6,
+  },
+  resultDetailItem: {
+    color: 'rgba(255, 255, 255, 0.86)',
+    fontSize: 13,
+    fontWeight: '800',
+    lineHeight: 18,
+    textAlign: 'center',
+  },
+  resultDetailEmpty: {
+    color: 'rgba(255, 255, 255, 0.48)',
+    fontSize: 12,
+    fontWeight: '800',
+    lineHeight: 18,
+    textAlign: 'center',
   },
   actions: {
     flexDirection: 'row',
@@ -867,7 +1470,7 @@ const styles = StyleSheet.create({
     width: '100%',
   },
   actionButtonLandscape: {
-    minHeight: 58,
+    minHeight: 50,
   },
   bottomArea: {
     zIndex: 1,
@@ -877,6 +1480,7 @@ const styles = StyleSheet.create({
   },
   bottomAreaLandscape: {
     maxWidth: 680,
+    paddingTop: 6,
   },
   finishedActions: {
     width: '100%',
@@ -948,6 +1552,41 @@ const styles = StyleSheet.create({
   },
   inverseButtonText: {
     color: '#FFFFFF',
+  },
+  tutorialOverlay: {
+    position: 'absolute',
+    right: 12,
+    bottom: 106,
+    left: 12,
+    zIndex: 3,
+    alignItems: 'center',
+  },
+  tutorialPanel: {
+    width: '100%',
+    maxWidth: 680,
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+    borderRadius: 18,
+    backgroundColor: 'rgba(17, 24, 39, 0.9)',
+    borderWidth: 1,
+    borderColor: 'rgba(255, 255, 255, 0.18)',
+    paddingHorizontal: 12,
+    paddingVertical: 10,
+  },
+  tutorialText: {
+    flex: 1,
+    flexShrink: 1,
+    color: '#FFFFFF',
+    fontSize: 12,
+    fontWeight: '900',
+    lineHeight: 16,
+    textAlign: 'center',
+  },
+  tutorialDivider: {
+    color: 'rgba(255, 255, 255, 0.42)',
+    fontSize: 13,
+    fontWeight: '900',
   },
   feedbackOverlay: {
     ...StyleSheet.absoluteFillObject,

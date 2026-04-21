@@ -14,7 +14,7 @@
       "startHint": "Elige modos y empieza una ronda",
       "categories": "Ver categorias",
       "removeAds": "Quitar anuncios",
-      "adsRemoved": "Anuncios quitados"
+      "premiumActive": "Premium activo"
     },
     "categories": {
       "eyebrow": "Seleccion de modos",
@@ -25,7 +25,8 @@
       "badges": {
         "free": "Gratis",
         "locked": "PRO",
-        "temporary": "24h",
+        "ad_session": "Sesion",
+        "pass_24h": "Pass",
         "lifetime": "Tuyo",
         "selected": "On"
       },
@@ -41,31 +42,70 @@
       "finished": "Partida finalizada",
       "timeUp": "Se acabó el tiempo",
       "scoreLabel": "Aciertos",
+      "passLabel": "Pases",
+      "correctDetails": "Aciertos",
+      "missedDetails": "Errores",
+      "noCorrect": "Ningun acierto",
+      "noMisses": "Ningun error",
       "deckLabel": "Deck",
       "currentPrompt": "Quien soy?",
       "feedbackCorrect": "Punto",
       "feedbackPass": "Paso",
       "empty": "No se encontraron elementos.",
       "paused": "Pausado",
+      "timeModeEyebrow": "Tiempo de ronda",
+      "timeModeTitle": "Elige el ritmo",
+      "timeModes": {
+        "quick": {
+          "name": "Quick",
+          "duration": "60 segundos"
+        },
+        "normal": {
+          "name": "Normal",
+          "duration": "90 segundos"
+        },
+        "party": {
+          "name": "Party",
+          "duration": "120 segundos"
+        }
+      },
+      "tutorialLeft": "Inclina o toca izquierda para sumar",
+      "tutorialRight": "Inclina o toca derecha para pasar",
       "tiltHint": "Inclina con fuerza a la izquierda para acertar y a la derecha para pasar.",
       "tiltHintPortraitTitle": "Coloca el telefono en horizontal",
-      "tiltHintPortrait": "Gira el telefono a landscape para usar la inclinacion.",
+      "tiltHintPortrait": "Gira el telefono para continuar.",
       "restart": "Reiniciar partida",
       "newMatch": "Nueva partida"
     },
     "premium": {
-      "title": "Desbloquea juego premium",
+      "offerBadge": "UPGRADE",
+      "title": "Elige como jugar",
       "titleCategory": "Desbloquea %{category}",
-      "subtitle": "Elige un desbloqueo rapido de 24 horas o quita anuncios para siempre.",
-      "watchAdLabel": "Anuncio con premio",
-      "watchAdTitle": "Desbloquear por 24 horas",
-      "watchAdDescription": "Abre este deck premium para las partidas de hoy.",
-      "watchAdCta": "Ver",
-      "removeAdsLabel": "De por vida",
-      "removeAdsTitle": "Quitar anuncios para siempre",
-      "removeAdsDescription": "Mantén todos los decks premium abiertos y juega sin pausas de anuncios.",
-      "removeAdsCta": "Desbloquear",
-      "bestValue": "Mejor",
+      "subtitle": "Los anuncios abren una sesion corta. El Pass abre todo por 24h. Lifetime queda para siempre.",
+      "freeName": "Free",
+      "freeValue": "Con ads",
+      "passName": "Pass 24h",
+      "lifetimeName": "Lifetime",
+      "benefitNoAds": "Sin ads",
+      "benefitAllCategories": "Todas categorias",
+      "benefitUnlimitedPlay": "Juego ilimitado",
+      "freeLabel": "Gratis",
+      "freeTitle": "Mira un ad para una sesion",
+      "freeTitleBrowse": "Seguir gratis",
+      "freeDescription": "Desbloquea este deck por %{rounds} rondas. Ideal para probarlo ahora.",
+      "freeDescriptionBrowse": "Sigue con decks gratis y usa anuncios solo cuando elijas premium.",
+      "freeCtaAd": "Ver",
+      "freeCtaCooldown": "%{time}",
+      "freeCtaBrowse": "Continuar",
+      "passLabel": "Pass 24h",
+      "passTitle": "Todos los decks, sin ads hoy",
+      "passDescription": "Mejor para una noche de fiesta: todo abierto sin pausas de anuncios.",
+      "passCta": "Obtener pass",
+      "lifetimeLabel": "Lifetime",
+      "lifetimeTitle": "Desbloquea todo para siempre",
+      "lifetimeDescription": "Acceso permanente, sin ads y con todas las categorias actuales.",
+      "lifetimeCta": "Ir lifetime",
+      "mostPopular": "Mas popular",
       "notNow": "Ahora no"
     }
   }

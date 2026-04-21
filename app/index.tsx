@@ -1,36 +1,46 @@
 import { router } from 'expo-router';
 import { useState } from 'react';
-import { Pressable, StyleSheet, Text, View } from 'react-native';
+import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { PremiumOfferModal } from '@/components/PremiumOfferModal';
 import { t } from '@/lib/i18n';
-import { usePremiumAccess } from '@/lib/premium-access';
+import { useMonetization } from '@/lib/monetization';
 
 export default function HomeScreen() {
   const insets = useSafeAreaInsets();
   const [isPremiumOpen, setIsPremiumOpen] = useState(false);
-  const { adsRemoved, removeAdsForever } = usePremiumAccess();
+  const {
+    adCooldownRemainingMs,
+    canWatchRewardedAd,
+    isPremiumUser,
+    trackMonetizationEvent,
+    unlock24hPass,
+    unlockLifetime,
+  } = useMonetization();
 
-  function handleWatchAd() {
+  function openPaywall() {
+    trackMonetizationEvent('paywall_viewed', { trigger: 'home' });
+    setIsPremiumOpen(true);
+  }
+
+  function handleContinueFree() {
     setIsPremiumOpen(false);
     router.push('/categories');
   }
 
-  function handleRemoveAds() {
-    removeAdsForever();
+  function handleUnlock24hPass() {
+    unlock24hPass();
+    setIsPremiumOpen(false);
+  }
+
+  function handleUnlockLifetime() {
+    unlockLifetime();
     setIsPremiumOpen(false);
   }
 
   return (
-    <View
-      style={[
-        styles.container,
-        {
-          paddingTop: insets.top + 18,
-          paddingBottom: Math.max(insets.bottom + 18, 28),
-        },
-      ]}>
+    <View style={styles.container}>
       <View pointerEvents="none" style={styles.backdrop}>
         <View style={[styles.ray, styles.rayOne]} />
         <View style={[styles.ray, styles.rayTwo]} />
@@ -40,59 +50,73 @@ export default function HomeScreen() {
         <View style={[styles.confetti, styles.confettiThree]} />
       </View>
 
-      <View style={styles.topBar}>
-        <Text style={styles.logoText}>{t('app.home.logo')}</Text>
-        <Pressable
-          onPress={() => setIsPremiumOpen(true)}
-          style={({ pressed }) => [styles.removeAdsPill, pressed && styles.pressed]}>
-          <Text style={styles.removeAdsText}>
-            {adsRemoved ? t('app.home.adsRemoved') : t('app.home.removeAds')}
-          </Text>
-        </Pressable>
-      </View>
-
-      <View style={styles.hero}>
-        <View style={styles.badge}>
-          <Text style={styles.badgeText}>{t('app.home.badge')}</Text>
+      <ScrollView
+        bounces={false}
+        showsVerticalScrollIndicator={false}
+        contentContainerStyle={[
+          styles.scrollContent,
+          {
+            paddingTop: insets.top + 16,
+            paddingBottom: Math.max(insets.bottom + 18, 28),
+          },
+        ]}>
+        <View style={styles.topBar}>
+          <Text style={styles.logoText}>{t('app.home.logo')}</Text>
+          <Pressable
+            onPress={openPaywall}
+            style={({ pressed }) => [styles.removeAdsPill, pressed && styles.pressed]}>
+            <Text style={styles.removeAdsText}>
+              {isPremiumUser ? t('app.home.premiumActive') : t('app.home.removeAds')}
+            </Text>
+          </Pressable>
         </View>
-        <Text style={styles.title}>{t('app.home.title')}</Text>
-        <Text style={styles.subtitle}>{t('app.home.subtitle')}</Text>
-      </View>
 
-      <View style={styles.stagePreview}>
-        <View style={styles.previewTopRow}>
-          <Text style={styles.previewTimer}>01:20</Text>
-          <Text style={styles.previewScore}>7</Text>
+        <View style={styles.hero}>
+          <View style={styles.badge}>
+            <Text style={styles.badgeText}>{t('app.home.badge')}</Text>
+          </View>
+          <Text style={styles.title}>{t('app.home.title')}</Text>
+          <Text style={styles.subtitle}>{t('app.home.subtitle')}</Text>
         </View>
-        <View style={styles.previewWord}>
-          <Text style={styles.previewWordText}>{t('app.home.previewWord')}</Text>
-        </View>
-        <View style={styles.previewBottomRow}>
-          <Text style={styles.previewChip}>{t('app.game.pass')}</Text>
-          <Text style={[styles.previewChip, styles.previewChipHot]}>{t('app.game.correct')}</Text>
-        </View>
-      </View>
 
-      <View style={styles.actions}>
-        <Pressable
-          onPress={() => router.push('/categories')}
-          style={({ pressed }) => [styles.primaryButton, pressed && styles.primaryPressed]}>
-          <Text style={styles.primaryButtonText}>{t('app.home.start')}</Text>
-          <Text style={styles.primaryButtonHint}>{t('app.home.startHint')}</Text>
-        </Pressable>
+        <View style={styles.stagePreview}>
+          <View style={styles.previewTopRow}>
+            <Text style={styles.previewTimer}>01:20</Text>
+            <Text style={styles.previewScore}>7</Text>
+          </View>
+          <View style={styles.previewWord}>
+            <Text style={styles.previewWordText}>{t('app.home.previewWord')}</Text>
+          </View>
+          <View style={styles.previewBottomRow}>
+            <Text style={styles.previewChip}>{t('app.game.pass')}</Text>
+            <Text style={[styles.previewChip, styles.previewChipHot]}>{t('app.game.correct')}</Text>
+          </View>
+        </View>
 
-        <Pressable
-          onPress={() => router.push('/categories')}
-          style={({ pressed }) => [styles.secondaryButton, pressed && styles.pressed]}>
-          <Text style={styles.secondaryButtonText}>{t('app.home.categories')}</Text>
-        </Pressable>
-      </View>
+        <View style={styles.actions}>
+          <Pressable
+            onPress={() => router.push('/categories')}
+            style={({ pressed }) => [styles.primaryButton, pressed && styles.primaryPressed]}>
+            <Text style={styles.primaryButtonText}>{t('app.home.start')}</Text>
+            <Text style={styles.primaryButtonHint}>{t('app.home.startHint')}</Text>
+          </Pressable>
+
+          <Pressable
+            onPress={() => router.push('/categories')}
+            style={({ pressed }) => [styles.secondaryButton, pressed && styles.pressed]}>
+            <Text style={styles.secondaryButtonText}>{t('app.home.categories')}</Text>
+          </Pressable>
+        </View>
+      </ScrollView>
 
       <PremiumOfferModal
         visible={isPremiumOpen}
+        adCooldownRemainingMs={adCooldownRemainingMs}
+        canWatchAd={canWatchRewardedAd()}
         onClose={() => setIsPremiumOpen(false)}
-        onWatchAd={handleWatchAd}
-        onRemoveAds={handleRemoveAds}
+        onWatchAdToUnlockSession={handleContinueFree}
+        onUnlock24hPass={handleUnlock24hPass}
+        onUnlockLifetime={handleUnlockLifetime}
       />
     </View>
   );
@@ -101,9 +125,13 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'space-between',
     backgroundColor: '#111827',
+  },
+  scrollContent: {
+    flexGrow: 1,
+    justifyContent: 'space-between',
     paddingHorizontal: 20,
+    gap: 18,
   },
   backdrop: {
     ...StyleSheet.absoluteFillObject,
@@ -185,7 +213,7 @@ const styles = StyleSheet.create({
   },
   hero: {
     zIndex: 1,
-    gap: 12,
+    gap: 10,
   },
   badge: {
     alignSelf: 'flex-start',
@@ -202,9 +230,9 @@ const styles = StyleSheet.create({
   },
   title: {
     color: '#FFFFFF',
-    fontSize: 48,
+    fontSize: 44,
     fontWeight: '900',
-    lineHeight: 51,
+    lineHeight: 47,
   },
   subtitle: {
     maxWidth: 310,
@@ -217,8 +245,8 @@ const styles = StyleSheet.create({
     zIndex: 1,
     borderRadius: 26,
     backgroundColor: '#FFF8EA',
-    padding: 18,
-    gap: 16,
+    padding: 16,
+    gap: 14,
     borderWidth: 2,
     borderColor: '#FFFFFF',
     shadowColor: '#000000',
@@ -250,7 +278,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   previewWord: {
-    minHeight: 112,
+    minHeight: 98,
     alignItems: 'center',
     justifyContent: 'center',
     borderRadius: 18,
@@ -259,7 +287,7 @@ const styles = StyleSheet.create({
   },
   previewWordText: {
     color: '#FFFFFF',
-    fontSize: 34,
+    fontSize: 31,
     fontWeight: '900',
     textAlign: 'center',
   },
@@ -275,7 +303,7 @@ const styles = StyleSheet.create({
     color: '#111827',
     fontSize: 15,
     fontWeight: '900',
-    paddingVertical: 12,
+    paddingVertical: 11,
     textAlign: 'center',
   },
   previewChipHot: {
@@ -287,7 +315,7 @@ const styles = StyleSheet.create({
     gap: 12,
   },
   primaryButton: {
-    minHeight: 78,
+    minHeight: 72,
     alignItems: 'center',
     justifyContent: 'center',
     borderRadius: 22,
@@ -304,7 +332,7 @@ const styles = StyleSheet.create({
   },
   primaryButtonText: {
     color: '#111827',
-    fontSize: 23,
+    fontSize: 22,
     fontWeight: '900',
   },
   primaryButtonHint: {
