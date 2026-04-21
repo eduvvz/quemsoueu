@@ -5,16 +5,34 @@
       "categories": "Categorías"
     },
     "home": {
-      "start": "Empezar"
+      "logo": "Quien soy?",
+      "badge": "Ronda de fiesta",
+      "title": "Adivina rapido. Pasa mas rapido.",
+      "subtitle": "Elige modos, levanta el telefono y deja que el grupo juegue.",
+      "previewWord": "Estrella de cine",
+      "start": "Jugar ahora",
+      "startHint": "Elige modos y empieza una ronda",
+      "categories": "Ver categorias",
+      "removeAds": "Quitar anuncios",
+      "adsRemoved": "Anuncios quitados"
     },
     "categories": {
-      "title": "Elige una o más categorías",
-      "subtitle": "Selecciona todas las que quieras para armar la siguiente etapa.",
-      "advance": "Avanzar",
+      "eyebrow": "Seleccion de modos",
+      "title": "Arma la siguiente ronda",
+      "subtitle": "Mezcla decks gratis y premium para preparar la fiesta rapido.",
+      "advance": "Iniciar ronda",
+      "actionHint": "Listo con al menos un modo",
+      "badges": {
+        "free": "Gratis",
+        "locked": "PRO",
+        "temporary": "24h",
+        "lifetime": "Tuyo",
+        "selected": "On"
+      },
       "selection": {
-        "empty": "Ninguna categoría seleccionada.",
-        "one": "1 categoría seleccionada.",
-        "other": "%{count} categorías seleccionadas."
+        "empty": "Ningun modo seleccionado",
+        "one": "1 modo seleccionado",
+        "other": "%{count} modos seleccionados"
       }
     },
     "game": {
@@ -23,6 +41,10 @@
       "finished": "Partida finalizada",
       "timeUp": "Se acabó el tiempo",
       "scoreLabel": "Aciertos",
+      "deckLabel": "Deck",
+      "currentPrompt": "Quien soy?",
+      "feedbackCorrect": "Punto",
+      "feedbackPass": "Paso",
       "empty": "No se encontraron elementos.",
       "paused": "Pausado",
       "tiltHint": "Inclina con fuerza a la izquierda para acertar y a la derecha para pasar.",
@@ -30,6 +52,21 @@
       "tiltHintPortrait": "Gira el telefono a landscape para usar la inclinacion.",
       "restart": "Reiniciar partida",
       "newMatch": "Nueva partida"
+    },
+    "premium": {
+      "title": "Desbloquea juego premium",
+      "titleCategory": "Desbloquea %{category}",
+      "subtitle": "Elige un desbloqueo rapido de 24 horas o quita anuncios para siempre.",
+      "watchAdLabel": "Anuncio con premio",
+      "watchAdTitle": "Desbloquear por 24 horas",
+      "watchAdDescription": "Abre este deck premium para las partidas de hoy.",
+      "watchAdCta": "Ver",
+      "removeAdsLabel": "De por vida",
+      "removeAdsTitle": "Quitar anuncios para siempre",
+      "removeAdsDescription": "Mantén todos los decks premium abiertos y juega sin pausas de anuncios.",
+      "removeAdsCta": "Desbloquear",
+      "bestValue": "Mejor",
+      "notNow": "Ahora no"
     }
   }
 }

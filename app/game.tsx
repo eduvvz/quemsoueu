@@ -157,7 +157,8 @@ export default function GameScreen() {
   const currentItem = hasItems ? items[currentIndex] : undefined;
   const isFeedbackActive = feedbackTone !== null;
   const isOrientationBlocked = !isLandscape && !isFinished;
-  const feedbackColor = feedbackTone === 'correct' ? '#16A34A' : '#DC2626';
+  const feedbackColor = feedbackTone === 'correct' ? '#22C55E' : '#EF4444';
+  const progressText = hasItems ? `${currentIndex + 1}/${items.length}` : '--';
   const isFinishedRef = useRef(isFinished);
   const isFeedbackActiveRef = useRef(isFeedbackActive);
   const hasItemsRef = useRef(hasItems);
@@ -455,10 +456,28 @@ export default function GameScreen() {
         ]}
       />
 
-      <View style={styles.timerContainer}>
-        <Text style={[styles.timer, isFeedbackActive && styles.inverseText]}>
-          {formatTime(timeLeft)}
-        </Text>
+      <View style={[styles.hud, isLandscape && styles.hudLandscape]}>
+        <View style={styles.hudPill}>
+          <Text style={styles.hudLabel}>{t('app.game.scoreLabel')}</Text>
+          <Text style={styles.hudValue}>{score}</Text>
+        </View>
+
+        <View style={[styles.timerContainer, isFeedbackActive && styles.timerFeedback]}>
+          <Text style={[styles.timer, isFeedbackActive && styles.inverseText]}>
+            {formatTime(timeLeft)}
+          </Text>
+          {isFeedbackActive ? (
+            <Text style={[styles.feedbackText, styles.feedbackTextActive]}>
+              {t(feedbackTone === 'correct' ? 'app.game.feedbackCorrect' : 'app.game.feedbackPass')}
+            </Text>
+          ) : null}
+        </View>
+
+        <View style={styles.hudPill}>
+          <Text style={styles.hudLabel}>{t('app.game.deckLabel')}</Text>
+          <Text style={styles.hudValue}>{progressText}</Text>
+        </View>
+
         {isOrientationBlocked ? (
           <View style={styles.pausedBadge}>
             <Text style={styles.pausedBadgeText}>{t('app.game.paused')}</Text>
@@ -496,24 +515,36 @@ export default function GameScreen() {
           </View>
         ) : (
           <View style={[styles.itemContent, isLandscape && styles.itemContentLandscape]}>
-            <Text
+            <View
               style={[
-                styles.nameText,
-                isLandscape && styles.nameTextLandscape,
-                isFeedbackActive && styles.inverseText,
+                styles.stageCard,
+                isLandscape && styles.stageCardLandscape,
+                isFeedbackActive && styles.stageCardFeedback,
               ]}>
-              {currentItem ? t(currentItem.nameKey) : t('app.game.empty')}
-            </Text>
-            {currentItem ? (
+              <Text style={styles.stageKicker}>{t('app.game.currentPrompt')}</Text>
               <Text
                 style={[
-                  styles.descriptionText,
-                  isLandscape && styles.descriptionTextLandscape,
-                  isFeedbackActive && styles.inverseSubtext,
-                ]}>
-                {t(currentItem.descriptionKey)}
+                  styles.nameText,
+                  isLandscape && styles.nameTextLandscape,
+                  isFeedbackActive && styles.inverseText,
+                ]}
+                adjustsFontSizeToFit
+                minimumFontScale={0.62}
+                numberOfLines={isLandscape ? 2 : 3}>
+                {currentItem ? t(currentItem.nameKey) : t('app.game.empty')}
               </Text>
-            ) : null}
+              {currentItem ? (
+                <Text
+                  style={[
+                    styles.descriptionText,
+                    isLandscape && styles.descriptionTextLandscape,
+                    isFeedbackActive && styles.inverseSubtext,
+                  ]}
+                  numberOfLines={isLandscape ? 2 : 3}>
+                  {t(currentItem.descriptionKey)}
+                </Text>
+              ) : null}
+            </View>
           </View>
         )}
       </Animated.View>
@@ -551,7 +582,7 @@ export default function GameScreen() {
                 disabled={isOrientationBlocked || isFeedbackActive}
                 onPress={handleCorrect}
                 style={({ pressed }) => [
-                  styles.primaryButton,
+                  styles.correctButton,
                   isLandscape && styles.actionButtonLandscape,
                   isOrientationBlocked && styles.disabledButton,
                   isFeedbackActive && styles.inverseButton,
@@ -595,72 +626,176 @@ export default function GameScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#F8FAFC',
+    backgroundColor: '#111827',
     paddingHorizontal: 20,
+  },
+  hud: {
+    zIndex: 1,
+    width: '100%',
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    gap: 10,
+  },
+  hudLandscape: {
+    maxWidth: 860,
+    alignSelf: 'center',
+  },
+  hudPill: {
+    minWidth: 86,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRadius: 18,
+    backgroundColor: 'rgba(255, 255, 255, 0.12)',
+    borderWidth: 1,
+    borderColor: 'rgba(255, 255, 255, 0.18)',
+    paddingHorizontal: 10,
+    paddingVertical: 8,
+  },
+  hudLabel: {
+    color: 'rgba(255, 255, 255, 0.62)',
+    fontSize: 10,
+    fontWeight: '900',
+    textTransform: 'uppercase',
+  },
+  hudValue: {
+    color: '#FFFFFF',
+    fontSize: 20,
+    fontWeight: '900',
   },
   timerContainer: {
     alignItems: 'center',
     justifyContent: 'center',
-    minHeight: 56,
-    gap: 10,
+    minWidth: 116,
+    minHeight: 70,
+    borderRadius: 22,
+    backgroundColor: '#FFF8EA',
+    paddingHorizontal: 14,
+    paddingVertical: 8,
+    shadowColor: '#000000',
+    shadowOffset: { width: 0, height: 10 },
+    shadowOpacity: 0.16,
+    shadowRadius: 18,
+    elevation: 9,
+  },
+  timerFeedback: {
+    backgroundColor: 'rgba(255, 255, 255, 0.16)',
+    borderWidth: 1,
+    borderColor: 'rgba(255, 255, 255, 0.32)',
   },
   timer: {
-    fontSize: 34,
-    fontWeight: '700',
-    color: '#0F172A',
+    fontSize: 31,
+    fontWeight: '900',
+    color: '#111827',
+  },
+  feedbackText: {
+    marginTop: -2,
+    color: '#111827',
+    fontSize: 11,
+    fontWeight: '900',
+    textTransform: 'uppercase',
+  },
+  feedbackTextActive: {
+    color: '#FFFFFF',
   },
   pausedBadge: {
+    position: 'absolute',
+    bottom: -28,
+    alignSelf: 'center',
     paddingHorizontal: 12,
     paddingVertical: 6,
     borderRadius: 999,
-    backgroundColor: '#FDE68A',
+    backgroundColor: '#F97316',
   },
   pausedBadgeText: {
     fontSize: 12,
     fontWeight: '800',
-    letterSpacing: 0.4,
     textTransform: 'uppercase',
-    color: '#92400E',
+    color: '#FFFFFF',
   },
   inverseText: {
     color: '#FFFFFF',
   },
   content: {
+    zIndex: 1,
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    paddingVertical: 20,
+    paddingVertical: 18,
   },
   contentLandscape: {
     justifyContent: 'center',
   },
   itemContent: {
+    width: '100%',
     alignItems: 'center',
-    gap: 14,
   },
   itemContentLandscape: {
-    maxWidth: 760,
+    maxWidth: 900,
+  },
+  stageCard: {
+    width: '100%',
+    minHeight: 310,
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 14,
+    borderRadius: 30,
+    backgroundColor: '#FFF8EA',
+    borderWidth: 3,
+    borderColor: '#FFFFFF',
+    paddingHorizontal: 24,
+    paddingVertical: 26,
+    shadowColor: '#000000',
+    shadowOffset: { width: 0, height: 20 },
+    shadowOpacity: 0.25,
+    shadowRadius: 28,
+    elevation: 20,
+  },
+  stageCardLandscape: {
+    minHeight: 210,
+    borderRadius: 26,
+    paddingHorizontal: 36,
+    paddingVertical: 22,
+  },
+  stageCardFeedback: {
+    backgroundColor: 'rgba(255, 255, 255, 0.16)',
+    borderColor: 'rgba(255, 255, 255, 0.34)',
+  },
+  stageKicker: {
+    overflow: 'hidden',
+    borderRadius: 999,
+    backgroundColor: '#F97316',
+    color: '#FFFFFF',
+    fontSize: 12,
+    fontWeight: '900',
+    paddingHorizontal: 12,
+    paddingVertical: 7,
+    textTransform: 'uppercase',
   },
   nameText: {
-    fontSize: 36,
-    fontWeight: '800',
+    width: '100%',
+    fontSize: 52,
+    lineHeight: 58,
+    fontWeight: '900',
     textAlign: 'center',
     color: '#111827',
   },
   nameTextLandscape: {
-    fontSize: 30,
+    fontSize: 54,
+    lineHeight: 60,
   },
   descriptionText: {
-    maxWidth: 320,
+    maxWidth: 360,
     fontSize: 18,
-    lineHeight: 28,
+    lineHeight: 25,
+    fontWeight: '700',
     textAlign: 'center',
-    color: '#475569',
+    color: '#6B5A39',
   },
   descriptionTextLandscape: {
     maxWidth: 680,
-    fontSize: 16,
-    lineHeight: 24,
+    fontSize: 18,
+    lineHeight: 25,
   },
   inverseSubtext: {
     color: 'rgba(255, 255, 255, 0.92)',
@@ -670,6 +805,11 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     gap: 12,
     width: '100%',
+    minHeight: 320,
+    borderRadius: 30,
+    backgroundColor: '#FFF8EA',
+    borderWidth: 3,
+    borderColor: '#FFFFFF',
   },
   orientationWarning: {
     width: '100%',
@@ -679,9 +819,9 @@ const styles = StyleSheet.create({
     paddingHorizontal: 24,
     paddingVertical: 28,
     borderRadius: 28,
-    backgroundColor: '#FEF2F2',
-    borderWidth: 2,
-    borderColor: '#DC2626',
+    backgroundColor: '#FFF8EA',
+    borderWidth: 3,
+    borderColor: '#F97316',
   },
   orientationWarningImage: {
     width: '100%',
@@ -690,50 +830,53 @@ const styles = StyleSheet.create({
   },
   orientationWarningTitle: {
     fontSize: 24,
-    fontWeight: '800',
+    fontWeight: '900',
     textAlign: 'center',
-    color: '#B91C1C',
+    color: '#111827',
   },
   orientationWarningDescription: {
     fontSize: 17,
     lineHeight: 26,
+    fontWeight: '700',
     textAlign: 'center',
-    color: '#7F1D1D',
+    color: '#6B5A39',
   },
   resultTitle: {
-    fontSize: 28,
-    fontWeight: '700',
+    fontSize: 34,
+    fontWeight: '900',
     color: '#111827',
   },
   resultLabel: {
     fontSize: 18,
-    color: '#64748B',
+    fontWeight: '800',
+    color: '#6B5A39',
   },
   resultScore: {
-    fontSize: 64,
-    fontWeight: '800',
-    color: '#111827',
+    fontSize: 86,
+    fontWeight: '900',
+    color: '#22C55E',
   },
   actions: {
     flexDirection: 'row',
     gap: 12,
   },
   gameActions: {
-    gap: 10,
+    gap: 12,
   },
   actionsLandscape: {
     width: '100%',
   },
   actionButtonLandscape: {
-    minHeight: 52,
+    minHeight: 58,
   },
   bottomArea: {
+    zIndex: 1,
     width: '100%',
     alignSelf: 'center',
-    paddingTop: 16,
+    paddingTop: 12,
   },
   bottomAreaLandscape: {
-    maxWidth: 560,
+    maxWidth: 680,
   },
   finishedActions: {
     width: '100%',
@@ -749,18 +892,34 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     borderRadius: 18,
-    backgroundColor: '#111827',
+    backgroundColor: '#FACC15',
+  },
+  correctButton: {
+    flex: 1,
+    minHeight: 64,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRadius: 20,
+    backgroundColor: '#22C55E',
+    shadowColor: '#22C55E',
+    shadowOffset: { width: 0, height: 10 },
+    shadowOpacity: 0.24,
+    shadowRadius: 16,
+    elevation: 10,
   },
   secondaryButton: {
     flex: 1,
-    minHeight: 58,
+    minHeight: 64,
     alignItems: 'center',
     justifyContent: 'center',
-    borderRadius: 18,
-    backgroundColor: '#E2E8F0',
+    borderRadius: 20,
+    backgroundColor: 'rgba(255, 255, 255, 0.16)',
+    borderWidth: 1,
+    borderColor: 'rgba(255, 255, 255, 0.24)',
   },
   buttonPressed: {
     opacity: 0.9,
+    transform: [{ translateY: 2 }, { scale: 0.99 }],
   },
   disabledButton: {
     opacity: 0.5,
@@ -771,25 +930,27 @@ const styles = StyleSheet.create({
     borderColor: 'rgba(255, 255, 255, 0.32)',
   },
   primaryButtonText: {
-    fontSize: 17,
-    fontWeight: '700',
-    color: '#FFFFFF',
+    fontSize: 18,
+    fontWeight: '900',
+    color: '#111827',
   },
   secondaryButtonText: {
-    fontSize: 17,
-    fontWeight: '700',
-    color: '#111827',
+    fontSize: 18,
+    fontWeight: '900',
+    color: '#FFFFFF',
   },
   tiltHint: {
     textAlign: 'center',
     fontSize: 13,
     lineHeight: 18,
-    color: '#64748B',
+    fontWeight: '800',
+    color: 'rgba(255, 255, 255, 0.62)',
   },
   inverseButtonText: {
     color: '#FFFFFF',
   },
   feedbackOverlay: {
     ...StyleSheet.absoluteFillObject,
+    zIndex: 0,
   },
 });

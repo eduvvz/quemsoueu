@@ -5,16 +5,34 @@
       "categories": "Categories"
     },
     "home": {
-      "start": "Start"
+      "logo": "Who Am I?",
+      "badge": "Party round",
+      "title": "Guess fast. Pass faster.",
+      "subtitle": "Pick a deck, hold the phone up, and let the room do the rest.",
+      "previewWord": "Movie Star",
+      "start": "Play now",
+      "startHint": "Choose modes and start a round",
+      "categories": "Browse categories",
+      "removeAds": "Remove ads",
+      "adsRemoved": "Ads removed"
     },
     "categories": {
-      "title": "Choose one or more categories",
-      "subtitle": "Select as many as you want to build the next step.",
-      "advance": "Continue",
+      "eyebrow": "Mode select",
+      "title": "Build the next round",
+      "subtitle": "Mix free and premium decks for a fast party setup.",
+      "advance": "Start round",
+      "actionHint": "Ready when at least one mode is selected",
+      "badges": {
+        "free": "Free",
+        "locked": "PRO",
+        "temporary": "24h",
+        "lifetime": "Yours",
+        "selected": "On"
+      },
       "selection": {
-        "empty": "No category selected.",
-        "one": "1 category selected.",
-        "other": "%{count} categories selected."
+        "empty": "No mode selected",
+        "one": "1 mode selected",
+        "other": "%{count} modes selected"
       }
     },
     "game": {
@@ -23,6 +41,10 @@
       "finished": "Match finished",
       "timeUp": "Time is up",
       "scoreLabel": "Correct answers",
+      "deckLabel": "Deck",
+      "currentPrompt": "Who am I?",
+      "feedbackCorrect": "Point",
+      "feedbackPass": "Pass",
       "empty": "No items found.",
       "paused": "Paused",
       "tiltHint": "Tilt firmly left to score and right to pass.",
@@ -30,6 +52,21 @@
       "tiltHintPortrait": "Rotate your phone to landscape to use tilt.",
       "restart": "Restart match",
       "newMatch": "New match"
+    },
+    "premium": {
+      "title": "Unlock premium play",
+      "titleCategory": "Unlock %{category}",
+      "subtitle": "Choose a quick 24-hour unlock or remove ads forever.",
+      "watchAdLabel": "Rewarded ad",
+      "watchAdTitle": "Unlock for 24 hours",
+      "watchAdDescription": "Open this premium deck for tonight's games.",
+      "watchAdCta": "Watch",
+      "removeAdsLabel": "Lifetime",
+      "removeAdsTitle": "Remove ads forever",
+      "removeAdsDescription": "Keep every premium deck open and play without ad breaks.",
+      "removeAdsCta": "Unlock",
+      "bestValue": "Best",
+      "notNow": "Not now"
     }
   }
 }
