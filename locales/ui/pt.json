@@ -69,10 +69,10 @@
           "duration": "120 segundos"
         }
       },
-      "tutorialLeft": "Incline ou toque a esquerda para pontuar",
-      "tutorialRight": "Incline ou toque a direita para passar",
+      "tutorialLeft": "Incline para a direita ou toque a esquerda para pontuar",
+      "tutorialRight": "Incline para a esquerda ou toque a direita para passar",
       "resumeCountdown": "Prepare-se",
-      "tiltHint": "Incline forte para a esquerda para acertar e para a direita para passar.",
+      "tiltHint": "Incline forte para a direita para acertar e para a esquerda para passar.",
       "tiltHintPortraitTitle": "Posicione o celular na horizontal",
       "tiltHintPortrait": "Vire o celular para continuar.",
       "restart": "Reiniciar partida",

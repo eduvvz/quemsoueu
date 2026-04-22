@@ -69,10 +69,10 @@
           "duration": "120 seconds"
         }
       },
-      "tutorialLeft": "Tilt left or tap left to score",
-      "tutorialRight": "Tilt right or tap right to pass",
+      "tutorialLeft": "Tilt right or tap left to score",
+      "tutorialRight": "Tilt left or tap right to pass",
       "resumeCountdown": "Get ready",
-      "tiltHint": "Tilt firmly left to score and right to pass.",
+      "tiltHint": "Tilt firmly right to score and left to pass.",
       "tiltHintPortraitTitle": "Hold your phone horizontally",
       "tiltHintPortrait": "Turn your phone to continue.",
       "restart": "Restart match",

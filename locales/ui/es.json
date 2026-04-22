@@ -69,10 +69,10 @@
           "duration": "120 segundos"
         }
       },
-      "tutorialLeft": "Inclina o toca izquierda para sumar",
-      "tutorialRight": "Inclina o toca derecha para pasar",
+      "tutorialLeft": "Inclina a la derecha o toca izquierda para sumar",
+      "tutorialRight": "Inclina a la izquierda o toca derecha para pasar",
       "resumeCountdown": "Preparate",
-      "tiltHint": "Inclina con fuerza a la izquierda para acertar y a la derecha para pasar.",
+      "tiltHint": "Inclina con fuerza a la derecha para acertar y a la izquierda para pasar.",
       "tiltHintPortraitTitle": "Coloca el telefono en horizontal",
       "tiltHintPortrait": "Gira el telefono para continuar.",
       "restart": "Reiniciar partida",
