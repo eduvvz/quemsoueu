@@ -96,8 +96,10 @@
       "freeDescription": "Libere este deck por %{rounds} rodadas. Bom para testar agora.",
       "freeDescriptionBrowse": "Continue nos decks gratis e use anuncios so quando escolher premium.",
       "freeCtaAd": "Assistir",
+      "freeCtaLoading": "Carregando",
       "freeCtaCooldown": "%{time}",
       "freeCtaBrowse": "Continuar",
+      "purchaseLoading": "Abrindo",
       "passLabel": "Pass 24h",
       "passTitle": "Todos os decks, sem ads hoje",
       "passDescription": "Ideal para uma noite de festa: tudo aberto sem pausas de anuncio.",
@@ -106,6 +108,9 @@
       "lifetimeTitle": "Libere tudo para sempre",
       "lifetimeDescription": "Acesso permanente, sem ads e com todas as categorias atuais.",
       "lifetimeCta": "Ir lifetime",
+      "revenueCatPaywall": "Ver ofertas",
+      "restorePurchases": "Restaurar compras",
+      "managePurchases": "Gerenciar",
       "mostPopular": "Mais popular",
       "notNow": "Agora nao"
     }

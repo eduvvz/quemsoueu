@@ -6,31 +6,50 @@ import { useEffect } from 'react';
 import { StyleSheet } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
+import { initializeGoogleMobileAds } from '@/lib/admob';
 import { t } from '@/lib/i18n';
-import { MonetizationProvider } from '@/lib/monetization';
+import { MonetizationProvider, useMonetization } from '@/lib/monetization';
+import { RevenueCatProvider, useRevenueCat } from '@/lib/revenuecat';
+
+function RevenueCatEntitlementBridge() {
+  const { isPro } = useRevenueCat();
+  const { activateLifetimeEntitlement } = useMonetization();
+
+  useEffect(() => {
+    if (isPro) {
+      activateLifetimeEntitlement();
+    }
+  }, [activateLifetimeEntitlement, isPro]);
+
+  return null;
+}
 
 export default function RootLayout() {
   useEffect(() => {
     void ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.PORTRAIT_UP);
+    void initializeGoogleMobileAds();
   }, []);
 
   return (
     <GestureHandlerRootView style={styles.root}>
       <BottomSheetModalProvider>
-        <MonetizationProvider>
-          <Stack>
-            <Stack.Screen name="index" options={{ headerShown: false }} />
-            <Stack.Screen
-              name="categories"
-              options={{
-                headerShown: false,
-                title: t('app.navigation.categories'),
-              }}
-            />
-            <Stack.Screen name="game" options={{ headerShown: false }} />
-          </Stack>
-          <StatusBar style="light" />
-        </MonetizationProvider>
+        <RevenueCatProvider>
+          <MonetizationProvider>
+            <RevenueCatEntitlementBridge />
+            <Stack>
+              <Stack.Screen name="index" options={{ headerShown: false }} />
+              <Stack.Screen
+                name="categories"
+                options={{
+                  headerShown: false,
+                  title: t('app.navigation.categories'),
+                }}
+              />
+              <Stack.Screen name="game" options={{ headerShown: false }} />
+            </Stack>
+            <StatusBar style="light" />
+          </MonetizationProvider>
+        </RevenueCatProvider>
       </BottomSheetModalProvider>
     </GestureHandlerRootView>
   );

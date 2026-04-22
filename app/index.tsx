@@ -6,6 +6,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { PremiumOfferModal } from '@/components/PremiumOfferModal';
 import { t } from '@/lib/i18n';
 import { useMonetization } from '@/lib/monetization';
+import { useRevenueCat } from '@/lib/revenuecat';
 
 export default function HomeScreen() {
   const insets = useSafeAreaInsets();
@@ -18,6 +19,17 @@ export default function HomeScreen() {
     unlock24hPass,
     unlockLifetime,
   } = useMonetization();
+  const {
+    errorMessage: revenueCatError,
+    isLoading: isPurchaseLoading,
+    lifetimePriceString,
+    openCustomerCenter,
+    pass24hPriceString,
+    presentPaywallIfNeeded,
+    purchaseConsumable,
+    purchaseLifetime,
+    restorePurchases,
+  } = useRevenueCat();
 
   function openPaywall() {
     trackMonetizationEvent('paywall_viewed', { trigger: 'home' });
@@ -29,14 +41,26 @@ export default function HomeScreen() {
     router.push('/categories');
   }
 
-  function handleUnlock24hPass() {
-    unlock24hPass();
-    setIsPremiumOpen(false);
+  async function handleUnlock24hPass() {
+    const result = await purchaseConsumable();
+
+    if (result.success) {
+      unlock24hPass();
+      setIsPremiumOpen(false);
+    }
   }
 
-  function handleUnlockLifetime() {
-    unlockLifetime();
-    setIsPremiumOpen(false);
+  async function handleUnlockLifetime() {
+    const result = await purchaseLifetime();
+
+    if (result.success) {
+      unlockLifetime();
+      setIsPremiumOpen(false);
+    }
+  }
+
+  async function handleRevenueCatPaywall() {
+    await presentPaywallIfNeeded();
   }
 
   return (
@@ -113,7 +137,14 @@ export default function HomeScreen() {
         visible={isPremiumOpen}
         adCooldownRemainingMs={adCooldownRemainingMs}
         canWatchAd={canWatchRewardedAd()}
+        isPurchaseLoading={isPurchaseLoading}
+        lifetimePrice={lifetimePriceString ?? undefined}
+        pass24hPrice={pass24hPriceString ?? undefined}
+        purchaseError={revenueCatError}
         onClose={() => setIsPremiumOpen(false)}
+        onOpenCustomerCenter={openCustomerCenter}
+        onOpenRevenueCatPaywall={handleRevenueCatPaywall}
+        onRestorePurchases={restorePurchases}
         onWatchAdToUnlockSession={handleContinueFree}
         onUnlock24hPass={handleUnlock24hPass}
         onUnlockLifetime={handleUnlockLifetime}

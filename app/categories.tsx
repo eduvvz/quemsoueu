@@ -5,8 +5,10 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import categoriesData from '@/assets/categories/categories.json';
 import { PremiumOfferModal } from '@/components/PremiumOfferModal';
+import { showRewardedAdForPremiumSession } from '@/lib/admob';
 import { t } from '@/lib/i18n';
 import { monetizationConfig, useMonetization } from '@/lib/monetization';
+import { useRevenueCat } from '@/lib/revenuecat';
 
 type Category = (typeof categoriesData)[number];
 
@@ -38,6 +40,7 @@ export default function CategoriesScreen() {
   const [selectedIds, setSelectedIds] = useState<string[]>([]);
   const [isPaywallOpen, setIsPaywallOpen] = useState(false);
   const [paywallCategory, setPaywallCategory] = useState<Category | null>(null);
+  const [isRewardedAdLoading, setIsRewardedAdLoading] = useState(false);
   const insets = useSafeAreaInsets();
   const {
     adCooldownRemainingMs,
@@ -50,6 +53,17 @@ export default function CategoriesScreen() {
     unlockLifetime,
     watchAdToUnlockSession,
   } = useMonetization();
+  const {
+    errorMessage: revenueCatError,
+    isLoading: isPurchaseLoading,
+    lifetimePriceString,
+    openCustomerCenter,
+    pass24hPriceString,
+    presentPaywallIfNeeded,
+    purchaseConsumable,
+    purchaseLifetime,
+    restorePurchases,
+  } = useRevenueCat();
   const isAdvanceEnabled = selectedIds.length > 0;
 
   function categoryRequiresUnlock(category: Category) {
@@ -81,25 +95,45 @@ export default function CategoriesScreen() {
     );
   }
 
-  function handleWatchAdToUnlockSession() {
+  async function handleWatchAdToUnlockSession() {
     if (!paywallCategory) {
       setIsPaywallOpen(false);
+      return;
+    }
+
+    if (isRewardedAdLoading) {
+      return;
+    }
+
+    setIsRewardedAdLoading(true);
+    const didEarnReward = await showRewardedAdForPremiumSession();
+
+    if (!didEarnReward) {
+      setIsRewardedAdLoading(false);
       return;
     }
 
     const didUnlock = watchAdToUnlockSession(paywallCategory.id);
 
     if (!didUnlock) {
+      setIsRewardedAdLoading(false);
       return;
     }
 
     setSelectedIds((current) =>
       current.includes(paywallCategory.id) ? current : [...current, paywallCategory.id]
     );
+    setIsRewardedAdLoading(false);
     setIsPaywallOpen(false);
   }
 
-  function handleUnlock24hPass() {
+  async function handleUnlock24hPass() {
+    const result = await purchaseConsumable();
+
+    if (!result.success) {
+      return;
+    }
+
     unlock24hPass();
 
     if (paywallCategory) {
@@ -111,7 +145,13 @@ export default function CategoriesScreen() {
     setIsPaywallOpen(false);
   }
 
-  function handleUnlockLifetime() {
+  async function handleUnlockLifetime() {
+    const result = await purchaseLifetime();
+
+    if (!result.success) {
+      return;
+    }
+
     unlockLifetime();
 
     if (paywallCategory) {
@@ -121,6 +161,10 @@ export default function CategoriesScreen() {
     }
 
     setIsPaywallOpen(false);
+  }
+
+  async function handleRevenueCatPaywall() {
+    await presentPaywallIfNeeded();
   }
 
   function renderCategory({ item }: { item: Category }) {
@@ -279,7 +323,15 @@ export default function CategoriesScreen() {
         categoryName={paywallCategory ? t(paywallCategory.nameKey) : undefined}
         adCooldownRemainingMs={adCooldownRemainingMs}
         canWatchAd={canWatchRewardedAd()}
+        isRewardedAdLoading={isRewardedAdLoading}
+        isPurchaseLoading={isPurchaseLoading}
+        lifetimePrice={lifetimePriceString ?? undefined}
+        pass24hPrice={pass24hPriceString ?? undefined}
+        purchaseError={revenueCatError}
         onClose={() => setIsPaywallOpen(false)}
+        onOpenCustomerCenter={openCustomerCenter}
+        onOpenRevenueCatPaywall={handleRevenueCatPaywall}
+        onRestorePurchases={restorePurchases}
         onWatchAdToUnlockSession={handleWatchAdToUnlockSession}
         onUnlock24hPass={handleUnlock24hPass}
         onUnlockLifetime={handleUnlockLifetime}

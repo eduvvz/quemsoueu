@@ -11,7 +11,7 @@ export const monetizationConfig = {
   },
   pricing: {
     pass24h: 9.9,
-    lifetime: 100,
+    lifetime: 99.9,
     currency: 'BRL',
   },
   pass: {
@@ -59,6 +59,7 @@ type MonetizationContextValue = {
   watchAdToUnlockSession: (categoryId: string) => boolean;
   unlock24hPass: () => void;
   unlockLifetime: () => void;
+  activateLifetimeEntitlement: () => void;
 };
 
 const MonetizationContext = createContext<MonetizationContextValue | null>(null);
@@ -224,6 +225,9 @@ export function MonetizationProvider({ children }: PropsWithChildren) {
           currency: monetizationConfig.pricing.currency,
         });
         console.log('[monetization]', 'purchase_completed', { productId: 'lifetime' });
+      },
+      activateLifetimeEntitlement: () => {
+        setLifetimeUnlocked(true);
       },
     }),
     [

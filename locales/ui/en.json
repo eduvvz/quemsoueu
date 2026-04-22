@@ -96,8 +96,10 @@
       "freeDescription": "Unlock this deck for %{rounds} rounds. Great for trying it now.",
       "freeDescriptionBrowse": "Keep playing free decks and use ads only when you choose premium.",
       "freeCtaAd": "Watch",
+      "freeCtaLoading": "Loading",
       "freeCtaCooldown": "%{time}",
       "freeCtaBrowse": "Continue",
+      "purchaseLoading": "Opening",
       "passLabel": "24h Pass",
       "passTitle": "All decks, no ads today",
       "passDescription": "Best for a party night: everything open with no ad breaks.",
@@ -106,6 +108,9 @@
       "lifetimeTitle": "Unlock everything forever",
       "lifetimeDescription": "Permanent access, no ads, and every current category.",
       "lifetimeCta": "Go lifetime",
+      "revenueCatPaywall": "View offers",
+      "restorePurchases": "Restore purchases",
+      "managePurchases": "Manage",
       "mostPopular": "Most popular",
       "notNow": "Not now"
     }

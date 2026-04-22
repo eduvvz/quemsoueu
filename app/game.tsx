@@ -21,6 +21,7 @@ import { PremiumOfferModal } from '@/components/PremiumOfferModal';
 import { getCategoryItems } from '@/lib/category-items';
 import { t } from '@/lib/i18n';
 import { useMonetization } from '@/lib/monetization';
+import { useRevenueCat } from '@/lib/revenuecat';
 
 const TIME_MODES = {
   quick: 60,
@@ -178,6 +179,17 @@ export default function GameScreen() {
     unlock24hPass,
     unlockLifetime,
   } = useMonetization();
+  const {
+    errorMessage: revenueCatError,
+    isLoading: isPurchaseLoading,
+    lifetimePriceString,
+    openCustomerCenter,
+    pass24hPriceString,
+    presentPaywallIfNeeded,
+    purchaseConsumable,
+    purchaseLifetime,
+    restorePurchases,
+  } = useRevenueCat();
   const [devicePosture, setDevicePosture] = useState<DevicePosture>('unknown');
   const [isPostRoundPaywallOpen, setIsPostRoundPaywallOpen] = useState(false);
   const [selectedTimeMode, setSelectedTimeMode] = useState<TimeMode>('normal');
@@ -736,14 +748,26 @@ export default function GameScreen() {
     setIsPostRoundPaywallOpen(false);
   }
 
-  function handleUnlock24hPass() {
-    unlock24hPass();
-    setIsPostRoundPaywallOpen(false);
+  async function handleUnlock24hPass() {
+    const result = await purchaseConsumable();
+
+    if (result.success) {
+      unlock24hPass();
+      setIsPostRoundPaywallOpen(false);
+    }
   }
 
-  function handleUnlockLifetime() {
-    unlockLifetime();
-    setIsPostRoundPaywallOpen(false);
+  async function handleUnlockLifetime() {
+    const result = await purchaseLifetime();
+
+    if (result.success) {
+      unlockLifetime();
+      setIsPostRoundPaywallOpen(false);
+    }
+  }
+
+  async function handleRevenueCatPaywall() {
+    await presentPaywallIfNeeded();
   }
 
   return (
@@ -1082,7 +1106,14 @@ export default function GameScreen() {
         visible={isPostRoundPaywallOpen}
         adCooldownRemainingMs={adCooldownRemainingMs}
         canWatchAd={canWatchRewardedAd()}
+        isPurchaseLoading={isPurchaseLoading}
+        lifetimePrice={lifetimePriceString ?? undefined}
+        pass24hPrice={pass24hPriceString ?? undefined}
+        purchaseError={revenueCatError}
         onClose={() => setIsPostRoundPaywallOpen(false)}
+        onOpenCustomerCenter={openCustomerCenter}
+        onOpenRevenueCatPaywall={handleRevenueCatPaywall}
+        onRestorePurchases={restorePurchases}
         onWatchAdToUnlockSession={handleContinueAfterOffer}
         onUnlock24hPass={handleUnlock24hPass}
         onUnlockLifetime={handleUnlockLifetime}

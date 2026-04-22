@@ -9,7 +9,11 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.eduvvz.quemsoueu",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -39,11 +43,25 @@
           }
         }
       ],
-      "expo-localization"
+      "expo-localization",
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-7037052370613478~1691403530",
+          "iosAppId": "ca-app-pub-7037052370613478~3586939135",
+          "userTrackingUsageDescription": "Este identificador pode ser usado para entregar anuncios personalizados."
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "32bb319f-3349-4385-a7de-7d7c2113f47c"
+      }
     }
   }
 }
