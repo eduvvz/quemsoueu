@@ -18,13 +18,13 @@ RevenueCat is initialized in `lib/revenuecat.tsx` with:
 Purchases.configure({ apiKey: revenueCatConfig.apiKey });
 ```
 
-Current API key:
+RevenueCat keys and product identifiers are loaded from `.env` through `app.config.js`.
+For production, set the correct public app-specific RevenueCat key for each platform:
 
 ```txt
-test_xZSnHZQrfaAaAQZUVYFYDVUjxGM
+REVENUECAT_IOS_API_KEY=
+REVENUECAT_ANDROID_API_KEY=
 ```
-
-For production, replace this with the correct public app-specific RevenueCat key for each platform.
 
 ## RevenueCat dashboard configuration
 

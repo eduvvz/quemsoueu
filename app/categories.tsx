@@ -8,6 +8,7 @@ import { PremiumOfferModal } from '@/components/PremiumOfferModal';
 import { showRewardedAdForPremiumSession } from '@/lib/admob';
 import { t } from '@/lib/i18n';
 import { monetizationConfig, useMonetization } from '@/lib/monetization';
+import { posthog } from '@/lib/posthog';
 import { useRevenueCat } from '@/lib/revenuecat';
 
 type Category = (typeof categoriesData)[number];
@@ -88,6 +89,12 @@ export default function CategoriesScreen() {
       return;
     }
 
+    const willSelect = !selectedIds.includes(category.id);
+    posthog.capture('category_toggled', {
+      category_id: category.id,
+      action: willSelect ? 'selected' : 'deselected',
+      is_premium: category.isPremium,
+    });
     setSelectedIds((current) =>
       current.includes(category.id)
         ? current.filter((id) => id !== category.id)
@@ -300,14 +307,18 @@ export default function CategoriesScreen() {
         </View>
         <Pressable
           disabled={!isAdvanceEnabled}
-          onPress={() =>
+          onPress={() => {
+            posthog.capture('game_started', {
+              category_ids: selectedIds,
+              category_count: selectedIds.length,
+            });
             router.push({
               pathname: '/game',
               params: {
                 categories: selectedIds.join(','),
               },
-            })
-          }
+            });
+          }}
           style={({ pressed }) => [
             styles.advanceButton,
             !isAdvanceEnabled && styles.advanceButtonDisabled,

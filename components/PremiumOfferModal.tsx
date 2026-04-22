@@ -10,6 +10,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { t } from '@/lib/i18n';
 import { monetizationConfig } from '@/lib/monetization';
+import { posthog } from '@/lib/posthog';
 
 type PremiumOfferModalProps = {
   visible: boolean;
@@ -115,7 +116,10 @@ export function PremiumOfferModal({
       backgroundStyle={styles.sheetBackground}
       handleIndicatorStyle={styles.handle}
       enablePanDownToClose
-      onDismiss={onClose}>
+      onDismiss={() => {
+        posthog.capture('paywall_dismissed', { has_category: isCategoryUnlock });
+        onClose();
+      }}>
       <BottomSheetScrollView
         bounces={false}
         showsVerticalScrollIndicator={false}

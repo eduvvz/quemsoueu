@@ -6,6 +6,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { PremiumOfferModal } from '@/components/PremiumOfferModal';
 import { t } from '@/lib/i18n';
 import { useMonetization } from '@/lib/monetization';
+import { posthog } from '@/lib/posthog';
 import { useRevenueCat } from '@/lib/revenuecat';
 
 export default function HomeScreen() {
@@ -119,7 +120,10 @@ export default function HomeScreen() {
 
         <View style={styles.actions}>
           <Pressable
-            onPress={() => router.push('/categories')}
+            onPress={() => {
+              posthog.capture('home_start_tapped');
+              router.push('/categories');
+            }}
             style={({ pressed }) => [styles.primaryButton, pressed && styles.primaryPressed]}>
             <Text style={styles.primaryButtonText}>{t('app.home.start')}</Text>
             <Text style={styles.primaryButtonHint}>{t('app.home.startHint')}</Text>

@@ -1,5 +1,7 @@
 import { createContext, PropsWithChildren, useContext, useEffect, useMemo, useState } from 'react';
 
+import { posthog } from '@/lib/posthog';
+
 export const monetizationConfig = {
   free: {
     maxFreeCategories: 3,
@@ -112,7 +114,7 @@ export function MonetizationProvider({ children }: PropsWithChildren) {
       rewardedAdsWatched,
       roundsPlayed,
       trackMonetizationEvent: (eventName, payload = {}) => {
-        console.log('[monetization]', eventName, payload);
+        posthog.capture(eventName, payload);
       },
       canWatchRewardedAd: () => adCooldownRemainingMs === 0 && !isPremiumUser,
       getCategoryUnlockState: (categoryId, requiresUnlock) => {
@@ -202,9 +204,9 @@ export function MonetizationProvider({ children }: PropsWithChildren) {
           },
         }));
 
-        console.log('[monetization]', 'ad_watched', { categoryId });
-        console.log('[monetization]', 'category_unlocked_by_ad', {
-          categoryId,
+        posthog.capture('rewarded_ad_watched', { category_id: categoryId });
+        posthog.capture('category_unlocked_by_ad', {
+          category_id: categoryId,
           rounds: monetizationConfig.free.sessionRoundsPerAd,
         });
 
@@ -212,19 +214,19 @@ export function MonetizationProvider({ children }: PropsWithChildren) {
       },
       unlock24hPass: () => {
         setPassExpiresAt(now() + monetizationConfig.pass.durationMs);
-        console.log('[monetization]', 'pass_24h_clicked', {
+        posthog.capture('pass_24h_purchase_initiated', {
           price: monetizationConfig.pricing.pass24h,
           currency: monetizationConfig.pricing.currency,
         });
-        console.log('[monetization]', 'purchase_completed', { productId: 'pass_24h' });
+        posthog.capture('purchase_completed', { product_id: 'pass_24h' });
       },
       unlockLifetime: () => {
         setLifetimeUnlocked(true);
-        console.log('[monetization]', 'lifetime_clicked', {
+        posthog.capture('lifetime_purchase_initiated', {
           price: monetizationConfig.pricing.lifetime,
           currency: monetizationConfig.pricing.currency,
         });
-        console.log('[monetization]', 'purchase_completed', { productId: 'lifetime' });
+        posthog.capture('purchase_completed', { product_id: 'lifetime' });
       },
       activateLifetimeEntitlement: () => {
         setLifetimeUnlocked(true);

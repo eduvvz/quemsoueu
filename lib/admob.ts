@@ -1,23 +1,28 @@
+import Constants from 'expo-constants';
 import { Platform } from 'react-native';
 
-const IOS_REWARDED_AD_UNIT_ID = 'ca-app-pub-7037052370613478/9523767886';
-const ANDROID_REWARDED_AD_UNIT_ID = 'ca-app-pub-7037052370613478/2658976632';
-const IOS_TEST_REWARDED_AD_UNIT_ID = 'ca-app-pub-3940256099942544/1712485313';
-const ANDROID_TEST_REWARDED_AD_UNIT_ID = 'ca-app-pub-3940256099942544/5224354917';
+const extra = Constants.expoConfig?.extra ?? {};
+const IOS_REWARDED_AD_UNIT_ID = extra.admobIosRewardedAdUnitId as string | undefined;
+const ANDROID_REWARDED_AD_UNIT_ID = extra.admobAndroidRewardedAdUnitId as string | undefined;
+const IOS_TEST_REWARDED_AD_UNIT_ID = extra.admobIosTestRewardedAdUnitId as string | undefined;
+const ANDROID_TEST_REWARDED_AD_UNIT_ID = extra.admobAndroidTestRewardedAdUnitId as string | undefined;
 const REWARDED_LOAD_TIMEOUT_MS = 30_000;
 
 function getRewardedAdUnitId() {
-  if (__DEV__) {
-    return Platform.OS === 'android'
+  const fallbackAdUnitId =
+    Platform.OS === 'android'
       ? ANDROID_TEST_REWARDED_AD_UNIT_ID
       : IOS_TEST_REWARDED_AD_UNIT_ID;
+
+  if (__DEV__) {
+    return fallbackAdUnitId;
   }
 
-  return Platform.select({
+  return Platform.select<string | undefined>({
     ios: IOS_REWARDED_AD_UNIT_ID,
     android: ANDROID_REWARDED_AD_UNIT_ID,
-    default: IOS_TEST_REWARDED_AD_UNIT_ID,
-  });
+    default: fallbackAdUnitId,
+  }) ?? fallbackAdUnitId;
 }
 
 export async function initializeGoogleMobileAds() {
@@ -42,7 +47,14 @@ export async function showRewardedAdForPremiumSession() {
     const { AdEventType, RewardedAd, RewardedAdEventType } = await import(
       'react-native-google-mobile-ads'
     );
-    const rewardedAd = RewardedAd.createForAdRequest(getRewardedAdUnitId());
+    const rewardedAdUnitId = getRewardedAdUnitId();
+
+    if (!rewardedAdUnitId) {
+      console.warn('[admob] rewarded ad unit id not configured');
+      return false;
+    }
+
+    const rewardedAd = RewardedAd.createForAdRequest(rewardedAdUnitId);
 
     return await new Promise<boolean>((resolve) => {
       let didEarnReward = false;

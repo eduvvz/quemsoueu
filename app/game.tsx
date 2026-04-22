@@ -21,6 +21,7 @@ import { PremiumOfferModal } from '@/components/PremiumOfferModal';
 import { getCategoryItems } from '@/lib/category-items';
 import { t } from '@/lib/i18n';
 import { useMonetization } from '@/lib/monetization';
+import { posthog } from '@/lib/posthog';
 import { useRevenueCat } from '@/lib/revenuecat';
 
 const TIME_MODES = {
@@ -355,6 +356,13 @@ export default function GameScreen() {
 
     recordedFinishedRoundSeedRef.current = roundSeed;
     markRoundCompleted(selectedCategoryIds);
+    posthog.capture('game_completed', {
+      score,
+      passes,
+      time_mode: selectedTimeMode,
+      category_ids: selectedCategoryIds,
+      category_count: selectedCategoryIds.length,
+    });
 
     if (!didShowPostRoundPaywallRef.current && shouldShowPaywall('post_round')) {
       didShowPostRoundPaywallRef.current = true;
@@ -365,8 +373,11 @@ export default function GameScreen() {
     isFinished,
     isRoundActive,
     markRoundCompleted,
+    passes,
     roundSeed,
+    score,
     selectedCategoryIds,
+    selectedTimeMode,
     shouldShowPaywall,
     trackMonetizationEvent,
   ]);
@@ -645,6 +656,7 @@ export default function GameScreen() {
 
     const itemName = currentItem ? t(currentItem.nameKey) : t('app.game.empty');
 
+    posthog.capture('word_passed', { word: itemName, category_ids: selectedCategoryIds });
     animateFeedback('pass', () => {
       setPasses((current) => current + 1);
       setMissedItems((current) => [...current, itemName]);
@@ -665,6 +677,7 @@ export default function GameScreen() {
 
     const itemName = currentItem ? t(currentItem.nameKey) : t('app.game.empty');
 
+    posthog.capture('word_guessed_correct', { word: itemName, category_ids: selectedCategoryIds });
     animateFeedback('correct', () => {
       animatePointPop();
       setScore((current) => current + 1);

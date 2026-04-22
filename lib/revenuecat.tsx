@@ -9,18 +9,23 @@ import Purchases, {
 } from 'react-native-purchases';
 import RevenueCatUI, { PAYWALL_RESULT } from 'react-native-purchases-ui';
 
+const extra = Constants.expoConfig?.extra ?? {};
+
 export const revenueCatConfig = {
-  apiKey: 'test_xZSnHZQrfaAaAQZUVYFYDVUjxGM',
-  entitlementId: 'Quem Sou Eu Pro',
-  offeringId: 'default',
+  apiKey: Platform.select<string | undefined>({
+    android: extra.revenueCatAndroidApiKey as string | undefined,
+    ios: extra.revenueCatIosApiKey as string | undefined,
+  }),
+  entitlementId: (extra.revenueCatEntitlementId as string | undefined) ?? 'default',
+  offeringId: (extra.revenueCatOfferingId as string | undefined) ?? 'default',
   products: {
     consumable: {
-      packageId: '24 hours',
-      productId: 'Consumable_24hours',
+      packageId: (extra.revenueCatConsumablePackageId as string | undefined) ?? '',
+      productId: (extra.revenueCatConsumableProductId as string | undefined) ?? '',
     },
     lifetime: {
-      packageId: 'Lifitime',
-      productId: 'Lifetime',
+      packageId: (extra.revenueCatLifetimePackageId as string | undefined) ?? '',
+      productId: (extra.revenueCatLifetimeProductId as string | undefined) ?? '',
     },
   },
 } as const;
@@ -167,6 +172,11 @@ export function RevenueCatProvider({ children }: PropsWithChildren) {
 
     if (isExpoGo()) {
       setErrorMessage('RevenueCat purchases require a development build, not Expo Go.');
+      return;
+    }
+
+    if (!revenueCatConfig.apiKey) {
+      setErrorMessage('RevenueCat API key not configured. Set it in your .env file.');
       return;
     }
 
