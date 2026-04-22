@@ -1,4 +1,4 @@
-import { router } from 'expo-router';
+import { router, useLocalSearchParams } from 'expo-router';
 import { useState } from 'react';
 import { FlatList, Pressable, StyleSheet, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -38,6 +38,7 @@ const categoryMarks: Record<string, string> = {
 };
 
 export default function CategoriesScreen() {
+  const params = useLocalSearchParams<{ from?: string }>();
   const [selectedIds, setSelectedIds] = useState<string[]>([]);
   const [isPaywallOpen, setIsPaywallOpen] = useState(false);
   const [paywallCategory, setPaywallCategory] = useState<Category | null>(null);
@@ -66,6 +67,7 @@ export default function CategoriesScreen() {
     restorePurchases,
   } = useRevenueCat();
   const isAdvanceEnabled = selectedIds.length > 0;
+  const shouldBackToHome = params.from === 'round_end';
 
   function categoryRequiresUnlock(category: Category) {
     return category.isPremium || !freeCategoryIds.includes(category.id);
@@ -174,6 +176,20 @@ export default function CategoriesScreen() {
     await presentPaywallIfNeeded();
   }
 
+  function handleBack() {
+    if (shouldBackToHome) {
+      router.replace('/');
+      return;
+    }
+
+    if (router.canGoBack()) {
+      router.back();
+      return;
+    }
+
+    router.replace('/');
+  }
+
   function renderCategory({ item }: { item: Category }) {
     const isSelected = selectedIds.includes(item.id);
     const requiresUnlock = categoryRequiresUnlock(item);
@@ -277,7 +293,7 @@ export default function CategoriesScreen() {
           <View style={styles.header}>
             <View style={[styles.topBar, { paddingTop: insets.top + 12 }]}>
               <Pressable
-                onPress={() => router.back()}
+                onPress={handleBack}
                 style={({ pressed }) => [styles.backButton, pressed && styles.tilePressed]}>
                 <Text style={styles.backButtonText}>{t('app.navigation.back')}</Text>
               </Pressable>

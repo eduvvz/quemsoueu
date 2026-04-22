@@ -7,7 +7,7 @@ export const monetizationConfig = {
     maxFreeCategories: 3,
     sessionRoundsPerAd: 5,
     rewardedAdCooldownMs: 3 * 60 * 1000,
-    interstitialFrequency: 5,
+    interstitialFrequency: 2,
     minRoundsBeforePaywall: 3,
     adsBeforePaywall: 2,
   },
@@ -24,6 +24,9 @@ export const monetizationConfig = {
 export type MonetizationEventName =
   | 'ad_watched'
   | 'category_unlocked_by_ad'
+  | 'interstitial_ad_requested'
+  | 'interstitial_ad_shown'
+  | 'interstitial_ad_skipped'
   | 'paywall_viewed'
   | 'pass_24h_clicked'
   | 'lifetime_clicked'
@@ -57,6 +60,7 @@ type MonetizationContextValue = {
   ) => UnlockState;
   isCategoryUnlocked: (categoryId: string, requiresUnlock: boolean) => boolean;
   markRoundCompleted: (categoryIds: string[]) => void;
+  shouldShowInterstitialAd: () => boolean;
   shouldShowPaywall: (trigger: PaywallTrigger) => boolean;
   watchAdToUnlockSession: (categoryId: string) => boolean;
   unlock24hPass: () => void;
@@ -167,6 +171,13 @@ export function MonetizationProvider({ children }: PropsWithChildren) {
 
           return next;
         });
+      },
+      shouldShowInterstitialAd: () => {
+        if (isPremiumUser || roundsPlayed <= 0) {
+          return false;
+        }
+
+        return roundsPlayed % monetizationConfig.free.interstitialFrequency === 0;
       },
       shouldShowPaywall: (trigger) => {
         if (isPremiumUser) {

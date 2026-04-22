@@ -1,6 +1,6 @@
 import { Accelerometer, DeviceMotion, DeviceMotionOrientation } from 'expo-sensors';
 import * as ScreenOrientation from 'expo-screen-orientation';
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { router, useLocalSearchParams } from 'expo-router';
 import {
   Animated,
@@ -18,6 +18,7 @@ import {
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { PremiumOfferModal } from '@/components/PremiumOfferModal';
+import { showInterstitialAdBetweenRounds } from '@/lib/admob';
 import { getCategoryItems } from '@/lib/category-items';
 import { t } from '@/lib/i18n';
 import { useMonetization } from '@/lib/monetization';
@@ -39,11 +40,25 @@ const LANDSCAPE_STABILITY_MS = 120;
 const FINAL_COUNTDOWN_SECONDS = 10;
 const URGENT_COUNTDOWN_SECONDS = 5;
 const RESUME_COUNTDOWN_SECONDS = 3;
+const CONFETTI_PARTICLE_COUNT = 56;
+const CONFETTI_COLORS = ['#FACC15', '#22C55E', '#38BDF8', '#A855F7', '#F97316', '#EC4899'];
 
 type FeedbackTone = 'pass' | 'correct' | null;
 
 type DevicePosture = 'portrait' | 'landscape' | 'unknown';
 type TimeMode = keyof typeof TIME_MODES;
+type PendingRoundAction = 'restart' | 'new_match';
+
+type ConfettiParticle = {
+  color: string;
+  delay: number;
+  driftX: number;
+  fallDistance: number;
+  left: number;
+  rotation: number;
+  size: number;
+  top: number;
+};
 
 const rotateDeviceWarningImage = require('../assets/images/rotate-device-warning.png');
 
@@ -167,14 +182,57 @@ function playCountdownSound(isUrgent: boolean) {
   playTone(isUrgent ? 740 : 520, isUrgent ? 820 : 560, isUrgent ? 0.08 : 0.06, 'square');
 }
 
+function playRoundCompleteSound() {
+  playTone(660, 1180, 0.18, 'sine');
+  setTimeout(() => playTone(880, 1480, 0.2, 'triangle'), 130);
+}
+
+function vibrateRoundComplete() {
+  if (Platform.OS === 'ios') {
+    Vibration.vibrate();
+    setTimeout(() => Vibration.vibrate(), 160);
+    setTimeout(() => Vibration.vibrate(), 360);
+    return;
+  }
+
+  Vibration.vibrate([0, 120, 80, 180, 100, 260]);
+}
+
+function createConfettiParticles(screenWidth: number, screenHeight: number): ConfettiParticle[] {
+  const spreadWidth = Math.max(screenWidth - 32, 280);
+  const fallDistance = Math.max(screenHeight * 0.68, 420);
+
+  return Array.from({ length: CONFETTI_PARTICLE_COUNT }, (_, index) => {
+    const ratio = index / (CONFETTI_PARTICLE_COUNT - 1);
+    const wave = Math.sin(index * 12.9898) * 43758.5453;
+    const randomish = wave - Math.floor(wave);
+    const left = 16 + ratio * spreadWidth + (randomish - 0.5) * 18;
+    const driftDirection = index % 2 === 0 ? 1 : -1;
+
+    return {
+      color: CONFETTI_COLORS[index % CONFETTI_COLORS.length],
+      delay: (index % 14) * 42,
+      driftX: driftDirection * (28 + randomish * 74),
+      fallDistance: fallDistance + randomish * 120,
+      left,
+      rotation: 180 + randomish * 540,
+      size: 7 + (index % 5) * 2,
+      top: -26 - (index % 4) * 12,
+    };
+  });
+}
+
 export default function GameScreen() {
   const insets = useSafeAreaInsets();
   const screenWidth = Dimensions.get('window').width;
+  const screenHeight = Dimensions.get('window').height;
   const params = useLocalSearchParams<{ categories?: string }>();
   const {
     adCooldownRemainingMs,
     canWatchRewardedAd,
     markRoundCompleted,
+    roundsPlayed,
+    shouldShowInterstitialAd,
     shouldShowPaywall,
     trackMonetizationEvent,
     unlock24hPass,
@@ -193,11 +251,14 @@ export default function GameScreen() {
   } = useRevenueCat();
   const [devicePosture, setDevicePosture] = useState<DevicePosture>('unknown');
   const [isPostRoundPaywallOpen, setIsPostRoundPaywallOpen] = useState(false);
+  const [isConfettiVisible, setIsConfettiVisible] = useState(false);
+  const [isBetweenRoundsAdLoading, setIsBetweenRoundsAdLoading] = useState(false);
   const [selectedTimeMode, setSelectedTimeMode] = useState<TimeMode>('normal');
   const [isRoundActive, setIsRoundActive] = useState(false);
   const [isTutorialVisible, setIsTutorialVisible] = useState(false);
   const [resumeCountdown, setResumeCountdown] = useState<number | null>(null);
   const isLandscape = devicePosture === 'landscape';
+  const isCompactPortrait = !isLandscape && screenWidth < 390;
   const totalTimeInSeconds = TIME_MODES[selectedTimeMode];
   const selectedCategoryIds = useMemo(
     () => (params.categories ? params.categories.split(',').filter(Boolean) : []),
@@ -242,6 +303,9 @@ export default function GameScreen() {
   const pointOpacity = useRef(new Animated.Value(0)).current;
   const pointTranslateY = useRef(new Animated.Value(10)).current;
   const tutorialOpacity = useRef(new Animated.Value(0)).current;
+  const confettiProgress = useRef(
+    Array.from({ length: CONFETTI_PARTICLE_COUNT }, () => new Animated.Value(0))
+  ).current;
   const tiltReadyRef = useRef(false);
   const lastTiltTriggerAtRef = useRef(0);
   const orientationRef = useRef(ScreenOrientation.Orientation.PORTRAIT_UP);
@@ -249,7 +313,10 @@ export default function GameScreen() {
   const postureCandidateRef = useRef<DevicePosture | null>(null);
   const postureCandidateSinceRef = useRef(0);
   const recordedFinishedRoundSeedRef = useRef<number | null>(null);
+  const celebratedFinishedRoundSeedRef = useRef<number | null>(null);
   const didShowPostRoundPaywallRef = useRef(false);
+  const postRoundPaywallTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const pendingRoundActionAfterPaywallRef = useRef<PendingRoundAction | null>(null);
   const wasPausedDuringRoundRef = useRef(false);
 
   const hasItems = items.length > 0;
@@ -263,6 +330,35 @@ export default function GameScreen() {
   const timerProgress = timeLeft / totalTimeInSeconds;
   const isFinalCountdown = isRoundActive && timeLeft <= FINAL_COUNTDOWN_SECONDS && !isFinished;
   const isUrgentCountdown = isRoundActive && timeLeft <= URGENT_COUNTDOWN_SECONDS && !isFinished;
+  const confettiParticles = useMemo(
+    () => createConfettiParticles(screenWidth, screenHeight),
+    [screenHeight, screenWidth]
+  );
+  const playRoundCompleteCelebration = useCallback(() => {
+    confettiProgress.forEach((progress) => {
+      progress.stopAnimation();
+      progress.setValue(0);
+    });
+
+    setIsConfettiVisible(true);
+    playRoundCompleteSound();
+    vibrateRoundComplete();
+
+    Animated.stagger(
+      18,
+      confettiProgress.map((progress, index) =>
+        Animated.sequence([
+          Animated.delay(confettiParticles[index]?.delay ?? 0),
+          Animated.timing(progress, {
+            toValue: 1,
+            duration: 1150 + (index % 6) * 120,
+            easing: Easing.out(Easing.cubic),
+            useNativeDriver: true,
+          }),
+        ])
+      )
+    ).start(() => setIsConfettiVisible(false));
+  }, [confettiParticles, confettiProgress]);
   const tapBoundaryX = screenWidth / 2;
   const isFinishedRef = useRef(isFinished);
   const isFeedbackActiveRef = useRef(isFeedbackActive);
@@ -355,6 +451,12 @@ export default function GameScreen() {
     }
 
     recordedFinishedRoundSeedRef.current = roundSeed;
+
+    if (celebratedFinishedRoundSeedRef.current !== roundSeed) {
+      celebratedFinishedRoundSeedRef.current = roundSeed;
+      playRoundCompleteCelebration();
+    }
+
     markRoundCompleted(selectedCategoryIds);
     posthog.capture('game_completed', {
       score,
@@ -367,13 +469,17 @@ export default function GameScreen() {
     if (!didShowPostRoundPaywallRef.current && shouldShowPaywall('post_round')) {
       didShowPostRoundPaywallRef.current = true;
       trackMonetizationEvent('paywall_viewed', { trigger: 'post_round' });
-      setIsPostRoundPaywallOpen(true);
+      postRoundPaywallTimerRef.current = setTimeout(() => {
+        postRoundPaywallTimerRef.current = null;
+        setIsPostRoundPaywallOpen(true);
+      }, 1300);
     }
   }, [
     isFinished,
     isRoundActive,
     markRoundCompleted,
     passes,
+    playRoundCompleteCelebration,
     roundSeed,
     score,
     selectedCategoryIds,
@@ -386,6 +492,14 @@ export default function GameScreen() {
     tiltReadyRef.current = false;
     lastTiltTriggerAtRef.current = 0;
   }, [roundSeed]);
+
+  useEffect(() => {
+    return () => {
+      if (postRoundPaywallTimerRef.current) {
+        clearTimeout(postRoundPaywallTimerRef.current);
+      }
+    };
+  }, []);
 
   useEffect(() => {
     itemOpacity.setValue(0);
@@ -707,6 +821,15 @@ export default function GameScreen() {
     ]).start(() => setIsTutorialVisible(false));
   }
 
+  function clearPostRoundPaywallTimer() {
+    if (!postRoundPaywallTimerRef.current) {
+      return;
+    }
+
+    clearTimeout(postRoundPaywallTimerRef.current);
+    postRoundPaywallTimerRef.current = null;
+  }
+
   function resetRound(nextTimeMode = selectedTimeMode) {
     flashOpacity.stopAnimation();
     contentScale.stopAnimation();
@@ -717,6 +840,12 @@ export default function GameScreen() {
     contentTranslateY.setValue(0);
     pointOpacity.setValue(0);
     pointTranslateY.setValue(10);
+    confettiProgress.forEach((progress) => {
+      progress.stopAnimation();
+      progress.setValue(0);
+    });
+    clearPostRoundPaywallTimer();
+    setIsConfettiVisible(false);
     setFeedbackTone(null);
     setTimeLeft(TIME_MODES[nextTimeMode]);
     setCurrentIndex(0);
@@ -727,13 +856,21 @@ export default function GameScreen() {
     setResumeCountdown(null);
     wasPausedDuringRoundRef.current = false;
     recordedFinishedRoundSeedRef.current = null;
+    celebratedFinishedRoundSeedRef.current = null;
+    pendingRoundActionAfterPaywallRef.current = null;
     setRoundSeed((current) => current + 1);
+  }
+
+  function beginRoundWithCountdown() {
+    setIsRoundActive(true);
+    setResumeCountdown(RESUME_COUNTDOWN_SECONDS);
+    Vibration.vibrate(30);
   }
 
   function startRound(timeMode: TimeMode) {
     setSelectedTimeMode(timeMode);
     resetRound(timeMode);
-    setIsRoundActive(true);
+    beginRoundWithCountdown();
     showTutorial();
   }
 
@@ -746,19 +883,104 @@ export default function GameScreen() {
     handlePass();
   }
 
-  function handleRestart() {
+  function performRestart() {
     resetRound();
-    setIsRoundActive(true);
+    beginRoundWithCountdown();
     showTutorial();
   }
 
-  function handleNewMatch() {
+  function performNewMatch() {
     router.dismissAll();
-    router.replace('/categories');
+    router.replace({
+      pathname: '/categories',
+      params: {
+        from: 'round_end',
+      },
+    });
+  }
+
+  function runPendingRoundActionAfterPaywall() {
+    const pendingAction = pendingRoundActionAfterPaywallRef.current;
+    pendingRoundActionAfterPaywallRef.current = null;
+
+    if (pendingAction === 'restart') {
+      performRestart();
+      return;
+    }
+
+    if (pendingAction === 'new_match') {
+      performNewMatch();
+    }
+  }
+
+  function closePostRoundPaywall() {
+    setIsPostRoundPaywallOpen(false);
+    runPendingRoundActionAfterPaywall();
+  }
+
+  async function maybeShowInterstitialBeforeNextAction(action: PendingRoundAction) {
+    if (!shouldShowInterstitialAd()) {
+      return false;
+    }
+
+    clearPostRoundPaywallTimer();
+    setIsBetweenRoundsAdLoading(true);
+
+    try {
+      trackMonetizationEvent('interstitial_ad_requested', {
+        action,
+        rounds_played: roundsPlayed,
+      });
+      const didShowAd = await showInterstitialAdBetweenRounds();
+
+      trackMonetizationEvent(didShowAd ? 'interstitial_ad_shown' : 'interstitial_ad_skipped', {
+        action,
+        rounds_played: roundsPlayed,
+      });
+
+      if (didShowAd) {
+        pendingRoundActionAfterPaywallRef.current = action;
+        trackMonetizationEvent('paywall_viewed', {
+          trigger: 'post_round',
+          source: 'interstitial_closed',
+          action,
+        });
+        setIsPostRoundPaywallOpen(true);
+        return true;
+      }
+
+      return false;
+    } finally {
+      setIsBetweenRoundsAdLoading(false);
+    }
+  }
+
+  async function handleRestart() {
+    if (isBetweenRoundsAdLoading) {
+      return;
+    }
+
+    const didDeferAction = await maybeShowInterstitialBeforeNextAction('restart');
+
+    if (!didDeferAction) {
+      performRestart();
+    }
+  }
+
+  async function handleNewMatch() {
+    if (isBetweenRoundsAdLoading) {
+      return;
+    }
+
+    const didDeferAction = await maybeShowInterstitialBeforeNextAction('new_match');
+
+    if (!didDeferAction) {
+      performNewMatch();
+    }
   }
 
   function handleContinueAfterOffer() {
-    setIsPostRoundPaywallOpen(false);
+    closePostRoundPaywall();
   }
 
   async function handleUnlock24hPass() {
@@ -766,7 +988,7 @@ export default function GameScreen() {
 
     if (result.success) {
       unlock24hPass();
-      setIsPostRoundPaywallOpen(false);
+      closePostRoundPaywall();
     }
   }
 
@@ -775,7 +997,7 @@ export default function GameScreen() {
 
     if (result.success) {
       unlockLifetime();
-      setIsPostRoundPaywallOpen(false);
+      closePostRoundPaywall();
     }
   }
 
@@ -803,23 +1025,99 @@ export default function GameScreen() {
         ]}
       />
 
-      <View style={[styles.hud, isLandscape && styles.hudLandscape]}>
-        <View style={styles.hudPill}>
-          <Text style={styles.hudLabel}>{t('app.game.scoreLabel')}</Text>
-          <Text style={styles.hudValue}>{score}</Text>
+      {isConfettiVisible ? (
+        <View pointerEvents="none" style={styles.confettiOverlay}>
+          {confettiParticles.map((particle, index) => {
+            const progress = confettiProgress[index];
+            const opacity = progress.interpolate({
+              inputRange: [0, 0.12, 0.78, 1],
+              outputRange: [0, 1, 1, 0],
+            });
+            const translateX = progress.interpolate({
+              inputRange: [0, 1],
+              outputRange: [0, particle.driftX],
+            });
+            const translateY = progress.interpolate({
+              inputRange: [0, 1],
+              outputRange: [0, particle.fallDistance],
+            });
+            const rotate = progress.interpolate({
+              inputRange: [0, 1],
+              outputRange: [`${particle.rotation * -0.35}deg`, `${particle.rotation}deg`],
+            });
+
+            return (
+              <Animated.View
+                key={`confetti-${index}`}
+                style={[
+                  styles.confettiPiece,
+                  {
+                    backgroundColor: particle.color,
+                    borderRadius: index % 4 === 0 ? 999 : 2,
+                    height: index % 3 === 0 ? particle.size * 1.8 : particle.size,
+                    left: particle.left,
+                    opacity,
+                    top: particle.top,
+                    transform: [{ translateX }, { translateY }, { rotate }],
+                    width: particle.size,
+                  },
+                ]}
+              />
+            );
+          })}
+        </View>
+      ) : null}
+
+      <View
+        style={[
+          styles.hud,
+          isCompactPortrait && styles.hudCompact,
+          isLandscape && styles.hudLandscape,
+        ]}>
+        <View style={[styles.hudPill, isCompactPortrait && styles.hudPillCompact]}>
+          <Text
+            style={styles.hudLabel}
+            numberOfLines={1}
+            adjustsFontSizeToFit
+            minimumFontScale={0.72}>
+            {t('app.game.scoreLabel')}
+          </Text>
+          <Text
+            style={styles.hudValue}
+            numberOfLines={1}
+            adjustsFontSizeToFit
+            minimumFontScale={0.7}>
+            {score}
+          </Text>
         </View>
 
         <View
           style={[
             styles.timerContainer,
+            isCompactPortrait && styles.timerContainerCompact,
             isFinalCountdown && styles.timerDanger,
             isFeedbackActive && styles.timerFeedback,
           ]}>
-          <Text style={[styles.timer, isFinalCountdown && styles.timerDangerText, isFeedbackActive && styles.inverseText]}>
+          <Text
+            style={[
+              styles.timer,
+              isFinalCountdown && styles.timerDangerText,
+              isFeedbackActive && styles.inverseText,
+            ]}
+            numberOfLines={1}
+            adjustsFontSizeToFit
+            minimumFontScale={0.78}>
             {formatTime(timeLeft)}
           </Text>
           {isFeedbackActive ? (
-            <Text style={[styles.feedbackText, styles.feedbackTextActive]}>
+            <Text
+              style={[
+                styles.feedbackText,
+                styles.feedbackTextActive,
+              ]}
+              numberOfLines={1}
+              adjustsFontSizeToFit
+              minimumFontScale={0.72}>
               {t(feedbackTone === 'correct' ? 'app.game.feedbackCorrect' : 'app.game.feedbackPass')}
             </Text>
           ) : null}
@@ -834,9 +1132,21 @@ export default function GameScreen() {
           </View>
         </View>
 
-        <View style={styles.hudPill}>
-          <Text style={styles.hudLabel}>{t('app.game.deckLabel')}</Text>
-          <Text style={styles.hudValue}>{progressText}</Text>
+        <View style={[styles.hudPill, isCompactPortrait && styles.hudPillCompact]}>
+          <Text
+            style={styles.hudLabel}
+            numberOfLines={1}
+            adjustsFontSizeToFit
+            minimumFontScale={0.72}>
+            {t('app.game.deckLabel')}
+          </Text>
+          <Text
+            style={styles.hudValue}
+            numberOfLines={1}
+            adjustsFontSizeToFit
+            minimumFontScale={0.7}>
+            {progressText}
+          </Text>
         </View>
 
         {isOrientationBlocked ? (
@@ -1049,20 +1359,24 @@ export default function GameScreen() {
         {!isRoundActive ? null : isFinished ? (
           <View style={styles.finishedActions}>
             <Pressable
+              disabled={isBetweenRoundsAdLoading}
               onPress={handleRestart}
               style={({ pressed }) => [
                 styles.secondaryButton,
                 styles.finishedButton,
+                isBetweenRoundsAdLoading && styles.disabledButton,
                 pressed && styles.buttonPressed,
               ]}>
               <Text style={styles.secondaryButtonText}>{t('app.game.restart')}</Text>
             </Pressable>
 
             <Pressable
+              disabled={isBetweenRoundsAdLoading}
               onPress={handleNewMatch}
               style={({ pressed }) => [
                 styles.primaryButton,
                 styles.finishedButton,
+                isBetweenRoundsAdLoading && styles.disabledButton,
                 pressed && styles.buttonPressed,
               ]}>
               <Text style={styles.primaryButtonText}>{t('app.game.newMatch')}</Text>
@@ -1123,7 +1437,7 @@ export default function GameScreen() {
         lifetimePrice={lifetimePriceString ?? undefined}
         pass24hPrice={pass24hPriceString ?? undefined}
         purchaseError={revenueCatError}
-        onClose={() => setIsPostRoundPaywallOpen(false)}
+        onClose={closePostRoundPaywall}
         onOpenCustomerCenter={openCustomerCenter}
         onOpenRevenueCatPaywall={handleRevenueCatPaywall}
         onRestorePurchases={restorePurchases}
@@ -1149,12 +1463,19 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     gap: 10,
   },
+  hudCompact: {
+    gap: 6,
+  },
   hudLandscape: {
     maxWidth: 860,
     alignSelf: 'center',
   },
   hudPill: {
+    flex: 1,
+    flexShrink: 1,
+    maxWidth: 112,
     minWidth: 86,
+    minHeight: 62,
     alignItems: 'center',
     justifyContent: 'center',
     borderRadius: 18,
@@ -1164,21 +1485,36 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
     paddingVertical: 8,
   },
+  hudPillCompact: {
+    maxWidth: 82,
+    minWidth: 0,
+    minHeight: 56,
+    borderRadius: 16,
+    paddingHorizontal: 6,
+    paddingVertical: 6,
+  },
   hudLabel: {
     color: 'rgba(255, 255, 255, 0.62)',
     fontSize: 10,
     fontWeight: '900',
     textTransform: 'uppercase',
+    textAlign: 'center',
+    width: '100%',
   },
   hudValue: {
     color: '#FFFFFF',
     fontSize: 20,
     fontWeight: '900',
+    textAlign: 'center',
+    width: '100%',
   },
   timerContainer: {
+    flex: 1.26,
+    flexShrink: 1,
     alignItems: 'center',
     justifyContent: 'center',
     minWidth: 116,
+    maxWidth: 150,
     minHeight: 70,
     borderRadius: 22,
     backgroundColor: 'rgba(255, 248, 234, 0.12)',
@@ -1191,6 +1527,14 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.16,
     shadowRadius: 18,
     elevation: 9,
+  },
+  timerContainerCompact: {
+    minWidth: 0,
+    maxWidth: 116,
+    minHeight: 58,
+    borderRadius: 18,
+    paddingHorizontal: 8,
+    paddingVertical: 6,
   },
   timerFeedback: {
     backgroundColor: 'rgba(255, 255, 255, 0.16)',
@@ -1206,6 +1550,8 @@ const styles = StyleSheet.create({
     fontSize: 31,
     fontWeight: '900',
     color: '#FFFFFF',
+    textAlign: 'center',
+    width: '100%',
   },
   timerDangerText: {
     color: '#FEE2E2',
@@ -1232,6 +1578,8 @@ const styles = StyleSheet.create({
     fontSize: 11,
     fontWeight: '900',
     textTransform: 'uppercase',
+    textAlign: 'center',
+    width: '100%',
   },
   feedbackTextActive: {
     color: '#FFFFFF',
@@ -1744,5 +2092,13 @@ const styles = StyleSheet.create({
   feedbackOverlay: {
     ...StyleSheet.absoluteFillObject,
     zIndex: 0,
+  },
+  confettiOverlay: {
+    ...StyleSheet.absoluteFillObject,
+    zIndex: 4,
+    overflow: 'hidden',
+  },
+  confettiPiece: {
+    position: 'absolute',
   },
 });
