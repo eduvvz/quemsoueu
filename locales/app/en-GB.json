@@ -1,0 +1,8 @@
+{
+  "ios": {
+    "CFBundleDisplayName": "Who Am I? Party Game"
+  },
+  "android": {
+    "app_name": "Who Am I? Party Game"
+  }
+}

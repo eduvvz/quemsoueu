@@ -1,0 +1,8 @@
+{
+  "ios": {
+    "CFBundleDisplayName": "Vem är jag? Festspel"
+  },
+  "android": {
+    "app_name": "Vem är jag? Festspel"
+  }
+}

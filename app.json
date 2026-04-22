@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "quemsoueu",
+    "name": "Who Am I? Party Game",
     "slug": "quemsoueu",
     "version": "1.0.0",
     "orientation": "default",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/icon.png",
     "scheme": "quemsoueu",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -12,22 +12,37 @@
       "supportsTablet": true,
       "bundleIdentifier": "com.eduvvz.quemsoueu",
       "infoPlist": {
-        "ITSAppUsesNonExemptEncryption": false
+        "ITSAppUsesNonExemptEncryption": false,
+        "CFBundleAllowMixedLocalizations": true
       }
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+        "backgroundColor": "#FDD400",
+        "foregroundImage": "./assets/icon.png"
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false
     },
     "web": {
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/icon.png"
+    },
+    "locales": {
+      "en-US": "./locales/app/en-US.json",
+      "pt-BR": "./locales/app/pt-BR.json",
+      "es-MX": "./locales/app/es-MX.json",
+      "en-IN": "./locales/app/en-IN.json",
+      "es-ES": "./locales/app/es-ES.json",
+      "fr-FR": "./locales/app/fr-FR.json",
+      "de-DE": "./locales/app/de-DE.json",
+      "en-GB": "./locales/app/en-GB.json",
+      "it-IT": "./locales/app/it-IT.json",
+      "pt-PT": "./locales/app/pt-PT.json",
+      "nl-NL": "./locales/app/nl-NL.json",
+      "sv-SE": "./locales/app/sv-SE.json",
+      "ja-JP": "./locales/app/ja-JP.json",
+      "ko-KR": "./locales/app/ko-KR.json"
     },
     "plugins": [
       "expo-router",
@@ -43,7 +58,45 @@
           }
         }
       ],
-      "expo-localization",
+      [
+        "expo-localization",
+        {
+          "supportedLocales": {
+            "ios": [
+              "en-US",
+              "pt-BR",
+              "es-MX",
+              "en-IN",
+              "es-ES",
+              "fr-FR",
+              "de-DE",
+              "en-GB",
+              "it-IT",
+              "pt-PT",
+              "nl-NL",
+              "sv-SE",
+              "ja-JP",
+              "ko-KR"
+            ],
+            "android": [
+              "en-US",
+              "pt-BR",
+              "es-MX",
+              "en-IN",
+              "es-ES",
+              "fr-FR",
+              "de-DE",
+              "en-GB",
+              "it-IT",
+              "pt-PT",
+              "nl-NL",
+              "sv-SE",
+              "ja-JP",
+              "ko-KR"
+            ]
+          }
+        }
+      ],
       [
         "react-native-google-mobile-ads",
         {

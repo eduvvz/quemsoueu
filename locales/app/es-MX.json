@@ -1,0 +1,8 @@
+{
+  "ios": {
+    "CFBundleDisplayName": "¿Quién Soy? Juego con Amigos"
+  },
+  "android": {
+    "app_name": "¿Quién Soy? Juego con Amigos"
+  }
+}

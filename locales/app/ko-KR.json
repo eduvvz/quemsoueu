@@ -1,0 +1,8 @@
+{
+  "ios": {
+    "CFBundleDisplayName": "나는 누구일까? 파티 게임"
+  },
+  "android": {
+    "app_name": "나는 누구일까? 파티 게임"
+  }
+}
