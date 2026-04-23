@@ -153,14 +153,6 @@
         "name": "Neo",
         "description": "O escolhido dos filmes Matrix."
       },
-      "movies_tv_39": {
-        "name": "Trinity",
-        "description": "Personagem da série Matrix."
-      },
-      "movies_tv_40": {
-        "name": "Morpheus",
-        "description": "Mentor dos filmes Matrix."
-      },
       "movies_tv_41": {
         "name": "Exterminador",
         "description": "Ciborgue da série O Exterminador do Futuro."
@@ -197,10 +189,6 @@
         "name": "Obi-Wan Kenobi",
         "description": "Mestre Jedi de Star Wars."
       },
-      "movies_tv_50": {
-        "name": "Kylo Ren",
-        "description": "Vilão da trilogia sequela de Star Wars."
-      },
       "movies_tv_51": {
         "name": "James Bond",
         "description": "Agente secreto britânico da série de filmes."
@@ -208,14 +196,6 @@
       "movies_tv_52": {
         "name": "Sherlock Holmes",
         "description": "Detetive famoso conhecido pela dedução."
-      },
-      "movies_tv_53": {
-        "name": "Spock",
-        "description": "Oficial lógico de Star Trek."
-      },
-      "movies_tv_54": {
-        "name": "Capitão Kirk",
-        "description": "Capitão de nave de Star Trek."
       },
       "movies_tv_55": {
         "name": "Gandalf",
@@ -264,14 +244,6 @@
       "movies_tv_66": {
         "name": "C-3PO",
         "description": "Droide de protocolo de Star Wars."
-      },
-      "movies_tv_67": {
-        "name": "Boba Fett",
-        "description": "Caçador de recompensas blindado de Star Wars."
-      },
-      "movies_tv_68": {
-        "name": "Darth Maul",
-        "description": "Guerreiro Sith de Star Wars."
       },
       "movies_tv_69": {
         "name": "O Mandaloriano",
@@ -349,14 +321,6 @@
         "name": "Jurassic Park",
         "description": "Aventura de ficção científica com dinossauros revividos."
       },
-      "movies_tv_88": {
-        "name": "A Origem",
-        "description": "Suspense sobre sonhos, segredos e realidades em camadas."
-      },
-      "movies_tv_89": {
-        "name": "Interestelar",
-        "description": "Drama espacial sobre mundos distantes e efeitos do tempo."
-      },
       "movies_tv_90": {
         "name": "O Rei Leão",
         "description": "História animada sobre um filhote de leão e um destino real."
@@ -384,18 +348,6 @@
       "movies_tv_96": {
         "name": "Batman: O Cavaleiro das Trevas",
         "description": "Filme sombrio de super-herói centrado no protetor de Gotham."
-      },
-      "movies_tv_97": {
-        "name": "O Poderoso Chefão",
-        "description": "Saga criminal clássica sobre uma família poderosa."
-      },
-      "movies_tv_98": {
-        "name": "Pulp Fiction",
-        "description": "Filme criminal contado de forma não linear."
-      },
-      "movies_tv_99": {
-        "name": "Clube da Luta",
-        "description": "Filme sombrio sobre identidade e lutas clandestinas."
       },
       "movies_tv_100": {
         "name": "De Volta para o Futuro",
@@ -479,10 +431,6 @@
         "name": "Lex Luthor",
         "description": "Inimigo genial do Superman na DC."
       },
-      "superheroes_villains_20": {
-        "name": "Darkseid",
-        "description": "Vilão poderoso da DC vindo de Apokolips."
-      },
       "superheroes_villains_21": {
         "name": "Doutor Estranho",
         "description": "Feiticeiro da Marvel que protege a realidade."
@@ -499,17 +447,9 @@
         "name": "Homem-Formiga",
         "description": "Herói da Marvel que pode encolher."
       },
-      "superheroes_villains_25": {
-        "name": "Vespa",
-        "description": "Heroína da Marvel que encolhe e voa."
-      },
       "superheroes_villains_26": {
         "name": "Aquaman",
         "description": "Herói da DC que governa Atlântida."
-      },
-      "superheroes_villains_27": {
-        "name": "Cyborg",
-        "description": "Herói da DC com corpo cibernético avançado."
       },
       "superheroes_villains_28": {
         "name": "Lanterna Verde",
@@ -518,10 +458,6 @@
       "superheroes_villains_29": {
         "name": "Shazam",
         "description": "Herói da DC que se transforma com uma palavra mágica."
-      },
-      "superheroes_villains_30": {
-        "name": "Adão Negro",
-        "description": "Anti-herói poderoso da DC Comics."
       },
       "superheroes_villains_31": {
         "name": "Wolverine",
@@ -547,61 +483,9 @@
         "name": "Mística",
         "description": "Vilã mutante capaz de mudar de forma."
       },
-      "superheroes_villains_37": {
-        "name": "Apocalipse",
-        "description": "Vilão mutante ancestral dos X-Men."
-      },
-      "superheroes_villains_38": {
-        "name": "Noturno",
-        "description": "Mutante dos X-Men que se teletransporta."
-      },
-      "superheroes_villains_39": {
-        "name": "Vampira",
-        "description": "Mutante que absorve poderes."
-      },
-      "superheroes_villains_40": {
-        "name": "Fera",
-        "description": "Mutante genial de pelo azul dos X-Men."
-      },
       "superheroes_villains_41": {
         "name": "Doutor Octopus",
         "description": "Vilão do Homem-Aranha com braços mecânicos."
-      },
-      "superheroes_villains_42": {
-        "name": "Electro",
-        "description": "Vilão com poderes elétricos."
-      },
-      "superheroes_villains_43": {
-        "name": "Rino",
-        "description": "Vilão forte e blindado do Homem-Aranha."
-      },
-      "superheroes_villains_44": {
-        "name": "Abutre",
-        "description": "Vilão voador do Homem-Aranha."
-      },
-      "superheroes_villains_45": {
-        "name": "Rei do Crime",
-        "description": "Chefão do crime e vilão da Marvel."
-      },
-      "superheroes_villains_46": {
-        "name": "Justiceiro",
-        "description": "Anti-herói que usa força letal contra o crime."
-      },
-      "superheroes_villains_47": {
-        "name": "Blade",
-        "description": "Caçador de vampiros da Marvel."
-      },
-      "superheroes_villains_48": {
-        "name": "Motoqueiro Fantasma",
-        "description": "Anti-herói sobrenatural com caveira em chamas."
-      },
-      "superheroes_villains_49": {
-        "name": "Surfista Prateado",
-        "description": "Herói cósmico a serviço de Galactus."
-      },
-      "superheroes_villains_50": {
-        "name": "Galactus",
-        "description": "Entidade cósmica que consome planetas."
       },
       "superheroes_villains_51": {
         "name": "Capitã Marvel",
@@ -627,101 +511,17 @@
         "name": "Groot",
         "description": "Herói parecido com uma árvore da Marvel."
       },
-      "superheroes_villains_57": {
-        "name": "Nebulosa",
-        "description": "Assassina ciborgue da Marvel."
-      },
-      "superheroes_villains_58": {
-        "name": "Mantis",
-        "description": "Empata da Marvel."
-      },
       "superheroes_villains_59": {
         "name": "Ultron",
         "description": "Vilão de inteligência artificial dos Vingadores."
-      },
-      "superheroes_villains_60": {
-        "name": "Caveira Vermelha",
-        "description": "Vilão nazista da Marvel."
-      },
-      "superheroes_villains_61": {
-        "name": "Hela",
-        "description": "Deusa da morte da Marvel."
-      },
-      "superheroes_villains_62": {
-        "name": "Killmonger",
-        "description": "Vilão de Pantera Negra."
-      },
-      "superheroes_villains_63": {
-        "name": "Treinador",
-        "description": "Vilão que copia estilos de luta."
-      },
-      "superheroes_villains_64": {
-        "name": "Cavaleiro da Lua",
-        "description": "Herói da Marvel com múltiplas identidades."
-      },
-      "superheroes_villains_65": {
-        "name": "Mulher-Hulk",
-        "description": "Heroína advogada verde da Marvel."
-      },
-      "superheroes_villains_66": {
-        "name": "Miss Marvel",
-        "description": "Jovem heroína elástica da Marvel."
-      },
-      "superheroes_villains_67": {
-        "name": "Nova",
-        "description": "Herói cósmico da Marvel."
-      },
-      "superheroes_villains_68": {
-        "name": "Adam Warlock",
-        "description": "Ser cósmico poderoso da Marvel."
-      },
-      "superheroes_villains_69": {
-        "name": "Kang",
-        "description": "Vilão viajante do tempo da Marvel."
-      },
-      "superheroes_villains_70": {
-        "name": "MODOK",
-        "description": "Vilão cabeçudo da Marvel."
       },
       "superheroes_villains_71": {
         "name": "Saitama",
         "description": "Herói que derrota inimigos com um soco em One Punch Man."
       },
-      "superheroes_villains_72": {
-        "name": "Genos",
-        "description": "Herói ciborgue de One Punch Man."
-      },
-      "superheroes_villains_73": {
-        "name": "All Might",
-        "description": "Maior herói de My Hero Academia."
-      },
       "superheroes_villains_74": {
         "name": "Deku",
         "description": "Jovem herói de My Hero Academia."
-      },
-      "superheroes_villains_75": {
-        "name": "Bakugo",
-        "description": "Herói explosivo de My Hero Academia."
-      },
-      "superheroes_villains_76": {
-        "name": "Todoroki",
-        "description": "Herói com poderes de fogo e gelo de My Hero Academia."
-      },
-      "superheroes_villains_77": {
-        "name": "Shigaraki",
-        "description": "Vilão principal de My Hero Academia."
-      },
-      "superheroes_villains_78": {
-        "name": "Dabi",
-        "description": "Vilão de fogo de My Hero Academia."
-      },
-      "superheroes_villains_79": {
-        "name": "Hawks",
-        "description": "Herói alado de My Hero Academia."
-      },
-      "superheroes_villains_80": {
-        "name": "Endeavor",
-        "description": "Herói de fogo de My Hero Academia."
       },
       "superheroes_villains_81": {
         "name": "Omni-Man",
@@ -735,34 +535,6 @@
         "name": "Homelander",
         "description": "Vilão de The Boys."
       },
-      "superheroes_villains_84": {
-        "name": "Starlight",
-        "description": "Heroína de The Boys."
-      },
-      "superheroes_villains_85": {
-        "name": "A-Train",
-        "description": "Velocista de The Boys."
-      },
-      "superheroes_villains_86": {
-        "name": "Maeve",
-        "description": "Guerreira de The Boys."
-      },
-      "superheroes_villains_87": {
-        "name": "Black Noir",
-        "description": "Assassino silencioso de The Boys."
-      },
-      "superheroes_villains_88": {
-        "name": "Soldier Boy",
-        "description": "Herói veterano de The Boys."
-      },
-      "superheroes_villains_89": {
-        "name": "Spawn",
-        "description": "Anti-herói sobrenatural dos quadrinhos."
-      },
-      "superheroes_villains_90": {
-        "name": "Hellboy",
-        "description": "Herói demoníaco da Dark Horse."
-      },
       "superheroes_villains_91": {
         "name": "Optimus Prime",
         "description": "Líder dos Autobots em Transformers."
@@ -775,33 +547,9 @@
         "name": "Bumblebee",
         "description": "Herói Autobot de Transformers."
       },
-      "superheroes_villains_94": {
-        "name": "He-Man",
-        "description": "Herói de Mestres do Universo."
-      },
-      "superheroes_villains_95": {
-        "name": "Esqueleto",
-        "description": "Vilão de Mestres do Universo."
-      },
       "superheroes_villains_96": {
         "name": "Ben 10",
         "description": "Herói criança com transformações alienígenas."
-      },
-      "superheroes_villains_97": {
-        "name": "Vilgax",
-        "description": "Vilão de Ben 10."
-      },
-      "superheroes_villains_98": {
-        "name": "Samurai Jack",
-        "description": "Herói viajante do tempo do Cartoon Network."
-      },
-      "superheroes_villains_99": {
-        "name": "Aku",
-        "description": "Vilão de Samurai Jack."
-      },
-      "superheroes_villains_100": {
-        "name": "Kim Possible",
-        "description": "Heroína espiã adolescente do Disney Channel."
       }
     },
     "video_game_characters": {
@@ -865,22 +613,6 @@
         "name": "Kratos",
         "description": "Guerreiro de uma série de ação com mitologia."
       },
-      "video_game_characters_16": {
-        "name": "Geralt",
-        "description": "Caçador de monstros de um RPG de fantasia."
-      },
-      "video_game_characters_17": {
-        "name": "Cloud",
-        "description": "Herói de cabelo espetado de um RPG famoso."
-      },
-      "video_game_characters_18": {
-        "name": "Sephiroth",
-        "description": "Antagonista de cabelo longo de um RPG famoso."
-      },
-      "video_game_characters_19": {
-        "name": "Tifa",
-        "description": "Aliada lutadora de um RPG famoso."
-      },
       "video_game_characters_20": {
         "name": "Donkey Kong",
         "description": "Gorila de gravata de uma série clássica."
@@ -921,18 +653,6 @@
         "name": "Enderman",
         "description": "Criatura alta que teleporta em Minecraft."
       },
-      "video_game_characters_30": {
-        "name": "Solid Snake",
-        "description": "Soldado furtivo de Metal Gear."
-      },
-      "video_game_characters_31": {
-        "name": "Ezio",
-        "description": "Assassino de Assassin’s Creed."
-      },
-      "video_game_characters_32": {
-        "name": "Altaïr",
-        "description": "Assassino do primeiro Assassin’s Creed."
-      },
       "video_game_characters_33": {
         "name": "Ryu",
         "description": "Lutador de Street Fighter."
@@ -944,10 +664,6 @@
       "video_game_characters_35": {
         "name": "Chun-Li",
         "description": "Lutadora de Street Fighter."
-      },
-      "video_game_characters_36": {
-        "name": "M. Bison",
-        "description": "Vilão líder de Street Fighter."
       },
       "video_game_characters_37": {
         "name": "Scorpion",
@@ -961,53 +677,9 @@
         "name": "Liu Kang",
         "description": "Lutador herói de Mortal Kombat."
       },
-      "video_game_characters_40": {
-        "name": "Kitana",
-        "description": "Guerreira com leques de Mortal Kombat."
-      },
-      "video_game_characters_41": {
-        "name": "Sonya Blade",
-        "description": "Lutadora das forças especiais em Mortal Kombat."
-      },
       "video_game_characters_42": {
         "name": "Raiden",
         "description": "Deus do trovão de Mortal Kombat."
-      },
-      "video_game_characters_43": {
-        "name": "Kazuya",
-        "description": "Lutador de Tekken."
-      },
-      "video_game_characters_44": {
-        "name": "Jin Kazama",
-        "description": "Lutador de Tekken."
-      },
-      "video_game_characters_45": {
-        "name": "Heihachi",
-        "description": "Lutador veterano de Tekken."
-      },
-      "video_game_characters_46": {
-        "name": "Leon Kennedy",
-        "description": "Sobrevivente de Resident Evil."
-      },
-      "video_game_characters_47": {
-        "name": "Jill Valentine",
-        "description": "Sobrevivente de Resident Evil."
-      },
-      "video_game_characters_48": {
-        "name": "Chris Redfield",
-        "description": "Protagonista de Resident Evil."
-      },
-      "video_game_characters_49": {
-        "name": "Ada Wong",
-        "description": "Agente misteriosa de Resident Evil."
-      },
-      "video_game_characters_50": {
-        "name": "Wesker",
-        "description": "Vilão de Resident Evil."
-      },
-      "video_game_characters_51": {
-        "name": "Nathan Drake",
-        "description": "Caçador de tesouros de Uncharted."
       },
       "video_game_characters_52": {
         "name": "Crash Bandicoot",
@@ -1033,10 +705,6 @@
         "name": "Toad",
         "description": "Um ajudante baixinho com cabeça de cogumelo de uma série familiar famosa."
       },
-      "video_game_characters_58": {
-        "name": "Toadette",
-        "description": "Uma personagem cogumelo alegre vista em jogos de festa e corrida."
-      },
       "video_game_characters_59": {
         "name": "Wario",
         "description": "Um rival ganancioso conhecido por força e travessuras."
@@ -1044,30 +712,6 @@
       "video_game_characters_60": {
         "name": "Waluigi",
         "description": "Um rival esguio e trapaceiro comum em jogos de esporte e festa."
-      },
-      "video_game_characters_61": {
-        "name": "Bowser Jr.",
-        "description": "Um jovem vilão tipo tartaruga de uma série clássica de plataforma."
-      },
-      "video_game_characters_62": {
-        "name": "Rosalina",
-        "description": "Uma princesa alta com tema espacial de uma grande franquia de plataforma."
-      },
-      "video_game_characters_63": {
-        "name": "Princesa Daisy",
-        "description": "Uma princesa esportiva muito presente em jogos de festa e esporte."
-      },
-      "video_game_characters_64": {
-        "name": "Diddy Kong",
-        "description": "Um macaco companheiro brincalhão de uma famosa série de plataforma na selva."
-      },
-      "video_game_characters_65": {
-        "name": "Rei Dedede",
-        "description": "Um rei que usa martelo de uma série de ação e plataforma fofa."
-      },
-      "video_game_characters_66": {
-        "name": "Ridley",
-        "description": "Um chefe alienígena perigoso, tipo dragão, de uma série de ação sci-fi."
       },
       "video_game_characters_67": {
         "name": "Alex (Minecraft)",
@@ -1085,14 +729,6 @@
         "name": "Gengar",
         "description": "Uma criatura fantasma sorridente de uma série de capturar monstros."
       },
-      "video_game_characters_71": {
-        "name": "Lucario",
-        "description": "Uma criatura lutadora tipo chacal conhecida por poderes de aura."
-      },
-      "video_game_characters_72": {
-        "name": "Greninja",
-        "description": "Uma criatura tipo sapo ninja de uma série de capturar monstros."
-      },
       "video_game_characters_73": {
         "name": "Bulbasaur",
         "description": "Uma criaturinha com planta nas costas de uma série de capturar monstros."
@@ -1109,41 +745,9 @@
         "name": "Charmander",
         "description": "Uma pequena criatura lagarto de fogo com cauda em chamas."
       },
-      "video_game_characters_77": {
-        "name": "Cortana",
-        "description": "Uma IA companheira de uma série de tiro sci‑fi."
-      },
-      "video_game_characters_78": {
-        "name": "GLaDOS",
-        "description": "Uma IA sarcástica que controla um centro de testes."
-      },
-      "video_game_characters_79": {
-        "name": "Chell",
-        "description": "Uma personagem silenciosa em um jogo de puzzles."
-      },
-      "video_game_characters_80": {
-        "name": "Gordon Freeman",
-        "description": "Um cientista-herói de um clássico jogo de tiro sci‑fi."
-      },
       "video_game_characters_81": {
         "name": "Doom Slayer",
         "description": "Um caçador de demônios em um shooter frenético."
-      },
-      "video_game_characters_82": {
-        "name": "Vault Boy",
-        "description": "Um mascote alegre de um RPG pós-apocalíptico."
-      },
-      "video_game_characters_83": {
-        "name": "Dragonborn",
-        "description": "Um herói personalizável de um RPG de fantasia."
-      },
-      "video_game_characters_84": {
-        "name": "Big Daddy",
-        "description": "Um guardião de armadura pesada de um jogo subaquático."
-      },
-      "video_game_characters_85": {
-        "name": "Little Sister",
-        "description": "Uma criança misteriosa de uma série subaquática."
       },
       "video_game_characters_86": {
         "name": "Joel",
@@ -1152,58 +756,6 @@
       "video_game_characters_87": {
         "name": "Ellie",
         "description": "Uma jovem sobrevivente de um jogo narrativo pós-apocalíptico."
-      },
-      "video_game_characters_88": {
-        "name": "Aloy",
-        "description": "Uma caçadora em um mundo de criaturas mecânicas."
-      },
-      "video_game_characters_89": {
-        "name": "Arthur Morgan",
-        "description": "Um fora-da-lei de um jogo de mundo aberto no Velho Oeste."
-      },
-      "video_game_characters_90": {
-        "name": "John Marston",
-        "description": "Um pistoleiro de uma série de faroeste."
-      },
-      "video_game_characters_91": {
-        "name": "CJ",
-        "description": "Um personagem de gangue em um jogo de crime em mundo aberto."
-      },
-      "video_game_characters_92": {
-        "name": "Trevor Philips",
-        "description": "Um criminoso imprevisível de um jogo de ação em mundo aberto."
-      },
-      "video_game_characters_93": {
-        "name": "Michael De Santa",
-        "description": "Um criminoso “aposentado” de um jogo de ação em mundo aberto."
-      },
-      "video_game_characters_94": {
-        "name": "Franklin Clinton",
-        "description": "Um jovem criminoso de um jogo de ação em mundo aberto."
-      },
-      "video_game_characters_95": {
-        "name": "Niko Bellic",
-        "description": "Um recém-chegado tentando sobreviver em um jogo de crime."
-      },
-      "video_game_characters_96": {
-        "name": "Agente 47",
-        "description": "Um assassino profissional careca."
-      },
-      "video_game_characters_97": {
-        "name": "Comandante Shepard",
-        "description": "Um comandante espacial de um RPG sci‑fi."
-      },
-      "video_game_characters_98": {
-        "name": "Sam Fisher",
-        "description": "Um agente furtivo de uma série de espionagem."
-      },
-      "video_game_characters_99": {
-        "name": "Big Boss",
-        "description": "Um soldado lendário de uma série de ação furtiva."
-      },
-      "video_game_characters_100": {
-        "name": "Rayman",
-        "description": "Um herói sem membros de jogos de plataforma."
       }
     },
     "celebrities": {
@@ -1391,14 +943,6 @@
         "name": "Meryl Streep",
         "description": "Atriz de cinema premiada."
       },
-      "celebrities_47": {
-        "name": "Nicole Kidman",
-        "description": "Famosa atriz de cinema."
-      },
-      "celebrities_48": {
-        "name": "Cate Blanchett",
-        "description": "Atriz de cinema premiada."
-      },
       "celebrities_49": {
         "name": "Hugh Jackman",
         "description": "Ator conhecido por ação e musicais."
@@ -1495,10 +1039,6 @@
         "name": "George Clooney",
         "description": "Ator e diretor famoso."
       },
-      "celebrities_73": {
-        "name": "Harrison Ford",
-        "description": "Ator famoso de cinema."
-      },
       "celebrities_74": {
         "name": "Robert De Niro",
         "description": "Ator lendário."
@@ -1535,26 +1075,6 @@
         "name": "Matt Damon",
         "description": "Ator conhecido por filmes de ação e drama."
       },
-      "celebrities_83": {
-        "name": "Mark Wahlberg",
-        "description": "Ator e produtor conhecido por filmes de ação e comédia."
-      },
-      "celebrities_84": {
-        "name": "Hugh Grant",
-        "description": "Ator conhecido por comédias românticas."
-      },
-      "celebrities_85": {
-        "name": "Daniel Craig",
-        "description": "Ator conhecido por interpretar um espião famoso."
-      },
-      "celebrities_86": {
-        "name": "Pierce Brosnan",
-        "description": "Ator conhecido por interpretar um famoso personagem espião."
-      },
-      "celebrities_87": {
-        "name": "Sean Connery",
-        "description": "Estrela clássica do cinema conhecida por um papel famoso de espião."
-      },
       "celebrities_88": {
         "name": "Samuel L. Jackson",
         "description": "Ator conhecido por muitos filmes de grande sucesso."
@@ -1579,18 +1099,6 @@
         "name": "Arnold Schwarzenegger",
         "description": "Astro de ação conhecido por clássicos de ficção científica."
       },
-      "celebrities_94": {
-        "name": "Clint Eastwood",
-        "description": "Ator e diretor conhecido por faroestes e dramas clássicos."
-      },
-      "celebrities_95": {
-        "name": "Jack Nicholson",
-        "description": "Ator conhecido por papéis dramáticos famosos."
-      },
-      "celebrities_96": {
-        "name": "Keira Knightley",
-        "description": "Atriz conhecida por filmes de época e aventuras."
-      },
       "celebrities_97": {
         "name": "Natalie Portman",
         "description": "Atriz conhecida por filmes premiados e papéis de ficção científica."
@@ -1602,10 +1110,6 @@
       "celebrities_99": {
         "name": "Anne Hathaway",
         "description": "Atriz conhecida por dramas e filmes familiares."
-      },
-      "celebrities_100": {
-        "name": "Sandra Bullock",
-        "description": "Atriz conhecida por comédias e suspense."
       }
     },
     "athletes": {
@@ -1633,14 +1137,6 @@
         "name": "Ronaldo Nazário",
         "description": "Lenda brasileira do ataque."
       },
-      "athletes_7": {
-        "name": "Andrés Iniesta",
-        "description": "Meio-campista do futebol espanhol."
-      },
-      "athletes_8": {
-        "name": "Xavi",
-        "description": "Meio-campista do futebol espanhol."
-      },
       "athletes_9": {
         "name": "Luka Modrić",
         "description": "Meio-campista do futebol croata."
@@ -1657,57 +1153,9 @@
         "name": "Robert Lewandowski",
         "description": "Atacante do futebol polonês."
       },
-      "athletes_13": {
-        "name": "Johan Cruyff",
-        "description": "Lenda do futebol holandês."
-      },
-      "athletes_14": {
-        "name": "Franz Beckenbauer",
-        "description": "Lenda do futebol alemão."
-      },
-      "athletes_15": {
-        "name": "Alfredo Di Stéfano",
-        "description": "Lenda do futebol e atacante."
-      },
-      "athletes_16": {
-        "name": "Ferenc Puskás",
-        "description": "Lenda do futebol húngaro."
-      },
-      "athletes_17": {
-        "name": "Paolo Maldini",
-        "description": "Defensor do futebol italiano."
-      },
       "athletes_18": {
         "name": "Thierry Henry",
         "description": "Atacante do futebol francês."
-      },
-      "athletes_19": {
-        "name": "Didier Drogba",
-        "description": "Atacante do futebol marfinense."
-      },
-      "athletes_20": {
-        "name": "Samuel Eto'o",
-        "description": "Atacante do futebol camaronês."
-      },
-      "athletes_21": {
-        "name": "George Weah",
-        "description": "Lenda do futebol liberiano."
-      },
-      "athletes_22": {
-        "name": "Lev Yashin",
-        "description": "Goleiro lendário do futebol."
-      },
-      "athletes_23": {
-        "name": "Gianluigi Buffon",
-        "description": "Goleiro do futebol italiano."
-      },
-      "athletes_24": {
-        "name": "Iker Casillas",
-        "description": "Goleiro do futebol espanhol."
-      },
-      "athletes_25": {
-        "name": "Manuel Neuer",
-        "description": "Goleiro do futebol alemão."
       },
       "athletes_26": {
         "name": "Sergio Ramos",
@@ -1733,41 +1181,9 @@
         "name": "Khabib Nurmagomedov",
         "description": "Campeão de MMA aposentado."
       },
-      "athletes_32": {
-        "name": "Michael Johnson",
-        "description": "Velocista olímpico e medalhista de ouro."
-      },
-      "athletes_33": {
-        "name": "Carl Lewis",
-        "description": "Lenda do atletismo olímpico."
-      },
-      "athletes_34": {
-        "name": "Jesse Owens",
-        "description": "Velocista olímpico histórico."
-      },
-      "athletes_35": {
-        "name": "Katie Ledecky",
-        "description": "Nadadora olímpica de longa distância."
-      },
-      "athletes_36": {
-        "name": "Nadia Comaneci",
-        "description": "Ginasta conhecida por notas perfeitas."
-      },
-      "athletes_37": {
-        "name": "Steffi Graf",
-        "description": "Campeã de tênis em Grand Slams."
-      },
       "athletes_38": {
         "name": "Maria Sharapova",
         "description": "Ex-número 1 do tênis."
-      },
-      "athletes_39": {
-        "name": "Andy Murray",
-        "description": "Campeão de Grand Slam no tênis."
-      },
-      "athletes_40": {
-        "name": "Naomi Osaka",
-        "description": "Campeã de Grand Slam no tênis."
       },
       "athletes_41": {
         "name": "Ayrton Senna",
@@ -1785,34 +1201,6 @@
         "name": "Fernando Alonso",
         "description": "Campeão mundial de Fórmula 1."
       },
-      "athletes_45": {
-        "name": "Valentino Rossi",
-        "description": "Campeão de MotoGP."
-      },
-      "athletes_46": {
-        "name": "Marc Márquez",
-        "description": "Campeão de MotoGP."
-      },
-      "athletes_47": {
-        "name": "Sachin Tendulkar",
-        "description": "Lenda do críquete como rebatedor."
-      },
-      "athletes_48": {
-        "name": "Virat Kohli",
-        "description": "Astro do críquete e capitão."
-      },
-      "athletes_49": {
-        "name": "MS Dhoni",
-        "description": "Capitão do críquete e campeão."
-      },
-      "athletes_50": {
-        "name": "Jonah Lomu",
-        "description": "Jogador lendário de rúgbi."
-      },
-      "athletes_51": {
-        "name": "Richie McCaw",
-        "description": "Capitão do rúgbi e campeão."
-      },
       "athletes_52": {
         "name": "Tom Brady",
         "description": "Quarterback de futebol americano."
@@ -1821,89 +1209,13 @@
         "name": "Magic Johnson",
         "description": "Lenda da NBA."
       },
-      "athletes_54": {
-        "name": "Larry Bird",
-        "description": "Ex-estrela da NBA."
-      },
-      "athletes_55": {
-        "name": "Kareem Abdul-Jabbar",
-        "description": "Um dos maiores da NBA."
-      },
-      "athletes_56": {
-        "name": "Wilt Chamberlain",
-        "description": "Pivô histórico da NBA."
-      },
-      "athletes_57": {
-        "name": "Tim Duncan",
-        "description": "Campeão da NBA."
-      },
       "athletes_58": {
         "name": "Kevin Durant",
         "description": "Ala estrela da NBA."
       },
-      "athletes_59": {
-        "name": "Allen Iverson",
-        "description": "Ex-armador da NBA."
-      },
       "athletes_60": {
         "name": "Venus Williams",
         "description": "Campeã de tênis."
-      },
-      "athletes_61": {
-        "name": "Andre Agassi",
-        "description": "Ex-estrela do tênis."
-      },
-      "athletes_62": {
-        "name": "Pete Sampras",
-        "description": "Ex-campeão de tênis."
-      },
-      "athletes_63": {
-        "name": "Bjorn Borg",
-        "description": "Lenda do tênis."
-      },
-      "athletes_64": {
-        "name": "Billie Jean King",
-        "description": "Ícone do tênis."
-      },
-      "athletes_65": {
-        "name": "Martina Navratilova",
-        "description": "Campeã de tênis."
-      },
-      "athletes_66": {
-        "name": "Rory McIlroy",
-        "description": "Golfista profissional."
-      },
-      "athletes_67": {
-        "name": "Jack Nicklaus",
-        "description": "Lenda do golfe."
-      },
-      "athletes_68": {
-        "name": "Arnold Palmer",
-        "description": "Lenda do golfe."
-      },
-      "athletes_69": {
-        "name": "Phil Mickelson",
-        "description": "Golfista profissional."
-      },
-      "athletes_70": {
-        "name": "Eliud Kipchoge",
-        "description": "Maratonista."
-      },
-      "athletes_71": {
-        "name": "Mo Farah",
-        "description": "Corredor de longa distância."
-      },
-      "athletes_72": {
-        "name": "Haile Gebrselassie",
-        "description": "Lenda da corrida de longa distância."
-      },
-      "athletes_73": {
-        "name": "Mark Spitz",
-        "description": "Nadador olímpico."
-      },
-      "athletes_74": {
-        "name": "Wayne Gretzky",
-        "description": "Lenda do hóquei no gelo."
       },
       "athletes_75": {
         "name": "Karim Benzema",
@@ -1925,45 +1237,9 @@
         "name": "Nikola Jokic",
         "description": "Pivô da NBA, da Sérvia."
       },
-      "athletes_80": {
-        "name": "Dirk Nowitzki",
-        "description": "Lenda alemã do basquete e campeão da NBA."
-      },
       "athletes_81": {
         "name": "Yao Ming",
         "description": "Ícone chinês do basquete e ex-pivô da NBA."
-      },
-      "athletes_82": {
-        "name": "Hakeem Olajuwon",
-        "description": "Pivô Hall of Fame da NBA, nascido na Nigéria."
-      },
-      "athletes_83": {
-        "name": "Kawhi Leonard",
-        "description": "Estrela da NBA conhecida pela defesa e títulos."
-      },
-      "athletes_84": {
-        "name": "James Harden",
-        "description": "Armador da NBA conhecido por pontuar muito."
-      },
-      "athletes_85": {
-        "name": "Oscar De La Hoya",
-        "description": "Boxeador profissional mundialmente famoso."
-      },
-      "athletes_86": {
-        "name": "Anthony Joshua",
-        "description": "Campeão de boxe peso-pesado do Reino Unido."
-      },
-      "athletes_87": {
-        "name": "Tyson Fury",
-        "description": "Boxeador peso-pesado conhecido mundialmente."
-      },
-      "athletes_88": {
-        "name": "Oleksandr Usyk",
-        "description": "Boxeador ucraniano campeão mundial."
-      },
-      "athletes_89": {
-        "name": "Georges St-Pierre",
-        "description": "Lenda do MMA e ex-campeão."
       },
       "athletes_90": {
         "name": "Ronda Rousey",
@@ -1972,42 +1248,6 @@
       "athletes_91": {
         "name": "Anderson Silva",
         "description": "Lenda brasileira do MMA."
-      },
-      "athletes_92": {
-        "name": "Israel Adesanya",
-        "description": "Campeão do MMA conhecido pela trocação."
-      },
-      "athletes_93": {
-        "name": "John McEnroe",
-        "description": "Lenda do tênis e ex-número 1."
-      },
-      "athletes_94": {
-        "name": "Boris Becker",
-        "description": "Campeão alemão de tênis."
-      },
-      "athletes_95": {
-        "name": "Andy Roddick",
-        "description": "Campeão americano de tênis conhecido pelo saque forte."
-      },
-      "athletes_96": {
-        "name": "Martina Hingis",
-        "description": "Estrela do tênis vencedora de Grand Slam."
-      },
-      "athletes_97": {
-        "name": "Kim Clijsters",
-        "description": "Campeã belga de Grand Slam no tênis."
-      },
-      "athletes_98": {
-        "name": "Monica Seles",
-        "description": "Lendária campeã de Grand Slam no tênis."
-      },
-      "athletes_99": {
-        "name": "Carlos Alcaraz",
-        "description": "Grande estrela do tênis e vencedor de Grand Slam."
-      },
-      "athletes_100": {
-        "name": "Sergio Aguero",
-        "description": "Atacante argentino de futebol e ídolo de clube."
       }
     },
     "musicians": {
@@ -2127,26 +1367,6 @@
         "name": "Bach",
         "description": "Compositor barroco conhecido por música complexa."
       },
-      "musicians_30": {
-        "name": "Chopin",
-        "description": "Compositor do romantismo, famoso por peças para piano."
-      },
-      "musicians_31": {
-        "name": "Vivaldi",
-        "description": "Compositor barroco ligado a \"As Quatro Estações\"."
-      },
-      "musicians_32": {
-        "name": "Tchaikovsky",
-        "description": "Compositor conhecido por balés e música orquestral."
-      },
-      "musicians_33": {
-        "name": "Pavarotti",
-        "description": "Tenor de ópera famoso."
-      },
-      "musicians_34": {
-        "name": "Andrea Bocelli",
-        "description": "Cantor italiano conhecido por pop e clássico."
-      },
       "musicians_35": {
         "name": "Frank Sinatra",
         "description": "Cantor clássico americano e entertainer."
@@ -2167,22 +1387,6 @@
         "name": "Elton John",
         "description": "Cantor de pop/rock conhecido por músicas ao piano."
       },
-      "musicians_40": {
-        "name": "Stevie Wonder",
-        "description": "Músico de soul conhecido por hits e teclados."
-      },
-      "musicians_41": {
-        "name": "Bob Dylan",
-        "description": "Cantor e compositor conhecido por folk e rock."
-      },
-      "musicians_42": {
-        "name": "Johnny Cash",
-        "description": "Cantor country conhecido pela voz grave."
-      },
-      "musicians_43": {
-        "name": "Dolly Parton",
-        "description": "Cantora e compositora conhecida por country e pop."
-      },
       "musicians_44": {
         "name": "Tina Turner",
         "description": "Cantora de rock e soul com grandes hits."
@@ -2190,30 +1394,6 @@
       "musicians_45": {
         "name": "Cher",
         "description": "Cantora pop e atriz com carreira longa."
-      },
-      "musicians_46": {
-        "name": "Barbra Streisand",
-        "description": "Cantora e atriz conhecida por voz potente."
-      },
-      "musicians_47": {
-        "name": "Lionel Richie",
-        "description": "Cantor e compositor de pop e soul."
-      },
-      "musicians_48": {
-        "name": "Phil Collins",
-        "description": "Cantor e baterista com muitos hits pop."
-      },
-      "musicians_49": {
-        "name": "Sting",
-        "description": "Cantor e compositor de rock."
-      },
-      "musicians_50": {
-        "name": "Eric Clapton",
-        "description": "Guitarrista e cantor conhecido por blues rock."
-      },
-      "musicians_51": {
-        "name": "Jimi Hendrix",
-        "description": "Guitarrista de rock icônico."
       },
       "musicians_52": {
         "name": "AC/DC",
@@ -2255,65 +1435,9 @@
         "name": "Oasis",
         "description": "Banda de britpop dos anos 1990."
       },
-      "musicians_62": {
-        "name": "The Who",
-        "description": "Banda clássica de rock influente."
-      },
-      "musicians_63": {
-        "name": "The Doors",
-        "description": "Banda clássica de rock com músicas icônicas."
-      },
-      "musicians_64": {
-        "name": "The Eagles",
-        "description": "Banda de rock conhecida por hits clássicos."
-      },
       "musicians_65": {
         "name": "Bee Gees",
         "description": "Grupo pop ligado a hits da era disco."
-      },
-      "musicians_66": {
-        "name": "The Beach Boys",
-        "description": "Grupo vocal clássico de pop-rock."
-      },
-      "musicians_67": {
-        "name": "The Police",
-        "description": "Banda de rock com influências de reggae."
-      },
-      "musicians_68": {
-        "name": "Genesis",
-        "description": "Banda de rock com carreira longa."
-      },
-      "musicians_69": {
-        "name": "Depeche Mode",
-        "description": "Banda eletrônica conhecida por sintetizadores."
-      },
-      "musicians_70": {
-        "name": "Arctic Monkeys",
-        "description": "Banda de rock moderna com hits globais."
-      },
-      "musicians_71": {
-        "name": "The Killers",
-        "description": "Banda de rock conhecida por singles marcantes."
-      },
-      "musicians_72": {
-        "name": "R.E.M.",
-        "description": "Banda de rock alternativo dos anos 1980–90."
-      },
-      "musicians_73": {
-        "name": "Pearl Jam",
-        "description": "Banda de rock ligada à era grunge."
-      },
-      "musicians_74": {
-        "name": "The Clash",
-        "description": "Banda influente de punk rock."
-      },
-      "musicians_75": {
-        "name": "The Cure",
-        "description": "Banda alternativa conhecida por músicas melancólicas."
-      },
-      "musicians_76": {
-        "name": "Iron Maiden",
-        "description": "Banda de heavy metal com mascote."
       },
       "musicians_77": {
         "name": "Harry Styles",
@@ -2382,34 +1506,6 @@
       "musicians_93": {
         "name": "PSY",
         "description": "Cantor e performer de K-pop."
-      },
-      "musicians_94": {
-        "name": "Shania Twain",
-        "description": "Cantora country-pop."
-      },
-      "musicians_95": {
-        "name": "Willie Nelson",
-        "description": "Cantor e compositor country."
-      },
-      "musicians_96": {
-        "name": "Diana Ross",
-        "description": "Cantora de soul e pop."
-      },
-      "musicians_97": {
-        "name": "Marvin Gaye",
-        "description": "Cantor e compositor de soul."
-      },
-      "musicians_98": {
-        "name": "Ray Charles",
-        "description": "Músico de soul e jazz."
-      },
-      "musicians_99": {
-        "name": "Ella Fitzgerald",
-        "description": "Cantora de jazz."
-      },
-      "musicians_100": {
-        "name": "Louis Armstrong",
-        "description": "Músico e cantor de jazz."
       }
     },
     "cartoons_animation": {
@@ -2457,37 +1553,13 @@
         "name": "Velma",
         "description": "Uma investigadora inteligente conhecida pelos óculos."
       },
-      "cartoons_animation_12": {
-        "name": "Fred (Scooby-Doo)",
-        "description": "Líder da Mistério S.A., conhecido por planos e armadilhas."
-      },
-      "cartoons_animation_13": {
-        "name": "Daphne",
-        "description": "Investigadora da Mistério S.A. em Scooby-Doo."
-      },
       "cartoons_animation_14": {
         "name": "Popeye",
         "description": "Um marinheiro que fica forte depois de comer espinafre."
       },
-      "cartoons_animation_15": {
-        "name": "Olívia Palito",
-        "description": "Uma personagem clássica ligada a um marinheiro."
-      },
-      "cartoons_animation_16": {
-        "name": "Betty Boop",
-        "description": "Uma personagem famosa da animação clássica."
-      },
-      "cartoons_animation_17": {
-        "name": "Felix, o Gato",
-        "description": "Um gato preto de desenhos bem antigos."
-      },
       "cartoons_animation_18": {
         "name": "Garfield",
         "description": "Um gato laranja preguiçoso que adora comida."
-      },
-      "cartoons_animation_19": {
-        "name": "Odie",
-        "description": "Um cachorro alegre do mundo de um gato famoso."
       },
       "cartoons_animation_20": {
         "name": "Snoopy",
@@ -2497,10 +1569,6 @@
         "name": "Charlie Brown",
         "description": "Um garoto de um clássico dos quadrinhos e animações."
       },
-      "cartoons_animation_22": {
-        "name": "Woodstock",
-        "description": "Um passarinho amigo do Snoopy."
-      },
       "cartoons_animation_23": {
         "name": "Pantera Cor-de-Rosa",
         "description": "Um personagem rosa elegante de animação clássica."
@@ -2508,10 +1576,6 @@
       "cartoons_animation_24": {
         "name": "Papai Smurf",
         "description": "O líder de pequenos personagens azuis."
-      },
-      "cartoons_animation_25": {
-        "name": "Smurfette",
-        "description": "Uma personagem bem conhecida dos Smurfs."
       },
       "cartoons_animation_26": {
         "name": "Ursinho Pooh",
@@ -2532,10 +1596,6 @@
       "cartoons_animation_30": {
         "name": "Pluto",
         "description": "O cachorro de estimação do Mickey nos desenhos da Disney."
-      },
-      "cartoons_animation_31": {
-        "name": "Margarida",
-        "description": "Uma pata da Disney, geralmente com laço e cílios marcantes."
       },
       "cartoons_animation_32": {
         "name": "Bart Simpson",
@@ -2577,14 +1637,6 @@
         "name": "Scar",
         "description": "Um leão vilão com uma cicatriz no olho."
       },
-      "cartoons_animation_42": {
-        "name": "Jessie",
-        "description": "Uma boneca caubói da série Toy Story."
-      },
-      "cartoons_animation_43": {
-        "name": "Sr. Cabeça de Batata",
-        "description": "Um brinquedo com peças removíveis no rosto."
-      },
       "cartoons_animation_44": {
         "name": "Buzz Lightyear",
         "description": "Um brinquedo patrulheiro espacial da série Toy Story."
@@ -2593,21 +1645,9 @@
         "name": "Relâmpago McQueen",
         "description": "Um carro de corrida vermelho de um filme animado."
       },
-      "cartoons_animation_46": {
-        "name": "Mate",
-        "description": "Um guincho enferrujado do filme Carros."
-      },
       "cartoons_animation_47": {
         "name": "WALL-E",
         "description": "Um pequeno robô compactador de lixo de um filme animado."
-      },
-      "cartoons_animation_48": {
-        "name": "EVA",
-        "description": "Uma robô branca e elegante do filme WALL-E."
-      },
-      "cartoons_animation_49": {
-        "name": "Remy",
-        "description": "Um rato que ama cozinhar em um filme animado."
       },
       "cartoons_animation_50": {
         "name": "Burro",
@@ -2621,10 +1661,6 @@
         "name": "Mulan",
         "description": "Uma jovem corajosa que vira guerreira."
       },
-      "cartoons_animation_53": {
-        "name": "Sininho",
-        "description": "Uma fadinha pequena de vestido verde."
-      },
       "cartoons_animation_54": {
         "name": "Peter Pan",
         "description": "Um garoto que voa e não cresce."
@@ -2636,10 +1672,6 @@
       "cartoons_animation_56": {
         "name": "Stitch",
         "description": "Uma criatura alienígena azul, caótica e divertida."
-      },
-      "cartoons_animation_57": {
-        "name": "Lilo",
-        "description": "Uma menina que faz amizade com um alienígena."
       },
       "cartoons_animation_58": {
         "name": "Mike Wazowski",
@@ -2689,18 +1721,6 @@
         "name": "Hello Kitty",
         "description": "Uma gatinha branca fofa com laço."
       },
-      "cartoons_animation_70": {
-        "name": "Twilight Sparkle",
-        "description": "Uma pônei unicórnio roxa de My Little Pony."
-      },
-      "cartoons_animation_71": {
-        "name": "Rainbow Dash",
-        "description": "Uma pônei azul voadora com cabelo arco-íris."
-      },
-      "cartoons_animation_72": {
-        "name": "Pinkie Pie",
-        "description": "Uma pônei rosa conhecida por festas e sorrisos."
-      },
       "cartoons_animation_73": {
         "name": "Finn",
         "description": "Um garoto aventureiro de Hora de Aventura."
@@ -2708,14 +1728,6 @@
       "cartoons_animation_74": {
         "name": "Jake",
         "description": "Um cachorro amarelo com poderes elásticos."
-      },
-      "cartoons_animation_75": {
-        "name": "Rei Gelado",
-        "description": "Um mago de gelo com coroa em Hora de Aventura."
-      },
-      "cartoons_animation_76": {
-        "name": "Princesa Jujuba",
-        "description": "Uma princesa rosa ligada a doces em Hora de Aventura."
       },
       "cartoons_animation_77": {
         "name": "Sailor Moon",
@@ -2725,29 +1737,9 @@
         "name": "Totoro",
         "description": "Um grande espírito da floresta, amigável."
       },
-      "cartoons_animation_79": {
-        "name": "Sem-Rosto",
-        "description": "Espírito mascarado de A Viagem de Chihiro."
-      },
-      "cartoons_animation_80": {
-        "name": "Chihiro",
-        "description": "Uma garota que entra em um mundo de espíritos."
-      },
-      "cartoons_animation_81": {
-        "name": "Ponyo",
-        "description": "Uma garota-peixe com poderes mágicos."
-      },
       "cartoons_animation_82": {
         "name": "Aang",
         "description": "Jovem herói que domina os elementos em Avatar."
-      },
-      "cartoons_animation_83": {
-        "name": "Zuko",
-        "description": "Príncipe em conflito e dobrador de fogo."
-      },
-      "cartoons_animation_84": {
-        "name": "Appa",
-        "description": "Bisão voador companheiro de Aang."
       },
       "cartoons_animation_85": {
         "name": "Rick Sanchez",
@@ -2756,10 +1748,6 @@
       "cartoons_animation_86": {
         "name": "Morty Smith",
         "description": "Adolescente que acompanha aventuras de ficção científica."
-      },
-      "cartoons_animation_87": {
-        "name": "Marceline",
-        "description": "Vampira roqueira de Hora de Aventura."
       },
       "cartoons_animation_88": {
         "name": "Florzinha",
@@ -2773,18 +1761,6 @@
         "name": "Docinho",
         "description": "Menina Superpoderosa durona e corajosa."
       },
-      "cartoons_animation_91": {
-        "name": "Gaguinho",
-        "description": "Porquinho clássico dos Looney Tunes que gagueja."
-      },
-      "cartoons_animation_92": {
-        "name": "Lucy van Pelt",
-        "description": "Menina mandona da turma do Snoopy."
-      },
-      "cartoons_animation_93": {
-        "name": "Smurf Gênio",
-        "description": "Um Smurf azul conhecido por ser sabe-tudo."
-      },
       "cartoons_animation_94": {
         "name": "Vegeta",
         "description": "Um príncipe guerreiro orgulhoso."
@@ -2793,10 +1769,6 @@
         "name": "Luffy",
         "description": "Um capitão pirata que busca um grande tesouro."
       },
-      "cartoons_animation_96": {
-        "name": "Eren Yeager",
-        "description": "Um soldado em um mundo de gigantes."
-      },
       "cartoons_animation_97": {
         "name": "Ash Ketchum",
         "description": "Jovem treinador que viaja com criaturas Pokémon."
@@ -2804,14 +1776,6 @@
       "cartoons_animation_98": {
         "name": "Meowth",
         "description": "Criatura felina falante de Pokémon."
-      },
-      "cartoons_animation_99": {
-        "name": "Tigresa",
-        "description": "Uma guerreira tigre de kung fu habilidosa."
-      },
-      "cartoons_animation_100": {
-        "name": "Mestre Shifu",
-        "description": "Pequeno mestre de kung fu e professor."
       }
     },
     "fantasy_creatures": {
@@ -2915,10 +1879,6 @@
         "name": "Fantasma",
         "description": "O espírito de uma pessoa morta."
       },
-      "fantasy_creatures_26": {
-        "name": "Poltergeist",
-        "description": "Um espírito que causa perturbações físicas."
-      },
       "fantasy_creatures_27": {
         "name": "Anjo",
         "description": "Um ser celestial alado de mitos e fantasia."
@@ -2943,34 +1903,6 @@
         "name": "Feiticeiro",
         "description": "Um praticante de magia em cenários de fantasia."
       },
-      "fantasy_creatures_33": {
-        "name": "Necromante",
-        "description": "Um mago associado aos mortos."
-      },
-      "fantasy_creatures_34": {
-        "name": "Metamorfo",
-        "description": "Um ser que pode mudar de forma."
-      },
-      "fantasy_creatures_35": {
-        "name": "Sósia",
-        "description": "Um duplo sobrenatural que parece outra pessoa."
-      },
-      "fantasy_creatures_36": {
-        "name": "Espectro",
-        "description": "Um espírito sombrio, parecido com fantasma."
-      },
-      "fantasy_creatures_37": {
-        "name": "Lich",
-        "description": "Um feiticeiro morto-vivo preservado por magia."
-      },
-      "fantasy_creatures_38": {
-        "name": "Carniçal",
-        "description": "Uma criatura morta-viva do folclore associada a cadáveres."
-      },
-      "fantasy_creatures_39": {
-        "name": "Banshee",
-        "description": "Um espírito conhecido por um lamento assustador."
-      },
       "fantasy_creatures_40": {
         "name": "Gárgula",
         "description": "Uma criatura de pedra comum em prédios antigos."
@@ -2979,41 +1911,9 @@
         "name": "Golem",
         "description": "Um ser mágico feito de barro ou pedra."
       },
-      "fantasy_creatures_42": {
-        "name": "Mantícora",
-        "description": "Um monstro com corpo de leão e outras características."
-      },
       "fantasy_creatures_43": {
         "name": "Esfinge",
         "description": "Uma criatura mítica conhecida por enigmas."
-      },
-      "fantasy_creatures_44": {
-        "name": "Harpia",
-        "description": "Uma criatura alada de mitos antigos."
-      },
-      "fantasy_creatures_45": {
-        "name": "Sátiro",
-        "description": "Uma criatura meio bode, meio humana da mitologia."
-      },
-      "fantasy_creatures_46": {
-        "name": "Fauno",
-        "description": "Uma criatura da floresta, parte humana e parte bode."
-      },
-      "fantasy_creatures_47": {
-        "name": "Ninfa",
-        "description": "Um espírito da natureza da mitologia."
-      },
-      "fantasy_creatures_48": {
-        "name": "Dríade",
-        "description": "Um espírito de árvore da mitologia."
-      },
-      "fantasy_creatures_49": {
-        "name": "Espírito da natureza",
-        "description": "Um pequeno espírito mágico da natureza."
-      },
-      "fantasy_creatures_50": {
-        "name": "Leprechaun",
-        "description": "Um ser pequeno e travesso do folclore."
       },
       "fantasy_creatures_51": {
         "name": "Yeti",
@@ -3023,105 +1923,21 @@
         "name": "Medusa",
         "description": "Uma mulher com cabelo de cobras cujo olhar petrifica."
       },
-      "fantasy_creatures_53": {
-        "name": "Górgona",
-        "description": "Ser monstruoso frequentemente ligado a petrificar vítimas."
-      },
-      "fantasy_creatures_54": {
-        "name": "Hipogrifo",
-        "description": "Criatura metade águia, metade cavalo."
-      },
-      "fantasy_creatures_55": {
-        "name": "Wyvern",
-        "description": "Criatura tipo dragão, muitas vezes com duas pernas e asas."
-      },
       "fantasy_creatures_56": {
         "name": "Leviatã",
         "description": "Um monstro marinho gigantesco de mitos e fantasia."
-      },
-      "fantasy_creatures_57": {
-        "name": "Beemote",
-        "description": "Uma besta gigantesca que simboliza força imensa."
-      },
-      "fantasy_creatures_58": {
-        "name": "Diabrete",
-        "description": "Um ser pequeno, travesso, tipo demônio."
-      },
-      "fantasy_creatures_59": {
-        "name": "Roc",
-        "description": "Um pássaro lendário gigante capaz de carregar grandes presas."
       },
       "fantasy_creatures_60": {
         "name": "Serpente Marinha",
         "description": "Um monstro enorme em forma de serpente que vive no oceano."
       },
-      "fantasy_creatures_61": {
-        "name": "Elemental de Fogo",
-        "description": "Um ser vivo feito de chamas."
-      },
-      "fantasy_creatures_62": {
-        "name": "Elemental de Água",
-        "description": "Um ser vivo feito de água."
-      },
-      "fantasy_creatures_63": {
-        "name": "Elemental da Terra",
-        "description": "Uma criatura formada de rocha e terra."
-      },
-      "fantasy_creatures_64": {
-        "name": "Elemental do Ar",
-        "description": "Um ser de vento e ar rodopiante."
-      },
-      "fantasy_creatures_65": {
-        "name": "Elfo Sombrio",
-        "description": "Um elfo associado à escuridão ou ao subterrâneo."
-      },
-      "fantasy_creatures_66": {
-        "name": "Gigante de Gelo",
-        "description": "Um gigante ligado ao gelo e ao frio."
-      },
-      "fantasy_creatures_67": {
-        "name": "Gigante de Pedra",
-        "description": "Um gigante associado a pedra e montanhas."
-      },
-      "fantasy_creatures_68": {
-        "name": "Gigante de Fogo",
-        "description": "Um gigante ligado ao fogo e ao calor."
-      },
-      "fantasy_creatures_69": {
-        "name": "Lobo Terrível",
-        "description": "Um lobo enorme e ameaçador de histórias de fantasia."
-      },
-      "fantasy_creatures_70": {
-        "name": "Warg",
-        "description": "Um lobo monstruoso frequentemente usado como montaria."
-      },
-      "fantasy_creatures_71": {
-        "name": "Ent",
-        "description": "Um ser caminhante parecido com árvore."
-      },
-      "fantasy_creatures_72": {
-        "name": "Balrog",
-        "description": "Um demônio de sombra e fogo da fantasia épica."
-      },
-      "fantasy_creatures_73": {
-        "name": "Nazgûl",
-        "description": "Um cavaleiro espectral aterrorizante da fantasia."
-      },
       "fantasy_creatures_74": {
         "name": "Dementador",
         "description": "Uma criatura encapuzada que drena felicidade."
       },
-      "fantasy_creatures_75": {
-        "name": "Testrálio",
-        "description": "Uma criatura tipo cavalo com asas, de aspecto sinistro."
-      },
       "fantasy_creatures_76": {
         "name": "Aranha Gigante",
         "description": "Uma aranha enorme de contos de fantasia."
-      },
-      "fantasy_creatures_77": {
-        "name": "Pixie",
-        "description": "Um ser minúsculo e travesso, tipo fada."
       },
       "fantasy_creatures_78": {
         "name": "Gnomo",
@@ -3151,65 +1967,13 @@
         "name": "Gremlin",
         "description": "Uma criaturinha que causa confusão e sabotagem."
       },
-      "fantasy_creatures_85": {
-        "name": "Fogo-fátuo",
-        "description": "Uma luz flutuante misteriosa que engana viajantes."
-      },
-      "fantasy_creatures_86": {
-        "name": "Cão do inferno",
-        "description": "Um cão sobrenatural ligado ao submundo."
-      },
-      "fantasy_creatures_87": {
-        "name": "Homúnculo",
-        "description": "Um humanoide pequeno e artificial das lendas."
-      },
-      "fantasy_creatures_88": {
-        "name": "Cocatriz",
-        "description": "Criatura mítica com traços de galo e réptil."
-      },
-      "fantasy_creatures_89": {
-        "name": "Hipocampo",
-        "description": "Criatura marinha, mistura de cavalo e peixe."
-      },
-      "fantasy_creatures_90": {
-        "name": "Lâmia",
-        "description": "Ser mítico, muitas vezes mulher e serpente."
-      },
-      "fantasy_creatures_91": {
-        "name": "Naga",
-        "description": "Um humanoide serpentino de mitos e fantasia."
-      },
-      "fantasy_creatures_92": {
-        "name": "Kitsune",
-        "description": "Um espírito de raposa mágico que pode mudar de forma."
-      },
-      "fantasy_creatures_93": {
-        "name": "Qilin",
-        "description": "Uma besta mítica de sorte, tipo cervo com escamas."
-      },
-      "fantasy_creatures_94": {
-        "name": "Garuda",
-        "description": "Um ser mítico parecido com uma ave gigante."
-      },
       "fantasy_creatures_95": {
         "name": "Valquíria",
         "description": "Um espírito guerreiro mítico ligado a heróis mortos."
       },
-      "fantasy_creatures_96": {
-        "name": "Oni",
-        "description": "Um espírito tipo ogro, geralmente com chifres."
-      },
-      "fantasy_creatures_97": {
-        "name": "Jackalope",
-        "description": "Uma criatura tipo coelho com chifres."
-      },
       "fantasy_creatures_98": {
         "name": "Chupacabra",
         "description": "Uma criatura misteriosa que atacaria animais."
-      },
-      "fantasy_creatures_99": {
-        "name": "Pássaro de Fogo",
-        "description": "Uma ave lendária ligada a fogo e luz."
       },
       "fantasy_creatures_100": {
         "name": "Homem da Areia",
@@ -3433,18 +2197,6 @@
         "name": "Hamster",
         "description": "Roedor pequeno criado como animal de estimação."
       },
-      "animals_55": {
-        "name": "Porquinho-da-índia",
-        "description": "Pequeno animal doméstico criado como pet."
-      },
-      "animals_56": {
-        "name": "Furão",
-        "description": "Pequeno mamífero alongado, às vezes pet."
-      },
-      "animals_57": {
-        "name": "Doninha",
-        "description": "Pequeno mamífero selvagem e esguio."
-      },
       "animals_58": {
         "name": "Lontra",
         "description": "Mamífero aquático."
@@ -3457,18 +2209,6 @@
         "name": "Esquilo",
         "description": "Roedor de árvores com cauda felpuda."
       },
-      "animals_61": {
-        "name": "Ouriço-cacheiro",
-        "description": "Pequeno mamífero com espinhos."
-      },
-      "animals_62": {
-        "name": "Porco-espinho",
-        "description": "Roedor grande com espinhos."
-      },
-      "animals_63": {
-        "name": "Tatu",
-        "description": "Mamífero com placas rígidas."
-      },
       "animals_64": {
         "name": "Preguiça",
         "description": "Mamífero lento que vive em árvores."
@@ -3476,14 +2216,6 @@
       "animals_65": {
         "name": "Tamanduá",
         "description": "Mamífero que come formigas e cupins."
-      },
-      "animals_66": {
-        "name": "Anta",
-        "description": "Herbívoro grande com focinho curto."
-      },
-      "animals_67": {
-        "name": "Bisão",
-        "description": "Grande mamífero peludo que pasta."
       },
       "animals_68": {
         "name": "Búfalo",
@@ -3493,33 +2225,9 @@
         "name": "Hiena",
         "description": "Carnívoro africano conhecido pelo som característico."
       },
-      "animals_70": {
-        "name": "Chacal",
-        "description": "Canídeo selvagem de pequeno porte."
-      },
-      "animals_71": {
-        "name": "Lince",
-        "description": "Felino selvagem com orelhas com tufos."
-      },
       "animals_72": {
         "name": "Puma",
         "description": "Grande felino selvagem."
-      },
-      "animals_73": {
-        "name": "Vombate",
-        "description": "Marsupial robusto que cava tocas."
-      },
-      "animals_74": {
-        "name": "Ornitorrinco",
-        "description": "Mamífero que bota ovos com bico parecido com o de pato."
-      },
-      "animals_75": {
-        "name": "Equidna",
-        "description": "Mamífero com espinhos que bota ovos."
-      },
-      "animals_76": {
-        "name": "Dingo",
-        "description": "Canídeo selvagem parecido com cão."
       },
       "animals_77": {
         "name": "Vaca",
@@ -3565,29 +2273,9 @@
         "name": "Gambá",
         "description": "Um animal pequeno conhecido pelo cheiro forte."
       },
-      "animals_88": {
-        "name": "Texugo",
-        "description": "Um mamífero que cava tocas, com listras."
-      },
-      "animals_89": {
-        "name": "Toupeira",
-        "description": "Um animal pequeno que vive no subsolo."
-      },
-      "animals_90": {
-        "name": "Esquilo-listrado",
-        "description": "Um pequeno animal parecido com esquilo, com listras."
-      },
-      "animals_91": {
-        "name": "Lebre",
-        "description": "Um animal rápido parecido com coelho."
-      },
       "animals_92": {
         "name": "Rena",
         "description": "Um cervo com chifres de regiões frias."
-      },
-      "animals_93": {
-        "name": "Iaque",
-        "description": "Um animal parecido com boi, de pelo longo."
       },
       "animals_94": {
         "name": "Antílope",
@@ -3597,21 +2285,9 @@
         "name": "Gazela",
         "description": "Um antílope pequeno e rápido."
       },
-      "animals_96": {
-        "name": "Suricato",
-        "description": "Um animal pequeno que fica em pé."
-      },
-      "animals_97": {
-        "name": "Lêmure",
-        "description": "Um primata com cauda longa."
-      },
       "animals_98": {
         "name": "Onça-pintada",
         "description": "Um grande felino com manchas."
-      },
-      "animals_99": {
-        "name": "Jaguatirica",
-        "description": "Um felino selvagem menor com manchas."
       },
       "animals_100": {
         "name": "Foca",
@@ -3831,10 +2507,6 @@
         "name": "Ramen",
         "description": "Sopa de macarrão com caldo e acompanhamentos."
       },
-      "food_54": {
-        "name": "Bolinho recheado",
-        "description": "Massa recheada, cozida no vapor ou frita."
-      },
       "food_55": {
         "name": "Espaguete",
         "description": "Massa longa, geralmente com molho."
@@ -3863,33 +2535,9 @@
         "name": "Paella",
         "description": "Prato de arroz cozido com frutos do mar ou carne."
       },
-      "food_62": {
-        "name": "Falafel",
-        "description": "Bolinhos fritos feitos de grão-de-bico ou feijão."
-      },
-      "food_63": {
-        "name": "Homus",
-        "description": "Pasta cremosa de grão-de-bico."
-      },
-      "food_64": {
-        "name": "Cuscuz",
-        "description": "Grãos de sêmola no vapor servidos como acompanhamento."
-      },
       "food_65": {
         "name": "Kebab",
         "description": "Carne grelhada servida em pedaços ou no pão."
-      },
-      "food_66": {
-        "name": "Naan",
-        "description": "Pão achatado macio, comum com curry."
-      },
-      "food_67": {
-        "name": "Pita",
-        "description": "Pão achatado redondo que pode formar um bolso."
-      },
-      "food_68": {
-        "name": "Bagel",
-        "description": "Pão em forma de anel, geralmente tostado."
       },
       "food_69": {
         "name": "Croissant",
@@ -3927,10 +2575,6 @@
         "name": "Waffle",
         "description": "Massa em formato de grade, geralmente doce."
       },
-      "food_78": {
-        "name": "Pretzel",
-        "description": "Lanche de pão assado e torcido, geralmente salgado."
-      },
       "food_79": {
         "name": "Pipoca",
         "description": "Grãos de milho estourados, geralmente com sal ou manteiga."
@@ -3938,10 +2582,6 @@
       "food_80": {
         "name": "Cereal",
         "description": "Grãos de café da manhã, geralmente com leite."
-      },
-      "food_81": {
-        "name": "Aveia",
-        "description": "Aveia cozida, normalmente consumida quente."
       },
       "food_82": {
         "name": "Granola",
@@ -3955,21 +2595,9 @@
         "name": "Mamão",
         "description": "Fruta tropical com polpa laranja e sementes pretas."
       },
-      "food_85": {
-        "name": "Romã",
-        "description": "Fruta cheia de muitas sementes vermelhas."
-      },
       "food_86": {
         "name": "Mirtilo",
         "description": "Baga pequena e redonda azul-arroxeada."
-      },
-      "food_87": {
-        "name": "Framboesa",
-        "description": "Baga vermelha macia formada por vários gominhos."
-      },
-      "food_88": {
-        "name": "Amora",
-        "description": "Baga escura formada por gominhos agrupados."
       },
       "food_89": {
         "name": "Cereja",
@@ -3986,22 +2614,6 @@
       "food_92": {
         "name": "Ameixa",
         "description": "Fruta pequena e redonda com caroço, geralmente roxa ou vermelha."
-      },
-      "food_93": {
-        "name": "Damasco",
-        "description": "Fruta pequena laranja com caroço."
-      },
-      "food_94": {
-        "name": "Figo",
-        "description": "Fruta macia com muitas sementinhas por dentro."
-      },
-      "food_95": {
-        "name": "Tâmara",
-        "description": "Fruta doce, muitas vezes consumida seca, geralmente marrom."
-      },
-      "food_96": {
-        "name": "Toranja",
-        "description": "Cítrico grande, muitas vezes rosado por dentro."
       },
       "food_97": {
         "name": "Limão-verde",
@@ -4141,17 +2753,9 @@
         "name": "Banqueiro",
         "description": "Trabalha com serviços bancários."
       },
-      "professions_31": {
-        "name": "Caixa de banco",
-        "description": "Atende clientes no balcão do banco."
-      },
       "professions_32": {
         "name": "Caixa",
         "description": "Recebe pagamentos em uma loja."
-      },
-      "professions_33": {
-        "name": "Atendente de loja",
-        "description": "Ajuda clientes em uma loja."
       },
       "professions_34": {
         "name": "Vendedor",
@@ -4173,18 +2777,6 @@
         "name": "Gerente de escritório",
         "description": "Mantém o escritório funcionando bem."
       },
-      "professions_39": {
-        "name": "Recursos Humanos",
-        "description": "Cuida de contratações e equipe."
-      },
-      "professions_40": {
-        "name": "Marketing",
-        "description": "Divulga produtos e campanhas."
-      },
-      "professions_41": {
-        "name": "Atendente de suporte",
-        "description": "Ajuda clientes a resolver problemas."
-      },
       "professions_42": {
         "name": "Barista",
         "description": "Prepara bebidas de café."
@@ -4205,10 +2797,6 @@
         "name": "Açougueiro",
         "description": "Corta e vende carne."
       },
-      "professions_47": {
-        "name": "Merceeiro",
-        "description": "Vende alimentos do dia a dia."
-      },
       "professions_48": {
         "name": "Jardineiro",
         "description": "Cuida de plantas e jardins."
@@ -4216,10 +2804,6 @@
       "professions_49": {
         "name": "Florista",
         "description": "Faz arranjos e vende flores."
-      },
-      "professions_50": {
-        "name": "Paísagista",
-        "description": "Cria e mantém áreas externas."
       },
       "professions_51": {
         "name": "Operário",
@@ -4245,17 +2829,9 @@
         "name": "Zelador de zoológico",
         "description": "Cuida de animais em um zoológico."
       },
-      "professions_57": {
-        "name": "Guarda florestal",
-        "description": "Protege a natureza e ajuda visitantes em parques."
-      },
       "professions_58": {
         "name": "Tradutor",
         "description": "Converte textos de um idioma para outro."
-      },
-      "professions_59": {
-        "name": "Intérprete",
-        "description": "Traduz fala em tempo real."
       },
       "professions_60": {
         "name": "Psicólogo",
@@ -4265,65 +2841,29 @@
         "name": "Terapeuta",
         "description": "Apoia pessoas com aconselhamento e tratamento."
       },
-      "professions_62": {
-        "name": "Fisioterapeuta",
-        "description": "Ajuda a recuperar movimentos após lesões."
-      },
       "professions_63": {
         "name": "Nutricionista",
         "description": "Orienta sobre alimentação saudável e dietas."
-      },
-      "professions_64": {
-        "name": "Optometrista",
-        "description": "Avalia a visão e prescreve lentes."
       },
       "professions_65": {
         "name": "Pediatra",
         "description": "Médico que atende crianças."
       },
-      "professions_66": {
-        "name": "Parteira",
-        "description": "Auxilia na gravidez e no parto."
-      },
       "professions_67": {
         "name": "Controlador de tráfego aéreo",
         "description": "Coordena aviões para decolagem e pouso seguros."
-      },
-      "professions_68": {
-        "name": "Paralegal",
-        "description": "Auxilia advogados com documentos e pesquisa."
       },
       "professions_69": {
         "name": "Analista financeiro",
         "description": "Analisa finanças para orientar decisões e investimentos."
       },
-      "professions_70": {
-        "name": "Corretor de ações",
-        "description": "Compra e vende ações para clientes."
-      },
-      "professions_71": {
-        "name": "Corretor de seguros",
-        "description": "Vende e administra seguros."
-      },
-      "professions_72": {
-        "name": "Consultor",
-        "description": "Oferece orientação especializada a empresas ou clientes."
-      },
       "professions_73": {
         "name": "Gerente de projetos",
         "description": "Planeja e coordena um projeto e sua equipe."
       },
-      "professions_74": {
-        "name": "Gerente de produto",
-        "description": "Define o que um produto deve ser e fazer."
-      },
       "professions_75": {
         "name": "Desenvolvedor de software",
         "description": "Cria e mantém aplicativos e sistemas."
-      },
-      "professions_76": {
-        "name": "Designer web",
-        "description": "Cria o design e o layout de sites."
       },
       "professions_77": {
         "name": "Ator",
@@ -4357,10 +2897,6 @@
         "name": "Poeta",
         "description": "Escreve poemas e versos."
       },
-      "professions_85": {
-        "name": "Editor",
-        "description": "Revisa e melhora textos."
-      },
       "professions_86": {
         "name": "Barbeiro",
         "description": "Corta cabelo e faz barba."
@@ -4372,14 +2908,6 @@
       "professions_88": {
         "name": "Maquiador",
         "description": "Faz maquiagem para clientes ou produções."
-      },
-      "professions_89": {
-        "name": "Alfaiate",
-        "description": "Faz ou ajusta roupas."
-      },
-      "professions_90": {
-        "name": "Estilista",
-        "description": "Cria roupas e acessórios."
       },
       "professions_91": {
         "name": "Marinheiro",
@@ -4401,25 +2929,9 @@
         "name": "Soldador",
         "description": "Une peças de metal com calor."
       },
-      "professions_96": {
-        "name": "Ferreiro",
-        "description": "Molda metal com calor e ferramentas."
-      },
-      "professions_97": {
-        "name": "Chaveiro",
-        "description": "Instala e conserta fechaduras e chaves."
-      },
-      "professions_98": {
-        "name": "Sapateiro",
-        "description": "Conserta ou faz sapatos."
-      },
       "professions_99": {
         "name": "Faxineiro",
         "description": "Limpa casas, escritórios ou prédios."
-      },
-      "professions_100": {
-        "name": "Zelador",
-        "description": "Cuida da manutenção e limpeza de um prédio."
       }
     },
     "everyday_objects": {
@@ -4977,10 +3489,6 @@
         "name": "PayPal",
         "description": "Serviço de pagamentos online."
       },
-      "famous_brands_39": {
-        "name": "Américan Express",
-        "description": "Marca de cartão e serviços financeiros."
-      },
       "famous_brands_40": {
         "name": "Nintendo",
         "description": "Empresa de videogames."
@@ -4997,10 +3505,6 @@
         "name": "Intel",
         "description": "Empresa de processadores para computadores."
       },
-      "famous_brands_44": {
-        "name": "AMD",
-        "description": "Empresa de processadores e gráficos."
-      },
       "famous_brands_45": {
         "name": "NVIDIA",
         "description": "Empresa de placas de vídeo e computação de IA."
@@ -5016,14 +3520,6 @@
       "famous_brands_48": {
         "name": "Lenovo",
         "description": "Marca de computadores e eletrônicos."
-      },
-      "famous_brands_49": {
-        "name": "ASUS",
-        "description": "Marca de hardware e notebooks."
-      },
-      "famous_brands_50": {
-        "name": "Acer",
-        "description": "Marca de computadores e notebooks."
       },
       "famous_brands_51": {
         "name": "Canon",
@@ -5048,10 +3544,6 @@
       "famous_brands_56": {
         "name": "Domino's",
         "description": "Marca global de entrega de pizza."
-      },
-      "famous_brands_57": {
-        "name": "Taco Bell",
-        "description": "Rede de fast-food conhecida por tacos."
       },
       "famous_brands_58": {
         "name": "Heineken",
@@ -5101,10 +3593,6 @@
         "name": "Gillette",
         "description": "Marca de produtos de barbear."
       },
-      "famous_brands_70": {
-        "name": "Pampers",
-        "description": "Marca de fraldas."
-      },
       "famous_brands_71": {
         "name": "H&M",
         "description": "Varejista global de roupas."
@@ -5116,14 +3604,6 @@
       "famous_brands_73": {
         "name": "Uniqlo",
         "description": "Varejista de roupas casuais."
-      },
-      "famous_brands_74": {
-        "name": "Reebok",
-        "description": "Marca de calçados e roupas esportivas."
-      },
-      "famous_brands_75": {
-        "name": "Under Armour",
-        "description": "Marca de roupas esportivas."
       },
       "famous_brands_76": {
         "name": "Gucci",
@@ -5145,25 +3625,9 @@
         "name": "Rolex",
         "description": "Marca de relógios de luxo."
       },
-      "famous_brands_81": {
-        "name": "Cartier",
-        "description": "Joias e relógios de luxo."
-      },
-      "famous_brands_82": {
-        "name": "Tiffany & Co.",
-        "description": "Marca de joias de luxo."
-      },
       "famous_brands_83": {
         "name": "Hermès",
         "description": "Moda e acessórios de luxo."
-      },
-      "famous_brands_84": {
-        "name": "Burberry",
-        "description": "Marca de moda de luxo."
-      },
-      "famous_brands_85": {
-        "name": "Armani",
-        "description": "Marca de moda e fragrâncias."
       },
       "famous_brands_86": {
         "name": "Versace",
@@ -5185,29 +3649,9 @@
         "name": "New Balance",
         "description": "Marca de tênis esportivos."
       },
-      "famous_brands_91": {
-        "name": "The North Face",
-        "description": "Marca de roupas outdoor."
-      },
-      "famous_brands_92": {
-        "name": "Patagonia",
-        "description": "Marca de roupas outdoor."
-      },
-      "famous_brands_93": {
-        "name": "Dyson",
-        "description": "Marca de eletrodomésticos."
-      },
       "famous_brands_94": {
         "name": "Bosch",
         "description": "Marca de ferramentas e eletrodomésticos."
-      },
-      "famous_brands_95": {
-        "name": "Whirlpool",
-        "description": "Marca de eletrodomésticos."
-      },
-      "famous_brands_96": {
-        "name": "KitchenAid",
-        "description": "Marca de eletrodomésticos de cozinha."
       },
       "famous_brands_97": {
         "name": "Philips",
@@ -5459,10 +3903,6 @@
         "name": "Romênia",
         "description": "Um país do Leste Europeu."
       },
-      "countries_59": {
-        "name": "Bulgária",
-        "description": "Um país do sudeste da Europa."
-      },
       "countries_60": {
         "name": "Sérvia",
         "description": "Um país sem saída para o mar no sudeste da Europa."
@@ -5470,14 +3910,6 @@
       "countries_61": {
         "name": "Croácia",
         "description": "Um país europeu no Mar Adriático."
-      },
-      "countries_62": {
-        "name": "Eslovênia",
-        "description": "Um pequeno país da Europa Central."
-      },
-      "countries_63": {
-        "name": "Eslováquia",
-        "description": "Um país sem saída para o mar na Europa Central."
       },
       "countries_64": {
         "name": "Egito",
@@ -5531,41 +3963,13 @@
         "name": "Camarões",
         "description": "Um país da África Central."
       },
-      "countries_77": {
-        "name": "Albânia",
-        "description": "Um país no sudeste da Europa."
-      },
       "countries_79": {
         "name": "Angola",
         "description": "Um país na costa atlântica da África."
       },
-      "countries_83": {
-        "name": "Bahrein",
-        "description": "Um pequeno país insular no Golfo."
-      },
-      "countries_84": {
-        "name": "Barbados",
-        "description": "Uma nação insular no Caribe."
-      },
-      "countries_85": {
-        "name": "Belarus",
-        "description": "Um país sem litoral no leste da Europa."
-      },
       "countries_93": {
         "name": "Camboja",
         "description": "Um país no sudeste da Ásia."
-      },
-      "countries_96": {
-        "name": "Chipre",
-        "description": "Um país insular no Mediterrâneo."
-      },
-      "countries_98": {
-        "name": "Congo",
-        "description": "Um país na África Central."
-      },
-      "countries_99": {
-        "name": "RD Congo",
-        "description": "Um grande país na África Central."
       }
     },
     "party_mode": {
@@ -5809,21 +4213,9 @@
         "name": "Camaleão",
         "description": "Um lagarto conhecido por mudar de cor."
       },
-      "party_mode_61": {
-        "name": "Cavalo-marinho",
-        "description": "Um pequeno animal do mar com forma de cavalo."
-      },
       "party_mode_62": {
         "name": "Batata frita",
         "description": "Tirinhas de batata fritas."
-      },
-      "party_mode_63": {
-        "name": "Picolé",
-        "description": "Doce congelado em um palito."
-      },
-      "party_mode_64": {
-        "name": "Marshmallow",
-        "description": "Doce macio, fofo e açucarado."
       },
       "party_mode_65": {
         "name": "Relâmpago",
@@ -5885,18 +4277,6 @@
         "name": "Joaninha",
         "description": "Um besouro pequeno vermelho com pintas pretas."
       },
-      "party_mode_80": {
-        "name": "Lagarta",
-        "description": "Uma larva que vira borboleta."
-      },
-      "party_mode_81": {
-        "name": "Chinchila",
-        "description": "Um roedor pequeno e bem peludo."
-      },
-      "party_mode_82": {
-        "name": "Peixe-balão",
-        "description": "Um peixe que pode inflar como uma bola."
-      },
       "party_mode_83": {
         "name": "Caranguejo",
         "description": "Um animal com carapaça e pinças."
@@ -5908,10 +4288,6 @@
       "party_mode_85": {
         "name": "Cubo Mágico",
         "description": "Um cubo colorido de encaixe que gira."
-      },
-      "party_mode_86": {
-        "name": "Extintor",
-        "description": "Um equipamento de segurança para apagar fogo."
       },
       "party_mode_87": {
         "name": "Capacete",
@@ -5940,14 +4316,6 @@
       "party_mode_93": {
         "name": "Microscópio",
         "description": "Um aparelho para ver coisas muito pequenas."
-      },
-      "party_mode_94": {
-        "name": "Cronômetro",
-        "description": "Um relógio para medir tempo com precisão."
-      },
-      "party_mode_95": {
-        "name": "Relógio inteligente",
-        "description": "Um relógio com apps e notificações."
       },
       "party_mode_96": {
         "name": "Guitarra elétrica",

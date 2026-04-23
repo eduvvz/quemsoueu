@@ -153,14 +153,6 @@
         "name": "Neo",
         "description": "Chosen one from The Matrix films."
       },
-      "movies_tv_39": {
-        "name": "Trinity",
-        "description": "Character from The Matrix series."
-      },
-      "movies_tv_40": {
-        "name": "Morpheus",
-        "description": "Mentor figure from The Matrix movies."
-      },
       "movies_tv_41": {
         "name": "Terminator",
         "description": "Cyborg from Terminator film series."
@@ -197,10 +189,6 @@
         "name": "Obi-Wan Kenobi",
         "description": "Jedi master from Star Wars."
       },
-      "movies_tv_50": {
-        "name": "Kylo Ren",
-        "description": "Villain from Star Wars sequel trilogy."
-      },
       "movies_tv_51": {
         "name": "James Bond",
         "description": "British secret agent from film series."
@@ -208,14 +196,6 @@
       "movies_tv_52": {
         "name": "Sherlock Holmes",
         "description": "Famous detective known for deduction."
-      },
-      "movies_tv_53": {
-        "name": "Spock",
-        "description": "Logical officer from Star Trek."
-      },
-      "movies_tv_54": {
-        "name": "Captain Kirk",
-        "description": "Starship captain from Star Trek."
       },
       "movies_tv_55": {
         "name": "Gandalf",
@@ -264,14 +244,6 @@
       "movies_tv_66": {
         "name": "C-3PO",
         "description": "Protocol droid from Star Wars."
-      },
-      "movies_tv_67": {
-        "name": "Boba Fett",
-        "description": "Armored bounty hunter from Star Wars."
-      },
-      "movies_tv_68": {
-        "name": "Darth Maul",
-        "description": "Sith warrior from Star Wars."
       },
       "movies_tv_69": {
         "name": "The Mandalorian",
@@ -349,14 +321,6 @@
         "name": "Jurassic Park",
         "description": "A sci-fi adventure featuring dinosaurs brought back to life."
       },
-      "movies_tv_88": {
-        "name": "Inception",
-        "description": "A thriller involving dreams, secrets, and layered realities."
-      },
-      "movies_tv_89": {
-        "name": "Interstellar",
-        "description": "A space drama about distant worlds and time effects."
-      },
       "movies_tv_90": {
         "name": "The Lion King",
         "description": "An animated story about a lion cub and a royal destiny."
@@ -384,18 +348,6 @@
       "movies_tv_96": {
         "name": "The Dark Knight",
         "description": "A gritty superhero film centered on Gotham’s protector."
-      },
-      "movies_tv_97": {
-        "name": "The Godfather",
-        "description": "A classic crime saga about a powerful family."
-      },
-      "movies_tv_98": {
-        "name": "Pulp Fiction",
-        "description": "A crime film told in a non-linear way."
-      },
-      "movies_tv_99": {
-        "name": "Fight Club",
-        "description": "A dark film about identity and underground fights."
       },
       "movies_tv_100": {
         "name": "Back to the Future",
@@ -479,10 +431,6 @@
         "name": "Lex Luthor",
         "description": "Superman's genius enemy in DC."
       },
-      "superheroes_villains_20": {
-        "name": "Darkseid",
-        "description": "Powerful DC villain from Apokolips."
-      },
       "superheroes_villains_21": {
         "name": "Doctor Strange",
         "description": "Marvel sorcerer who protects reality."
@@ -499,17 +447,9 @@
         "name": "Ant-Man",
         "description": "Marvel hero who can shrink in size."
       },
-      "superheroes_villains_25": {
-        "name": "Wasp",
-        "description": "Marvel hero with shrinking and flying powers."
-      },
       "superheroes_villains_26": {
         "name": "Aquaman",
         "description": "DC hero who rules Atlantis."
-      },
-      "superheroes_villains_27": {
-        "name": "Cyborg",
-        "description": "DC hero with advanced cybernetic body."
       },
       "superheroes_villains_28": {
         "name": "Green Lantern",
@@ -518,10 +458,6 @@
       "superheroes_villains_29": {
         "name": "Shazam",
         "description": "DC hero who transforms with magic word."
-      },
-      "superheroes_villains_30": {
-        "name": "Black Adam",
-        "description": "Powerful antihero from DC Comics."
       },
       "superheroes_villains_31": {
         "name": "Wolverine",
@@ -547,61 +483,9 @@
         "name": "Mystique",
         "description": "Shape-shifting mutant villain."
       },
-      "superheroes_villains_37": {
-        "name": "Apocalypse",
-        "description": "Ancient mutant villain from X-Men."
-      },
-      "superheroes_villains_38": {
-        "name": "Nightcrawler",
-        "description": "Teleporting mutant from X-Men."
-      },
-      "superheroes_villains_39": {
-        "name": "Rogue",
-        "description": "Mutant who absorbs powers."
-      },
-      "superheroes_villains_40": {
-        "name": "Beast",
-        "description": "Blue-furred genius mutant from X-Men."
-      },
       "superheroes_villains_41": {
         "name": "Doctor Octopus",
         "description": "Spider-Man villain with mechanical arms."
-      },
-      "superheroes_villains_42": {
-        "name": "Electro",
-        "description": "Villain with electricity powers."
-      },
-      "superheroes_villains_43": {
-        "name": "Rhino",
-        "description": "Strong armored Spider-Man villain."
-      },
-      "superheroes_villains_44": {
-        "name": "Vulture",
-        "description": "Flying villain from Spider-Man."
-      },
-      "superheroes_villains_45": {
-        "name": "Kingpin",
-        "description": "Crime boss villain in Marvel."
-      },
-      "superheroes_villains_46": {
-        "name": "Punisher",
-        "description": "Antihero using lethal force against crime."
-      },
-      "superheroes_villains_47": {
-        "name": "Blade",
-        "description": "Vampire hunter from Marvel."
-      },
-      "superheroes_villains_48": {
-        "name": "Ghost Rider",
-        "description": "Supernatural antihero with flaming skull."
-      },
-      "superheroes_villains_49": {
-        "name": "Silver Surfer",
-        "description": "Cosmic hero serving Galactus."
-      },
-      "superheroes_villains_50": {
-        "name": "Galactus",
-        "description": "Cosmic entity who consumes planets."
       },
       "superheroes_villains_51": {
         "name": "Captain Marvel",
@@ -627,101 +511,17 @@
         "name": "Groot",
         "description": "Tree-like hero from Marvel."
       },
-      "superheroes_villains_57": {
-        "name": "Nebula",
-        "description": "Cyborg assassin from Marvel."
-      },
-      "superheroes_villains_58": {
-        "name": "Mantis",
-        "description": "Empath from Marvel."
-      },
       "superheroes_villains_59": {
         "name": "Ultron",
         "description": "AI villain from Avengers."
-      },
-      "superheroes_villains_60": {
-        "name": "Red Skull",
-        "description": "Nazi villain from Marvel."
-      },
-      "superheroes_villains_61": {
-        "name": "Hela",
-        "description": "Goddess of death from Marvel."
-      },
-      "superheroes_villains_62": {
-        "name": "Killmonger",
-        "description": "Villain from Black Panther."
-      },
-      "superheroes_villains_63": {
-        "name": "Taskmaster",
-        "description": "Villain who copies fighting styles."
-      },
-      "superheroes_villains_64": {
-        "name": "Moon Knight",
-        "description": "Marvel hero with multiple identities."
-      },
-      "superheroes_villains_65": {
-        "name": "She-Hulk",
-        "description": "Green lawyer hero from Marvel."
-      },
-      "superheroes_villains_66": {
-        "name": "Ms Marvel",
-        "description": "Young stretching hero from Marvel."
-      },
-      "superheroes_villains_67": {
-        "name": "Nova",
-        "description": "Cosmic hero from Marvel."
-      },
-      "superheroes_villains_68": {
-        "name": "Adam Warlock",
-        "description": "Powerful cosmic being from Marvel."
-      },
-      "superheroes_villains_69": {
-        "name": "Kang",
-        "description": "Time-traveling villain from Marvel."
-      },
-      "superheroes_villains_70": {
-        "name": "MODOK",
-        "description": "Big-headed villain from Marvel."
       },
       "superheroes_villains_71": {
         "name": "Saitama",
         "description": "Hero who defeats enemies with one punch from anime One Punch Man."
       },
-      "superheroes_villains_72": {
-        "name": "Genos",
-        "description": "Cyborg hero from One Punch Man."
-      },
-      "superheroes_villains_73": {
-        "name": "All Might",
-        "description": "Top hero from My Hero Academia."
-      },
       "superheroes_villains_74": {
         "name": "Deku",
         "description": "Young hero from My Hero Academia."
-      },
-      "superheroes_villains_75": {
-        "name": "Bakugo",
-        "description": "Explosive hero from My Hero Academia."
-      },
-      "superheroes_villains_76": {
-        "name": "Todoroki",
-        "description": "Hero with fire and ice powers from My Hero Academia."
-      },
-      "superheroes_villains_77": {
-        "name": "Shigaraki",
-        "description": "Main villain from My Hero Academia."
-      },
-      "superheroes_villains_78": {
-        "name": "Dabi",
-        "description": "Fire villain from My Hero Academia."
-      },
-      "superheroes_villains_79": {
-        "name": "Hawks",
-        "description": "Winged hero from My Hero Academia."
-      },
-      "superheroes_villains_80": {
-        "name": "Endeavor",
-        "description": "Fire hero from My Hero Academia."
       },
       "superheroes_villains_81": {
         "name": "Omni-Man",
@@ -735,34 +535,6 @@
         "name": "Homelander",
         "description": "Villain from The Boys."
       },
-      "superheroes_villains_84": {
-        "name": "Starlight",
-        "description": "Heroine from The Boys."
-      },
-      "superheroes_villains_85": {
-        "name": "A-Train",
-        "description": "Speedster from The Boys."
-      },
-      "superheroes_villains_86": {
-        "name": "Maeve",
-        "description": "Warrior from The Boys."
-      },
-      "superheroes_villains_87": {
-        "name": "Black Noir",
-        "description": "Silent assassin from The Boys."
-      },
-      "superheroes_villains_88": {
-        "name": "Soldier Boy",
-        "description": "Veteran hero from The Boys."
-      },
-      "superheroes_villains_89": {
-        "name": "Spawn",
-        "description": "Supernatural antihero from comics."
-      },
-      "superheroes_villains_90": {
-        "name": "Hellboy",
-        "description": "Demon hero from Dark Horse comics."
-      },
       "superheroes_villains_91": {
         "name": "Optimus Prime",
         "description": "Leader of Autobots from Transformers."
@@ -775,33 +547,9 @@
         "name": "Bumblebee",
         "description": "Autobot hero from Transformers."
       },
-      "superheroes_villains_94": {
-        "name": "He-Man",
-        "description": "Hero from Masters of the Universe."
-      },
-      "superheroes_villains_95": {
-        "name": "Skeletor",
-        "description": "Villain from Masters of the Universe."
-      },
       "superheroes_villains_96": {
         "name": "Ben 10",
         "description": "Kid hero with alien transformations."
-      },
-      "superheroes_villains_97": {
-        "name": "Vilgax",
-        "description": "Villain from Ben 10."
-      },
-      "superheroes_villains_98": {
-        "name": "Samurai Jack",
-        "description": "Time-traveling hero from Cartoon Network."
-      },
-      "superheroes_villains_99": {
-        "name": "Aku",
-        "description": "Villain from Samurai Jack."
-      },
-      "superheroes_villains_100": {
-        "name": "Kim Possible",
-        "description": "Teen spy hero from Disney Channel."
       }
     },
     "video_game_characters": {
@@ -865,22 +613,6 @@
         "name": "Kratos",
         "description": "Warrior from an action myth-based series."
       },
-      "video_game_characters_16": {
-        "name": "Geralt",
-        "description": "Monster hunter from a fantasy RPG series."
-      },
-      "video_game_characters_17": {
-        "name": "Cloud",
-        "description": "Spiky-haired hero from a famous RPG."
-      },
-      "video_game_characters_18": {
-        "name": "Sephiroth",
-        "description": "Long-haired antagonist from a famous RPG."
-      },
-      "video_game_characters_19": {
-        "name": "Tifa",
-        "description": "Fighter ally from a famous RPG."
-      },
       "video_game_characters_20": {
         "name": "Donkey Kong",
         "description": "Tie-wearing gorilla from a classic platform series."
@@ -921,18 +653,6 @@
         "name": "Enderman",
         "description": "Tall teleporting mob from Minecraft."
       },
-      "video_game_characters_30": {
-        "name": "Solid Snake",
-        "description": "Stealth soldier from Metal Gear."
-      },
-      "video_game_characters_31": {
-        "name": "Ezio",
-        "description": "Assassin from Assassin’s Creed."
-      },
-      "video_game_characters_32": {
-        "name": "Altaïr",
-        "description": "Assassin from the first Assassin’s Creed."
-      },
       "video_game_characters_33": {
         "name": "Ryu",
         "description": "Martial artist from Street Fighter."
@@ -944,10 +664,6 @@
       "video_game_characters_35": {
         "name": "Chun-Li",
         "description": "Fighter from Street Fighter."
-      },
-      "video_game_characters_36": {
-        "name": "M. Bison",
-        "description": "Villain leader from Street Fighter."
       },
       "video_game_characters_37": {
         "name": "Scorpion",
@@ -961,53 +677,9 @@
         "name": "Liu Kang",
         "description": "Heroic fighter from Mortal Kombat."
       },
-      "video_game_characters_40": {
-        "name": "Kitana",
-        "description": "Fan-wielding warrior from Mortal Kombat."
-      },
-      "video_game_characters_41": {
-        "name": "Sonya Blade",
-        "description": "Special forces fighter from Mortal Kombat."
-      },
       "video_game_characters_42": {
         "name": "Raiden",
         "description": "Thunder god from Mortal Kombat."
-      },
-      "video_game_characters_43": {
-        "name": "Kazuya",
-        "description": "Fighter from Tekken."
-      },
-      "video_game_characters_44": {
-        "name": "Jin Kazama",
-        "description": "Fighter from Tekken."
-      },
-      "video_game_characters_45": {
-        "name": "Heihachi",
-        "description": "Veteran fighter from Tekken."
-      },
-      "video_game_characters_46": {
-        "name": "Leon Kennedy",
-        "description": "Survivor from Resident Evil."
-      },
-      "video_game_characters_47": {
-        "name": "Jill Valentine",
-        "description": "Survivor from Resident Evil."
-      },
-      "video_game_characters_48": {
-        "name": "Chris Redfield",
-        "description": "Resident Evil protagonist."
-      },
-      "video_game_characters_49": {
-        "name": "Ada Wong",
-        "description": "Mysterious agent from Resident Evil."
-      },
-      "video_game_characters_50": {
-        "name": "Wesker",
-        "description": "Villain from Resident Evil."
-      },
-      "video_game_characters_51": {
-        "name": "Nathan Drake",
-        "description": "Treasure hunter from Uncharted."
       },
       "video_game_characters_52": {
         "name": "Crash Bandicoot",
@@ -1033,10 +705,6 @@
         "name": "Toad",
         "description": "A small mushroom-headed helper from a popular family game series."
       },
-      "video_game_characters_58": {
-        "name": "Toadette",
-        "description": "A cheerful mushroom character often seen in party and racing games."
-      },
       "video_game_characters_59": {
         "name": "Wario",
         "description": "A greedy rival character known for strength and mischief."
@@ -1044,30 +712,6 @@
       "video_game_characters_60": {
         "name": "Waluigi",
         "description": "A lanky trickster rival often featured in sports and party games."
-      },
-      "video_game_characters_61": {
-        "name": "Bowser Jr.",
-        "description": "A young turtle-like villain character from a classic platform series."
-      },
-      "video_game_characters_62": {
-        "name": "Rosalina",
-        "description": "A tall space-themed princess character from a major platform franchise."
-      },
-      "video_game_characters_63": {
-        "name": "Princess Daisy",
-        "description": "A sporty princess character often seen in party and sports games."
-      },
-      "video_game_characters_64": {
-        "name": "Diddy Kong",
-        "description": "A playful monkey sidekick from a famous jungle platform series."
-      },
-      "video_game_characters_65": {
-        "name": "King Dedede",
-        "description": "A hammer-wielding king from a cute action platform series."
-      },
-      "video_game_characters_66": {
-        "name": "Ridley",
-        "description": "A dangerous alien dragon-like boss from a sci-fi action series."
       },
       "video_game_characters_67": {
         "name": "Alex (Minecraft)",
@@ -1085,14 +729,6 @@
         "name": "Gengar",
         "description": "A grinning ghost-like creature from a monster-collecting series."
       },
-      "video_game_characters_71": {
-        "name": "Lucario",
-        "description": "A jackal-like fighter creature known for aura powers."
-      },
-      "video_game_characters_72": {
-        "name": "Greninja",
-        "description": "A ninja frog-like creature from a monster-collecting series."
-      },
       "video_game_characters_73": {
         "name": "Bulbasaur",
         "description": "A small plant-backed creature from a monster-collecting series."
@@ -1109,41 +745,9 @@
         "name": "Charmander",
         "description": "A small fire lizard creature with a flame tail."
       },
-      "video_game_characters_77": {
-        "name": "Cortana",
-        "description": "An AI companion from a sci‑fi shooter series."
-      },
-      "video_game_characters_78": {
-        "name": "GLaDOS",
-        "description": "A sarcastic AI that runs a test facility."
-      },
-      "video_game_characters_79": {
-        "name": "Chell",
-        "description": "A silent test subject in a puzzle game."
-      },
-      "video_game_characters_80": {
-        "name": "Gordon Freeman",
-        "description": "A scientist-hero from a classic sci‑fi shooter."
-      },
       "video_game_characters_81": {
         "name": "Doom Slayer",
         "description": "A demon hunter in a fast-paced shooter."
-      },
-      "video_game_characters_82": {
-        "name": "Vault Boy",
-        "description": "A cheerful mascot from a post-apocalyptic RPG."
-      },
-      "video_game_characters_83": {
-        "name": "Dragonborn",
-        "description": "A customizable hero from a fantasy RPG."
-      },
-      "video_game_characters_84": {
-        "name": "Big Daddy",
-        "description": "A heavy armored guardian from an underwater game."
-      },
-      "video_game_characters_85": {
-        "name": "Little Sister",
-        "description": "A mysterious child character from an underwater series."
       },
       "video_game_characters_86": {
         "name": "Joel",
@@ -1152,58 +756,6 @@
       "video_game_characters_87": {
         "name": "Ellie",
         "description": "A young survivor from a post-apocalyptic story game."
-      },
-      "video_game_characters_88": {
-        "name": "Aloy",
-        "description": "A hunter in a world of machine creatures."
-      },
-      "video_game_characters_89": {
-        "name": "Arthur Morgan",
-        "description": "An outlaw from a western open-world game."
-      },
-      "video_game_characters_90": {
-        "name": "John Marston",
-        "description": "A gunslinger from a western game series."
-      },
-      "video_game_characters_91": {
-        "name": "CJ",
-        "description": "A street gang character from an open-world crime game."
-      },
-      "video_game_characters_92": {
-        "name": "Trevor Philips",
-        "description": "A chaotic criminal from an open-world action game."
-      },
-      "video_game_characters_93": {
-        "name": "Michael De Santa",
-        "description": "A retired criminal from an open-world action game."
-      },
-      "video_game_characters_94": {
-        "name": "Franklin Clinton",
-        "description": "A young criminal from an open-world action game."
-      },
-      "video_game_characters_95": {
-        "name": "Niko Bellic",
-        "description": "A newcomer trying to survive in a crime game."
-      },
-      "video_game_characters_96": {
-        "name": "Agent 47",
-        "description": "A bald professional assassin."
-      },
-      "video_game_characters_97": {
-        "name": "Commander Shepard",
-        "description": "A space commander from a sci‑fi RPG."
-      },
-      "video_game_characters_98": {
-        "name": "Sam Fisher",
-        "description": "A stealth operative from a spy game series."
-      },
-      "video_game_characters_99": {
-        "name": "Big Boss",
-        "description": "A legendary soldier from a stealth action series."
-      },
-      "video_game_characters_100": {
-        "name": "Rayman",
-        "description": "A limbless hero from platform games."
       }
     },
     "celebrities": {
@@ -1391,14 +943,6 @@
         "name": "Meryl Streep",
         "description": "Award-winning film actor."
       },
-      "celebrities_47": {
-        "name": "Nicole Kidman",
-        "description": "Famous film actor."
-      },
-      "celebrities_48": {
-        "name": "Cate Blanchett",
-        "description": "Award-winning film actor."
-      },
       "celebrities_49": {
         "name": "Hugh Jackman",
         "description": "Actor known for action and musicals."
@@ -1495,10 +1039,6 @@
         "name": "George Clooney",
         "description": "Famous actor and director."
       },
-      "celebrities_73": {
-        "name": "Harrison Ford",
-        "description": "Famous film actor."
-      },
       "celebrities_74": {
         "name": "Robert De Niro",
         "description": "Legendary actor."
@@ -1535,26 +1075,6 @@
         "name": "Matt Damon",
         "description": "Actor known for action and drama films."
       },
-      "celebrities_83": {
-        "name": "Mark Wahlberg",
-        "description": "Actor and producer known for action and comedy films."
-      },
-      "celebrities_84": {
-        "name": "Hugh Grant",
-        "description": "Actor known for romantic comedies."
-      },
-      "celebrities_85": {
-        "name": "Daniel Craig",
-        "description": "Actor known for playing a famous spy."
-      },
-      "celebrities_86": {
-        "name": "Pierce Brosnan",
-        "description": "Actor known for playing a famous spy character."
-      },
-      "celebrities_87": {
-        "name": "Sean Connery",
-        "description": "Classic film star known for a famous spy role."
-      },
       "celebrities_88": {
         "name": "Samuel L. Jackson",
         "description": "Actor known for many blockbuster films."
@@ -1579,18 +1099,6 @@
         "name": "Arnold Schwarzenegger",
         "description": "Action star known for classic sci‑fi films."
       },
-      "celebrities_94": {
-        "name": "Clint Eastwood",
-        "description": "Actor and director known for classic westerns and dramas."
-      },
-      "celebrities_95": {
-        "name": "Jack Nicholson",
-        "description": "Actor known for famous dramatic roles."
-      },
-      "celebrities_96": {
-        "name": "Keira Knightley",
-        "description": "Actress known for period films and adventure movies."
-      },
       "celebrities_97": {
         "name": "Natalie Portman",
         "description": "Actress known for award-winning films and sci‑fi roles."
@@ -1602,10 +1110,6 @@
       "celebrities_99": {
         "name": "Anne Hathaway",
         "description": "Actress known for dramas and family films."
-      },
-      "celebrities_100": {
-        "name": "Sandra Bullock",
-        "description": "Actress known for comedies and thrillers."
       }
     },
     "athletes": {
@@ -1633,14 +1137,6 @@
         "name": "Ronaldo Nazário",
         "description": "Brazilian striker legend."
       },
-      "athletes_7": {
-        "name": "Andrés Iniesta",
-        "description": "Spanish football midfielder."
-      },
-      "athletes_8": {
-        "name": "Xavi",
-        "description": "Spanish football midfielder."
-      },
       "athletes_9": {
         "name": "Luka Modrić",
         "description": "Croatian football midfielder."
@@ -1657,57 +1153,9 @@
         "name": "Robert Lewandowski",
         "description": "Polish football striker."
       },
-      "athletes_13": {
-        "name": "Johan Cruyff",
-        "description": "Dutch football legend."
-      },
-      "athletes_14": {
-        "name": "Franz Beckenbauer",
-        "description": "German football legend."
-      },
-      "athletes_15": {
-        "name": "Alfredo Di Stéfano",
-        "description": "Football legend and attacker."
-      },
-      "athletes_16": {
-        "name": "Ferenc Puskás",
-        "description": "Hungarian football legend."
-      },
-      "athletes_17": {
-        "name": "Paolo Maldini",
-        "description": "Italian football defender."
-      },
       "athletes_18": {
         "name": "Thierry Henry",
         "description": "French football forward."
-      },
-      "athletes_19": {
-        "name": "Didier Drogba",
-        "description": "Ivorian football striker."
-      },
-      "athletes_20": {
-        "name": "Samuel Eto'o",
-        "description": "Cameroonian football striker."
-      },
-      "athletes_21": {
-        "name": "George Weah",
-        "description": "Liberian football legend."
-      },
-      "athletes_22": {
-        "name": "Lev Yashin",
-        "description": "Legendary football goalkeeper."
-      },
-      "athletes_23": {
-        "name": "Gianluigi Buffon",
-        "description": "Italian football goalkeeper."
-      },
-      "athletes_24": {
-        "name": "Iker Casillas",
-        "description": "Spanish football goalkeeper."
-      },
-      "athletes_25": {
-        "name": "Manuel Neuer",
-        "description": "German football goalkeeper."
       },
       "athletes_26": {
         "name": "Sergio Ramos",
@@ -1733,41 +1181,9 @@
         "name": "Khabib Nurmagomedov",
         "description": "Retired MMA champion."
       },
-      "athletes_32": {
-        "name": "Michael Johnson",
-        "description": "Olympic sprinter and gold medalist."
-      },
-      "athletes_33": {
-        "name": "Carl Lewis",
-        "description": "Olympic track and field legend."
-      },
-      "athletes_34": {
-        "name": "Jesse Owens",
-        "description": "Historic Olympic sprinter."
-      },
-      "athletes_35": {
-        "name": "Katie Ledecky",
-        "description": "Olympic distance swimmer."
-      },
-      "athletes_36": {
-        "name": "Nadia Comaneci",
-        "description": "Gymnast known for perfect scores."
-      },
-      "athletes_37": {
-        "name": "Steffi Graf",
-        "description": "Grand Slam tennis champion."
-      },
       "athletes_38": {
         "name": "Maria Sharapova",
         "description": "Former world number one tennis player."
-      },
-      "athletes_39": {
-        "name": "Andy Murray",
-        "description": "Grand Slam tennis champion."
-      },
-      "athletes_40": {
-        "name": "Naomi Osaka",
-        "description": "Grand Slam tennis champion."
       },
       "athletes_41": {
         "name": "Ayrton Senna",
@@ -1785,34 +1201,6 @@
         "name": "Fernando Alonso",
         "description": "Formula 1 world champion."
       },
-      "athletes_45": {
-        "name": "Valentino Rossi",
-        "description": "MotoGP champion rider."
-      },
-      "athletes_46": {
-        "name": "Marc Marquez",
-        "description": "MotoGP champion rider."
-      },
-      "athletes_47": {
-        "name": "Sachin Tendulkar",
-        "description": "Cricket batting legend."
-      },
-      "athletes_48": {
-        "name": "Virat Kohli",
-        "description": "Cricket star and captain."
-      },
-      "athletes_49": {
-        "name": "MS Dhoni",
-        "description": "Cricket captain and champion."
-      },
-      "athletes_50": {
-        "name": "Jonah Lomu",
-        "description": "Legendary rugby player."
-      },
-      "athletes_51": {
-        "name": "Richie McCaw",
-        "description": "Rugby captain and champion."
-      },
       "athletes_52": {
         "name": "Tom Brady",
         "description": "American football quarterback."
@@ -1821,89 +1209,13 @@
         "name": "Magic Johnson",
         "description": "NBA basketball legend."
       },
-      "athletes_54": {
-        "name": "Larry Bird",
-        "description": "Former NBA star."
-      },
-      "athletes_55": {
-        "name": "Kareem Abdul-Jabbar",
-        "description": "NBA all-time great."
-      },
-      "athletes_56": {
-        "name": "Wilt Chamberlain",
-        "description": "Historic NBA center."
-      },
-      "athletes_57": {
-        "name": "Tim Duncan",
-        "description": "NBA champion power forward."
-      },
       "athletes_58": {
         "name": "Kevin Durant",
         "description": "NBA star forward."
       },
-      "athletes_59": {
-        "name": "Allen Iverson",
-        "description": "Former NBA guard."
-      },
       "athletes_60": {
         "name": "Venus Williams",
         "description": "Tennis champion."
-      },
-      "athletes_61": {
-        "name": "Andre Agassi",
-        "description": "Former tennis star."
-      },
-      "athletes_62": {
-        "name": "Pete Sampras",
-        "description": "Former tennis champion."
-      },
-      "athletes_63": {
-        "name": "Bjorn Borg",
-        "description": "Tennis legend."
-      },
-      "athletes_64": {
-        "name": "Billie Jean King",
-        "description": "Tennis icon."
-      },
-      "athletes_65": {
-        "name": "Martina Navratilova",
-        "description": "Tennis champion."
-      },
-      "athletes_66": {
-        "name": "Rory McIlroy",
-        "description": "Professional golfer."
-      },
-      "athletes_67": {
-        "name": "Jack Nicklaus",
-        "description": "Golf legend."
-      },
-      "athletes_68": {
-        "name": "Arnold Palmer",
-        "description": "Golf legend."
-      },
-      "athletes_69": {
-        "name": "Phil Mickelson",
-        "description": "Professional golfer."
-      },
-      "athletes_70": {
-        "name": "Eliud Kipchoge",
-        "description": "Marathon runner."
-      },
-      "athletes_71": {
-        "name": "Mo Farah",
-        "description": "Distance runner."
-      },
-      "athletes_72": {
-        "name": "Haile Gebrselassie",
-        "description": "Distance running legend."
-      },
-      "athletes_73": {
-        "name": "Mark Spitz",
-        "description": "Olympic swimmer."
-      },
-      "athletes_74": {
-        "name": "Wayne Gretzky",
-        "description": "Ice hockey legend."
       },
       "athletes_75": {
         "name": "Karim Benzema",
@@ -1925,45 +1237,9 @@
         "name": "Nikola Jokic",
         "description": "NBA basketball center from Serbia."
       },
-      "athletes_80": {
-        "name": "Dirk Nowitzki",
-        "description": "German basketball legend and NBA champion."
-      },
       "athletes_81": {
         "name": "Yao Ming",
         "description": "Chinese basketball icon and former NBA center."
-      },
-      "athletes_82": {
-        "name": "Hakeem Olajuwon",
-        "description": "Hall of Fame NBA center, born in Nigeria."
-      },
-      "athletes_83": {
-        "name": "Kawhi Leonard",
-        "description": "NBA star known for defense and championships."
-      },
-      "athletes_84": {
-        "name": "James Harden",
-        "description": "NBA guard known for scoring."
-      },
-      "athletes_85": {
-        "name": "Oscar De La Hoya",
-        "description": "World-famous professional boxer."
-      },
-      "athletes_86": {
-        "name": "Anthony Joshua",
-        "description": "Heavyweight boxing champion from the UK."
-      },
-      "athletes_87": {
-        "name": "Tyson Fury",
-        "description": "Heavyweight boxer known worldwide."
-      },
-      "athletes_88": {
-        "name": "Oleksandr Usyk",
-        "description": "Ukrainian world champion boxer."
-      },
-      "athletes_89": {
-        "name": "Georges St-Pierre",
-        "description": "MMA legend and former champion."
       },
       "athletes_90": {
         "name": "Ronda Rousey",
@@ -1972,42 +1248,6 @@
       "athletes_91": {
         "name": "Anderson Silva",
         "description": "Brazilian MMA legend."
-      },
-      "athletes_92": {
-        "name": "Israel Adesanya",
-        "description": "MMA champion known for striking."
-      },
-      "athletes_93": {
-        "name": "John McEnroe",
-        "description": "Tennis legend and former world No. 1."
-      },
-      "athletes_94": {
-        "name": "Boris Becker",
-        "description": "German tennis champion."
-      },
-      "athletes_95": {
-        "name": "Andy Roddick",
-        "description": "American tennis champion known for a big serve."
-      },
-      "athletes_96": {
-        "name": "Martina Hingis",
-        "description": "Grand Slam-winning tennis star."
-      },
-      "athletes_97": {
-        "name": "Kim Clijsters",
-        "description": "Belgian Grand Slam tennis champion."
-      },
-      "athletes_98": {
-        "name": "Monica Seles",
-        "description": "Legendary Grand Slam tennis champion."
-      },
-      "athletes_99": {
-        "name": "Carlos Alcaraz",
-        "description": "Top tennis star and Grand Slam winner."
-      },
-      "athletes_100": {
-        "name": "Sergio Aguero",
-        "description": "Argentine football striker and club legend."
       }
     },
     "musicians": {
@@ -2127,26 +1367,6 @@
         "name": "Bach",
         "description": "Baroque composer known for complex music."
       },
-      "musicians_30": {
-        "name": "Chopin",
-        "description": "Romantic-era composer famous for piano works."
-      },
-      "musicians_31": {
-        "name": "Vivaldi",
-        "description": "Baroque composer associated with \"The Four Seasons.\""
-      },
-      "musicians_32": {
-        "name": "Tchaikovsky",
-        "description": "Composer known for ballets and orchestral music."
-      },
-      "musicians_33": {
-        "name": "Pavarotti",
-        "description": "Famous opera tenor."
-      },
-      "musicians_34": {
-        "name": "Andrea Bocelli",
-        "description": "Italian singer known for pop and classical crossover."
-      },
       "musicians_35": {
         "name": "Frank Sinatra",
         "description": "Classic American singer and entertainer."
@@ -2167,22 +1387,6 @@
         "name": "Elton John",
         "description": "Pop and rock singer known for piano songs."
       },
-      "musicians_40": {
-        "name": "Stevie Wonder",
-        "description": "Soul musician known for hit songs and keyboards."
-      },
-      "musicians_41": {
-        "name": "Bob Dylan",
-        "description": "Singer-songwriter known for folk and rock."
-      },
-      "musicians_42": {
-        "name": "Johnny Cash",
-        "description": "Country singer known for a deep voice."
-      },
-      "musicians_43": {
-        "name": "Dolly Parton",
-        "description": "Singer-songwriter known for country and pop."
-      },
       "musicians_44": {
         "name": "Tina Turner",
         "description": "Rock and soul singer with major hits."
@@ -2190,30 +1394,6 @@
       "musicians_45": {
         "name": "Cher",
         "description": "Pop singer and actress with a long career."
-      },
-      "musicians_46": {
-        "name": "Barbra Streisand",
-        "description": "Singer and actress known for powerful vocals."
-      },
-      "musicians_47": {
-        "name": "Lionel Richie",
-        "description": "Pop and soul singer-songwriter."
-      },
-      "musicians_48": {
-        "name": "Phil Collins",
-        "description": "Singer and drummer with many pop hits."
-      },
-      "musicians_49": {
-        "name": "Sting",
-        "description": "Rock singer and songwriter."
-      },
-      "musicians_50": {
-        "name": "Eric Clapton",
-        "description": "Guitarist and singer known for blues rock."
-      },
-      "musicians_51": {
-        "name": "Jimi Hendrix",
-        "description": "Iconic rock guitarist."
       },
       "musicians_52": {
         "name": "AC/DC",
@@ -2255,65 +1435,9 @@
         "name": "Oasis",
         "description": "Britpop rock band from the 1990s."
       },
-      "musicians_62": {
-        "name": "The Who",
-        "description": "Influential classic rock band."
-      },
-      "musicians_63": {
-        "name": "The Doors",
-        "description": "Classic rock band with iconic songs."
-      },
-      "musicians_64": {
-        "name": "The Eagles",
-        "description": "Rock band known for timeless hits."
-      },
       "musicians_65": {
         "name": "Bee Gees",
         "description": "Pop group linked to disco-era hits."
-      },
-      "musicians_66": {
-        "name": "The Beach Boys",
-        "description": "Classic pop-rock vocal group."
-      },
-      "musicians_67": {
-        "name": "The Police",
-        "description": "Rock band with reggae influences."
-      },
-      "musicians_68": {
-        "name": "Genesis",
-        "description": "Rock band with a long career."
-      },
-      "musicians_69": {
-        "name": "Depeche Mode",
-        "description": "Electronic band known for synth sounds."
-      },
-      "musicians_70": {
-        "name": "Arctic Monkeys",
-        "description": "Modern rock band with global hits."
-      },
-      "musicians_71": {
-        "name": "The Killers",
-        "description": "Rock band known for catchy singles."
-      },
-      "musicians_72": {
-        "name": "R.E.M.",
-        "description": "Alternative rock band from the 1980s–90s."
-      },
-      "musicians_73": {
-        "name": "Pearl Jam",
-        "description": "Rock band linked to the grunge era."
-      },
-      "musicians_74": {
-        "name": "The Clash",
-        "description": "Influential punk rock band."
-      },
-      "musicians_75": {
-        "name": "The Cure",
-        "description": "Alternative band known for moody songs."
-      },
-      "musicians_76": {
-        "name": "Iron Maiden",
-        "description": "Heavy metal band with a mascot."
       },
       "musicians_77": {
         "name": "Harry Styles",
@@ -2382,34 +1506,6 @@
       "musicians_93": {
         "name": "PSY",
         "description": "K-pop singer and performer."
-      },
-      "musicians_94": {
-        "name": "Shania Twain",
-        "description": "Country-pop singer."
-      },
-      "musicians_95": {
-        "name": "Willie Nelson",
-        "description": "Country singer and songwriter."
-      },
-      "musicians_96": {
-        "name": "Diana Ross",
-        "description": "Soul and pop singer."
-      },
-      "musicians_97": {
-        "name": "Marvin Gaye",
-        "description": "Soul singer and songwriter."
-      },
-      "musicians_98": {
-        "name": "Ray Charles",
-        "description": "Soul and jazz musician."
-      },
-      "musicians_99": {
-        "name": "Ella Fitzgerald",
-        "description": "Jazz singer."
-      },
-      "musicians_100": {
-        "name": "Louis Armstrong",
-        "description": "Jazz musician and singer."
       }
     },
     "cartoons_animation": {
@@ -2457,37 +1553,13 @@
         "name": "Velma",
         "description": "A smart mystery solver known for her glasses."
       },
-      "cartoons_animation_12": {
-        "name": "Fred (Scooby-Doo)",
-        "description": "A mystery team leader who makes plans and traps."
-      },
-      "cartoons_animation_13": {
-        "name": "Daphne",
-        "description": "A mystery solver from a classic cartoon team."
-      },
       "cartoons_animation_14": {
         "name": "Popeye",
         "description": "A sailor who gets strong after eating spinach."
       },
-      "cartoons_animation_15": {
-        "name": "Olive Oyl",
-        "description": "A classic cartoon character often linked to a sailor."
-      },
-      "cartoons_animation_16": {
-        "name": "Betty Boop",
-        "description": "A famous character from early animation."
-      },
-      "cartoons_animation_17": {
-        "name": "Felix the Cat",
-        "description": "A black cartoon cat from early animation history."
-      },
       "cartoons_animation_18": {
         "name": "Garfield",
         "description": "A lazy orange cat who loves food."
-      },
-      "cartoons_animation_19": {
-        "name": "Odie",
-        "description": "A cheerful dog from a famous cat’s world."
       },
       "cartoons_animation_20": {
         "name": "Snoopy",
@@ -2497,10 +1569,6 @@
         "name": "Charlie Brown",
         "description": "A kid from a classic comic and animated specials."
       },
-      "cartoons_animation_22": {
-        "name": "Woodstock (Peanuts)",
-        "description": "A small bird and a beagle’s friend."
-      },
       "cartoons_animation_23": {
         "name": "Pink Panther",
         "description": "A smooth pink character from classic animation."
@@ -2508,10 +1576,6 @@
       "cartoons_animation_24": {
         "name": "Papa Smurf",
         "description": "The leader of small blue characters."
-      },
-      "cartoons_animation_25": {
-        "name": "Smurfette",
-        "description": "A well-known character from the Smurfs."
       },
       "cartoons_animation_26": {
         "name": "Winnie the Pooh",
@@ -2532,10 +1596,6 @@
       "cartoons_animation_30": {
         "name": "Pluto",
         "description": "Mickey’s pet dog in Disney cartoons."
-      },
-      "cartoons_animation_31": {
-        "name": "Daisy Duck",
-        "description": "A Disney duck often seen with a bow and eyelashes."
       },
       "cartoons_animation_32": {
         "name": "Bart Simpson",
@@ -2577,14 +1637,6 @@
         "name": "Scar",
         "description": "A villain lion with a scar over one eye."
       },
-      "cartoons_animation_42": {
-        "name": "Jessie (Toy Story)",
-        "description": "A cowgirl toy from an animated film series."
-      },
-      "cartoons_animation_43": {
-        "name": "Mr. Potato Head",
-        "description": "A customizable toy face with removable parts."
-      },
       "cartoons_animation_44": {
         "name": "Buzz (Toy Story)",
         "description": "A space ranger toy from an animated film series."
@@ -2593,21 +1645,9 @@
         "name": "Lightning McQueen",
         "description": "A red race car from an animated film."
       },
-      "cartoons_animation_46": {
-        "name": "Mater",
-        "description": "A rusty tow truck from an animated film."
-      },
       "cartoons_animation_47": {
         "name": "Wall-E",
         "description": "A small trash-compacting robot from an animated film."
-      },
-      "cartoons_animation_48": {
-        "name": "EVE",
-        "description": "A sleek white robot from an animated film."
-      },
-      "cartoons_animation_49": {
-        "name": "Remy",
-        "description": "A rat who loves cooking in an animated film."
       },
       "cartoons_animation_50": {
         "name": "Donkey (Shrek)",
@@ -2621,10 +1661,6 @@
         "name": "Mulan",
         "description": "A brave young woman who becomes a warrior."
       },
-      "cartoons_animation_53": {
-        "name": "Tinker Bell",
-        "description": "A tiny fairy with a green dress."
-      },
       "cartoons_animation_54": {
         "name": "Peter Pan",
         "description": "A boy who can fly and never grows up."
@@ -2636,10 +1672,6 @@
       "cartoons_animation_56": {
         "name": "Stitch",
         "description": "A blue alien creature causing chaos and fun."
-      },
-      "cartoons_animation_57": {
-        "name": "Lilo",
-        "description": "A young girl who befriends an alien."
       },
       "cartoons_animation_58": {
         "name": "Mike Wazowski",
@@ -2689,18 +1721,6 @@
         "name": "Hello Kitty",
         "description": "A cute white cat with a bow."
       },
-      "cartoons_animation_70": {
-        "name": "Twilight Sparkle",
-        "description": "A purple unicorn pony with a horn."
-      },
-      "cartoons_animation_71": {
-        "name": "Rainbow Dash",
-        "description": "A blue flying pony with rainbow hair."
-      },
-      "cartoons_animation_72": {
-        "name": "Pinkie Pie",
-        "description": "A pink pony known for parties and smiles."
-      },
       "cartoons_animation_73": {
         "name": "Finn",
         "description": "A human boy adventurer with a white hat."
@@ -2708,14 +1728,6 @@
       "cartoons_animation_74": {
         "name": "Jake",
         "description": "A yellow dog with stretchy powers."
-      },
-      "cartoons_animation_75": {
-        "name": "Ice King",
-        "description": "An ice wizard wearing a crown."
-      },
-      "cartoons_animation_76": {
-        "name": "Princess Bubblegum",
-        "description": "A pink princess linked to candy."
       },
       "cartoons_animation_77": {
         "name": "Sailor Moon",
@@ -2725,29 +1737,9 @@
         "name": "Totoro",
         "description": "A big friendly forest spirit."
       },
-      "cartoons_animation_79": {
-        "name": "No-Face",
-        "description": "A masked spirit from a bathhouse story."
-      },
-      "cartoons_animation_80": {
-        "name": "Chihiro",
-        "description": "A young girl who enters a spirit world."
-      },
-      "cartoons_animation_81": {
-        "name": "Ponyo",
-        "description": "A fish-girl with magical powers."
-      },
       "cartoons_animation_82": {
         "name": "Aang",
         "description": "A young hero who controls the elements."
-      },
-      "cartoons_animation_83": {
-        "name": "Zuko",
-        "description": "A conflicted prince and firebender."
-      },
-      "cartoons_animation_84": {
-        "name": "Appa",
-        "description": "A flying bison companion."
       },
       "cartoons_animation_85": {
         "name": "Rick Sanchez",
@@ -2756,10 +1748,6 @@
       "cartoons_animation_86": {
         "name": "Morty Smith",
         "description": "A teenage sidekick on sci-fi adventures."
-      },
-      "cartoons_animation_87": {
-        "name": "Marceline",
-        "description": "A vampire rock star from a fantasy land."
       },
       "cartoons_animation_88": {
         "name": "Blossom",
@@ -2773,18 +1761,6 @@
         "name": "Buttercup",
         "description": "A tough superhero girl from a trio."
       },
-      "cartoons_animation_91": {
-        "name": "Porky Pig",
-        "description": "A classic stuttering cartoon pig."
-      },
-      "cartoons_animation_92": {
-        "name": "Lucy van Pelt",
-        "description": "A bossy girl from the Peanuts gang."
-      },
-      "cartoons_animation_93": {
-        "name": "Brainy Smurf",
-        "description": "A know-it-all blue Smurf."
-      },
       "cartoons_animation_94": {
         "name": "Vegeta",
         "description": "A proud warrior prince."
@@ -2793,10 +1769,6 @@
         "name": "Luffy",
         "description": "A pirate captain who seeks a great treasure."
       },
-      "cartoons_animation_96": {
-        "name": "Eren Yeager",
-        "description": "A soldier in a world of giants."
-      },
       "cartoons_animation_97": {
         "name": "Ash Ketchum",
         "description": "A young trainer who travels with creatures."
@@ -2804,14 +1776,6 @@
       "cartoons_animation_98": {
         "name": "Meowth",
         "description": "A talking cat-like creature."
-      },
-      "cartoons_animation_99": {
-        "name": "Tigress",
-        "description": "A skilled kung fu tiger warrior."
-      },
-      "cartoons_animation_100": {
-        "name": "Master Shifu",
-        "description": "A small kung fu master and teacher."
       }
     },
     "fantasy_creatures": {
@@ -2915,10 +1879,6 @@
         "name": "Ghost",
         "description": "A spirit of a dead person."
       },
-      "fantasy_creatures_26": {
-        "name": "Poltergeist",
-        "description": "A spirit that causes physical disturbances."
-      },
       "fantasy_creatures_27": {
         "name": "Angel",
         "description": "A winged celestial being from myths and fantasy."
@@ -2943,34 +1903,6 @@
         "name": "Sorcerer",
         "description": "A magical practitioner in fantasy settings."
       },
-      "fantasy_creatures_33": {
-        "name": "Necromancer",
-        "description": "A magic user associated with the dead."
-      },
-      "fantasy_creatures_34": {
-        "name": "Shapeshifter",
-        "description": "A being that can change its form."
-      },
-      "fantasy_creatures_35": {
-        "name": "Doppelganger",
-        "description": "A supernatural double that looks like someone else."
-      },
-      "fantasy_creatures_36": {
-        "name": "Wraith",
-        "description": "A dark, ghostlike spirit."
-      },
-      "fantasy_creatures_37": {
-        "name": "Lich",
-        "description": "An undead sorcerer preserved by magic."
-      },
-      "fantasy_creatures_38": {
-        "name": "Ghoul",
-        "description": "A corpse-eating undead creature from folklore."
-      },
-      "fantasy_creatures_39": {
-        "name": "Banshee",
-        "description": "A spirit known for a chilling wail."
-      },
       "fantasy_creatures_40": {
         "name": "Gargoyle",
         "description": "A stone creature often seen on old buildings."
@@ -2979,41 +1911,9 @@
         "name": "Golem",
         "description": "A magical being made from clay or stone."
       },
-      "fantasy_creatures_42": {
-        "name": "Manticore",
-        "description": "A monster with a lion-like body and other features."
-      },
       "fantasy_creatures_43": {
         "name": "Sphinx",
         "description": "A mythical creature known for riddles."
-      },
-      "fantasy_creatures_44": {
-        "name": "Harpy",
-        "description": "A winged creature from ancient myths."
-      },
-      "fantasy_creatures_45": {
-        "name": "Satyr",
-        "description": "A half-goat, half-human creature from mythology."
-      },
-      "fantasy_creatures_46": {
-        "name": "Faun",
-        "description": "A forest creature, part human and part goat."
-      },
-      "fantasy_creatures_47": {
-        "name": "Nymph",
-        "description": "A nature spirit from mythology."
-      },
-      "fantasy_creatures_48": {
-        "name": "Dryad",
-        "description": "A tree spirit from mythology."
-      },
-      "fantasy_creatures_49": {
-        "name": "Sprite",
-        "description": "A small magical nature spirit."
-      },
-      "fantasy_creatures_50": {
-        "name": "Leprechaun",
-        "description": "A mischievous small being from folklore."
       },
       "fantasy_creatures_51": {
         "name": "Yeti",
@@ -3023,105 +1923,21 @@
         "name": "Medusa",
         "description": "A woman with snake hair whose gaze turns others to stone."
       },
-      "fantasy_creatures_53": {
-        "name": "Gorgon",
-        "description": "A monstrous being often linked to petrifying victims."
-      },
-      "fantasy_creatures_54": {
-        "name": "Hippogriff",
-        "description": "A creature that is half eagle and half horse."
-      },
-      "fantasy_creatures_55": {
-        "name": "Wyvern",
-        "description": "A dragon-like creature, often with two legs and wings."
-      },
       "fantasy_creatures_56": {
         "name": "Leviathan",
         "description": "A massive sea monster from myth and fantasy."
-      },
-      "fantasy_creatures_57": {
-        "name": "Behemoth",
-        "description": "A gigantic beast symbolizing immense strength."
-      },
-      "fantasy_creatures_58": {
-        "name": "Imp",
-        "description": "A small mischievous demon-like creature."
-      },
-      "fantasy_creatures_59": {
-        "name": "Roc",
-        "description": "A legendary giant bird capable of carrying huge prey."
       },
       "fantasy_creatures_60": {
         "name": "Sea Serpent",
         "description": "A huge serpent-like monster said to live in the ocean."
       },
-      "fantasy_creatures_61": {
-        "name": "Fire Elemental",
-        "description": "A living being made of flame."
-      },
-      "fantasy_creatures_62": {
-        "name": "Water Elemental",
-        "description": "A living being made of water."
-      },
-      "fantasy_creatures_63": {
-        "name": "Earth Elemental",
-        "description": "A creature formed from rock and soil."
-      },
-      "fantasy_creatures_64": {
-        "name": "Air Elemental",
-        "description": "A being of wind and swirling air."
-      },
-      "fantasy_creatures_65": {
-        "name": "Dark Elf",
-        "description": "An elf associated with darkness or the underground."
-      },
-      "fantasy_creatures_66": {
-        "name": "Frost Giant",
-        "description": "A giant linked to ice and cold."
-      },
-      "fantasy_creatures_67": {
-        "name": "Stone Giant",
-        "description": "A giant associated with stone and mountains."
-      },
-      "fantasy_creatures_68": {
-        "name": "Fire Giant",
-        "description": "A giant linked to fire and heat."
-      },
-      "fantasy_creatures_69": {
-        "name": "Direwolf",
-        "description": "An oversized, fearsome wolf from fantasy stories."
-      },
-      "fantasy_creatures_70": {
-        "name": "Warg",
-        "description": "A monstrous wolf-like creature often used as a mount."
-      },
-      "fantasy_creatures_71": {
-        "name": "Ent",
-        "description": "A tree-like walking being from fantasy."
-      },
-      "fantasy_creatures_72": {
-        "name": "Balrog",
-        "description": "A fiery shadow demon from epic fantasy."
-      },
-      "fantasy_creatures_73": {
-        "name": "Nazgûl",
-        "description": "A terrifying ring-wraith-like rider from fantasy."
-      },
       "fantasy_creatures_74": {
         "name": "Dementor",
         "description": "A cloaked creature that drains happiness."
       },
-      "fantasy_creatures_75": {
-        "name": "Thestral",
-        "description": "A winged horse-like creature, often described as eerie."
-      },
       "fantasy_creatures_76": {
         "name": "Giant Spider",
         "description": "An enormous spider from fantasy tales."
-      },
-      "fantasy_creatures_77": {
-        "name": "Pixie",
-        "description": "A tiny mischievous fairy-like being."
       },
       "fantasy_creatures_78": {
         "name": "Gnome",
@@ -3151,65 +1967,13 @@
         "name": "Gremlin",
         "description": "A small troublemaking creature that causes chaos."
       },
-      "fantasy_creatures_85": {
-        "name": "Will-o'-wisp",
-        "description": "A mysterious floating light that lures travelers."
-      },
-      "fantasy_creatures_86": {
-        "name": "Hellhound",
-        "description": "A supernatural dog associated with the underworld."
-      },
-      "fantasy_creatures_87": {
-        "name": "Homunculus",
-        "description": "A tiny artificial humanoid from old lore."
-      },
-      "fantasy_creatures_88": {
-        "name": "Cockatrice",
-        "description": "A mythical creature with rooster and reptile traits."
-      },
-      "fantasy_creatures_89": {
-        "name": "Hippocamp",
-        "description": "A sea-horse creature, often horse and fish."
-      },
-      "fantasy_creatures_90": {
-        "name": "Lamia",
-        "description": "A mythical being, often part woman and part serpent."
-      },
-      "fantasy_creatures_91": {
-        "name": "Naga",
-        "description": "A serpent-like humanoid from myth and fantasy."
-      },
-      "fantasy_creatures_92": {
-        "name": "Kitsune",
-        "description": "A magical fox spirit that can change shape."
-      },
-      "fantasy_creatures_93": {
-        "name": "Qilin",
-        "description": "A mythical good-luck beast, often deer-like with scales."
-      },
-      "fantasy_creatures_94": {
-        "name": "Garuda",
-        "description": "A giant bird-like mythical being."
-      },
       "fantasy_creatures_95": {
         "name": "Valkyrie",
         "description": "A mythic warrior spirit associated with fallen heroes."
       },
-      "fantasy_creatures_96": {
-        "name": "Oni",
-        "description": "A horned ogre-like spirit from folklore."
-      },
-      "fantasy_creatures_97": {
-        "name": "Jackalope",
-        "description": "A rabbit-like creature with antlers."
-      },
       "fantasy_creatures_98": {
         "name": "Chupacabra",
         "description": "A mysterious creature said to attack livestock."
-      },
-      "fantasy_creatures_99": {
-        "name": "Firebird",
-        "description": "A legendary bird linked to flames and light."
       },
       "fantasy_creatures_100": {
         "name": "Sandman",
@@ -3433,18 +2197,6 @@
         "name": "Hamster",
         "description": "Small pet rodent kept in cages."
       },
-      "animals_55": {
-        "name": "Guinea Pig",
-        "description": "Small domesticated rodent-like pet."
-      },
-      "animals_56": {
-        "name": "Ferret",
-        "description": "Long-bodied small mammal sometimes kept as a pet."
-      },
-      "animals_57": {
-        "name": "Weasel",
-        "description": "Small slender wild mammal."
-      },
       "animals_58": {
         "name": "Otter",
         "description": "Playful aquatic mammal."
@@ -3457,18 +2209,6 @@
         "name": "Squirrel",
         "description": "Tree-dwelling rodent with a bushy tail."
       },
-      "animals_61": {
-        "name": "Hedgehog",
-        "description": "Small mammal with spines."
-      },
-      "animals_62": {
-        "name": "Porcupine",
-        "description": "Large rodent with quills."
-      },
-      "animals_63": {
-        "name": "Armadillo",
-        "description": "Mammal with armored plates."
-      },
       "animals_64": {
         "name": "Sloth",
         "description": "Slow-moving tree-dwelling mammal."
@@ -3476,14 +2216,6 @@
       "animals_65": {
         "name": "Anteater",
         "description": "Mammal that eats ants and termites."
-      },
-      "animals_66": {
-        "name": "Tapir",
-        "description": "Large herbivore with a short trunk-like nose."
-      },
-      "animals_67": {
-        "name": "Bison",
-        "description": "Large shaggy grazing mammal."
       },
       "animals_68": {
         "name": "Buffalo",
@@ -3493,33 +2225,9 @@
         "name": "Hyena",
         "description": "African carnivore known for a laugh-like call."
       },
-      "animals_70": {
-        "name": "Jackal",
-        "description": "Small wild canine."
-      },
-      "animals_71": {
-        "name": "Lynx",
-        "description": "Wild cat with tufted ears."
-      },
       "animals_72": {
         "name": "Puma",
         "description": "Large wild cat."
-      },
-      "animals_73": {
-        "name": "Wombat",
-        "description": "Stocky burrowing marsupial."
-      },
-      "animals_74": {
-        "name": "Platypus",
-        "description": "Egg-laying mammal with a duck-like bill."
-      },
-      "animals_75": {
-        "name": "Echidna",
-        "description": "Spiny egg-laying mammal."
-      },
-      "animals_76": {
-        "name": "Dingo",
-        "description": "Wild dog-like canine."
       },
       "animals_77": {
         "name": "Cow",
@@ -3565,29 +2273,9 @@
         "name": "Skunk",
         "description": "A small animal known for a strong smell."
       },
-      "animals_88": {
-        "name": "Badger",
-        "description": "A burrowing mammal with stripes."
-      },
-      "animals_89": {
-        "name": "Mole",
-        "description": "A small animal that lives underground."
-      },
-      "animals_90": {
-        "name": "Chipmunk",
-        "description": "A small striped squirrel-like animal."
-      },
-      "animals_91": {
-        "name": "Hare",
-        "description": "A fast animal similar to a rabbit."
-      },
       "animals_92": {
         "name": "Reindeer",
         "description": "A deer with antlers from cold regions."
-      },
-      "animals_93": {
-        "name": "Yak",
-        "description": "A long-haired cattle-like animal."
       },
       "animals_94": {
         "name": "Antelope",
@@ -3597,21 +2285,9 @@
         "name": "Gazelle",
         "description": "A small, fast antelope."
       },
-      "animals_96": {
-        "name": "Meerkat",
-        "description": "A small animal that stands upright."
-      },
-      "animals_97": {
-        "name": "Lemur",
-        "description": "A primate with a long tail."
-      },
       "animals_98": {
         "name": "Jaguar",
         "description": "A big spotted wild cat."
-      },
-      "animals_99": {
-        "name": "Ocelot",
-        "description": "A small wild cat with spots."
       },
       "animals_100": {
         "name": "Seal",
@@ -3831,10 +2507,6 @@
         "name": "Ramen",
         "description": "Noodle soup with broth and toppings."
       },
-      "food_54": {
-        "name": "Dumplings",
-        "description": "Filled dough pieces, steamed or fried."
-      },
       "food_55": {
         "name": "Spaghetti",
         "description": "Long pasta, usually served with sauce."
@@ -3863,33 +2535,9 @@
         "name": "Paella",
         "description": "Rice dish cooked with seafood or meat."
       },
-      "food_62": {
-        "name": "Falafel",
-        "description": "Fried balls made from chickpeas or beans."
-      },
-      "food_63": {
-        "name": "Hummus",
-        "description": "Creamy chickpea dip."
-      },
-      "food_64": {
-        "name": "Couscous",
-        "description": "Steamed semolina grains served as a side."
-      },
       "food_65": {
         "name": "Kebab",
         "description": "Grilled meat served in pieces or wrap."
-      },
-      "food_66": {
-        "name": "Naan",
-        "description": "Soft flatbread often served with curry."
-      },
-      "food_67": {
-        "name": "Pita",
-        "description": "Round flatbread that can form a pocket."
-      },
-      "food_68": {
-        "name": "Bagel",
-        "description": "Ring-shaped bread, often toasted."
       },
       "food_69": {
         "name": "Croissant",
@@ -3927,10 +2575,6 @@
         "name": "Waffle",
         "description": "A grid-patterned batter cake, often sweet."
       },
-      "food_78": {
-        "name": "Pretzel",
-        "description": "A baked twisted bread snack, often salty."
-      },
       "food_79": {
         "name": "Popcorn",
         "description": "Popped corn kernels, often salted or buttered."
@@ -3938,10 +2582,6 @@
       "food_80": {
         "name": "Cereal",
         "description": "Dry breakfast grains, often eaten with milk."
-      },
-      "food_81": {
-        "name": "Oatmeal",
-        "description": "Cooked oats, usually eaten warm."
       },
       "food_82": {
         "name": "Granola",
@@ -3955,21 +2595,9 @@
         "name": "Papaya",
         "description": "A tropical fruit with orange flesh and black seeds."
       },
-      "food_85": {
-        "name": "Pomegranate",
-        "description": "A fruit filled with many red seeds."
-      },
       "food_86": {
         "name": "Blueberry",
         "description": "A small round blue-purple berry."
-      },
-      "food_87": {
-        "name": "Raspberry",
-        "description": "A soft red berry made of many small segments."
-      },
-      "food_88": {
-        "name": "Blackberry",
-        "description": "A dark berry made of clustered segments."
       },
       "food_89": {
         "name": "Cherry",
@@ -3986,22 +2614,6 @@
       "food_92": {
         "name": "Plum",
         "description": "A small round fruit with a pit, often purple or red."
-      },
-      "food_93": {
-        "name": "Apricot",
-        "description": "A small orange fruit with a pit."
-      },
-      "food_94": {
-        "name": "Fig",
-        "description": "A soft fruit with many tiny seeds inside."
-      },
-      "food_95": {
-        "name": "Date",
-        "description": "A sweet dried-like fruit, often brown."
-      },
-      "food_96": {
-        "name": "Grapefruit",
-        "description": "A large citrus fruit, often pink inside."
       },
       "food_97": {
         "name": "Lime",
@@ -4141,17 +2753,9 @@
         "name": "Banker",
         "description": "Works with money and banking services."
       },
-      "professions_31": {
-        "name": "Bank Teller",
-        "description": "Helps customers at a bank counter."
-      },
       "professions_32": {
         "name": "Cashier",
         "description": "Takes payment at a store."
-      },
-      "professions_33": {
-        "name": "Store Clerk",
-        "description": "Assists customers in a shop."
       },
       "professions_34": {
         "name": "Salesperson",
@@ -4173,18 +2777,6 @@
         "name": "Office Manager",
         "description": "Keeps an office running smoothly."
       },
-      "professions_39": {
-        "name": "HR Specialist",
-        "description": "Handles hiring and employee issues."
-      },
-      "professions_40": {
-        "name": "Marketing Specialist",
-        "description": "Promotes products and campaigns."
-      },
-      "professions_41": {
-        "name": "Customer Support Agent",
-        "description": "Helps customers solve problems."
-      },
       "professions_42": {
         "name": "Barista",
         "description": "Prepares coffee drinks."
@@ -4205,10 +2797,6 @@
         "name": "Butcher",
         "description": "Cuts and sells meat."
       },
-      "professions_47": {
-        "name": "Grocer",
-        "description": "Sells everyday food items."
-      },
       "professions_48": {
         "name": "Gardener",
         "description": "Takes care of plants and gardens."
@@ -4216,10 +2804,6 @@
       "professions_49": {
         "name": "Florist",
         "description": "Arranges and sells flowers."
-      },
-      "professions_50": {
-        "name": "Landscaper",
-        "description": "Designs and maintains outdoor spaces."
       },
       "professions_51": {
         "name": "Construction Worker",
@@ -4245,17 +2829,9 @@
         "name": "Zookeeper",
         "description": "Cares for animals in a zoo."
       },
-      "professions_57": {
-        "name": "Park Ranger",
-        "description": "Protects nature and helps visitors in parks."
-      },
       "professions_58": {
         "name": "Translator",
         "description": "Converts text from one language to another."
-      },
-      "professions_59": {
-        "name": "Interpreter",
-        "description": "Translates spoken language in real time."
       },
       "professions_60": {
         "name": "Psychologist",
@@ -4265,65 +2841,29 @@
         "name": "Therapist",
         "description": "Supports people through counseling and treatment."
       },
-      "professions_62": {
-        "name": "Physiotherapist",
-        "description": "Helps people recover movement after injury."
-      },
       "professions_63": {
         "name": "Nutritionist",
         "description": "Advises on healthy eating and diets."
-      },
-      "professions_64": {
-        "name": "Optometrist",
-        "description": "Checks eyesight and prescribes lenses."
       },
       "professions_65": {
         "name": "Pediatrician",
         "description": "Doctor who treats children."
       },
-      "professions_66": {
-        "name": "Midwife",
-        "description": "Assists during pregnancy and childbirth."
-      },
       "professions_67": {
         "name": "Air Traffic Controller",
         "description": "Directs airplanes for safe takeoff and landing."
-      },
-      "professions_68": {
-        "name": "Paralegal",
-        "description": "Assists lawyers with legal documents and research."
       },
       "professions_69": {
         "name": "Financial Analyst",
         "description": "Studies finances to guide decisions and investments."
       },
-      "professions_70": {
-        "name": "Stockbroker",
-        "description": "Buys and sells stocks for clients."
-      },
-      "professions_71": {
-        "name": "Insurance Agent",
-        "description": "Sells and manages insurance policies."
-      },
-      "professions_72": {
-        "name": "Consultant",
-        "description": "Gives expert advice to businesses or clients."
-      },
       "professions_73": {
         "name": "Project Manager",
         "description": "Plans and coordinates a project and its team."
       },
-      "professions_74": {
-        "name": "Product Manager",
-        "description": "Guides what a product should be and do."
-      },
       "professions_75": {
         "name": "Software Developer",
         "description": "Builds and maintains software applications."
-      },
-      "professions_76": {
-        "name": "Web Designer",
-        "description": "Designs websites and their layout."
       },
       "professions_77": {
         "name": "Actor",
@@ -4357,10 +2897,6 @@
         "name": "Poet",
         "description": "Writes poetry and verses."
       },
-      "professions_85": {
-        "name": "Editor",
-        "description": "Reviews and improves written content."
-      },
       "professions_86": {
         "name": "Barber",
         "description": "Cuts hair and trims beards."
@@ -4372,14 +2908,6 @@
       "professions_88": {
         "name": "Makeup Artist",
         "description": "Applies makeup for clients or productions."
-      },
-      "professions_89": {
-        "name": "Tailor",
-        "description": "Makes or alters clothing."
-      },
-      "professions_90": {
-        "name": "Fashion Designer",
-        "description": "Designs clothing and accessories."
       },
       "professions_91": {
         "name": "Sailor",
@@ -4401,25 +2929,9 @@
         "name": "Welder",
         "description": "Joins metal parts using heat."
       },
-      "professions_96": {
-        "name": "Blacksmith",
-        "description": "Shapes metal using heat and tools."
-      },
-      "professions_97": {
-        "name": "Locksmith",
-        "description": "Installs and repairs locks and keys."
-      },
-      "professions_98": {
-        "name": "Shoemaker",
-        "description": "Repairs or makes shoes."
-      },
       "professions_99": {
         "name": "Cleaner",
         "description": "Cleans homes, offices, or buildings."
-      },
-      "professions_100": {
-        "name": "Janitor",
-        "description": "Maintains and cleans a building."
       }
     },
     "everyday_objects": {
@@ -4977,10 +3489,6 @@
         "name": "PayPal",
         "description": "Online payments service."
       },
-      "famous_brands_39": {
-        "name": "American Express",
-        "description": "Credit card and financial services brand."
-      },
       "famous_brands_40": {
         "name": "Nintendo",
         "description": "Video game company."
@@ -4997,10 +3505,6 @@
         "name": "Intel",
         "description": "Computer processor company."
       },
-      "famous_brands_44": {
-        "name": "AMD",
-        "description": "Computer processors and graphics company."
-      },
       "famous_brands_45": {
         "name": "NVIDIA",
         "description": "Graphics and AI computing company."
@@ -5016,14 +3520,6 @@
       "famous_brands_48": {
         "name": "Lenovo",
         "description": "Computer and electronics brand."
-      },
-      "famous_brands_49": {
-        "name": "ASUS",
-        "description": "Computer hardware and laptop brand."
-      },
-      "famous_brands_50": {
-        "name": "Acer",
-        "description": "Computer and laptop brand."
       },
       "famous_brands_51": {
         "name": "Canon",
@@ -5048,10 +3544,6 @@
       "famous_brands_56": {
         "name": "Domino's",
         "description": "Global pizza delivery brand."
-      },
-      "famous_brands_57": {
-        "name": "Taco Bell",
-        "description": "Fast-food chain known for tacos."
       },
       "famous_brands_58": {
         "name": "Heineken",
@@ -5101,10 +3593,6 @@
         "name": "Gillette",
         "description": "Shaving products brand."
       },
-      "famous_brands_70": {
-        "name": "Pampers",
-        "description": "Baby diaper brand."
-      },
       "famous_brands_71": {
         "name": "H&M",
         "description": "Global clothing retailer."
@@ -5116,14 +3604,6 @@
       "famous_brands_73": {
         "name": "Uniqlo",
         "description": "Casual clothing retailer."
-      },
-      "famous_brands_74": {
-        "name": "Reebok",
-        "description": "Athletic footwear and apparel brand."
-      },
-      "famous_brands_75": {
-        "name": "Under Armour",
-        "description": "Sports apparel brand."
       },
       "famous_brands_76": {
         "name": "Gucci",
@@ -5145,25 +3625,9 @@
         "name": "Rolex",
         "description": "Luxury watch brand."
       },
-      "famous_brands_81": {
-        "name": "Cartier",
-        "description": "Luxury jewelry and watches."
-      },
-      "famous_brands_82": {
-        "name": "Tiffany & Co.",
-        "description": "Luxury jewelry brand."
-      },
       "famous_brands_83": {
         "name": "Hermès",
         "description": "Luxury fashion and accessories."
-      },
-      "famous_brands_84": {
-        "name": "Burberry",
-        "description": "Luxury fashion brand."
-      },
-      "famous_brands_85": {
-        "name": "Armani",
-        "description": "Fashion and fragrance brand."
       },
       "famous_brands_86": {
         "name": "Versace",
@@ -5185,29 +3649,9 @@
         "name": "New Balance",
         "description": "Athletic footwear brand."
       },
-      "famous_brands_91": {
-        "name": "The North Face",
-        "description": "Outdoor clothing brand."
-      },
-      "famous_brands_92": {
-        "name": "Patagonia",
-        "description": "Outdoor clothing brand."
-      },
-      "famous_brands_93": {
-        "name": "Dyson",
-        "description": "Home appliances brand."
-      },
       "famous_brands_94": {
         "name": "Bosch",
         "description": "Tools and appliances brand."
-      },
-      "famous_brands_95": {
-        "name": "Whirlpool",
-        "description": "Home appliances brand."
-      },
-      "famous_brands_96": {
-        "name": "KitchenAid",
-        "description": "Kitchen appliances brand."
       },
       "famous_brands_97": {
         "name": "Philips",
@@ -5459,10 +3903,6 @@
         "name": "Romania",
         "description": "A country in Eastern Europe."
       },
-      "countries_59": {
-        "name": "Bulgaria",
-        "description": "A country in southeastern Europe."
-      },
       "countries_60": {
         "name": "Serbia",
         "description": "A landlocked country in southeastern Europe."
@@ -5470,14 +3910,6 @@
       "countries_61": {
         "name": "Croatia",
         "description": "A European country on the Adriatic Sea."
-      },
-      "countries_62": {
-        "name": "Slovenia",
-        "description": "A small country in Central Europe."
-      },
-      "countries_63": {
-        "name": "Slovakia",
-        "description": "A landlocked country in Central Europe."
       },
       "countries_64": {
         "name": "Egypt",
@@ -5531,41 +3963,13 @@
         "name": "Cameroon",
         "description": "A country in Central Africa."
       },
-      "countries_77": {
-        "name": "Albania",
-        "description": "A country in Southeast Europe."
-      },
       "countries_79": {
         "name": "Angola",
         "description": "A country on Africa’s Atlantic coast."
       },
-      "countries_83": {
-        "name": "Bahrain",
-        "description": "A small island country in the Gulf."
-      },
-      "countries_84": {
-        "name": "Barbados",
-        "description": "A Caribbean island nation."
-      },
-      "countries_85": {
-        "name": "Belarus",
-        "description": "A landlocked country in Eastern Europe."
-      },
       "countries_93": {
         "name": "Cambodia",
         "description": "A country in Southeast Asia."
-      },
-      "countries_96": {
-        "name": "Cyprus",
-        "description": "An island country in the Mediterranean."
-      },
-      "countries_98": {
-        "name": "Congo",
-        "description": "A country in Central Africa."
-      },
-      "countries_99": {
-        "name": "DR Congo",
-        "description": "A large country in Central Africa."
       }
     },
     "party_mode": {
@@ -5809,21 +4213,9 @@
         "name": "Chameleon",
         "description": "A lizard known for changing color."
       },
-      "party_mode_61": {
-        "name": "Seahorse",
-        "description": "A small ocean animal shaped like a horse."
-      },
       "party_mode_62": {
         "name": "French Fries",
         "description": "Thin fried potato sticks."
-      },
-      "party_mode_63": {
-        "name": "Popsicle",
-        "description": "A frozen treat on a stick."
-      },
-      "party_mode_64": {
-        "name": "Marshmallow",
-        "description": "A soft, sweet, fluffy candy."
       },
       "party_mode_65": {
         "name": "Lightning",
@@ -5885,18 +4277,6 @@
         "name": "Ladybug",
         "description": "A small red beetle with black spots."
       },
-      "party_mode_80": {
-        "name": "Caterpillar",
-        "description": "A larva that becomes a butterfly."
-      },
-      "party_mode_81": {
-        "name": "Chinchilla",
-        "description": "A small fluffy rodent."
-      },
-      "party_mode_82": {
-        "name": "Pufferfish",
-        "description": "A fish that can inflate like a ball."
-      },
       "party_mode_83": {
         "name": "Crab",
         "description": "A sea animal with claws and a shell."
@@ -5908,10 +4288,6 @@
       "party_mode_85": {
         "name": "Rubik's Cube",
         "description": "A colorful puzzle cube you twist."
-      },
-      "party_mode_86": {
-        "name": "Fire Extinguisher",
-        "description": "A safety device used to put out fires."
       },
       "party_mode_87": {
         "name": "Helmet",
@@ -5940,14 +4316,6 @@
       "party_mode_93": {
         "name": "Microscope",
         "description": "A tool for seeing very small things."
-      },
-      "party_mode_94": {
-        "name": "Stopwatch",
-        "description": "A timer for measuring time precisely."
-      },
-      "party_mode_95": {
-        "name": "Smartwatch",
-        "description": "A watch with apps and notifications."
       },
       "party_mode_96": {
         "name": "Electric Guitar",

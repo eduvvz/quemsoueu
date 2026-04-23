@@ -420,32 +420,11 @@
     "order": 60
   },
   {
-    "id": "party_mode_61",
-    "categoryId": "party_mode",
-    "nameKey": "categoryItems.party_mode.party_mode_61.name",
-    "descriptionKey": "categoryItems.party_mode.party_mode_61.description",
-    "order": 61
-  },
-  {
     "id": "party_mode_62",
     "categoryId": "party_mode",
     "nameKey": "categoryItems.party_mode.party_mode_62.name",
     "descriptionKey": "categoryItems.party_mode.party_mode_62.description",
     "order": 62
-  },
-  {
-    "id": "party_mode_63",
-    "categoryId": "party_mode",
-    "nameKey": "categoryItems.party_mode.party_mode_63.name",
-    "descriptionKey": "categoryItems.party_mode.party_mode_63.description",
-    "order": 63
-  },
-  {
-    "id": "party_mode_64",
-    "categoryId": "party_mode",
-    "nameKey": "categoryItems.party_mode.party_mode_64.name",
-    "descriptionKey": "categoryItems.party_mode.party_mode_64.description",
-    "order": 64
   },
   {
     "id": "party_mode_65",
@@ -553,27 +532,6 @@
     "order": 79
   },
   {
-    "id": "party_mode_80",
-    "categoryId": "party_mode",
-    "nameKey": "categoryItems.party_mode.party_mode_80.name",
-    "descriptionKey": "categoryItems.party_mode.party_mode_80.description",
-    "order": 80
-  },
-  {
-    "id": "party_mode_81",
-    "categoryId": "party_mode",
-    "nameKey": "categoryItems.party_mode.party_mode_81.name",
-    "descriptionKey": "categoryItems.party_mode.party_mode_81.description",
-    "order": 81
-  },
-  {
-    "id": "party_mode_82",
-    "categoryId": "party_mode",
-    "nameKey": "categoryItems.party_mode.party_mode_82.name",
-    "descriptionKey": "categoryItems.party_mode.party_mode_82.description",
-    "order": 82
-  },
-  {
     "id": "party_mode_83",
     "categoryId": "party_mode",
     "nameKey": "categoryItems.party_mode.party_mode_83.name",
@@ -593,13 +551,6 @@
     "nameKey": "categoryItems.party_mode.party_mode_85.name",
     "descriptionKey": "categoryItems.party_mode.party_mode_85.description",
     "order": 85
-  },
-  {
-    "id": "party_mode_86",
-    "categoryId": "party_mode",
-    "nameKey": "categoryItems.party_mode.party_mode_86.name",
-    "descriptionKey": "categoryItems.party_mode.party_mode_86.description",
-    "order": 86
   },
   {
     "id": "party_mode_87",
@@ -649,20 +600,6 @@
     "nameKey": "categoryItems.party_mode.party_mode_93.name",
     "descriptionKey": "categoryItems.party_mode.party_mode_93.description",
     "order": 93
-  },
-  {
-    "id": "party_mode_94",
-    "categoryId": "party_mode",
-    "nameKey": "categoryItems.party_mode.party_mode_94.name",
-    "descriptionKey": "categoryItems.party_mode.party_mode_94.description",
-    "order": 94
-  },
-  {
-    "id": "party_mode_95",
-    "categoryId": "party_mode",
-    "nameKey": "categoryItems.party_mode.party_mode_95.name",
-    "descriptionKey": "categoryItems.party_mode.party_mode_95.description",
-    "order": 95
   },
   {
     "id": "party_mode_96",

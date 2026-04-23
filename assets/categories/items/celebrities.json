@@ -322,20 +322,6 @@
     "order": 46
   },
   {
-    "id": "celebrities_47",
-    "categoryId": "celebrities",
-    "nameKey": "categoryItems.celebrities.celebrities_47.name",
-    "descriptionKey": "categoryItems.celebrities.celebrities_47.description",
-    "order": 47
-  },
-  {
-    "id": "celebrities_48",
-    "categoryId": "celebrities",
-    "nameKey": "categoryItems.celebrities.celebrities_48.name",
-    "descriptionKey": "categoryItems.celebrities.celebrities_48.description",
-    "order": 48
-  },
-  {
     "id": "celebrities_49",
     "categoryId": "celebrities",
     "nameKey": "categoryItems.celebrities.celebrities_49.name",
@@ -504,13 +490,6 @@
     "order": 72
   },
   {
-    "id": "celebrities_73",
-    "categoryId": "celebrities",
-    "nameKey": "categoryItems.celebrities.celebrities_73.name",
-    "descriptionKey": "categoryItems.celebrities.celebrities_73.description",
-    "order": 73
-  },
-  {
     "id": "celebrities_74",
     "categoryId": "celebrities",
     "nameKey": "categoryItems.celebrities.celebrities_74.name",
@@ -574,41 +553,6 @@
     "order": 82
   },
   {
-    "id": "celebrities_83",
-    "categoryId": "celebrities",
-    "nameKey": "categoryItems.celebrities.celebrities_83.name",
-    "descriptionKey": "categoryItems.celebrities.celebrities_83.description",
-    "order": 83
-  },
-  {
-    "id": "celebrities_84",
-    "categoryId": "celebrities",
-    "nameKey": "categoryItems.celebrities.celebrities_84.name",
-    "descriptionKey": "categoryItems.celebrities.celebrities_84.description",
-    "order": 84
-  },
-  {
-    "id": "celebrities_85",
-    "categoryId": "celebrities",
-    "nameKey": "categoryItems.celebrities.celebrities_85.name",
-    "descriptionKey": "categoryItems.celebrities.celebrities_85.description",
-    "order": 85
-  },
-  {
-    "id": "celebrities_86",
-    "categoryId": "celebrities",
-    "nameKey": "categoryItems.celebrities.celebrities_86.name",
-    "descriptionKey": "categoryItems.celebrities.celebrities_86.description",
-    "order": 86
-  },
-  {
-    "id": "celebrities_87",
-    "categoryId": "celebrities",
-    "nameKey": "categoryItems.celebrities.celebrities_87.name",
-    "descriptionKey": "categoryItems.celebrities.celebrities_87.description",
-    "order": 87
-  },
-  {
     "id": "celebrities_88",
     "categoryId": "celebrities",
     "nameKey": "categoryItems.celebrities.celebrities_88.name",
@@ -651,27 +595,6 @@
     "order": 93
   },
   {
-    "id": "celebrities_94",
-    "categoryId": "celebrities",
-    "nameKey": "categoryItems.celebrities.celebrities_94.name",
-    "descriptionKey": "categoryItems.celebrities.celebrities_94.description",
-    "order": 94
-  },
-  {
-    "id": "celebrities_95",
-    "categoryId": "celebrities",
-    "nameKey": "categoryItems.celebrities.celebrities_95.name",
-    "descriptionKey": "categoryItems.celebrities.celebrities_95.description",
-    "order": 95
-  },
-  {
-    "id": "celebrities_96",
-    "categoryId": "celebrities",
-    "nameKey": "categoryItems.celebrities.celebrities_96.name",
-    "descriptionKey": "categoryItems.celebrities.celebrities_96.description",
-    "order": 96
-  },
-  {
     "id": "celebrities_97",
     "categoryId": "celebrities",
     "nameKey": "categoryItems.celebrities.celebrities_97.name",
@@ -691,12 +614,5 @@
     "nameKey": "categoryItems.celebrities.celebrities_99.name",
     "descriptionKey": "categoryItems.celebrities.celebrities_99.description",
     "order": 99
-  },
-  {
-    "id": "celebrities_100",
-    "categoryId": "celebrities",
-    "nameKey": "categoryItems.celebrities.celebrities_100.name",
-    "descriptionKey": "categoryItems.celebrities.celebrities_100.description",
-    "order": 100
   }
 ]

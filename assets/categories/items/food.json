@@ -371,13 +371,6 @@
     "order": 53
   },
   {
-    "id": "food_54",
-    "categoryId": "food",
-    "nameKey": "categoryItems.food.food_54.name",
-    "descriptionKey": "categoryItems.food.food_54.description",
-    "order": 54
-  },
-  {
     "id": "food_55",
     "categoryId": "food",
     "nameKey": "categoryItems.food.food_55.name",
@@ -427,53 +420,11 @@
     "order": 61
   },
   {
-    "id": "food_62",
-    "categoryId": "food",
-    "nameKey": "categoryItems.food.food_62.name",
-    "descriptionKey": "categoryItems.food.food_62.description",
-    "order": 62
-  },
-  {
-    "id": "food_63",
-    "categoryId": "food",
-    "nameKey": "categoryItems.food.food_63.name",
-    "descriptionKey": "categoryItems.food.food_63.description",
-    "order": 63
-  },
-  {
-    "id": "food_64",
-    "categoryId": "food",
-    "nameKey": "categoryItems.food.food_64.name",
-    "descriptionKey": "categoryItems.food.food_64.description",
-    "order": 64
-  },
-  {
     "id": "food_65",
     "categoryId": "food",
     "nameKey": "categoryItems.food.food_65.name",
     "descriptionKey": "categoryItems.food.food_65.description",
     "order": 65
-  },
-  {
-    "id": "food_66",
-    "categoryId": "food",
-    "nameKey": "categoryItems.food.food_66.name",
-    "descriptionKey": "categoryItems.food.food_66.description",
-    "order": 66
-  },
-  {
-    "id": "food_67",
-    "categoryId": "food",
-    "nameKey": "categoryItems.food.food_67.name",
-    "descriptionKey": "categoryItems.food.food_67.description",
-    "order": 67
-  },
-  {
-    "id": "food_68",
-    "categoryId": "food",
-    "nameKey": "categoryItems.food.food_68.name",
-    "descriptionKey": "categoryItems.food.food_68.description",
-    "order": 68
   },
   {
     "id": "food_69",
@@ -539,13 +490,6 @@
     "order": 77
   },
   {
-    "id": "food_78",
-    "categoryId": "food",
-    "nameKey": "categoryItems.food.food_78.name",
-    "descriptionKey": "categoryItems.food.food_78.description",
-    "order": 78
-  },
-  {
     "id": "food_79",
     "categoryId": "food",
     "nameKey": "categoryItems.food.food_79.name",
@@ -558,13 +502,6 @@
     "nameKey": "categoryItems.food.food_80.name",
     "descriptionKey": "categoryItems.food.food_80.description",
     "order": 80
-  },
-  {
-    "id": "food_81",
-    "categoryId": "food",
-    "nameKey": "categoryItems.food.food_81.name",
-    "descriptionKey": "categoryItems.food.food_81.description",
-    "order": 81
   },
   {
     "id": "food_82",
@@ -588,32 +525,11 @@
     "order": 84
   },
   {
-    "id": "food_85",
-    "categoryId": "food",
-    "nameKey": "categoryItems.food.food_85.name",
-    "descriptionKey": "categoryItems.food.food_85.description",
-    "order": 85
-  },
-  {
     "id": "food_86",
     "categoryId": "food",
     "nameKey": "categoryItems.food.food_86.name",
     "descriptionKey": "categoryItems.food.food_86.description",
     "order": 86
-  },
-  {
-    "id": "food_87",
-    "categoryId": "food",
-    "nameKey": "categoryItems.food.food_87.name",
-    "descriptionKey": "categoryItems.food.food_87.description",
-    "order": 87
-  },
-  {
-    "id": "food_88",
-    "categoryId": "food",
-    "nameKey": "categoryItems.food.food_88.name",
-    "descriptionKey": "categoryItems.food.food_88.description",
-    "order": 88
   },
   {
     "id": "food_89",
@@ -642,34 +558,6 @@
     "nameKey": "categoryItems.food.food_92.name",
     "descriptionKey": "categoryItems.food.food_92.description",
     "order": 92
-  },
-  {
-    "id": "food_93",
-    "categoryId": "food",
-    "nameKey": "categoryItems.food.food_93.name",
-    "descriptionKey": "categoryItems.food.food_93.description",
-    "order": 93
-  },
-  {
-    "id": "food_94",
-    "categoryId": "food",
-    "nameKey": "categoryItems.food.food_94.name",
-    "descriptionKey": "categoryItems.food.food_94.description",
-    "order": 94
-  },
-  {
-    "id": "food_95",
-    "categoryId": "food",
-    "nameKey": "categoryItems.food.food_95.name",
-    "descriptionKey": "categoryItems.food.food_95.description",
-    "order": 95
-  },
-  {
-    "id": "food_96",
-    "categoryId": "food",
-    "nameKey": "categoryItems.food.food_96.name",
-    "descriptionKey": "categoryItems.food.food_96.description",
-    "order": 96
   },
   {
     "id": "food_97",

@@ -105,34 +105,6 @@
     "order": 15
   },
   {
-    "id": "video_game_characters_16",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_16.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_16.description",
-    "order": 16
-  },
-  {
-    "id": "video_game_characters_17",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_17.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_17.description",
-    "order": 17
-  },
-  {
-    "id": "video_game_characters_18",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_18.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_18.description",
-    "order": 18
-  },
-  {
-    "id": "video_game_characters_19",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_19.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_19.description",
-    "order": 19
-  },
-  {
     "id": "video_game_characters_20",
     "categoryId": "video_game_characters",
     "nameKey": "categoryItems.video_game_characters.video_game_characters_20.name",
@@ -203,27 +175,6 @@
     "order": 29
   },
   {
-    "id": "video_game_characters_30",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_30.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_30.description",
-    "order": 30
-  },
-  {
-    "id": "video_game_characters_31",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_31.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_31.description",
-    "order": 31
-  },
-  {
-    "id": "video_game_characters_32",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_32.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_32.description",
-    "order": 32
-  },
-  {
     "id": "video_game_characters_33",
     "categoryId": "video_game_characters",
     "nameKey": "categoryItems.video_game_characters.video_game_characters_33.name",
@@ -243,13 +194,6 @@
     "nameKey": "categoryItems.video_game_characters.video_game_characters_35.name",
     "descriptionKey": "categoryItems.video_game_characters.video_game_characters_35.description",
     "order": 35
-  },
-  {
-    "id": "video_game_characters_36",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_36.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_36.description",
-    "order": 36
   },
   {
     "id": "video_game_characters_37",
@@ -273,88 +217,11 @@
     "order": 39
   },
   {
-    "id": "video_game_characters_40",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_40.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_40.description",
-    "order": 40
-  },
-  {
-    "id": "video_game_characters_41",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_41.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_41.description",
-    "order": 41
-  },
-  {
     "id": "video_game_characters_42",
     "categoryId": "video_game_characters",
     "nameKey": "categoryItems.video_game_characters.video_game_characters_42.name",
     "descriptionKey": "categoryItems.video_game_characters.video_game_characters_42.description",
     "order": 42
-  },
-  {
-    "id": "video_game_characters_43",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_43.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_43.description",
-    "order": 43
-  },
-  {
-    "id": "video_game_characters_44",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_44.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_44.description",
-    "order": 44
-  },
-  {
-    "id": "video_game_characters_45",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_45.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_45.description",
-    "order": 45
-  },
-  {
-    "id": "video_game_characters_46",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_46.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_46.description",
-    "order": 46
-  },
-  {
-    "id": "video_game_characters_47",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_47.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_47.description",
-    "order": 47
-  },
-  {
-    "id": "video_game_characters_48",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_48.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_48.description",
-    "order": 48
-  },
-  {
-    "id": "video_game_characters_49",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_49.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_49.description",
-    "order": 49
-  },
-  {
-    "id": "video_game_characters_50",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_50.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_50.description",
-    "order": 50
-  },
-  {
-    "id": "video_game_characters_51",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_51.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_51.description",
-    "order": 51
   },
   {
     "id": "video_game_characters_52",
@@ -399,13 +266,6 @@
     "order": 57
   },
   {
-    "id": "video_game_characters_58",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_58.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_58.description",
-    "order": 58
-  },
-  {
     "id": "video_game_characters_59",
     "categoryId": "video_game_characters",
     "nameKey": "categoryItems.video_game_characters.video_game_characters_59.name",
@@ -418,48 +278,6 @@
     "nameKey": "categoryItems.video_game_characters.video_game_characters_60.name",
     "descriptionKey": "categoryItems.video_game_characters.video_game_characters_60.description",
     "order": 60
-  },
-  {
-    "id": "video_game_characters_61",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_61.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_61.description",
-    "order": 61
-  },
-  {
-    "id": "video_game_characters_62",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_62.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_62.description",
-    "order": 62
-  },
-  {
-    "id": "video_game_characters_63",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_63.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_63.description",
-    "order": 63
-  },
-  {
-    "id": "video_game_characters_64",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_64.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_64.description",
-    "order": 64
-  },
-  {
-    "id": "video_game_characters_65",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_65.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_65.description",
-    "order": 65
-  },
-  {
-    "id": "video_game_characters_66",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_66.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_66.description",
-    "order": 66
   },
   {
     "id": "video_game_characters_67",
@@ -490,20 +308,6 @@
     "order": 70
   },
   {
-    "id": "video_game_characters_71",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_71.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_71.description",
-    "order": 71
-  },
-  {
-    "id": "video_game_characters_72",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_72.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_72.description",
-    "order": 72
-  },
-  {
     "id": "video_game_characters_73",
     "categoryId": "video_game_characters",
     "nameKey": "categoryItems.video_game_characters.video_game_characters_73.name",
@@ -532,67 +336,11 @@
     "order": 76
   },
   {
-    "id": "video_game_characters_77",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_77.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_77.description",
-    "order": 77
-  },
-  {
-    "id": "video_game_characters_78",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_78.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_78.description",
-    "order": 78
-  },
-  {
-    "id": "video_game_characters_79",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_79.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_79.description",
-    "order": 79
-  },
-  {
-    "id": "video_game_characters_80",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_80.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_80.description",
-    "order": 80
-  },
-  {
     "id": "video_game_characters_81",
     "categoryId": "video_game_characters",
     "nameKey": "categoryItems.video_game_characters.video_game_characters_81.name",
     "descriptionKey": "categoryItems.video_game_characters.video_game_characters_81.description",
     "order": 81
-  },
-  {
-    "id": "video_game_characters_82",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_82.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_82.description",
-    "order": 82
-  },
-  {
-    "id": "video_game_characters_83",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_83.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_83.description",
-    "order": 83
-  },
-  {
-    "id": "video_game_characters_84",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_84.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_84.description",
-    "order": 84
-  },
-  {
-    "id": "video_game_characters_85",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_85.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_85.description",
-    "order": 85
   },
   {
     "id": "video_game_characters_86",
@@ -607,96 +355,5 @@
     "nameKey": "categoryItems.video_game_characters.video_game_characters_87.name",
     "descriptionKey": "categoryItems.video_game_characters.video_game_characters_87.description",
     "order": 87
-  },
-  {
-    "id": "video_game_characters_88",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_88.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_88.description",
-    "order": 88
-  },
-  {
-    "id": "video_game_characters_89",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_89.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_89.description",
-    "order": 89
-  },
-  {
-    "id": "video_game_characters_90",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_90.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_90.description",
-    "order": 90
-  },
-  {
-    "id": "video_game_characters_91",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_91.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_91.description",
-    "order": 91
-  },
-  {
-    "id": "video_game_characters_92",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_92.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_92.description",
-    "order": 92
-  },
-  {
-    "id": "video_game_characters_93",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_93.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_93.description",
-    "order": 93
-  },
-  {
-    "id": "video_game_characters_94",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_94.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_94.description",
-    "order": 94
-  },
-  {
-    "id": "video_game_characters_95",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_95.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_95.description",
-    "order": 95
-  },
-  {
-    "id": "video_game_characters_96",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_96.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_96.description",
-    "order": 96
-  },
-  {
-    "id": "video_game_characters_97",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_97.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_97.description",
-    "order": 97
-  },
-  {
-    "id": "video_game_characters_98",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_98.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_98.description",
-    "order": 98
-  },
-  {
-    "id": "video_game_characters_99",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_99.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_99.description",
-    "order": 99
-  },
-  {
-    "id": "video_game_characters_100",
-    "categoryId": "video_game_characters",
-    "nameKey": "categoryItems.video_game_characters.video_game_characters_100.name",
-    "descriptionKey": "categoryItems.video_game_characters.video_game_characters_100.description",
-    "order": 100
   }
 ]

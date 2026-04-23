@@ -266,20 +266,6 @@
     "order": 38
   },
   {
-    "id": "movies_tv_39",
-    "categoryId": "movies_tv",
-    "nameKey": "categoryItems.movies_tv.movies_tv_39.name",
-    "descriptionKey": "categoryItems.movies_tv.movies_tv_39.description",
-    "order": 39
-  },
-  {
-    "id": "movies_tv_40",
-    "categoryId": "movies_tv",
-    "nameKey": "categoryItems.movies_tv.movies_tv_40.name",
-    "descriptionKey": "categoryItems.movies_tv.movies_tv_40.description",
-    "order": 40
-  },
-  {
     "id": "movies_tv_41",
     "categoryId": "movies_tv",
     "nameKey": "categoryItems.movies_tv.movies_tv_41.name",
@@ -343,13 +329,6 @@
     "order": 49
   },
   {
-    "id": "movies_tv_50",
-    "categoryId": "movies_tv",
-    "nameKey": "categoryItems.movies_tv.movies_tv_50.name",
-    "descriptionKey": "categoryItems.movies_tv.movies_tv_50.description",
-    "order": 50
-  },
-  {
     "id": "movies_tv_51",
     "categoryId": "movies_tv",
     "nameKey": "categoryItems.movies_tv.movies_tv_51.name",
@@ -362,20 +341,6 @@
     "nameKey": "categoryItems.movies_tv.movies_tv_52.name",
     "descriptionKey": "categoryItems.movies_tv.movies_tv_52.description",
     "order": 52
-  },
-  {
-    "id": "movies_tv_53",
-    "categoryId": "movies_tv",
-    "nameKey": "categoryItems.movies_tv.movies_tv_53.name",
-    "descriptionKey": "categoryItems.movies_tv.movies_tv_53.description",
-    "order": 53
-  },
-  {
-    "id": "movies_tv_54",
-    "categoryId": "movies_tv",
-    "nameKey": "categoryItems.movies_tv.movies_tv_54.name",
-    "descriptionKey": "categoryItems.movies_tv.movies_tv_54.description",
-    "order": 54
   },
   {
     "id": "movies_tv_55",
@@ -460,20 +425,6 @@
     "nameKey": "categoryItems.movies_tv.movies_tv_66.name",
     "descriptionKey": "categoryItems.movies_tv.movies_tv_66.description",
     "order": 66
-  },
-  {
-    "id": "movies_tv_67",
-    "categoryId": "movies_tv",
-    "nameKey": "categoryItems.movies_tv.movies_tv_67.name",
-    "descriptionKey": "categoryItems.movies_tv.movies_tv_67.description",
-    "order": 67
-  },
-  {
-    "id": "movies_tv_68",
-    "categoryId": "movies_tv",
-    "nameKey": "categoryItems.movies_tv.movies_tv_68.name",
-    "descriptionKey": "categoryItems.movies_tv.movies_tv_68.description",
-    "order": 68
   },
   {
     "id": "movies_tv_69",
@@ -609,20 +560,6 @@
     "order": 87
   },
   {
-    "id": "movies_tv_88",
-    "categoryId": "movies_tv",
-    "nameKey": "categoryItems.movies_tv.movies_tv_88.name",
-    "descriptionKey": "categoryItems.movies_tv.movies_tv_88.description",
-    "order": 88
-  },
-  {
-    "id": "movies_tv_89",
-    "categoryId": "movies_tv",
-    "nameKey": "categoryItems.movies_tv.movies_tv_89.name",
-    "descriptionKey": "categoryItems.movies_tv.movies_tv_89.description",
-    "order": 89
-  },
-  {
     "id": "movies_tv_90",
     "categoryId": "movies_tv",
     "nameKey": "categoryItems.movies_tv.movies_tv_90.name",
@@ -670,27 +607,6 @@
     "nameKey": "categoryItems.movies_tv.movies_tv_96.name",
     "descriptionKey": "categoryItems.movies_tv.movies_tv_96.description",
     "order": 96
-  },
-  {
-    "id": "movies_tv_97",
-    "categoryId": "movies_tv",
-    "nameKey": "categoryItems.movies_tv.movies_tv_97.name",
-    "descriptionKey": "categoryItems.movies_tv.movies_tv_97.description",
-    "order": 97
-  },
-  {
-    "id": "movies_tv_98",
-    "categoryId": "movies_tv",
-    "nameKey": "categoryItems.movies_tv.movies_tv_98.name",
-    "descriptionKey": "categoryItems.movies_tv.movies_tv_98.description",
-    "order": 98
-  },
-  {
-    "id": "movies_tv_99",
-    "categoryId": "movies_tv",
-    "nameKey": "categoryItems.movies_tv.movies_tv_99.name",
-    "descriptionKey": "categoryItems.movies_tv.movies_tv_99.description",
-    "order": 99
   },
   {
     "id": "movies_tv_100",

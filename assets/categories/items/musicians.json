@@ -203,41 +203,6 @@
     "order": 29
   },
   {
-    "id": "musicians_30",
-    "categoryId": "musicians",
-    "nameKey": "categoryItems.musicians.musicians_30.name",
-    "descriptionKey": "categoryItems.musicians.musicians_30.description",
-    "order": 30
-  },
-  {
-    "id": "musicians_31",
-    "categoryId": "musicians",
-    "nameKey": "categoryItems.musicians.musicians_31.name",
-    "descriptionKey": "categoryItems.musicians.musicians_31.description",
-    "order": 31
-  },
-  {
-    "id": "musicians_32",
-    "categoryId": "musicians",
-    "nameKey": "categoryItems.musicians.musicians_32.name",
-    "descriptionKey": "categoryItems.musicians.musicians_32.description",
-    "order": 32
-  },
-  {
-    "id": "musicians_33",
-    "categoryId": "musicians",
-    "nameKey": "categoryItems.musicians.musicians_33.name",
-    "descriptionKey": "categoryItems.musicians.musicians_33.description",
-    "order": 33
-  },
-  {
-    "id": "musicians_34",
-    "categoryId": "musicians",
-    "nameKey": "categoryItems.musicians.musicians_34.name",
-    "descriptionKey": "categoryItems.musicians.musicians_34.description",
-    "order": 34
-  },
-  {
     "id": "musicians_35",
     "categoryId": "musicians",
     "nameKey": "categoryItems.musicians.musicians_35.name",
@@ -273,34 +238,6 @@
     "order": 39
   },
   {
-    "id": "musicians_40",
-    "categoryId": "musicians",
-    "nameKey": "categoryItems.musicians.musicians_40.name",
-    "descriptionKey": "categoryItems.musicians.musicians_40.description",
-    "order": 40
-  },
-  {
-    "id": "musicians_41",
-    "categoryId": "musicians",
-    "nameKey": "categoryItems.musicians.musicians_41.name",
-    "descriptionKey": "categoryItems.musicians.musicians_41.description",
-    "order": 41
-  },
-  {
-    "id": "musicians_42",
-    "categoryId": "musicians",
-    "nameKey": "categoryItems.musicians.musicians_42.name",
-    "descriptionKey": "categoryItems.musicians.musicians_42.description",
-    "order": 42
-  },
-  {
-    "id": "musicians_43",
-    "categoryId": "musicians",
-    "nameKey": "categoryItems.musicians.musicians_43.name",
-    "descriptionKey": "categoryItems.musicians.musicians_43.description",
-    "order": 43
-  },
-  {
     "id": "musicians_44",
     "categoryId": "musicians",
     "nameKey": "categoryItems.musicians.musicians_44.name",
@@ -313,48 +250,6 @@
     "nameKey": "categoryItems.musicians.musicians_45.name",
     "descriptionKey": "categoryItems.musicians.musicians_45.description",
     "order": 45
-  },
-  {
-    "id": "musicians_46",
-    "categoryId": "musicians",
-    "nameKey": "categoryItems.musicians.musicians_46.name",
-    "descriptionKey": "categoryItems.musicians.musicians_46.description",
-    "order": 46
-  },
-  {
-    "id": "musicians_47",
-    "categoryId": "musicians",
-    "nameKey": "categoryItems.musicians.musicians_47.name",
-    "descriptionKey": "categoryItems.musicians.musicians_47.description",
-    "order": 47
-  },
-  {
-    "id": "musicians_48",
-    "categoryId": "musicians",
-    "nameKey": "categoryItems.musicians.musicians_48.name",
-    "descriptionKey": "categoryItems.musicians.musicians_48.description",
-    "order": 48
-  },
-  {
-    "id": "musicians_49",
-    "categoryId": "musicians",
-    "nameKey": "categoryItems.musicians.musicians_49.name",
-    "descriptionKey": "categoryItems.musicians.musicians_49.description",
-    "order": 49
-  },
-  {
-    "id": "musicians_50",
-    "categoryId": "musicians",
-    "nameKey": "categoryItems.musicians.musicians_50.name",
-    "descriptionKey": "categoryItems.musicians.musicians_50.description",
-    "order": 50
-  },
-  {
-    "id": "musicians_51",
-    "categoryId": "musicians",
-    "nameKey": "categoryItems.musicians.musicians_51.name",
-    "descriptionKey": "categoryItems.musicians.musicians_51.description",
-    "order": 51
   },
   {
     "id": "musicians_52",
@@ -427,109 +322,11 @@
     "order": 61
   },
   {
-    "id": "musicians_62",
-    "categoryId": "musicians",
-    "nameKey": "categoryItems.musicians.musicians_62.name",
-    "descriptionKey": "categoryItems.musicians.musicians_62.description",
-    "order": 62
-  },
-  {
-    "id": "musicians_63",
-    "categoryId": "musicians",
-    "nameKey": "categoryItems.musicians.musicians_63.name",
-    "descriptionKey": "categoryItems.musicians.musicians_63.description",
-    "order": 63
-  },
-  {
-    "id": "musicians_64",
-    "categoryId": "musicians",
-    "nameKey": "categoryItems.musicians.musicians_64.name",
-    "descriptionKey": "categoryItems.musicians.musicians_64.description",
-    "order": 64
-  },
-  {
     "id": "musicians_65",
     "categoryId": "musicians",
     "nameKey": "categoryItems.musicians.musicians_65.name",
     "descriptionKey": "categoryItems.musicians.musicians_65.description",
     "order": 65
-  },
-  {
-    "id": "musicians_66",
-    "categoryId": "musicians",
-    "nameKey": "categoryItems.musicians.musicians_66.name",
-    "descriptionKey": "categoryItems.musicians.musicians_66.description",
-    "order": 66
-  },
-  {
-    "id": "musicians_67",
-    "categoryId": "musicians",
-    "nameKey": "categoryItems.musicians.musicians_67.name",
-    "descriptionKey": "categoryItems.musicians.musicians_67.description",
-    "order": 67
-  },
-  {
-    "id": "musicians_68",
-    "categoryId": "musicians",
-    "nameKey": "categoryItems.musicians.musicians_68.name",
-    "descriptionKey": "categoryItems.musicians.musicians_68.description",
-    "order": 68
-  },
-  {
-    "id": "musicians_69",
-    "categoryId": "musicians",
-    "nameKey": "categoryItems.musicians.musicians_69.name",
-    "descriptionKey": "categoryItems.musicians.musicians_69.description",
-    "order": 69
-  },
-  {
-    "id": "musicians_70",
-    "categoryId": "musicians",
-    "nameKey": "categoryItems.musicians.musicians_70.name",
-    "descriptionKey": "categoryItems.musicians.musicians_70.description",
-    "order": 70
-  },
-  {
-    "id": "musicians_71",
-    "categoryId": "musicians",
-    "nameKey": "categoryItems.musicians.musicians_71.name",
-    "descriptionKey": "categoryItems.musicians.musicians_71.description",
-    "order": 71
-  },
-  {
-    "id": "musicians_72",
-    "categoryId": "musicians",
-    "nameKey": "categoryItems.musicians.musicians_72.name",
-    "descriptionKey": "categoryItems.musicians.musicians_72.description",
-    "order": 72
-  },
-  {
-    "id": "musicians_73",
-    "categoryId": "musicians",
-    "nameKey": "categoryItems.musicians.musicians_73.name",
-    "descriptionKey": "categoryItems.musicians.musicians_73.description",
-    "order": 73
-  },
-  {
-    "id": "musicians_74",
-    "categoryId": "musicians",
-    "nameKey": "categoryItems.musicians.musicians_74.name",
-    "descriptionKey": "categoryItems.musicians.musicians_74.description",
-    "order": 74
-  },
-  {
-    "id": "musicians_75",
-    "categoryId": "musicians",
-    "nameKey": "categoryItems.musicians.musicians_75.name",
-    "descriptionKey": "categoryItems.musicians.musicians_75.description",
-    "order": 75
-  },
-  {
-    "id": "musicians_76",
-    "categoryId": "musicians",
-    "nameKey": "categoryItems.musicians.musicians_76.name",
-    "descriptionKey": "categoryItems.musicians.musicians_76.description",
-    "order": 76
   },
   {
     "id": "musicians_77",
@@ -649,54 +446,5 @@
     "nameKey": "categoryItems.musicians.musicians_93.name",
     "descriptionKey": "categoryItems.musicians.musicians_93.description",
     "order": 93
-  },
-  {
-    "id": "musicians_94",
-    "categoryId": "musicians",
-    "nameKey": "categoryItems.musicians.musicians_94.name",
-    "descriptionKey": "categoryItems.musicians.musicians_94.description",
-    "order": 94
-  },
-  {
-    "id": "musicians_95",
-    "categoryId": "musicians",
-    "nameKey": "categoryItems.musicians.musicians_95.name",
-    "descriptionKey": "categoryItems.musicians.musicians_95.description",
-    "order": 95
-  },
-  {
-    "id": "musicians_96",
-    "categoryId": "musicians",
-    "nameKey": "categoryItems.musicians.musicians_96.name",
-    "descriptionKey": "categoryItems.musicians.musicians_96.description",
-    "order": 96
-  },
-  {
-    "id": "musicians_97",
-    "categoryId": "musicians",
-    "nameKey": "categoryItems.musicians.musicians_97.name",
-    "descriptionKey": "categoryItems.musicians.musicians_97.description",
-    "order": 97
-  },
-  {
-    "id": "musicians_98",
-    "categoryId": "musicians",
-    "nameKey": "categoryItems.musicians.musicians_98.name",
-    "descriptionKey": "categoryItems.musicians.musicians_98.description",
-    "order": 98
-  },
-  {
-    "id": "musicians_99",
-    "categoryId": "musicians",
-    "nameKey": "categoryItems.musicians.musicians_99.name",
-    "descriptionKey": "categoryItems.musicians.musicians_99.description",
-    "order": 99
-  },
-  {
-    "id": "musicians_100",
-    "categoryId": "musicians",
-    "nameKey": "categoryItems.musicians.musicians_100.name",
-    "descriptionKey": "categoryItems.musicians.musicians_100.description",
-    "order": 100
   }
 ]

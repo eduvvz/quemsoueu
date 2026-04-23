@@ -378,27 +378,6 @@
     "order": 54
   },
   {
-    "id": "animals_55",
-    "categoryId": "animals",
-    "nameKey": "categoryItems.animals.animals_55.name",
-    "descriptionKey": "categoryItems.animals.animals_55.description",
-    "order": 55
-  },
-  {
-    "id": "animals_56",
-    "categoryId": "animals",
-    "nameKey": "categoryItems.animals.animals_56.name",
-    "descriptionKey": "categoryItems.animals.animals_56.description",
-    "order": 56
-  },
-  {
-    "id": "animals_57",
-    "categoryId": "animals",
-    "nameKey": "categoryItems.animals.animals_57.name",
-    "descriptionKey": "categoryItems.animals.animals_57.description",
-    "order": 57
-  },
-  {
     "id": "animals_58",
     "categoryId": "animals",
     "nameKey": "categoryItems.animals.animals_58.name",
@@ -420,27 +399,6 @@
     "order": 60
   },
   {
-    "id": "animals_61",
-    "categoryId": "animals",
-    "nameKey": "categoryItems.animals.animals_61.name",
-    "descriptionKey": "categoryItems.animals.animals_61.description",
-    "order": 61
-  },
-  {
-    "id": "animals_62",
-    "categoryId": "animals",
-    "nameKey": "categoryItems.animals.animals_62.name",
-    "descriptionKey": "categoryItems.animals.animals_62.description",
-    "order": 62
-  },
-  {
-    "id": "animals_63",
-    "categoryId": "animals",
-    "nameKey": "categoryItems.animals.animals_63.name",
-    "descriptionKey": "categoryItems.animals.animals_63.description",
-    "order": 63
-  },
-  {
     "id": "animals_64",
     "categoryId": "animals",
     "nameKey": "categoryItems.animals.animals_64.name",
@@ -453,20 +411,6 @@
     "nameKey": "categoryItems.animals.animals_65.name",
     "descriptionKey": "categoryItems.animals.animals_65.description",
     "order": 65
-  },
-  {
-    "id": "animals_66",
-    "categoryId": "animals",
-    "nameKey": "categoryItems.animals.animals_66.name",
-    "descriptionKey": "categoryItems.animals.animals_66.description",
-    "order": 66
-  },
-  {
-    "id": "animals_67",
-    "categoryId": "animals",
-    "nameKey": "categoryItems.animals.animals_67.name",
-    "descriptionKey": "categoryItems.animals.animals_67.description",
-    "order": 67
   },
   {
     "id": "animals_68",
@@ -483,53 +427,11 @@
     "order": 69
   },
   {
-    "id": "animals_70",
-    "categoryId": "animals",
-    "nameKey": "categoryItems.animals.animals_70.name",
-    "descriptionKey": "categoryItems.animals.animals_70.description",
-    "order": 70
-  },
-  {
-    "id": "animals_71",
-    "categoryId": "animals",
-    "nameKey": "categoryItems.animals.animals_71.name",
-    "descriptionKey": "categoryItems.animals.animals_71.description",
-    "order": 71
-  },
-  {
     "id": "animals_72",
     "categoryId": "animals",
     "nameKey": "categoryItems.animals.animals_72.name",
     "descriptionKey": "categoryItems.animals.animals_72.description",
     "order": 72
-  },
-  {
-    "id": "animals_73",
-    "categoryId": "animals",
-    "nameKey": "categoryItems.animals.animals_73.name",
-    "descriptionKey": "categoryItems.animals.animals_73.description",
-    "order": 73
-  },
-  {
-    "id": "animals_74",
-    "categoryId": "animals",
-    "nameKey": "categoryItems.animals.animals_74.name",
-    "descriptionKey": "categoryItems.animals.animals_74.description",
-    "order": 74
-  },
-  {
-    "id": "animals_75",
-    "categoryId": "animals",
-    "nameKey": "categoryItems.animals.animals_75.name",
-    "descriptionKey": "categoryItems.animals.animals_75.description",
-    "order": 75
-  },
-  {
-    "id": "animals_76",
-    "categoryId": "animals",
-    "nameKey": "categoryItems.animals.animals_76.name",
-    "descriptionKey": "categoryItems.animals.animals_76.description",
-    "order": 76
   },
   {
     "id": "animals_77",
@@ -609,46 +511,11 @@
     "order": 87
   },
   {
-    "id": "animals_88",
-    "categoryId": "animals",
-    "nameKey": "categoryItems.animals.animals_88.name",
-    "descriptionKey": "categoryItems.animals.animals_88.description",
-    "order": 88
-  },
-  {
-    "id": "animals_89",
-    "categoryId": "animals",
-    "nameKey": "categoryItems.animals.animals_89.name",
-    "descriptionKey": "categoryItems.animals.animals_89.description",
-    "order": 89
-  },
-  {
-    "id": "animals_90",
-    "categoryId": "animals",
-    "nameKey": "categoryItems.animals.animals_90.name",
-    "descriptionKey": "categoryItems.animals.animals_90.description",
-    "order": 90
-  },
-  {
-    "id": "animals_91",
-    "categoryId": "animals",
-    "nameKey": "categoryItems.animals.animals_91.name",
-    "descriptionKey": "categoryItems.animals.animals_91.description",
-    "order": 91
-  },
-  {
     "id": "animals_92",
     "categoryId": "animals",
     "nameKey": "categoryItems.animals.animals_92.name",
     "descriptionKey": "categoryItems.animals.animals_92.description",
     "order": 92
-  },
-  {
-    "id": "animals_93",
-    "categoryId": "animals",
-    "nameKey": "categoryItems.animals.animals_93.name",
-    "descriptionKey": "categoryItems.animals.animals_93.description",
-    "order": 93
   },
   {
     "id": "animals_94",
@@ -665,32 +532,11 @@
     "order": 95
   },
   {
-    "id": "animals_96",
-    "categoryId": "animals",
-    "nameKey": "categoryItems.animals.animals_96.name",
-    "descriptionKey": "categoryItems.animals.animals_96.description",
-    "order": 96
-  },
-  {
-    "id": "animals_97",
-    "categoryId": "animals",
-    "nameKey": "categoryItems.animals.animals_97.name",
-    "descriptionKey": "categoryItems.animals.animals_97.description",
-    "order": 97
-  },
-  {
     "id": "animals_98",
     "categoryId": "animals",
     "nameKey": "categoryItems.animals.animals_98.name",
     "descriptionKey": "categoryItems.animals.animals_98.description",
     "order": 98
-  },
-  {
-    "id": "animals_99",
-    "categoryId": "animals",
-    "nameKey": "categoryItems.animals.animals_99.name",
-    "descriptionKey": "categoryItems.animals.animals_99.description",
-    "order": 99
   },
   {
     "id": "animals_100",

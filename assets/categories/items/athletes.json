@@ -42,20 +42,6 @@
     "order": 6
   },
   {
-    "id": "athletes_7",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_7.name",
-    "descriptionKey": "categoryItems.athletes.athletes_7.description",
-    "order": 7
-  },
-  {
-    "id": "athletes_8",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_8.name",
-    "descriptionKey": "categoryItems.athletes.athletes_8.description",
-    "order": 8
-  },
-  {
     "id": "athletes_9",
     "categoryId": "athletes",
     "nameKey": "categoryItems.athletes.athletes_9.name",
@@ -84,95 +70,11 @@
     "order": 12
   },
   {
-    "id": "athletes_13",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_13.name",
-    "descriptionKey": "categoryItems.athletes.athletes_13.description",
-    "order": 13
-  },
-  {
-    "id": "athletes_14",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_14.name",
-    "descriptionKey": "categoryItems.athletes.athletes_14.description",
-    "order": 14
-  },
-  {
-    "id": "athletes_15",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_15.name",
-    "descriptionKey": "categoryItems.athletes.athletes_15.description",
-    "order": 15
-  },
-  {
-    "id": "athletes_16",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_16.name",
-    "descriptionKey": "categoryItems.athletes.athletes_16.description",
-    "order": 16
-  },
-  {
-    "id": "athletes_17",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_17.name",
-    "descriptionKey": "categoryItems.athletes.athletes_17.description",
-    "order": 17
-  },
-  {
     "id": "athletes_18",
     "categoryId": "athletes",
     "nameKey": "categoryItems.athletes.athletes_18.name",
     "descriptionKey": "categoryItems.athletes.athletes_18.description",
     "order": 18
-  },
-  {
-    "id": "athletes_19",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_19.name",
-    "descriptionKey": "categoryItems.athletes.athletes_19.description",
-    "order": 19
-  },
-  {
-    "id": "athletes_20",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_20.name",
-    "descriptionKey": "categoryItems.athletes.athletes_20.description",
-    "order": 20
-  },
-  {
-    "id": "athletes_21",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_21.name",
-    "descriptionKey": "categoryItems.athletes.athletes_21.description",
-    "order": 21
-  },
-  {
-    "id": "athletes_22",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_22.name",
-    "descriptionKey": "categoryItems.athletes.athletes_22.description",
-    "order": 22
-  },
-  {
-    "id": "athletes_23",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_23.name",
-    "descriptionKey": "categoryItems.athletes.athletes_23.description",
-    "order": 23
-  },
-  {
-    "id": "athletes_24",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_24.name",
-    "descriptionKey": "categoryItems.athletes.athletes_24.description",
-    "order": 24
-  },
-  {
-    "id": "athletes_25",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_25.name",
-    "descriptionKey": "categoryItems.athletes.athletes_25.description",
-    "order": 25
   },
   {
     "id": "athletes_26",
@@ -217,67 +119,11 @@
     "order": 31
   },
   {
-    "id": "athletes_32",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_32.name",
-    "descriptionKey": "categoryItems.athletes.athletes_32.description",
-    "order": 32
-  },
-  {
-    "id": "athletes_33",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_33.name",
-    "descriptionKey": "categoryItems.athletes.athletes_33.description",
-    "order": 33
-  },
-  {
-    "id": "athletes_34",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_34.name",
-    "descriptionKey": "categoryItems.athletes.athletes_34.description",
-    "order": 34
-  },
-  {
-    "id": "athletes_35",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_35.name",
-    "descriptionKey": "categoryItems.athletes.athletes_35.description",
-    "order": 35
-  },
-  {
-    "id": "athletes_36",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_36.name",
-    "descriptionKey": "categoryItems.athletes.athletes_36.description",
-    "order": 36
-  },
-  {
-    "id": "athletes_37",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_37.name",
-    "descriptionKey": "categoryItems.athletes.athletes_37.description",
-    "order": 37
-  },
-  {
     "id": "athletes_38",
     "categoryId": "athletes",
     "nameKey": "categoryItems.athletes.athletes_38.name",
     "descriptionKey": "categoryItems.athletes.athletes_38.description",
     "order": 38
-  },
-  {
-    "id": "athletes_39",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_39.name",
-    "descriptionKey": "categoryItems.athletes.athletes_39.description",
-    "order": 39
-  },
-  {
-    "id": "athletes_40",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_40.name",
-    "descriptionKey": "categoryItems.athletes.athletes_40.description",
-    "order": 40
   },
   {
     "id": "athletes_41",
@@ -308,55 +154,6 @@
     "order": 44
   },
   {
-    "id": "athletes_45",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_45.name",
-    "descriptionKey": "categoryItems.athletes.athletes_45.description",
-    "order": 45
-  },
-  {
-    "id": "athletes_46",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_46.name",
-    "descriptionKey": "categoryItems.athletes.athletes_46.description",
-    "order": 46
-  },
-  {
-    "id": "athletes_47",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_47.name",
-    "descriptionKey": "categoryItems.athletes.athletes_47.description",
-    "order": 47
-  },
-  {
-    "id": "athletes_48",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_48.name",
-    "descriptionKey": "categoryItems.athletes.athletes_48.description",
-    "order": 48
-  },
-  {
-    "id": "athletes_49",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_49.name",
-    "descriptionKey": "categoryItems.athletes.athletes_49.description",
-    "order": 49
-  },
-  {
-    "id": "athletes_50",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_50.name",
-    "descriptionKey": "categoryItems.athletes.athletes_50.description",
-    "order": 50
-  },
-  {
-    "id": "athletes_51",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_51.name",
-    "descriptionKey": "categoryItems.athletes.athletes_51.description",
-    "order": 51
-  },
-  {
     "id": "athletes_52",
     "categoryId": "athletes",
     "nameKey": "categoryItems.athletes.athletes_52.name",
@@ -371,34 +168,6 @@
     "order": 53
   },
   {
-    "id": "athletes_54",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_54.name",
-    "descriptionKey": "categoryItems.athletes.athletes_54.description",
-    "order": 54
-  },
-  {
-    "id": "athletes_55",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_55.name",
-    "descriptionKey": "categoryItems.athletes.athletes_55.description",
-    "order": 55
-  },
-  {
-    "id": "athletes_56",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_56.name",
-    "descriptionKey": "categoryItems.athletes.athletes_56.description",
-    "order": 56
-  },
-  {
-    "id": "athletes_57",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_57.name",
-    "descriptionKey": "categoryItems.athletes.athletes_57.description",
-    "order": 57
-  },
-  {
     "id": "athletes_58",
     "categoryId": "athletes",
     "nameKey": "categoryItems.athletes.athletes_58.name",
@@ -406,116 +175,11 @@
     "order": 58
   },
   {
-    "id": "athletes_59",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_59.name",
-    "descriptionKey": "categoryItems.athletes.athletes_59.description",
-    "order": 59
-  },
-  {
     "id": "athletes_60",
     "categoryId": "athletes",
     "nameKey": "categoryItems.athletes.athletes_60.name",
     "descriptionKey": "categoryItems.athletes.athletes_60.description",
     "order": 60
-  },
-  {
-    "id": "athletes_61",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_61.name",
-    "descriptionKey": "categoryItems.athletes.athletes_61.description",
-    "order": 61
-  },
-  {
-    "id": "athletes_62",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_62.name",
-    "descriptionKey": "categoryItems.athletes.athletes_62.description",
-    "order": 62
-  },
-  {
-    "id": "athletes_63",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_63.name",
-    "descriptionKey": "categoryItems.athletes.athletes_63.description",
-    "order": 63
-  },
-  {
-    "id": "athletes_64",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_64.name",
-    "descriptionKey": "categoryItems.athletes.athletes_64.description",
-    "order": 64
-  },
-  {
-    "id": "athletes_65",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_65.name",
-    "descriptionKey": "categoryItems.athletes.athletes_65.description",
-    "order": 65
-  },
-  {
-    "id": "athletes_66",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_66.name",
-    "descriptionKey": "categoryItems.athletes.athletes_66.description",
-    "order": 66
-  },
-  {
-    "id": "athletes_67",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_67.name",
-    "descriptionKey": "categoryItems.athletes.athletes_67.description",
-    "order": 67
-  },
-  {
-    "id": "athletes_68",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_68.name",
-    "descriptionKey": "categoryItems.athletes.athletes_68.description",
-    "order": 68
-  },
-  {
-    "id": "athletes_69",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_69.name",
-    "descriptionKey": "categoryItems.athletes.athletes_69.description",
-    "order": 69
-  },
-  {
-    "id": "athletes_70",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_70.name",
-    "descriptionKey": "categoryItems.athletes.athletes_70.description",
-    "order": 70
-  },
-  {
-    "id": "athletes_71",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_71.name",
-    "descriptionKey": "categoryItems.athletes.athletes_71.description",
-    "order": 71
-  },
-  {
-    "id": "athletes_72",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_72.name",
-    "descriptionKey": "categoryItems.athletes.athletes_72.description",
-    "order": 72
-  },
-  {
-    "id": "athletes_73",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_73.name",
-    "descriptionKey": "categoryItems.athletes.athletes_73.description",
-    "order": 73
-  },
-  {
-    "id": "athletes_74",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_74.name",
-    "descriptionKey": "categoryItems.athletes.athletes_74.description",
-    "order": 74
   },
   {
     "id": "athletes_75",
@@ -553,74 +217,11 @@
     "order": 79
   },
   {
-    "id": "athletes_80",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_80.name",
-    "descriptionKey": "categoryItems.athletes.athletes_80.description",
-    "order": 80
-  },
-  {
     "id": "athletes_81",
     "categoryId": "athletes",
     "nameKey": "categoryItems.athletes.athletes_81.name",
     "descriptionKey": "categoryItems.athletes.athletes_81.description",
     "order": 81
-  },
-  {
-    "id": "athletes_82",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_82.name",
-    "descriptionKey": "categoryItems.athletes.athletes_82.description",
-    "order": 82
-  },
-  {
-    "id": "athletes_83",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_83.name",
-    "descriptionKey": "categoryItems.athletes.athletes_83.description",
-    "order": 83
-  },
-  {
-    "id": "athletes_84",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_84.name",
-    "descriptionKey": "categoryItems.athletes.athletes_84.description",
-    "order": 84
-  },
-  {
-    "id": "athletes_85",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_85.name",
-    "descriptionKey": "categoryItems.athletes.athletes_85.description",
-    "order": 85
-  },
-  {
-    "id": "athletes_86",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_86.name",
-    "descriptionKey": "categoryItems.athletes.athletes_86.description",
-    "order": 86
-  },
-  {
-    "id": "athletes_87",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_87.name",
-    "descriptionKey": "categoryItems.athletes.athletes_87.description",
-    "order": 87
-  },
-  {
-    "id": "athletes_88",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_88.name",
-    "descriptionKey": "categoryItems.athletes.athletes_88.description",
-    "order": 88
-  },
-  {
-    "id": "athletes_89",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_89.name",
-    "descriptionKey": "categoryItems.athletes.athletes_89.description",
-    "order": 89
   },
   {
     "id": "athletes_90",
@@ -635,68 +236,5 @@
     "nameKey": "categoryItems.athletes.athletes_91.name",
     "descriptionKey": "categoryItems.athletes.athletes_91.description",
     "order": 91
-  },
-  {
-    "id": "athletes_92",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_92.name",
-    "descriptionKey": "categoryItems.athletes.athletes_92.description",
-    "order": 92
-  },
-  {
-    "id": "athletes_93",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_93.name",
-    "descriptionKey": "categoryItems.athletes.athletes_93.description",
-    "order": 93
-  },
-  {
-    "id": "athletes_94",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_94.name",
-    "descriptionKey": "categoryItems.athletes.athletes_94.description",
-    "order": 94
-  },
-  {
-    "id": "athletes_95",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_95.name",
-    "descriptionKey": "categoryItems.athletes.athletes_95.description",
-    "order": 95
-  },
-  {
-    "id": "athletes_96",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_96.name",
-    "descriptionKey": "categoryItems.athletes.athletes_96.description",
-    "order": 96
-  },
-  {
-    "id": "athletes_97",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_97.name",
-    "descriptionKey": "categoryItems.athletes.athletes_97.description",
-    "order": 97
-  },
-  {
-    "id": "athletes_98",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_98.name",
-    "descriptionKey": "categoryItems.athletes.athletes_98.description",
-    "order": 98
-  },
-  {
-    "id": "athletes_99",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_99.name",
-    "descriptionKey": "categoryItems.athletes.athletes_99.description",
-    "order": 99
-  },
-  {
-    "id": "athletes_100",
-    "categoryId": "athletes",
-    "nameKey": "categoryItems.athletes.athletes_100.name",
-    "descriptionKey": "categoryItems.athletes.athletes_100.description",
-    "order": 100
   }
 ]

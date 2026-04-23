@@ -210,25 +210,11 @@
     "order": 30
   },
   {
-    "id": "professions_31",
-    "categoryId": "professions",
-    "nameKey": "categoryItems.professions.professions_31.name",
-    "descriptionKey": "categoryItems.professions.professions_31.description",
-    "order": 31
-  },
-  {
     "id": "professions_32",
     "categoryId": "professions",
     "nameKey": "categoryItems.professions.professions_32.name",
     "descriptionKey": "categoryItems.professions.professions_32.description",
     "order": 32
-  },
-  {
-    "id": "professions_33",
-    "categoryId": "professions",
-    "nameKey": "categoryItems.professions.professions_33.name",
-    "descriptionKey": "categoryItems.professions.professions_33.description",
-    "order": 33
   },
   {
     "id": "professions_34",
@@ -266,27 +252,6 @@
     "order": 38
   },
   {
-    "id": "professions_39",
-    "categoryId": "professions",
-    "nameKey": "categoryItems.professions.professions_39.name",
-    "descriptionKey": "categoryItems.professions.professions_39.description",
-    "order": 39
-  },
-  {
-    "id": "professions_40",
-    "categoryId": "professions",
-    "nameKey": "categoryItems.professions.professions_40.name",
-    "descriptionKey": "categoryItems.professions.professions_40.description",
-    "order": 40
-  },
-  {
-    "id": "professions_41",
-    "categoryId": "professions",
-    "nameKey": "categoryItems.professions.professions_41.name",
-    "descriptionKey": "categoryItems.professions.professions_41.description",
-    "order": 41
-  },
-  {
     "id": "professions_42",
     "categoryId": "professions",
     "nameKey": "categoryItems.professions.professions_42.name",
@@ -322,13 +287,6 @@
     "order": 46
   },
   {
-    "id": "professions_47",
-    "categoryId": "professions",
-    "nameKey": "categoryItems.professions.professions_47.name",
-    "descriptionKey": "categoryItems.professions.professions_47.description",
-    "order": 47
-  },
-  {
     "id": "professions_48",
     "categoryId": "professions",
     "nameKey": "categoryItems.professions.professions_48.name",
@@ -341,13 +299,6 @@
     "nameKey": "categoryItems.professions.professions_49.name",
     "descriptionKey": "categoryItems.professions.professions_49.description",
     "order": 49
-  },
-  {
-    "id": "professions_50",
-    "categoryId": "professions",
-    "nameKey": "categoryItems.professions.professions_50.name",
-    "descriptionKey": "categoryItems.professions.professions_50.description",
-    "order": 50
   },
   {
     "id": "professions_51",
@@ -392,25 +343,11 @@
     "order": 56
   },
   {
-    "id": "professions_57",
-    "categoryId": "professions",
-    "nameKey": "categoryItems.professions.professions_57.name",
-    "descriptionKey": "categoryItems.professions.professions_57.description",
-    "order": 57
-  },
-  {
     "id": "professions_58",
     "categoryId": "professions",
     "nameKey": "categoryItems.professions.professions_58.name",
     "descriptionKey": "categoryItems.professions.professions_58.description",
     "order": 58
-  },
-  {
-    "id": "professions_59",
-    "categoryId": "professions",
-    "nameKey": "categoryItems.professions.professions_59.name",
-    "descriptionKey": "categoryItems.professions.professions_59.description",
-    "order": 59
   },
   {
     "id": "professions_60",
@@ -427,25 +364,11 @@
     "order": 61
   },
   {
-    "id": "professions_62",
-    "categoryId": "professions",
-    "nameKey": "categoryItems.professions.professions_62.name",
-    "descriptionKey": "categoryItems.professions.professions_62.description",
-    "order": 62
-  },
-  {
     "id": "professions_63",
     "categoryId": "professions",
     "nameKey": "categoryItems.professions.professions_63.name",
     "descriptionKey": "categoryItems.professions.professions_63.description",
     "order": 63
-  },
-  {
-    "id": "professions_64",
-    "categoryId": "professions",
-    "nameKey": "categoryItems.professions.professions_64.name",
-    "descriptionKey": "categoryItems.professions.professions_64.description",
-    "order": 64
   },
   {
     "id": "professions_65",
@@ -455,25 +378,11 @@
     "order": 65
   },
   {
-    "id": "professions_66",
-    "categoryId": "professions",
-    "nameKey": "categoryItems.professions.professions_66.name",
-    "descriptionKey": "categoryItems.professions.professions_66.description",
-    "order": 66
-  },
-  {
     "id": "professions_67",
     "categoryId": "professions",
     "nameKey": "categoryItems.professions.professions_67.name",
     "descriptionKey": "categoryItems.professions.professions_67.description",
     "order": 67
-  },
-  {
-    "id": "professions_68",
-    "categoryId": "professions",
-    "nameKey": "categoryItems.professions.professions_68.name",
-    "descriptionKey": "categoryItems.professions.professions_68.description",
-    "order": 68
   },
   {
     "id": "professions_69",
@@ -483,27 +392,6 @@
     "order": 69
   },
   {
-    "id": "professions_70",
-    "categoryId": "professions",
-    "nameKey": "categoryItems.professions.professions_70.name",
-    "descriptionKey": "categoryItems.professions.professions_70.description",
-    "order": 70
-  },
-  {
-    "id": "professions_71",
-    "categoryId": "professions",
-    "nameKey": "categoryItems.professions.professions_71.name",
-    "descriptionKey": "categoryItems.professions.professions_71.description",
-    "order": 71
-  },
-  {
-    "id": "professions_72",
-    "categoryId": "professions",
-    "nameKey": "categoryItems.professions.professions_72.name",
-    "descriptionKey": "categoryItems.professions.professions_72.description",
-    "order": 72
-  },
-  {
     "id": "professions_73",
     "categoryId": "professions",
     "nameKey": "categoryItems.professions.professions_73.name",
@@ -511,25 +399,11 @@
     "order": 73
   },
   {
-    "id": "professions_74",
-    "categoryId": "professions",
-    "nameKey": "categoryItems.professions.professions_74.name",
-    "descriptionKey": "categoryItems.professions.professions_74.description",
-    "order": 74
-  },
-  {
     "id": "professions_75",
     "categoryId": "professions",
     "nameKey": "categoryItems.professions.professions_75.name",
     "descriptionKey": "categoryItems.professions.professions_75.description",
     "order": 75
-  },
-  {
-    "id": "professions_76",
-    "categoryId": "professions",
-    "nameKey": "categoryItems.professions.professions_76.name",
-    "descriptionKey": "categoryItems.professions.professions_76.description",
-    "order": 76
   },
   {
     "id": "professions_77",
@@ -588,13 +462,6 @@
     "order": 84
   },
   {
-    "id": "professions_85",
-    "categoryId": "professions",
-    "nameKey": "categoryItems.professions.professions_85.name",
-    "descriptionKey": "categoryItems.professions.professions_85.description",
-    "order": 85
-  },
-  {
     "id": "professions_86",
     "categoryId": "professions",
     "nameKey": "categoryItems.professions.professions_86.name",
@@ -614,20 +481,6 @@
     "nameKey": "categoryItems.professions.professions_88.name",
     "descriptionKey": "categoryItems.professions.professions_88.description",
     "order": 88
-  },
-  {
-    "id": "professions_89",
-    "categoryId": "professions",
-    "nameKey": "categoryItems.professions.professions_89.name",
-    "descriptionKey": "categoryItems.professions.professions_89.description",
-    "order": 89
-  },
-  {
-    "id": "professions_90",
-    "categoryId": "professions",
-    "nameKey": "categoryItems.professions.professions_90.name",
-    "descriptionKey": "categoryItems.professions.professions_90.description",
-    "order": 90
   },
   {
     "id": "professions_91",
@@ -665,38 +518,10 @@
     "order": 95
   },
   {
-    "id": "professions_96",
-    "categoryId": "professions",
-    "nameKey": "categoryItems.professions.professions_96.name",
-    "descriptionKey": "categoryItems.professions.professions_96.description",
-    "order": 96
-  },
-  {
-    "id": "professions_97",
-    "categoryId": "professions",
-    "nameKey": "categoryItems.professions.professions_97.name",
-    "descriptionKey": "categoryItems.professions.professions_97.description",
-    "order": 97
-  },
-  {
-    "id": "professions_98",
-    "categoryId": "professions",
-    "nameKey": "categoryItems.professions.professions_98.name",
-    "descriptionKey": "categoryItems.professions.professions_98.description",
-    "order": 98
-  },
-  {
     "id": "professions_99",
     "categoryId": "professions",
     "nameKey": "categoryItems.professions.professions_99.name",
     "descriptionKey": "categoryItems.professions.professions_99.description",
     "order": 99
-  },
-  {
-    "id": "professions_100",
-    "categoryId": "professions",
-    "nameKey": "categoryItems.professions.professions_100.name",
-    "descriptionKey": "categoryItems.professions.professions_100.description",
-    "order": 100
   }
 ]

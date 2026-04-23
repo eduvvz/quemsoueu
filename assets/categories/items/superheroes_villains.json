@@ -133,13 +133,6 @@
     "order": 19
   },
   {
-    "id": "superheroes_villains_20",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_20.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_20.description",
-    "order": 20
-  },
-  {
     "id": "superheroes_villains_21",
     "categoryId": "superheroes_villains",
     "nameKey": "categoryItems.superheroes_villains.superheroes_villains_21.name",
@@ -168,25 +161,11 @@
     "order": 24
   },
   {
-    "id": "superheroes_villains_25",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_25.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_25.description",
-    "order": 25
-  },
-  {
     "id": "superheroes_villains_26",
     "categoryId": "superheroes_villains",
     "nameKey": "categoryItems.superheroes_villains.superheroes_villains_26.name",
     "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_26.description",
     "order": 26
-  },
-  {
-    "id": "superheroes_villains_27",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_27.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_27.description",
-    "order": 27
   },
   {
     "id": "superheroes_villains_28",
@@ -201,13 +180,6 @@
     "nameKey": "categoryItems.superheroes_villains.superheroes_villains_29.name",
     "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_29.description",
     "order": 29
-  },
-  {
-    "id": "superheroes_villains_30",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_30.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_30.description",
-    "order": 30
   },
   {
     "id": "superheroes_villains_31",
@@ -252,102 +224,11 @@
     "order": 36
   },
   {
-    "id": "superheroes_villains_37",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_37.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_37.description",
-    "order": 37
-  },
-  {
-    "id": "superheroes_villains_38",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_38.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_38.description",
-    "order": 38
-  },
-  {
-    "id": "superheroes_villains_39",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_39.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_39.description",
-    "order": 39
-  },
-  {
-    "id": "superheroes_villains_40",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_40.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_40.description",
-    "order": 40
-  },
-  {
     "id": "superheroes_villains_41",
     "categoryId": "superheroes_villains",
     "nameKey": "categoryItems.superheroes_villains.superheroes_villains_41.name",
     "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_41.description",
     "order": 41
-  },
-  {
-    "id": "superheroes_villains_42",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_42.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_42.description",
-    "order": 42
-  },
-  {
-    "id": "superheroes_villains_43",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_43.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_43.description",
-    "order": 43
-  },
-  {
-    "id": "superheroes_villains_44",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_44.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_44.description",
-    "order": 44
-  },
-  {
-    "id": "superheroes_villains_45",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_45.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_45.description",
-    "order": 45
-  },
-  {
-    "id": "superheroes_villains_46",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_46.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_46.description",
-    "order": 46
-  },
-  {
-    "id": "superheroes_villains_47",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_47.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_47.description",
-    "order": 47
-  },
-  {
-    "id": "superheroes_villains_48",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_48.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_48.description",
-    "order": 48
-  },
-  {
-    "id": "superheroes_villains_49",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_49.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_49.description",
-    "order": 49
-  },
-  {
-    "id": "superheroes_villains_50",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_50.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_50.description",
-    "order": 50
   },
   {
     "id": "superheroes_villains_51",
@@ -392,102 +273,11 @@
     "order": 56
   },
   {
-    "id": "superheroes_villains_57",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_57.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_57.description",
-    "order": 57
-  },
-  {
-    "id": "superheroes_villains_58",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_58.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_58.description",
-    "order": 58
-  },
-  {
     "id": "superheroes_villains_59",
     "categoryId": "superheroes_villains",
     "nameKey": "categoryItems.superheroes_villains.superheroes_villains_59.name",
     "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_59.description",
     "order": 59
-  },
-  {
-    "id": "superheroes_villains_60",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_60.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_60.description",
-    "order": 60
-  },
-  {
-    "id": "superheroes_villains_61",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_61.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_61.description",
-    "order": 61
-  },
-  {
-    "id": "superheroes_villains_62",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_62.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_62.description",
-    "order": 62
-  },
-  {
-    "id": "superheroes_villains_63",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_63.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_63.description",
-    "order": 63
-  },
-  {
-    "id": "superheroes_villains_64",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_64.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_64.description",
-    "order": 64
-  },
-  {
-    "id": "superheroes_villains_65",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_65.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_65.description",
-    "order": 65
-  },
-  {
-    "id": "superheroes_villains_66",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_66.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_66.description",
-    "order": 66
-  },
-  {
-    "id": "superheroes_villains_67",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_67.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_67.description",
-    "order": 67
-  },
-  {
-    "id": "superheroes_villains_68",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_68.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_68.description",
-    "order": 68
-  },
-  {
-    "id": "superheroes_villains_69",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_69.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_69.description",
-    "order": 69
-  },
-  {
-    "id": "superheroes_villains_70",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_70.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_70.description",
-    "order": 70
   },
   {
     "id": "superheroes_villains_71",
@@ -497,67 +287,11 @@
     "order": 71
   },
   {
-    "id": "superheroes_villains_72",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_72.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_72.description",
-    "order": 72
-  },
-  {
-    "id": "superheroes_villains_73",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_73.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_73.description",
-    "order": 73
-  },
-  {
     "id": "superheroes_villains_74",
     "categoryId": "superheroes_villains",
     "nameKey": "categoryItems.superheroes_villains.superheroes_villains_74.name",
     "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_74.description",
     "order": 74
-  },
-  {
-    "id": "superheroes_villains_75",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_75.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_75.description",
-    "order": 75
-  },
-  {
-    "id": "superheroes_villains_76",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_76.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_76.description",
-    "order": 76
-  },
-  {
-    "id": "superheroes_villains_77",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_77.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_77.description",
-    "order": 77
-  },
-  {
-    "id": "superheroes_villains_78",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_78.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_78.description",
-    "order": 78
-  },
-  {
-    "id": "superheroes_villains_79",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_79.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_79.description",
-    "order": 79
-  },
-  {
-    "id": "superheroes_villains_80",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_80.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_80.description",
-    "order": 80
   },
   {
     "id": "superheroes_villains_81",
@@ -581,55 +315,6 @@
     "order": 83
   },
   {
-    "id": "superheroes_villains_84",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_84.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_84.description",
-    "order": 84
-  },
-  {
-    "id": "superheroes_villains_85",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_85.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_85.description",
-    "order": 85
-  },
-  {
-    "id": "superheroes_villains_86",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_86.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_86.description",
-    "order": 86
-  },
-  {
-    "id": "superheroes_villains_87",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_87.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_87.description",
-    "order": 87
-  },
-  {
-    "id": "superheroes_villains_88",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_88.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_88.description",
-    "order": 88
-  },
-  {
-    "id": "superheroes_villains_89",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_89.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_89.description",
-    "order": 89
-  },
-  {
-    "id": "superheroes_villains_90",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_90.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_90.description",
-    "order": 90
-  },
-  {
     "id": "superheroes_villains_91",
     "categoryId": "superheroes_villains",
     "nameKey": "categoryItems.superheroes_villains.superheroes_villains_91.name",
@@ -651,52 +336,10 @@
     "order": 93
   },
   {
-    "id": "superheroes_villains_94",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_94.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_94.description",
-    "order": 94
-  },
-  {
-    "id": "superheroes_villains_95",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_95.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_95.description",
-    "order": 95
-  },
-  {
     "id": "superheroes_villains_96",
     "categoryId": "superheroes_villains",
     "nameKey": "categoryItems.superheroes_villains.superheroes_villains_96.name",
     "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_96.description",
     "order": 96
-  },
-  {
-    "id": "superheroes_villains_97",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_97.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_97.description",
-    "order": 97
-  },
-  {
-    "id": "superheroes_villains_98",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_98.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_98.description",
-    "order": 98
-  },
-  {
-    "id": "superheroes_villains_99",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_99.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_99.description",
-    "order": 99
-  },
-  {
-    "id": "superheroes_villains_100",
-    "categoryId": "superheroes_villains",
-    "nameKey": "categoryItems.superheroes_villains.superheroes_villains_100.name",
-    "descriptionKey": "categoryItems.superheroes_villains.superheroes_villains_100.description",
-    "order": 100
   }
 ]
