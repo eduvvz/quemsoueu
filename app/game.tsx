@@ -22,7 +22,7 @@ import { showInterstitialAdBetweenRounds } from '@/lib/admob';
 import { getCategoryItems } from '@/lib/category-items';
 import { t } from '@/lib/i18n';
 import { useMonetization } from '@/lib/monetization';
-import { posthog } from '@/lib/posthog';
+import { getPostHogClient } from '@/lib/posthog';
 import { useRevenueCat } from '@/lib/revenuecat';
 
 const TIME_MODES = {
@@ -457,7 +457,7 @@ export default function GameScreen() {
     }
 
     markRoundCompleted(selectedCategoryIds);
-    posthog.capture('game_completed', {
+    getPostHogClient().capture('game_completed', {
       score,
       passes,
       time_mode: selectedTimeMode,
@@ -769,7 +769,10 @@ export default function GameScreen() {
 
     const itemName = currentItem ? t(currentItem.nameKey) : t('app.game.empty');
 
-    posthog.capture('word_passed', { word: itemName, category_ids: selectedCategoryIds });
+    getPostHogClient().capture('word_passed', {
+      word: itemName,
+      category_ids: selectedCategoryIds,
+    });
     animateFeedback('pass', () => {
       setPasses((current) => current + 1);
       setMissedItems((current) => [...current, itemName]);
@@ -790,7 +793,10 @@ export default function GameScreen() {
 
     const itemName = currentItem ? t(currentItem.nameKey) : t('app.game.empty');
 
-    posthog.capture('word_guessed_correct', { word: itemName, category_ids: selectedCategoryIds });
+    getPostHogClient().capture('word_guessed_correct', {
+      word: itemName,
+      category_ids: selectedCategoryIds,
+    });
     animateFeedback('correct', () => {
       animatePointPop();
       setScore((current) => current + 1);

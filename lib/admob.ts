@@ -1,4 +1,8 @@
 import Constants from 'expo-constants';
+import {
+  getTrackingPermissionsAsync,
+  PermissionStatus,
+} from 'expo-tracking-transparency';
 import { Platform } from 'react-native';
 
 const extra = Constants.expoConfig?.extra ?? {};
@@ -15,6 +19,7 @@ const ANDROID_TEST_INTERSTITIAL_AD_UNIT_ID = extra.admobAndroidTestInterstitialA
 const REWARDED_LOAD_TIMEOUT_MS = 30_000;
 const REWARDED_CLOSE_GRACE_MS = 700;
 const INTERSTITIAL_LOAD_TIMEOUT_MS = 8_000;
+let mobileAdsInitializationPromise: Promise<void> | null = null;
 
 function hasGoogleMobileAdsAppId() {
   return Boolean(
@@ -65,17 +70,40 @@ export async function initializeGoogleMobileAds() {
     return;
   }
 
+  if (mobileAdsInitializationPromise) {
+    return mobileAdsInitializationPromise;
+  }
+
   if (!hasGoogleMobileAdsAppId()) {
     console.warn('[admob] app id not configured; skipping initialization');
     return;
   }
 
-  try {
-    const { default: mobileAds } = await import('react-native-google-mobile-ads');
-    await mobileAds().initialize();
-  } catch (error) {
-    console.warn('[admob] failed to initialize Google Mobile Ads', error);
+  mobileAdsInitializationPromise = (async () => {
+    try {
+      const { default: mobileAds } = await import('react-native-google-mobile-ads');
+      await mobileAds().initialize();
+    } catch (error) {
+      mobileAdsInitializationPromise = null;
+      console.warn('[admob] failed to initialize Google Mobile Ads', error);
+    }
+  })();
+
+  return mobileAdsInitializationPromise;
+}
+
+async function getAdRequestOptions() {
+  if (Platform.OS !== 'ios') {
+    return undefined;
   }
+
+  const { status } = await getTrackingPermissionsAsync();
+
+  if (status === PermissionStatus.GRANTED) {
+    return undefined;
+  }
+
+  return { requestNonPersonalizedAdsOnly: true } as const;
 }
 
 export async function showRewardedAdForPremiumSession() {
@@ -84,17 +112,20 @@ export async function showRewardedAdForPremiumSession() {
   }
 
   try {
+    await initializeGoogleMobileAds();
+
     const { AdEventType, RewardedAd, RewardedAdEventType } = await import(
       'react-native-google-mobile-ads'
     );
     const rewardedAdUnitId = getRewardedAdUnitId();
+    const requestOptions = await getAdRequestOptions();
 
     if (!rewardedAdUnitId) {
       console.warn('[admob] rewarded ad unit id not configured');
       return false;
     }
 
-    const rewardedAd = RewardedAd.createForAdRequest(rewardedAdUnitId);
+    const rewardedAd = RewardedAd.createForAdRequest(rewardedAdUnitId, requestOptions);
 
     return await new Promise<boolean>((resolve) => {
       let didEarnReward = false;
@@ -183,15 +214,18 @@ export async function showInterstitialAdBetweenRounds() {
   }
 
   try {
+    await initializeGoogleMobileAds();
+
     const { AdEventType, InterstitialAd } = await import('react-native-google-mobile-ads');
     const interstitialAdUnitId = getInterstitialAdUnitId();
+    const requestOptions = await getAdRequestOptions();
 
     if (!interstitialAdUnitId) {
       console.warn('[admob] interstitial ad unit id not configured');
       return false;
     }
 
-    const interstitialAd = InterstitialAd.createForAdRequest(interstitialAdUnitId);
+    const interstitialAd = InterstitialAd.createForAdRequest(interstitialAdUnitId, requestOptions);
 
     return await new Promise<boolean>((resolve) => {
       let didSettle = false;

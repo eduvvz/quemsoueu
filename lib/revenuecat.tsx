@@ -111,9 +111,7 @@ async function buildOfferingsDiagnosticMessage() {
       (productId) => !resolvedProductIds.includes(productId)
     );
     const storefrontCode =
-      storefront?.countryCode ??
-      storefront?.identifier ??
-      'unknown storefront';
+      storefront?.countryCode ?? 'unknown storefront';
 
     console.warn('[revenuecat] offerings diagnostic', {
       configuredOfferingId: revenueCatConfig.offeringId,

@@ -20,19 +20,28 @@ if (!isPostHogConfigured) {
   );
 }
 
-export const posthog = new PostHog(apiKey || 'placeholder_key', {
-  host,
-  disabled: !isPostHogConfigured,
-  captureAppLifecycleEvents: true,
-  debug: __DEV__,
-  flushAt: 20,
-  flushInterval: 10000,
-  maxBatchSize: 100,
-  maxQueueSize: 1000,
-  preloadFeatureFlags: true,
-  sendFeatureFlagEvent: true,
-  featureFlagsRequestTimeoutMs: 10000,
-  requestTimeout: 10000,
-  fetchRetryCount: 3,
-  fetchRetryDelay: 3000,
-});
+let posthogClient: PostHog | null = null;
+
+export function getPostHogClient() {
+  if (!posthogClient) {
+    posthogClient = new PostHog(apiKey || 'placeholder_key', {
+      host,
+      disabled: !isPostHogConfigured,
+      captureAppLifecycleEvents: true,
+      flushAt: 20,
+      flushInterval: 10000,
+      maxBatchSize: 100,
+      maxQueueSize: 1000,
+      preloadFeatureFlags: true,
+      sendFeatureFlagEvent: true,
+      featureFlagsRequestTimeoutMs: 10000,
+      requestTimeout: 10000,
+      fetchRetryCount: 3,
+      fetchRetryDelay: 3000,
+    });
+
+    posthogClient.debug(__DEV__);
+  }
+
+  return posthogClient;
+}

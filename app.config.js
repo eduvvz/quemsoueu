@@ -51,6 +51,7 @@ export default {
     },
     plugins: [
       'expo-router',
+      'expo-tracking-transparency',
       [
         'expo-splash-screen',
         {

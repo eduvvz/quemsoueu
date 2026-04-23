@@ -8,7 +8,7 @@ import { PremiumOfferModal } from '@/components/PremiumOfferModal';
 import { showRewardedAdForPremiumSession } from '@/lib/admob';
 import { t } from '@/lib/i18n';
 import { monetizationConfig, useMonetization } from '@/lib/monetization';
-import { posthog } from '@/lib/posthog';
+import { getPostHogClient } from '@/lib/posthog';
 import { useRevenueCat } from '@/lib/revenuecat';
 
 type Category = (typeof categoriesData)[number];
@@ -77,7 +77,7 @@ export default function CategoriesScreen() {
     setIsPaywallOpen(true);
     trackMonetizationEvent('paywall_viewed', {
       trigger,
-      categoryId: category?.id,
+      categoryId: category?.id ?? null,
     });
   }
 
@@ -91,7 +91,7 @@ export default function CategoriesScreen() {
     }
 
     const willSelect = !selectedIds.includes(category.id);
-    posthog.capture('category_toggled', {
+    getPostHogClient().capture('category_toggled', {
       category_id: category.id,
       action: willSelect ? 'selected' : 'deselected',
       is_premium: category.isPremium,
@@ -321,7 +321,7 @@ export default function CategoriesScreen() {
         <Pressable
           disabled={!isAdvanceEnabled}
           onPress={() => {
-            posthog.capture('game_started', {
+            getPostHogClient().capture('game_started', {
               category_ids: selectedIds,
               category_count: selectedIds.length,
             });

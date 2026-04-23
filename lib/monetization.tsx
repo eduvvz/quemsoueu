@@ -6,8 +6,9 @@ import {
   useMemo,
   useState,
 } from "react";
+import type { JsonType } from "@posthog/core";
 
-import { posthog } from "@/lib/posthog";
+import { getPostHogClient } from "@/lib/posthog";
 
 export const monetizationConfig = {
   free: {
@@ -58,7 +59,7 @@ type MonetizationContextValue = {
   roundsPlayed: number;
   trackMonetizationEvent: (
     eventName: MonetizationEventName,
-    payload?: Record<string, unknown>,
+    payload?: Record<string, JsonType>,
   ) => void;
   canWatchRewardedAd: () => boolean;
   getCategoryUnlockState: (
@@ -131,7 +132,7 @@ export function MonetizationProvider({ children }: PropsWithChildren) {
       rewardedAdsWatched,
       roundsPlayed,
       trackMonetizationEvent: (eventName, payload = {}) => {
-        posthog.capture(eventName, payload);
+        getPostHogClient().capture(eventName, payload);
       },
       canWatchRewardedAd: () => adCooldownRemainingMs === 0 && !isPremiumUser,
       getCategoryUnlockState: (categoryId, requiresUnlock) => {
@@ -231,8 +232,8 @@ export function MonetizationProvider({ children }: PropsWithChildren) {
           },
         }));
 
-        posthog.capture("rewarded_ad_watched", { category_id: categoryId });
-        posthog.capture("category_unlocked_by_ad", {
+        getPostHogClient().capture("rewarded_ad_watched", { category_id: categoryId });
+        getPostHogClient().capture("category_unlocked_by_ad", {
           category_id: categoryId,
           rounds: monetizationConfig.free.sessionRoundsPerAd,
         });
@@ -241,18 +242,18 @@ export function MonetizationProvider({ children }: PropsWithChildren) {
       },
       unlock24hPass: () => {
         setPassExpiresAt(now() + monetizationConfig.pass.durationMs);
-        posthog.capture("pass_24h_purchase_initiated", {
+        getPostHogClient().capture("pass_24h_purchase_initiated", {
           price: monetizationConfig.pricing.pass24h,
           currency: monetizationConfig.pricing.currency,
         });
-        posthog.capture("purchase_completed", { product_id: "pass_24h" });
+        getPostHogClient().capture("purchase_completed", { product_id: "pass_24h" });
       },
       unlockLifetime: () => {
-        posthog.capture("lifetime_purchase_initiated", {
+        getPostHogClient().capture("lifetime_purchase_initiated", {
           price: monetizationConfig.pricing.lifetime,
           currency: monetizationConfig.pricing.currency,
         });
-        posthog.capture("purchase_completed", { product_id: "lifetime" });
+        getPostHogClient().capture("purchase_completed", { product_id: "lifetime" });
       },
       setLifetimeEntitlementActive: (active) => {
         setLifetimeUnlocked(active);
