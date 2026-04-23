@@ -5,5 +5,698 @@
     "nameKey": "categoryItems.everyday_objects.everyday_objects_1.name",
     "descriptionKey": "categoryItems.everyday_objects.everyday_objects_1.description",
     "order": 1
+  },
+  {
+    "id": "everyday_objects_2",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_2.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_2.description",
+    "order": 2
+  },
+  {
+    "id": "everyday_objects_3",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_3.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_3.description",
+    "order": 3
+  },
+  {
+    "id": "everyday_objects_4",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_4.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_4.description",
+    "order": 4
+  },
+  {
+    "id": "everyday_objects_5",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_5.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_5.description",
+    "order": 5
+  },
+  {
+    "id": "everyday_objects_6",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_6.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_6.description",
+    "order": 6
+  },
+  {
+    "id": "everyday_objects_7",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_7.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_7.description",
+    "order": 7
+  },
+  {
+    "id": "everyday_objects_8",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_8.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_8.description",
+    "order": 8
+  },
+  {
+    "id": "everyday_objects_9",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_9.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_9.description",
+    "order": 9
+  },
+  {
+    "id": "everyday_objects_10",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_10.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_10.description",
+    "order": 10
+  },
+  {
+    "id": "everyday_objects_11",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_11.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_11.description",
+    "order": 11
+  },
+  {
+    "id": "everyday_objects_12",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_12.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_12.description",
+    "order": 12
+  },
+  {
+    "id": "everyday_objects_13",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_13.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_13.description",
+    "order": 13
+  },
+  {
+    "id": "everyday_objects_14",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_14.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_14.description",
+    "order": 14
+  },
+  {
+    "id": "everyday_objects_15",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_15.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_15.description",
+    "order": 15
+  },
+  {
+    "id": "everyday_objects_16",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_16.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_16.description",
+    "order": 16
+  },
+  {
+    "id": "everyday_objects_17",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_17.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_17.description",
+    "order": 17
+  },
+  {
+    "id": "everyday_objects_18",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_18.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_18.description",
+    "order": 18
+  },
+  {
+    "id": "everyday_objects_19",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_19.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_19.description",
+    "order": 19
+  },
+  {
+    "id": "everyday_objects_20",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_20.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_20.description",
+    "order": 20
+  },
+  {
+    "id": "everyday_objects_21",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_21.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_21.description",
+    "order": 21
+  },
+  {
+    "id": "everyday_objects_22",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_22.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_22.description",
+    "order": 22
+  },
+  {
+    "id": "everyday_objects_23",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_23.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_23.description",
+    "order": 23
+  },
+  {
+    "id": "everyday_objects_24",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_24.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_24.description",
+    "order": 24
+  },
+  {
+    "id": "everyday_objects_25",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_25.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_25.description",
+    "order": 25
+  },
+  {
+    "id": "everyday_objects_26",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_26.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_26.description",
+    "order": 26
+  },
+  {
+    "id": "everyday_objects_27",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_27.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_27.description",
+    "order": 27
+  },
+  {
+    "id": "everyday_objects_28",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_28.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_28.description",
+    "order": 28
+  },
+  {
+    "id": "everyday_objects_29",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_29.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_29.description",
+    "order": 29
+  },
+  {
+    "id": "everyday_objects_30",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_30.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_30.description",
+    "order": 30
+  },
+  {
+    "id": "everyday_objects_31",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_31.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_31.description",
+    "order": 31
+  },
+  {
+    "id": "everyday_objects_32",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_32.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_32.description",
+    "order": 32
+  },
+  {
+    "id": "everyday_objects_33",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_33.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_33.description",
+    "order": 33
+  },
+  {
+    "id": "everyday_objects_34",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_34.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_34.description",
+    "order": 34
+  },
+  {
+    "id": "everyday_objects_35",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_35.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_35.description",
+    "order": 35
+  },
+  {
+    "id": "everyday_objects_36",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_36.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_36.description",
+    "order": 36
+  },
+  {
+    "id": "everyday_objects_37",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_37.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_37.description",
+    "order": 37
+  },
+  {
+    "id": "everyday_objects_38",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_38.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_38.description",
+    "order": 38
+  },
+  {
+    "id": "everyday_objects_39",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_39.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_39.description",
+    "order": 39
+  },
+  {
+    "id": "everyday_objects_40",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_40.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_40.description",
+    "order": 40
+  },
+  {
+    "id": "everyday_objects_41",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_41.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_41.description",
+    "order": 41
+  },
+  {
+    "id": "everyday_objects_42",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_42.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_42.description",
+    "order": 42
+  },
+  {
+    "id": "everyday_objects_43",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_43.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_43.description",
+    "order": 43
+  },
+  {
+    "id": "everyday_objects_44",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_44.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_44.description",
+    "order": 44
+  },
+  {
+    "id": "everyday_objects_45",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_45.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_45.description",
+    "order": 45
+  },
+  {
+    "id": "everyday_objects_46",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_46.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_46.description",
+    "order": 46
+  },
+  {
+    "id": "everyday_objects_47",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_47.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_47.description",
+    "order": 47
+  },
+  {
+    "id": "everyday_objects_48",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_48.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_48.description",
+    "order": 48
+  },
+  {
+    "id": "everyday_objects_49",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_49.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_49.description",
+    "order": 49
+  },
+  {
+    "id": "everyday_objects_50",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_50.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_50.description",
+    "order": 50
+  },
+  {
+    "id": "everyday_objects_51",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_51.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_51.description",
+    "order": 51
+  },
+  {
+    "id": "everyday_objects_52",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_52.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_52.description",
+    "order": 52
+  },
+  {
+    "id": "everyday_objects_53",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_53.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_53.description",
+    "order": 53
+  },
+  {
+    "id": "everyday_objects_54",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_54.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_54.description",
+    "order": 54
+  },
+  {
+    "id": "everyday_objects_55",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_55.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_55.description",
+    "order": 55
+  },
+  {
+    "id": "everyday_objects_56",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_56.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_56.description",
+    "order": 56
+  },
+  {
+    "id": "everyday_objects_57",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_57.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_57.description",
+    "order": 57
+  },
+  {
+    "id": "everyday_objects_58",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_58.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_58.description",
+    "order": 58
+  },
+  {
+    "id": "everyday_objects_59",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_59.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_59.description",
+    "order": 59
+  },
+  {
+    "id": "everyday_objects_60",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_60.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_60.description",
+    "order": 60
+  },
+  {
+    "id": "everyday_objects_61",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_61.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_61.description",
+    "order": 61
+  },
+  {
+    "id": "everyday_objects_62",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_62.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_62.description",
+    "order": 62
+  },
+  {
+    "id": "everyday_objects_63",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_63.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_63.description",
+    "order": 63
+  },
+  {
+    "id": "everyday_objects_64",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_64.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_64.description",
+    "order": 64
+  },
+  {
+    "id": "everyday_objects_65",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_65.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_65.description",
+    "order": 65
+  },
+  {
+    "id": "everyday_objects_66",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_66.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_66.description",
+    "order": 66
+  },
+  {
+    "id": "everyday_objects_67",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_67.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_67.description",
+    "order": 67
+  },
+  {
+    "id": "everyday_objects_68",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_68.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_68.description",
+    "order": 68
+  },
+  {
+    "id": "everyday_objects_69",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_69.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_69.description",
+    "order": 69
+  },
+  {
+    "id": "everyday_objects_70",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_70.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_70.description",
+    "order": 70
+  },
+  {
+    "id": "everyday_objects_71",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_71.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_71.description",
+    "order": 71
+  },
+  {
+    "id": "everyday_objects_72",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_72.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_72.description",
+    "order": 72
+  },
+  {
+    "id": "everyday_objects_73",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_73.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_73.description",
+    "order": 73
+  },
+  {
+    "id": "everyday_objects_74",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_74.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_74.description",
+    "order": 74
+  },
+  {
+    "id": "everyday_objects_75",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_75.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_75.description",
+    "order": 75
+  },
+  {
+    "id": "everyday_objects_76",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_76.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_76.description",
+    "order": 76
+  },
+  {
+    "id": "everyday_objects_77",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_77.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_77.description",
+    "order": 77
+  },
+  {
+    "id": "everyday_objects_78",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_78.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_78.description",
+    "order": 78
+  },
+  {
+    "id": "everyday_objects_79",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_79.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_79.description",
+    "order": 79
+  },
+  {
+    "id": "everyday_objects_80",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_80.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_80.description",
+    "order": 80
+  },
+  {
+    "id": "everyday_objects_81",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_81.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_81.description",
+    "order": 81
+  },
+  {
+    "id": "everyday_objects_82",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_82.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_82.description",
+    "order": 82
+  },
+  {
+    "id": "everyday_objects_83",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_83.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_83.description",
+    "order": 83
+  },
+  {
+    "id": "everyday_objects_84",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_84.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_84.description",
+    "order": 84
+  },
+  {
+    "id": "everyday_objects_85",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_85.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_85.description",
+    "order": 85
+  },
+  {
+    "id": "everyday_objects_86",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_86.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_86.description",
+    "order": 86
+  },
+  {
+    "id": "everyday_objects_87",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_87.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_87.description",
+    "order": 87
+  },
+  {
+    "id": "everyday_objects_88",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_88.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_88.description",
+    "order": 88
+  },
+  {
+    "id": "everyday_objects_89",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_89.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_89.description",
+    "order": 89
+  },
+  {
+    "id": "everyday_objects_90",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_90.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_90.description",
+    "order": 90
+  },
+  {
+    "id": "everyday_objects_91",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_91.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_91.description",
+    "order": 91
+  },
+  {
+    "id": "everyday_objects_92",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_92.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_92.description",
+    "order": 92
+  },
+  {
+    "id": "everyday_objects_93",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_93.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_93.description",
+    "order": 93
+  },
+  {
+    "id": "everyday_objects_94",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_94.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_94.description",
+    "order": 94
+  },
+  {
+    "id": "everyday_objects_95",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_95.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_95.description",
+    "order": 95
+  },
+  {
+    "id": "everyday_objects_96",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_96.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_96.description",
+    "order": 96
+  },
+  {
+    "id": "everyday_objects_97",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_97.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_97.description",
+    "order": 97
+  },
+  {
+    "id": "everyday_objects_98",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_98.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_98.description",
+    "order": 98
+  },
+  {
+    "id": "everyday_objects_99",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_99.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_99.description",
+    "order": 99
+  },
+  {
+    "id": "everyday_objects_100",
+    "categoryId": "everyday_objects",
+    "nameKey": "categoryItems.everyday_objects.everyday_objects_100.name",
+    "descriptionKey": "categoryItems.everyday_objects.everyday_objects_100.description",
+    "order": 100
   }
 ]

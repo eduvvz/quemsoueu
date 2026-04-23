@@ -5,5 +5,593 @@
     "nameKey": "categoryItems.countries.countries_1.name",
     "descriptionKey": "categoryItems.countries.countries_1.description",
     "order": 1
+  },
+  {
+    "id": "countries_2",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_2.name",
+    "descriptionKey": "categoryItems.countries.countries_2.description",
+    "order": 2
+  },
+  {
+    "id": "countries_3",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_3.name",
+    "descriptionKey": "categoryItems.countries.countries_3.description",
+    "order": 3
+  },
+  {
+    "id": "countries_4",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_4.name",
+    "descriptionKey": "categoryItems.countries.countries_4.description",
+    "order": 4
+  },
+  {
+    "id": "countries_5",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_5.name",
+    "descriptionKey": "categoryItems.countries.countries_5.description",
+    "order": 5
+  },
+  {
+    "id": "countries_6",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_6.name",
+    "descriptionKey": "categoryItems.countries.countries_6.description",
+    "order": 6
+  },
+  {
+    "id": "countries_7",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_7.name",
+    "descriptionKey": "categoryItems.countries.countries_7.description",
+    "order": 7
+  },
+  {
+    "id": "countries_8",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_8.name",
+    "descriptionKey": "categoryItems.countries.countries_8.description",
+    "order": 8
+  },
+  {
+    "id": "countries_9",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_9.name",
+    "descriptionKey": "categoryItems.countries.countries_9.description",
+    "order": 9
+  },
+  {
+    "id": "countries_10",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_10.name",
+    "descriptionKey": "categoryItems.countries.countries_10.description",
+    "order": 10
+  },
+  {
+    "id": "countries_11",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_11.name",
+    "descriptionKey": "categoryItems.countries.countries_11.description",
+    "order": 11
+  },
+  {
+    "id": "countries_12",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_12.name",
+    "descriptionKey": "categoryItems.countries.countries_12.description",
+    "order": 12
+  },
+  {
+    "id": "countries_13",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_13.name",
+    "descriptionKey": "categoryItems.countries.countries_13.description",
+    "order": 13
+  },
+  {
+    "id": "countries_14",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_14.name",
+    "descriptionKey": "categoryItems.countries.countries_14.description",
+    "order": 14
+  },
+  {
+    "id": "countries_15",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_15.name",
+    "descriptionKey": "categoryItems.countries.countries_15.description",
+    "order": 15
+  },
+  {
+    "id": "countries_16",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_16.name",
+    "descriptionKey": "categoryItems.countries.countries_16.description",
+    "order": 16
+  },
+  {
+    "id": "countries_17",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_17.name",
+    "descriptionKey": "categoryItems.countries.countries_17.description",
+    "order": 17
+  },
+  {
+    "id": "countries_18",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_18.name",
+    "descriptionKey": "categoryItems.countries.countries_18.description",
+    "order": 18
+  },
+  {
+    "id": "countries_19",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_19.name",
+    "descriptionKey": "categoryItems.countries.countries_19.description",
+    "order": 19
+  },
+  {
+    "id": "countries_20",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_20.name",
+    "descriptionKey": "categoryItems.countries.countries_20.description",
+    "order": 20
+  },
+  {
+    "id": "countries_21",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_21.name",
+    "descriptionKey": "categoryItems.countries.countries_21.description",
+    "order": 21
+  },
+  {
+    "id": "countries_22",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_22.name",
+    "descriptionKey": "categoryItems.countries.countries_22.description",
+    "order": 22
+  },
+  {
+    "id": "countries_23",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_23.name",
+    "descriptionKey": "categoryItems.countries.countries_23.description",
+    "order": 23
+  },
+  {
+    "id": "countries_24",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_24.name",
+    "descriptionKey": "categoryItems.countries.countries_24.description",
+    "order": 24
+  },
+  {
+    "id": "countries_25",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_25.name",
+    "descriptionKey": "categoryItems.countries.countries_25.description",
+    "order": 25
+  },
+  {
+    "id": "countries_26",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_26.name",
+    "descriptionKey": "categoryItems.countries.countries_26.description",
+    "order": 26
+  },
+  {
+    "id": "countries_27",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_27.name",
+    "descriptionKey": "categoryItems.countries.countries_27.description",
+    "order": 27
+  },
+  {
+    "id": "countries_28",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_28.name",
+    "descriptionKey": "categoryItems.countries.countries_28.description",
+    "order": 28
+  },
+  {
+    "id": "countries_29",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_29.name",
+    "descriptionKey": "categoryItems.countries.countries_29.description",
+    "order": 29
+  },
+  {
+    "id": "countries_30",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_30.name",
+    "descriptionKey": "categoryItems.countries.countries_30.description",
+    "order": 30
+  },
+  {
+    "id": "countries_31",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_31.name",
+    "descriptionKey": "categoryItems.countries.countries_31.description",
+    "order": 31
+  },
+  {
+    "id": "countries_32",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_32.name",
+    "descriptionKey": "categoryItems.countries.countries_32.description",
+    "order": 32
+  },
+  {
+    "id": "countries_33",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_33.name",
+    "descriptionKey": "categoryItems.countries.countries_33.description",
+    "order": 33
+  },
+  {
+    "id": "countries_34",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_34.name",
+    "descriptionKey": "categoryItems.countries.countries_34.description",
+    "order": 34
+  },
+  {
+    "id": "countries_35",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_35.name",
+    "descriptionKey": "categoryItems.countries.countries_35.description",
+    "order": 35
+  },
+  {
+    "id": "countries_36",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_36.name",
+    "descriptionKey": "categoryItems.countries.countries_36.description",
+    "order": 36
+  },
+  {
+    "id": "countries_37",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_37.name",
+    "descriptionKey": "categoryItems.countries.countries_37.description",
+    "order": 37
+  },
+  {
+    "id": "countries_38",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_38.name",
+    "descriptionKey": "categoryItems.countries.countries_38.description",
+    "order": 38
+  },
+  {
+    "id": "countries_39",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_39.name",
+    "descriptionKey": "categoryItems.countries.countries_39.description",
+    "order": 39
+  },
+  {
+    "id": "countries_40",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_40.name",
+    "descriptionKey": "categoryItems.countries.countries_40.description",
+    "order": 40
+  },
+  {
+    "id": "countries_41",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_41.name",
+    "descriptionKey": "categoryItems.countries.countries_41.description",
+    "order": 41
+  },
+  {
+    "id": "countries_42",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_42.name",
+    "descriptionKey": "categoryItems.countries.countries_42.description",
+    "order": 42
+  },
+  {
+    "id": "countries_43",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_43.name",
+    "descriptionKey": "categoryItems.countries.countries_43.description",
+    "order": 43
+  },
+  {
+    "id": "countries_44",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_44.name",
+    "descriptionKey": "categoryItems.countries.countries_44.description",
+    "order": 44
+  },
+  {
+    "id": "countries_45",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_45.name",
+    "descriptionKey": "categoryItems.countries.countries_45.description",
+    "order": 45
+  },
+  {
+    "id": "countries_46",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_46.name",
+    "descriptionKey": "categoryItems.countries.countries_46.description",
+    "order": 46
+  },
+  {
+    "id": "countries_47",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_47.name",
+    "descriptionKey": "categoryItems.countries.countries_47.description",
+    "order": 47
+  },
+  {
+    "id": "countries_48",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_48.name",
+    "descriptionKey": "categoryItems.countries.countries_48.description",
+    "order": 48
+  },
+  {
+    "id": "countries_49",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_49.name",
+    "descriptionKey": "categoryItems.countries.countries_49.description",
+    "order": 49
+  },
+  {
+    "id": "countries_50",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_50.name",
+    "descriptionKey": "categoryItems.countries.countries_50.description",
+    "order": 50
+  },
+  {
+    "id": "countries_51",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_51.name",
+    "descriptionKey": "categoryItems.countries.countries_51.description",
+    "order": 51
+  },
+  {
+    "id": "countries_52",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_52.name",
+    "descriptionKey": "categoryItems.countries.countries_52.description",
+    "order": 52
+  },
+  {
+    "id": "countries_53",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_53.name",
+    "descriptionKey": "categoryItems.countries.countries_53.description",
+    "order": 53
+  },
+  {
+    "id": "countries_54",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_54.name",
+    "descriptionKey": "categoryItems.countries.countries_54.description",
+    "order": 54
+  },
+  {
+    "id": "countries_55",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_55.name",
+    "descriptionKey": "categoryItems.countries.countries_55.description",
+    "order": 55
+  },
+  {
+    "id": "countries_56",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_56.name",
+    "descriptionKey": "categoryItems.countries.countries_56.description",
+    "order": 56
+  },
+  {
+    "id": "countries_57",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_57.name",
+    "descriptionKey": "categoryItems.countries.countries_57.description",
+    "order": 57
+  },
+  {
+    "id": "countries_58",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_58.name",
+    "descriptionKey": "categoryItems.countries.countries_58.description",
+    "order": 58
+  },
+  {
+    "id": "countries_59",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_59.name",
+    "descriptionKey": "categoryItems.countries.countries_59.description",
+    "order": 59
+  },
+  {
+    "id": "countries_60",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_60.name",
+    "descriptionKey": "categoryItems.countries.countries_60.description",
+    "order": 60
+  },
+  {
+    "id": "countries_61",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_61.name",
+    "descriptionKey": "categoryItems.countries.countries_61.description",
+    "order": 61
+  },
+  {
+    "id": "countries_62",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_62.name",
+    "descriptionKey": "categoryItems.countries.countries_62.description",
+    "order": 62
+  },
+  {
+    "id": "countries_63",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_63.name",
+    "descriptionKey": "categoryItems.countries.countries_63.description",
+    "order": 63
+  },
+  {
+    "id": "countries_64",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_64.name",
+    "descriptionKey": "categoryItems.countries.countries_64.description",
+    "order": 64
+  },
+  {
+    "id": "countries_65",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_65.name",
+    "descriptionKey": "categoryItems.countries.countries_65.description",
+    "order": 65
+  },
+  {
+    "id": "countries_66",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_66.name",
+    "descriptionKey": "categoryItems.countries.countries_66.description",
+    "order": 66
+  },
+  {
+    "id": "countries_67",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_67.name",
+    "descriptionKey": "categoryItems.countries.countries_67.description",
+    "order": 67
+  },
+  {
+    "id": "countries_68",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_68.name",
+    "descriptionKey": "categoryItems.countries.countries_68.description",
+    "order": 68
+  },
+  {
+    "id": "countries_69",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_69.name",
+    "descriptionKey": "categoryItems.countries.countries_69.description",
+    "order": 69
+  },
+  {
+    "id": "countries_70",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_70.name",
+    "descriptionKey": "categoryItems.countries.countries_70.description",
+    "order": 70
+  },
+  {
+    "id": "countries_71",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_71.name",
+    "descriptionKey": "categoryItems.countries.countries_71.description",
+    "order": 71
+  },
+  {
+    "id": "countries_72",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_72.name",
+    "descriptionKey": "categoryItems.countries.countries_72.description",
+    "order": 72
+  },
+  {
+    "id": "countries_73",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_73.name",
+    "descriptionKey": "categoryItems.countries.countries_73.description",
+    "order": 73
+  },
+  {
+    "id": "countries_74",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_74.name",
+    "descriptionKey": "categoryItems.countries.countries_74.description",
+    "order": 74
+  },
+  {
+    "id": "countries_75",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_75.name",
+    "descriptionKey": "categoryItems.countries.countries_75.description",
+    "order": 75
+  },
+  {
+    "id": "countries_76",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_76.name",
+    "descriptionKey": "categoryItems.countries.countries_76.description",
+    "order": 76
+  },
+  {
+    "id": "countries_77",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_77.name",
+    "descriptionKey": "categoryItems.countries.countries_77.description",
+    "order": 77
+  },
+  {
+    "id": "countries_79",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_79.name",
+    "descriptionKey": "categoryItems.countries.countries_79.description",
+    "order": 79
+  },
+  {
+    "id": "countries_83",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_83.name",
+    "descriptionKey": "categoryItems.countries.countries_83.description",
+    "order": 83
+  },
+  {
+    "id": "countries_84",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_84.name",
+    "descriptionKey": "categoryItems.countries.countries_84.description",
+    "order": 84
+  },
+  {
+    "id": "countries_85",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_85.name",
+    "descriptionKey": "categoryItems.countries.countries_85.description",
+    "order": 85
+  },
+  {
+    "id": "countries_93",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_93.name",
+    "descriptionKey": "categoryItems.countries.countries_93.description",
+    "order": 93
+  },
+  {
+    "id": "countries_96",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_96.name",
+    "descriptionKey": "categoryItems.countries.countries_96.description",
+    "order": 96
+  },
+  {
+    "id": "countries_98",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_98.name",
+    "descriptionKey": "categoryItems.countries.countries_98.description",
+    "order": 98
+  },
+  {
+    "id": "countries_99",
+    "categoryId": "countries",
+    "nameKey": "categoryItems.countries.countries_99.name",
+    "descriptionKey": "categoryItems.countries.countries_99.description",
+    "order": 99
   }
 ]

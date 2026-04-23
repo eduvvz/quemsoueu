@@ -1,6 +1,13 @@
-import { createContext, PropsWithChildren, useContext, useEffect, useMemo, useState } from 'react';
+import {
+  createContext,
+  PropsWithChildren,
+  useContext,
+  useEffect,
+  useMemo,
+  useState,
+} from "react";
 
-import { posthog } from '@/lib/posthog';
+import { posthog } from "@/lib/posthog";
 
 export const monetizationConfig = {
   free: {
@@ -14,7 +21,7 @@ export const monetizationConfig = {
   pricing: {
     pass24h: 9.9,
     lifetime: 99.9,
-    currency: 'BRL',
+    currency: "BRL",
   },
   pass: {
     durationMs: 24 * 60 * 60 * 1000,
@@ -22,23 +29,23 @@ export const monetizationConfig = {
 } as const;
 
 export type MonetizationEventName =
-  | 'ad_watched'
-  | 'category_unlocked_by_ad'
-  | 'interstitial_ad_requested'
-  | 'interstitial_ad_shown'
-  | 'interstitial_ad_skipped'
-  | 'paywall_viewed'
-  | 'pass_24h_clicked'
-  | 'lifetime_clicked'
-  | 'purchase_completed';
+  | "ad_watched"
+  | "category_unlocked_by_ad"
+  | "interstitial_ad_requested"
+  | "interstitial_ad_shown"
+  | "interstitial_ad_skipped"
+  | "paywall_viewed"
+  | "pass_24h_clicked"
+  | "lifetime_clicked"
+  | "purchase_completed";
 
-type UnlockState = 'free' | 'ad_session' | 'pass_24h' | 'lifetime' | 'locked';
+type UnlockState = "free" | "ad_session" | "pass_24h" | "lifetime" | "locked";
 
 type AdSessionUnlock = {
   roundsRemaining: number;
 };
 
-type PaywallTrigger = 'home' | 'locked_category' | 'post_round' | 'ads_watched';
+type PaywallTrigger = "home" | "locked_category" | "post_round" | "ads_watched";
 
 type MonetizationContextValue = {
   adCooldownRemainingMs: number;
@@ -51,12 +58,12 @@ type MonetizationContextValue = {
   roundsPlayed: number;
   trackMonetizationEvent: (
     eventName: MonetizationEventName,
-    payload?: Record<string, unknown>
+    payload?: Record<string, unknown>,
   ) => void;
   canWatchRewardedAd: () => boolean;
   getCategoryUnlockState: (
     categoryId: string,
-    requiresUnlock: boolean
+    requiresUnlock: boolean,
   ) => UnlockState;
   isCategoryUnlocked: (categoryId: string, requiresUnlock: boolean) => boolean;
   markRoundCompleted: (categoryIds: string[]) => void;
@@ -68,7 +75,9 @@ type MonetizationContextValue = {
   activateLifetimeEntitlement: () => void;
 };
 
-const MonetizationContext = createContext<MonetizationContextValue | null>(null);
+const MonetizationContext = createContext<MonetizationContextValue | null>(
+  null,
+);
 
 function now() {
   return Date.now();
@@ -81,7 +90,9 @@ function isTimestampActive(timestamp: number | null) {
 export function MonetizationProvider({ children }: PropsWithChildren) {
   const [passExpiresAt, setPassExpiresAt] = useState<number | null>(null);
   const [lifetimeUnlocked, setLifetimeUnlocked] = useState(false);
-  const [adSessionUnlocks, setAdSessionUnlocks] = useState<Record<string, AdSessionUnlock>>({});
+  const [adSessionUnlocks, setAdSessionUnlocks] = useState<
+    Record<string, AdSessionUnlock>
+  >({});
   const [lastRewardedAdAt, setLastRewardedAdAt] = useState<number | null>(null);
   const [rewardedAdsWatched, setRewardedAdsWatched] = useState(0);
   const [roundsPlayed, setRoundsPlayed] = useState(0);
@@ -92,7 +103,9 @@ export function MonetizationProvider({ children }: PropsWithChildren) {
   void cooldownTick;
   const adCooldownRemainingMs = Math.max(
     0,
-    (lastRewardedAdAt ?? 0) + monetizationConfig.free.rewardedAdCooldownMs - now()
+    (lastRewardedAdAt ?? 0) +
+      monetizationConfig.free.rewardedAdCooldownMs -
+      now(),
   );
 
   useEffect(() => {
@@ -123,22 +136,22 @@ export function MonetizationProvider({ children }: PropsWithChildren) {
       canWatchRewardedAd: () => adCooldownRemainingMs === 0 && !isPremiumUser,
       getCategoryUnlockState: (categoryId, requiresUnlock) => {
         if (!requiresUnlock) {
-          return 'free';
+          return "free";
         }
 
         if (lifetimeUnlocked) {
-          return 'lifetime';
+          return "lifetime";
         }
 
         if (hasActivePass) {
-          return 'pass_24h';
+          return "pass_24h";
         }
 
         if ((adSessionUnlocks[categoryId]?.roundsRemaining ?? 0) > 0) {
-          return 'ad_session';
+          return "ad_session";
         }
 
-        return 'locked';
+        return "locked";
       },
       isCategoryUnlocked: (categoryId, requiresUnlock) => {
         if (!requiresUnlock || isPremiumUser) {
@@ -177,29 +190,32 @@ export function MonetizationProvider({ children }: PropsWithChildren) {
           return false;
         }
 
-        return roundsPlayed % monetizationConfig.free.interstitialFrequency === 0;
+        return (
+          roundsPlayed % monetizationConfig.free.interstitialFrequency === 0
+        );
       },
       shouldShowPaywall: (trigger) => {
         if (isPremiumUser) {
           return false;
         }
 
-        if (trigger === 'locked_category') {
+        if (trigger === "locked_category") {
           return true;
         }
 
-        if (trigger === 'ads_watched') {
+        if (trigger === "ads_watched") {
           return rewardedAdsWatched >= monetizationConfig.free.adsBeforePaywall;
         }
 
-        if (trigger === 'post_round') {
+        if (trigger === "post_round") {
           return (
-            roundsPlayed + 1 >= monetizationConfig.free.minRoundsBeforePaywall ||
+            roundsPlayed + 1 >=
+              monetizationConfig.free.minRoundsBeforePaywall ||
             rewardedAdsWatched >= monetizationConfig.free.adsBeforePaywall
           );
         }
 
-        return trigger === 'home';
+        return trigger === "home";
       },
       watchAdToUnlockSession: (categoryId) => {
         if (adCooldownRemainingMs > 0 || isPremiumUser) {
@@ -215,8 +231,8 @@ export function MonetizationProvider({ children }: PropsWithChildren) {
           },
         }));
 
-        posthog.capture('rewarded_ad_watched', { category_id: categoryId });
-        posthog.capture('category_unlocked_by_ad', {
+        posthog.capture("rewarded_ad_watched", { category_id: categoryId });
+        posthog.capture("category_unlocked_by_ad", {
           category_id: categoryId,
           rounds: monetizationConfig.free.sessionRoundsPerAd,
         });
@@ -225,19 +241,19 @@ export function MonetizationProvider({ children }: PropsWithChildren) {
       },
       unlock24hPass: () => {
         setPassExpiresAt(now() + monetizationConfig.pass.durationMs);
-        posthog.capture('pass_24h_purchase_initiated', {
+        posthog.capture("pass_24h_purchase_initiated", {
           price: monetizationConfig.pricing.pass24h,
           currency: monetizationConfig.pricing.currency,
         });
-        posthog.capture('purchase_completed', { product_id: 'pass_24h' });
+        posthog.capture("purchase_completed", { product_id: "pass_24h" });
       },
       unlockLifetime: () => {
         setLifetimeUnlocked(true);
-        posthog.capture('lifetime_purchase_initiated', {
+        posthog.capture("lifetime_purchase_initiated", {
           price: monetizationConfig.pricing.lifetime,
           currency: monetizationConfig.pricing.currency,
         });
-        posthog.capture('purchase_completed', { product_id: 'lifetime' });
+        posthog.capture("purchase_completed", { product_id: "lifetime" });
       },
       activateLifetimeEntitlement: () => {
         setLifetimeUnlocked(true);
@@ -252,17 +268,21 @@ export function MonetizationProvider({ children }: PropsWithChildren) {
       passExpiresAt,
       rewardedAdsWatched,
       roundsPlayed,
-    ]
+    ],
   );
 
-  return <MonetizationContext.Provider value={value}>{children}</MonetizationContext.Provider>;
+  return (
+    <MonetizationContext.Provider value={value}>
+      {children}
+    </MonetizationContext.Provider>
+  );
 }
 
 export function useMonetization() {
   const context = useContext(MonetizationContext);
 
   if (!context) {
-    throw new Error('useMonetization must be used inside MonetizationProvider');
+    throw new Error("useMonetization must be used inside MonetizationProvider");
   }
 
   return context;

@@ -5,5 +5,698 @@
     "nameKey": "categoryItems.food.food_1.name",
     "descriptionKey": "categoryItems.food.food_1.description",
     "order": 1
+  },
+  {
+    "id": "food_2",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_2.name",
+    "descriptionKey": "categoryItems.food.food_2.description",
+    "order": 2
+  },
+  {
+    "id": "food_3",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_3.name",
+    "descriptionKey": "categoryItems.food.food_3.description",
+    "order": 3
+  },
+  {
+    "id": "food_4",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_4.name",
+    "descriptionKey": "categoryItems.food.food_4.description",
+    "order": 4
+  },
+  {
+    "id": "food_5",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_5.name",
+    "descriptionKey": "categoryItems.food.food_5.description",
+    "order": 5
+  },
+  {
+    "id": "food_6",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_6.name",
+    "descriptionKey": "categoryItems.food.food_6.description",
+    "order": 6
+  },
+  {
+    "id": "food_7",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_7.name",
+    "descriptionKey": "categoryItems.food.food_7.description",
+    "order": 7
+  },
+  {
+    "id": "food_8",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_8.name",
+    "descriptionKey": "categoryItems.food.food_8.description",
+    "order": 8
+  },
+  {
+    "id": "food_9",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_9.name",
+    "descriptionKey": "categoryItems.food.food_9.description",
+    "order": 9
+  },
+  {
+    "id": "food_10",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_10.name",
+    "descriptionKey": "categoryItems.food.food_10.description",
+    "order": 10
+  },
+  {
+    "id": "food_11",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_11.name",
+    "descriptionKey": "categoryItems.food.food_11.description",
+    "order": 11
+  },
+  {
+    "id": "food_12",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_12.name",
+    "descriptionKey": "categoryItems.food.food_12.description",
+    "order": 12
+  },
+  {
+    "id": "food_13",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_13.name",
+    "descriptionKey": "categoryItems.food.food_13.description",
+    "order": 13
+  },
+  {
+    "id": "food_14",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_14.name",
+    "descriptionKey": "categoryItems.food.food_14.description",
+    "order": 14
+  },
+  {
+    "id": "food_15",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_15.name",
+    "descriptionKey": "categoryItems.food.food_15.description",
+    "order": 15
+  },
+  {
+    "id": "food_16",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_16.name",
+    "descriptionKey": "categoryItems.food.food_16.description",
+    "order": 16
+  },
+  {
+    "id": "food_17",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_17.name",
+    "descriptionKey": "categoryItems.food.food_17.description",
+    "order": 17
+  },
+  {
+    "id": "food_18",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_18.name",
+    "descriptionKey": "categoryItems.food.food_18.description",
+    "order": 18
+  },
+  {
+    "id": "food_19",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_19.name",
+    "descriptionKey": "categoryItems.food.food_19.description",
+    "order": 19
+  },
+  {
+    "id": "food_20",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_20.name",
+    "descriptionKey": "categoryItems.food.food_20.description",
+    "order": 20
+  },
+  {
+    "id": "food_21",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_21.name",
+    "descriptionKey": "categoryItems.food.food_21.description",
+    "order": 21
+  },
+  {
+    "id": "food_22",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_22.name",
+    "descriptionKey": "categoryItems.food.food_22.description",
+    "order": 22
+  },
+  {
+    "id": "food_23",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_23.name",
+    "descriptionKey": "categoryItems.food.food_23.description",
+    "order": 23
+  },
+  {
+    "id": "food_24",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_24.name",
+    "descriptionKey": "categoryItems.food.food_24.description",
+    "order": 24
+  },
+  {
+    "id": "food_25",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_25.name",
+    "descriptionKey": "categoryItems.food.food_25.description",
+    "order": 25
+  },
+  {
+    "id": "food_26",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_26.name",
+    "descriptionKey": "categoryItems.food.food_26.description",
+    "order": 26
+  },
+  {
+    "id": "food_27",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_27.name",
+    "descriptionKey": "categoryItems.food.food_27.description",
+    "order": 27
+  },
+  {
+    "id": "food_28",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_28.name",
+    "descriptionKey": "categoryItems.food.food_28.description",
+    "order": 28
+  },
+  {
+    "id": "food_29",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_29.name",
+    "descriptionKey": "categoryItems.food.food_29.description",
+    "order": 29
+  },
+  {
+    "id": "food_30",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_30.name",
+    "descriptionKey": "categoryItems.food.food_30.description",
+    "order": 30
+  },
+  {
+    "id": "food_31",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_31.name",
+    "descriptionKey": "categoryItems.food.food_31.description",
+    "order": 31
+  },
+  {
+    "id": "food_32",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_32.name",
+    "descriptionKey": "categoryItems.food.food_32.description",
+    "order": 32
+  },
+  {
+    "id": "food_33",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_33.name",
+    "descriptionKey": "categoryItems.food.food_33.description",
+    "order": 33
+  },
+  {
+    "id": "food_34",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_34.name",
+    "descriptionKey": "categoryItems.food.food_34.description",
+    "order": 34
+  },
+  {
+    "id": "food_35",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_35.name",
+    "descriptionKey": "categoryItems.food.food_35.description",
+    "order": 35
+  },
+  {
+    "id": "food_36",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_36.name",
+    "descriptionKey": "categoryItems.food.food_36.description",
+    "order": 36
+  },
+  {
+    "id": "food_37",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_37.name",
+    "descriptionKey": "categoryItems.food.food_37.description",
+    "order": 37
+  },
+  {
+    "id": "food_38",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_38.name",
+    "descriptionKey": "categoryItems.food.food_38.description",
+    "order": 38
+  },
+  {
+    "id": "food_39",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_39.name",
+    "descriptionKey": "categoryItems.food.food_39.description",
+    "order": 39
+  },
+  {
+    "id": "food_40",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_40.name",
+    "descriptionKey": "categoryItems.food.food_40.description",
+    "order": 40
+  },
+  {
+    "id": "food_41",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_41.name",
+    "descriptionKey": "categoryItems.food.food_41.description",
+    "order": 41
+  },
+  {
+    "id": "food_42",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_42.name",
+    "descriptionKey": "categoryItems.food.food_42.description",
+    "order": 42
+  },
+  {
+    "id": "food_43",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_43.name",
+    "descriptionKey": "categoryItems.food.food_43.description",
+    "order": 43
+  },
+  {
+    "id": "food_44",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_44.name",
+    "descriptionKey": "categoryItems.food.food_44.description",
+    "order": 44
+  },
+  {
+    "id": "food_45",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_45.name",
+    "descriptionKey": "categoryItems.food.food_45.description",
+    "order": 45
+  },
+  {
+    "id": "food_46",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_46.name",
+    "descriptionKey": "categoryItems.food.food_46.description",
+    "order": 46
+  },
+  {
+    "id": "food_47",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_47.name",
+    "descriptionKey": "categoryItems.food.food_47.description",
+    "order": 47
+  },
+  {
+    "id": "food_48",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_48.name",
+    "descriptionKey": "categoryItems.food.food_48.description",
+    "order": 48
+  },
+  {
+    "id": "food_49",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_49.name",
+    "descriptionKey": "categoryItems.food.food_49.description",
+    "order": 49
+  },
+  {
+    "id": "food_50",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_50.name",
+    "descriptionKey": "categoryItems.food.food_50.description",
+    "order": 50
+  },
+  {
+    "id": "food_51",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_51.name",
+    "descriptionKey": "categoryItems.food.food_51.description",
+    "order": 51
+  },
+  {
+    "id": "food_52",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_52.name",
+    "descriptionKey": "categoryItems.food.food_52.description",
+    "order": 52
+  },
+  {
+    "id": "food_53",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_53.name",
+    "descriptionKey": "categoryItems.food.food_53.description",
+    "order": 53
+  },
+  {
+    "id": "food_54",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_54.name",
+    "descriptionKey": "categoryItems.food.food_54.description",
+    "order": 54
+  },
+  {
+    "id": "food_55",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_55.name",
+    "descriptionKey": "categoryItems.food.food_55.description",
+    "order": 55
+  },
+  {
+    "id": "food_56",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_56.name",
+    "descriptionKey": "categoryItems.food.food_56.description",
+    "order": 56
+  },
+  {
+    "id": "food_57",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_57.name",
+    "descriptionKey": "categoryItems.food.food_57.description",
+    "order": 57
+  },
+  {
+    "id": "food_58",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_58.name",
+    "descriptionKey": "categoryItems.food.food_58.description",
+    "order": 58
+  },
+  {
+    "id": "food_59",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_59.name",
+    "descriptionKey": "categoryItems.food.food_59.description",
+    "order": 59
+  },
+  {
+    "id": "food_60",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_60.name",
+    "descriptionKey": "categoryItems.food.food_60.description",
+    "order": 60
+  },
+  {
+    "id": "food_61",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_61.name",
+    "descriptionKey": "categoryItems.food.food_61.description",
+    "order": 61
+  },
+  {
+    "id": "food_62",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_62.name",
+    "descriptionKey": "categoryItems.food.food_62.description",
+    "order": 62
+  },
+  {
+    "id": "food_63",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_63.name",
+    "descriptionKey": "categoryItems.food.food_63.description",
+    "order": 63
+  },
+  {
+    "id": "food_64",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_64.name",
+    "descriptionKey": "categoryItems.food.food_64.description",
+    "order": 64
+  },
+  {
+    "id": "food_65",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_65.name",
+    "descriptionKey": "categoryItems.food.food_65.description",
+    "order": 65
+  },
+  {
+    "id": "food_66",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_66.name",
+    "descriptionKey": "categoryItems.food.food_66.description",
+    "order": 66
+  },
+  {
+    "id": "food_67",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_67.name",
+    "descriptionKey": "categoryItems.food.food_67.description",
+    "order": 67
+  },
+  {
+    "id": "food_68",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_68.name",
+    "descriptionKey": "categoryItems.food.food_68.description",
+    "order": 68
+  },
+  {
+    "id": "food_69",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_69.name",
+    "descriptionKey": "categoryItems.food.food_69.description",
+    "order": 69
+  },
+  {
+    "id": "food_70",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_70.name",
+    "descriptionKey": "categoryItems.food.food_70.description",
+    "order": 70
+  },
+  {
+    "id": "food_71",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_71.name",
+    "descriptionKey": "categoryItems.food.food_71.description",
+    "order": 71
+  },
+  {
+    "id": "food_72",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_72.name",
+    "descriptionKey": "categoryItems.food.food_72.description",
+    "order": 72
+  },
+  {
+    "id": "food_73",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_73.name",
+    "descriptionKey": "categoryItems.food.food_73.description",
+    "order": 73
+  },
+  {
+    "id": "food_74",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_74.name",
+    "descriptionKey": "categoryItems.food.food_74.description",
+    "order": 74
+  },
+  {
+    "id": "food_75",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_75.name",
+    "descriptionKey": "categoryItems.food.food_75.description",
+    "order": 75
+  },
+  {
+    "id": "food_76",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_76.name",
+    "descriptionKey": "categoryItems.food.food_76.description",
+    "order": 76
+  },
+  {
+    "id": "food_77",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_77.name",
+    "descriptionKey": "categoryItems.food.food_77.description",
+    "order": 77
+  },
+  {
+    "id": "food_78",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_78.name",
+    "descriptionKey": "categoryItems.food.food_78.description",
+    "order": 78
+  },
+  {
+    "id": "food_79",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_79.name",
+    "descriptionKey": "categoryItems.food.food_79.description",
+    "order": 79
+  },
+  {
+    "id": "food_80",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_80.name",
+    "descriptionKey": "categoryItems.food.food_80.description",
+    "order": 80
+  },
+  {
+    "id": "food_81",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_81.name",
+    "descriptionKey": "categoryItems.food.food_81.description",
+    "order": 81
+  },
+  {
+    "id": "food_82",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_82.name",
+    "descriptionKey": "categoryItems.food.food_82.description",
+    "order": 82
+  },
+  {
+    "id": "food_83",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_83.name",
+    "descriptionKey": "categoryItems.food.food_83.description",
+    "order": 83
+  },
+  {
+    "id": "food_84",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_84.name",
+    "descriptionKey": "categoryItems.food.food_84.description",
+    "order": 84
+  },
+  {
+    "id": "food_85",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_85.name",
+    "descriptionKey": "categoryItems.food.food_85.description",
+    "order": 85
+  },
+  {
+    "id": "food_86",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_86.name",
+    "descriptionKey": "categoryItems.food.food_86.description",
+    "order": 86
+  },
+  {
+    "id": "food_87",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_87.name",
+    "descriptionKey": "categoryItems.food.food_87.description",
+    "order": 87
+  },
+  {
+    "id": "food_88",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_88.name",
+    "descriptionKey": "categoryItems.food.food_88.description",
+    "order": 88
+  },
+  {
+    "id": "food_89",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_89.name",
+    "descriptionKey": "categoryItems.food.food_89.description",
+    "order": 89
+  },
+  {
+    "id": "food_90",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_90.name",
+    "descriptionKey": "categoryItems.food.food_90.description",
+    "order": 90
+  },
+  {
+    "id": "food_91",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_91.name",
+    "descriptionKey": "categoryItems.food.food_91.description",
+    "order": 91
+  },
+  {
+    "id": "food_92",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_92.name",
+    "descriptionKey": "categoryItems.food.food_92.description",
+    "order": 92
+  },
+  {
+    "id": "food_93",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_93.name",
+    "descriptionKey": "categoryItems.food.food_93.description",
+    "order": 93
+  },
+  {
+    "id": "food_94",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_94.name",
+    "descriptionKey": "categoryItems.food.food_94.description",
+    "order": 94
+  },
+  {
+    "id": "food_95",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_95.name",
+    "descriptionKey": "categoryItems.food.food_95.description",
+    "order": 95
+  },
+  {
+    "id": "food_96",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_96.name",
+    "descriptionKey": "categoryItems.food.food_96.description",
+    "order": 96
+  },
+  {
+    "id": "food_97",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_97.name",
+    "descriptionKey": "categoryItems.food.food_97.description",
+    "order": 97
+  },
+  {
+    "id": "food_98",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_98.name",
+    "descriptionKey": "categoryItems.food.food_98.description",
+    "order": 98
+  },
+  {
+    "id": "food_99",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_99.name",
+    "descriptionKey": "categoryItems.food.food_99.description",
+    "order": 99
+  },
+  {
+    "id": "food_100",
+    "categoryId": "food",
+    "nameKey": "categoryItems.food.food_100.name",
+    "descriptionKey": "categoryItems.food.food_100.description",
+    "order": 100
   }
 ]

@@ -5,5 +5,698 @@
     "nameKey": "categoryItems.famous_brands.famous_brands_1.name",
     "descriptionKey": "categoryItems.famous_brands.famous_brands_1.description",
     "order": 1
+  },
+  {
+    "id": "famous_brands_2",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_2.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_2.description",
+    "order": 2
+  },
+  {
+    "id": "famous_brands_3",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_3.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_3.description",
+    "order": 3
+  },
+  {
+    "id": "famous_brands_4",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_4.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_4.description",
+    "order": 4
+  },
+  {
+    "id": "famous_brands_5",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_5.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_5.description",
+    "order": 5
+  },
+  {
+    "id": "famous_brands_6",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_6.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_6.description",
+    "order": 6
+  },
+  {
+    "id": "famous_brands_7",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_7.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_7.description",
+    "order": 7
+  },
+  {
+    "id": "famous_brands_8",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_8.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_8.description",
+    "order": 8
+  },
+  {
+    "id": "famous_brands_9",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_9.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_9.description",
+    "order": 9
+  },
+  {
+    "id": "famous_brands_10",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_10.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_10.description",
+    "order": 10
+  },
+  {
+    "id": "famous_brands_11",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_11.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_11.description",
+    "order": 11
+  },
+  {
+    "id": "famous_brands_12",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_12.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_12.description",
+    "order": 12
+  },
+  {
+    "id": "famous_brands_13",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_13.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_13.description",
+    "order": 13
+  },
+  {
+    "id": "famous_brands_14",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_14.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_14.description",
+    "order": 14
+  },
+  {
+    "id": "famous_brands_15",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_15.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_15.description",
+    "order": 15
+  },
+  {
+    "id": "famous_brands_16",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_16.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_16.description",
+    "order": 16
+  },
+  {
+    "id": "famous_brands_17",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_17.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_17.description",
+    "order": 17
+  },
+  {
+    "id": "famous_brands_18",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_18.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_18.description",
+    "order": 18
+  },
+  {
+    "id": "famous_brands_19",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_19.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_19.description",
+    "order": 19
+  },
+  {
+    "id": "famous_brands_20",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_20.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_20.description",
+    "order": 20
+  },
+  {
+    "id": "famous_brands_21",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_21.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_21.description",
+    "order": 21
+  },
+  {
+    "id": "famous_brands_22",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_22.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_22.description",
+    "order": 22
+  },
+  {
+    "id": "famous_brands_23",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_23.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_23.description",
+    "order": 23
+  },
+  {
+    "id": "famous_brands_24",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_24.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_24.description",
+    "order": 24
+  },
+  {
+    "id": "famous_brands_25",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_25.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_25.description",
+    "order": 25
+  },
+  {
+    "id": "famous_brands_26",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_26.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_26.description",
+    "order": 26
+  },
+  {
+    "id": "famous_brands_27",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_27.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_27.description",
+    "order": 27
+  },
+  {
+    "id": "famous_brands_28",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_28.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_28.description",
+    "order": 28
+  },
+  {
+    "id": "famous_brands_29",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_29.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_29.description",
+    "order": 29
+  },
+  {
+    "id": "famous_brands_30",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_30.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_30.description",
+    "order": 30
+  },
+  {
+    "id": "famous_brands_31",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_31.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_31.description",
+    "order": 31
+  },
+  {
+    "id": "famous_brands_32",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_32.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_32.description",
+    "order": 32
+  },
+  {
+    "id": "famous_brands_33",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_33.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_33.description",
+    "order": 33
+  },
+  {
+    "id": "famous_brands_34",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_34.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_34.description",
+    "order": 34
+  },
+  {
+    "id": "famous_brands_35",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_35.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_35.description",
+    "order": 35
+  },
+  {
+    "id": "famous_brands_36",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_36.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_36.description",
+    "order": 36
+  },
+  {
+    "id": "famous_brands_37",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_37.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_37.description",
+    "order": 37
+  },
+  {
+    "id": "famous_brands_38",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_38.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_38.description",
+    "order": 38
+  },
+  {
+    "id": "famous_brands_39",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_39.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_39.description",
+    "order": 39
+  },
+  {
+    "id": "famous_brands_40",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_40.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_40.description",
+    "order": 40
+  },
+  {
+    "id": "famous_brands_41",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_41.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_41.description",
+    "order": 41
+  },
+  {
+    "id": "famous_brands_42",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_42.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_42.description",
+    "order": 42
+  },
+  {
+    "id": "famous_brands_43",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_43.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_43.description",
+    "order": 43
+  },
+  {
+    "id": "famous_brands_44",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_44.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_44.description",
+    "order": 44
+  },
+  {
+    "id": "famous_brands_45",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_45.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_45.description",
+    "order": 45
+  },
+  {
+    "id": "famous_brands_46",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_46.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_46.description",
+    "order": 46
+  },
+  {
+    "id": "famous_brands_47",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_47.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_47.description",
+    "order": 47
+  },
+  {
+    "id": "famous_brands_48",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_48.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_48.description",
+    "order": 48
+  },
+  {
+    "id": "famous_brands_49",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_49.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_49.description",
+    "order": 49
+  },
+  {
+    "id": "famous_brands_50",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_50.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_50.description",
+    "order": 50
+  },
+  {
+    "id": "famous_brands_51",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_51.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_51.description",
+    "order": 51
+  },
+  {
+    "id": "famous_brands_52",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_52.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_52.description",
+    "order": 52
+  },
+  {
+    "id": "famous_brands_53",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_53.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_53.description",
+    "order": 53
+  },
+  {
+    "id": "famous_brands_54",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_54.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_54.description",
+    "order": 54
+  },
+  {
+    "id": "famous_brands_55",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_55.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_55.description",
+    "order": 55
+  },
+  {
+    "id": "famous_brands_56",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_56.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_56.description",
+    "order": 56
+  },
+  {
+    "id": "famous_brands_57",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_57.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_57.description",
+    "order": 57
+  },
+  {
+    "id": "famous_brands_58",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_58.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_58.description",
+    "order": 58
+  },
+  {
+    "id": "famous_brands_59",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_59.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_59.description",
+    "order": 59
+  },
+  {
+    "id": "famous_brands_60",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_60.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_60.description",
+    "order": 60
+  },
+  {
+    "id": "famous_brands_61",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_61.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_61.description",
+    "order": 61
+  },
+  {
+    "id": "famous_brands_62",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_62.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_62.description",
+    "order": 62
+  },
+  {
+    "id": "famous_brands_63",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_63.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_63.description",
+    "order": 63
+  },
+  {
+    "id": "famous_brands_64",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_64.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_64.description",
+    "order": 64
+  },
+  {
+    "id": "famous_brands_65",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_65.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_65.description",
+    "order": 65
+  },
+  {
+    "id": "famous_brands_66",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_66.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_66.description",
+    "order": 66
+  },
+  {
+    "id": "famous_brands_67",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_67.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_67.description",
+    "order": 67
+  },
+  {
+    "id": "famous_brands_68",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_68.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_68.description",
+    "order": 68
+  },
+  {
+    "id": "famous_brands_69",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_69.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_69.description",
+    "order": 69
+  },
+  {
+    "id": "famous_brands_70",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_70.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_70.description",
+    "order": 70
+  },
+  {
+    "id": "famous_brands_71",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_71.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_71.description",
+    "order": 71
+  },
+  {
+    "id": "famous_brands_72",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_72.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_72.description",
+    "order": 72
+  },
+  {
+    "id": "famous_brands_73",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_73.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_73.description",
+    "order": 73
+  },
+  {
+    "id": "famous_brands_74",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_74.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_74.description",
+    "order": 74
+  },
+  {
+    "id": "famous_brands_75",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_75.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_75.description",
+    "order": 75
+  },
+  {
+    "id": "famous_brands_76",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_76.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_76.description",
+    "order": 76
+  },
+  {
+    "id": "famous_brands_77",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_77.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_77.description",
+    "order": 77
+  },
+  {
+    "id": "famous_brands_78",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_78.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_78.description",
+    "order": 78
+  },
+  {
+    "id": "famous_brands_79",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_79.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_79.description",
+    "order": 79
+  },
+  {
+    "id": "famous_brands_80",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_80.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_80.description",
+    "order": 80
+  },
+  {
+    "id": "famous_brands_81",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_81.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_81.description",
+    "order": 81
+  },
+  {
+    "id": "famous_brands_82",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_82.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_82.description",
+    "order": 82
+  },
+  {
+    "id": "famous_brands_83",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_83.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_83.description",
+    "order": 83
+  },
+  {
+    "id": "famous_brands_84",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_84.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_84.description",
+    "order": 84
+  },
+  {
+    "id": "famous_brands_85",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_85.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_85.description",
+    "order": 85
+  },
+  {
+    "id": "famous_brands_86",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_86.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_86.description",
+    "order": 86
+  },
+  {
+    "id": "famous_brands_87",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_87.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_87.description",
+    "order": 87
+  },
+  {
+    "id": "famous_brands_88",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_88.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_88.description",
+    "order": 88
+  },
+  {
+    "id": "famous_brands_89",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_89.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_89.description",
+    "order": 89
+  },
+  {
+    "id": "famous_brands_90",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_90.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_90.description",
+    "order": 90
+  },
+  {
+    "id": "famous_brands_91",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_91.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_91.description",
+    "order": 91
+  },
+  {
+    "id": "famous_brands_92",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_92.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_92.description",
+    "order": 92
+  },
+  {
+    "id": "famous_brands_93",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_93.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_93.description",
+    "order": 93
+  },
+  {
+    "id": "famous_brands_94",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_94.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_94.description",
+    "order": 94
+  },
+  {
+    "id": "famous_brands_95",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_95.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_95.description",
+    "order": 95
+  },
+  {
+    "id": "famous_brands_96",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_96.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_96.description",
+    "order": 96
+  },
+  {
+    "id": "famous_brands_97",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_97.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_97.description",
+    "order": 97
+  },
+  {
+    "id": "famous_brands_98",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_98.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_98.description",
+    "order": 98
+  },
+  {
+    "id": "famous_brands_99",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_99.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_99.description",
+    "order": 99
+  },
+  {
+    "id": "famous_brands_100",
+    "categoryId": "famous_brands",
+    "nameKey": "categoryItems.famous_brands.famous_brands_100.name",
+    "descriptionKey": "categoryItems.famous_brands.famous_brands_100.description",
+    "order": 100
   }
 ]

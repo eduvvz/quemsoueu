@@ -8,7 +8,41 @@ const MAX_DESCRIPTION_LENGTH = 120;
 const MIN_GLOBAL_RECOGNITION_SCORE = 8;
 const MAX_LOCALISM_RISK = 3;
 const MIN_PLAYABILITY_SCORE = 8;
-const DEFAULT_OPENAI_MODEL = "gpt-5.2";
+const DEFAULT_OPENAI_MODEL = "gpt-5-mini";
+const PARTY_MODE_CATEGORY_ID = "party_mode";
+const PARTY_MODE_FORBIDDEN_TERMS = [
+  "20 questions",
+  "charades",
+  "challenge",
+  "game prompt",
+  "group challenge",
+  "hot seat",
+  "never have i ever",
+  "party game",
+  "rapid fire",
+  "speed round",
+  "truth or dare",
+  "two truths",
+  "would you rather",
+  "desafio",
+  "duas verdades",
+  "eu nunca",
+  "jogo de festa",
+  "mimica",
+  "rodada relampago",
+  "tiro rapido",
+  "verdade ou desafio",
+  "voce prefere",
+  "actividad",
+  "desafio grupal",
+  "dos verdades",
+  "juego de fiesta",
+  "rafaga",
+  "ronda relampago",
+  "verdad o reto",
+  "yo nunca",
+];
+const PARTY_MODE_NAME_ONLY_FORBIDDEN_TERMS = new Set(["challenge", "desafio"]);
 
 type Locale = (typeof LOCALES)[number];
 
@@ -573,6 +607,7 @@ async function generateCandidatesWithAi(params: {
 
 function buildGenerationPrompt(category: Category, candidateCount: number, existingNames: string[]) {
   const existingNamesPreview = existingNames.length > 0 ? existingNames.join(", ") : "(nenhum)";
+  const categorySpecificRules = getCategorySpecificRules(category.id);
 
   return [
     `Categoria existente: ${category.id}`,
@@ -587,6 +622,7 @@ function buildGenerationPrompt(category: Category, candidateCount: number, exist
     "- As descrições devem ser curtas, neutras e úteis, sem entregar contexto demais.",
     "- Os itens devem funcionar bem com perguntas de sim/não.",
     "- Não repita nenhum item existente nem repita itens dentro da geração atual.",
+    ...(categorySpecificRules.length > 0 ? ["", ...categorySpecificRules] : []),
     "",
     "Scores obrigatórios:",
     `- globalRecognitionScore: 8 a 10; use 8+ somente se o item for amplamente reconhecido internacionalmente.`,
@@ -597,6 +633,23 @@ function buildGenerationPrompt(category: Category, candidateCount: number, exist
     "",
     "Retorne JSON no formato intermediário esperado, com categoryId e items.",
   ].join("\n");
+}
+
+function getCategorySpecificRules(categoryId: string) {
+  if (categoryId !== PARTY_MODE_CATEGORY_ID) {
+    return [];
+  }
+
+  return [
+    "Regras especiais para party_mode:",
+    "- Esta categoria deve ser uma mistura aleatória e caótica de coisas fáceis de adivinhar.",
+    "- Gere itens concretos e variados: pessoas famosas, personagens, animais, comidas, objetos, lugares, marcas, ações simples, profissões e conceitos populares.",
+    "- Não gere nomes de brincadeiras, dinâmicas de grupo, regras, rodadas, desafios, prompts ou modos de jogo.",
+    "- Evite itens como Charades, 20 Questions, Truth or Dare, Would You Rather, Hot Seat, Speed Round, Mimica, Eu Nunca ou equivalentes traduzidos.",
+    "- Misture tipos de item no mesmo lote; não faça uma sequência inteira do mesmo tema.",
+    "- Bons exemplos de estilo: Pizza, Dinosaur, Eiffel Tower, Beyoncé, Soccer Ball, Pirate, Toothbrush, Netflix, Astronaut, Lightning.",
+    "- As descrições devem explicar o item, não instruir o jogador a fazer uma ação.",
+  ];
 }
 
 function candidateSchema() {
@@ -728,7 +781,12 @@ function approveCandidates(params: {
 
   for (const candidate of params.payload.items) {
     const label = candidate?.name?.en || candidate?.name?.pt || candidate?.name?.es || "(sem nome)";
-    const reasons = validateCandidate(candidate, existingDuplicateIndex, generatedDuplicateIndex);
+    const reasons = validateCandidate(
+      candidate,
+      params.categoryId,
+      existingDuplicateIndex,
+      generatedDuplicateIndex,
+    );
 
     if (reasons.length > 0) {
       rejected.push({ label, reasons });
@@ -759,6 +817,7 @@ function approveCandidates(params: {
 
 function validateCandidate(
   candidate: Candidate,
+  categoryId: string,
   existingDuplicateIndex: DuplicateIndex,
   generatedDuplicateIndex: DuplicateIndex,
 ) {
@@ -815,6 +874,43 @@ function validateCandidate(
 
   if (!candidate.shortReason?.trim()) {
     reasons.push("shortReason ausente");
+  }
+
+  if (categoryId === PARTY_MODE_CATEGORY_ID) {
+    reasons.push(...validatePartyModeCandidate(candidate));
+  }
+
+  return reasons;
+}
+
+function validatePartyModeCandidate(candidate: Candidate) {
+  const reasons: string[] = [];
+  const searchableNames = LOCALES.map((locale) => candidate.name?.[locale] ?? "")
+    .map(normalizeForDuplicateCheck)
+    .join(" ");
+  const searchableFullText = [
+    ...LOCALES.flatMap((locale) => [
+      candidate.name?.[locale] ?? "",
+      candidate.description?.[locale] ?? "",
+    ]),
+    candidate.shortReason ?? "",
+  ]
+    .map(normalizeForDuplicateCheck)
+    .join(" ");
+
+  const forbiddenTerm = PARTY_MODE_FORBIDDEN_TERMS.find((term) => {
+    const normalizedTerm = normalizeForDuplicateCheck(term);
+    const searchableText = PARTY_MODE_NAME_ONLY_FORBIDDEN_TERMS.has(term)
+      ? searchableNames
+      : searchableFullText;
+
+    return searchableText.includes(normalizedTerm);
+  });
+
+  if (forbiddenTerm) {
+    reasons.push(
+      `party_mode deve conter coisas aleatórias, não dinâmicas/regras de festa (termo: ${forbiddenTerm})`,
+    );
   }
 
   return reasons;

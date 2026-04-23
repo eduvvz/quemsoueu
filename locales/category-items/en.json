@@ -200,6 +200,206 @@
       "movies_tv_50": {
         "name": "Kylo Ren",
         "description": "Villain from Star Wars sequel trilogy."
+      },
+      "movies_tv_51": {
+        "name": "James Bond",
+        "description": "British secret agent from film series."
+      },
+      "movies_tv_52": {
+        "name": "Sherlock Holmes",
+        "description": "Famous detective known for deduction."
+      },
+      "movies_tv_53": {
+        "name": "Spock",
+        "description": "Logical officer from Star Trek."
+      },
+      "movies_tv_54": {
+        "name": "Captain Kirk",
+        "description": "Starship captain from Star Trek."
+      },
+      "movies_tv_55": {
+        "name": "Gandalf",
+        "description": "Wizard from The Lord of the Rings."
+      },
+      "movies_tv_56": {
+        "name": "Frodo Baggins",
+        "description": "Hobbit ring-bearer from The Lord of the Rings."
+      },
+      "movies_tv_57": {
+        "name": "Gollum",
+        "description": "Creature obsessed with a magical ring."
+      },
+      "movies_tv_58": {
+        "name": "Legolas",
+        "description": "Elf archer from The Lord of the Rings."
+      },
+      "movies_tv_59": {
+        "name": "Aragorn",
+        "description": "Ranger and king from The Lord of the Rings."
+      },
+      "movies_tv_60": {
+        "name": "Sauron",
+        "description": "Dark lord tied to a powerful ring."
+      },
+      "movies_tv_61": {
+        "name": "Albus Dumbledore",
+        "description": "Headmaster wizard from Harry Potter."
+      },
+      "movies_tv_62": {
+        "name": "Hermione Granger",
+        "description": "Brilliant student from Harry Potter."
+      },
+      "movies_tv_63": {
+        "name": "Ron Weasley",
+        "description": "Wizard student and loyal friend."
+      },
+      "movies_tv_64": {
+        "name": "Voldemort",
+        "description": "Dark wizard villain from Harry Potter."
+      },
+      "movies_tv_65": {
+        "name": "R2-D2",
+        "description": "Astromech droid from Star Wars."
+      },
+      "movies_tv_66": {
+        "name": "C-3PO",
+        "description": "Protocol droid from Star Wars."
+      },
+      "movies_tv_67": {
+        "name": "Boba Fett",
+        "description": "Armored bounty hunter from Star Wars."
+      },
+      "movies_tv_68": {
+        "name": "Darth Maul",
+        "description": "Sith warrior from Star Wars."
+      },
+      "movies_tv_69": {
+        "name": "The Mandalorian",
+        "description": "Armored bounty hunter from a Star Wars series."
+      },
+      "movies_tv_70": {
+        "name": "Katniss Everdeen",
+        "description": "Heroine archer from The Hunger Games."
+      },
+      "movies_tv_71": {
+        "name": "The Grinch",
+        "description": "Green character who dislikes Christmas."
+      },
+      "movies_tv_72": {
+        "name": "Willy Wonka",
+        "description": "Eccentric candy maker from film story."
+      },
+      "movies_tv_73": {
+        "name": "Mr. Bean",
+        "description": "Silent, awkward comedy character."
+      },
+      "movies_tv_74": {
+        "name": "E.T.",
+        "description": "Friendly alien from a classic film."
+      },
+      "movies_tv_75": {
+        "name": "Godzilla",
+        "description": "Giant monster from films."
+      },
+      "movies_tv_76": {
+        "name": "Titanic",
+        "description": "A famous romance-disaster film set on a doomed ship."
+      },
+      "movies_tv_77": {
+        "name": "Avatar",
+        "description": "A sci-fi epic about humans and a blue alien world."
+      },
+      "movies_tv_78": {
+        "name": "Star Wars",
+        "description": "A space fantasy saga with Jedi, the Force, and starships."
+      },
+      "movies_tv_79": {
+        "name": "The Matrix",
+        "description": "A sci-fi story about reality, simulations, and rebellion."
+      },
+      "movies_tv_80": {
+        "name": "The Lord of the Rings",
+        "description": "A fantasy adventure involving a powerful ring and a long quest."
+      },
+      "movies_tv_81": {
+        "name": "Game of Thrones",
+        "description": "A fantasy series about rival houses and a battle for a throne."
+      },
+      "movies_tv_82": {
+        "name": "Breaking Bad",
+        "description": "A crime drama about a teacher who enters the drug world."
+      },
+      "movies_tv_83": {
+        "name": "Friends",
+        "description": "A sitcom about a group of friends living in a big city."
+      },
+      "movies_tv_84": {
+        "name": "Stranger Things",
+        "description": "A supernatural series featuring kids, monsters, and mysteries."
+      },
+      "movies_tv_85": {
+        "name": "The Simpsons",
+        "description": "An animated sitcom about a quirky family."
+      },
+      "movies_tv_86": {
+        "name": "The Walking Dead",
+        "description": "A survival series set during a zombie apocalypse."
+      },
+      "movies_tv_87": {
+        "name": "Jurassic Park",
+        "description": "A sci-fi adventure featuring dinosaurs brought back to life."
+      },
+      "movies_tv_88": {
+        "name": "Inception",
+        "description": "A thriller involving dreams, secrets, and layered realities."
+      },
+      "movies_tv_89": {
+        "name": "Interstellar",
+        "description": "A space drama about distant worlds and time effects."
+      },
+      "movies_tv_90": {
+        "name": "The Lion King",
+        "description": "An animated story about a lion cub and a royal destiny."
+      },
+      "movies_tv_91": {
+        "name": "Toy Story",
+        "description": "Animated films about toys that come to life."
+      },
+      "movies_tv_92": {
+        "name": "Frozen",
+        "description": "An animated musical with ice powers and sisterhood."
+      },
+      "movies_tv_93": {
+        "name": "Beauty and the Beast",
+        "description": "A fairy tale romance with an enchanted castle."
+      },
+      "movies_tv_94": {
+        "name": "Pirates of the Caribbean",
+        "description": "Adventure films about pirates, curses, and sea battles."
+      },
+      "movies_tv_95": {
+        "name": "The Avengers",
+        "description": "A superhero team-up film series."
+      },
+      "movies_tv_96": {
+        "name": "The Dark Knight",
+        "description": "A gritty superhero film centered on Gotham’s protector."
+      },
+      "movies_tv_97": {
+        "name": "The Godfather",
+        "description": "A classic crime saga about a powerful family."
+      },
+      "movies_tv_98": {
+        "name": "Pulp Fiction",
+        "description": "A crime film told in a non-linear way."
+      },
+      "movies_tv_99": {
+        "name": "Fight Club",
+        "description": "A dark film about identity and underground fights."
+      },
+      "movies_tv_100": {
+        "name": "Back to the Future",
+        "description": "A time-travel adventure with a teen and a scientist."
       }
     },
     "superheroes_villains": {
@@ -608,78 +808,5166 @@
       "video_game_characters_1": {
         "name": "Mario",
         "description": "Iconic plumber hero from Nintendo video games."
+      },
+      "video_game_characters_2": {
+        "name": "Link",
+        "description": "Hero from a fantasy adventure series."
+      },
+      "video_game_characters_3": {
+        "name": "Princess Zelda",
+        "description": "Royal figure from a classic fantasy game series."
+      },
+      "video_game_characters_4": {
+        "name": "Ganondorf",
+        "description": "Main villain in a fantasy adventure series."
+      },
+      "video_game_characters_5": {
+        "name": "Pikachu",
+        "description": "Electric creature from a monster-collecting series."
+      },
+      "video_game_characters_6": {
+        "name": "Charizard",
+        "description": "Fire-breathing dragon-like creature from a monster series."
+      },
+      "video_game_characters_7": {
+        "name": "Mewtwo",
+        "description": "Powerful psychic creature from a monster series."
+      },
+      "video_game_characters_8": {
+        "name": "Pac-Man",
+        "description": "Classic arcade character who eats dots."
+      },
+      "video_game_characters_9": {
+        "name": "Sonic",
+        "description": "Fast blue hedgehog from a platform series."
+      },
+      "video_game_characters_10": {
+        "name": "Tails",
+        "description": "Two-tailed fox sidekick in a platform series."
+      },
+      "video_game_characters_11": {
+        "name": "Knuckles",
+        "description": "Red guardian character from a platform series."
+      },
+      "video_game_characters_12": {
+        "name": "Shadow",
+        "description": "Dark rival character from a platform series."
+      },
+      "video_game_characters_13": {
+        "name": "Lara Croft",
+        "description": "Adventurer and tomb raider from an action series."
+      },
+      "video_game_characters_14": {
+        "name": "Master Chief",
+        "description": "Armored super-soldier from a sci-fi shooter series."
+      },
+      "video_game_characters_15": {
+        "name": "Kratos",
+        "description": "Warrior from an action myth-based series."
+      },
+      "video_game_characters_16": {
+        "name": "Geralt",
+        "description": "Monster hunter from a fantasy RPG series."
+      },
+      "video_game_characters_17": {
+        "name": "Cloud",
+        "description": "Spiky-haired hero from a famous RPG."
+      },
+      "video_game_characters_18": {
+        "name": "Sephiroth",
+        "description": "Long-haired antagonist from a famous RPG."
+      },
+      "video_game_characters_19": {
+        "name": "Tifa",
+        "description": "Fighter ally from a famous RPG."
+      },
+      "video_game_characters_20": {
+        "name": "Donkey Kong",
+        "description": "Tie-wearing gorilla from a classic platform series."
+      },
+      "video_game_characters_21": {
+        "name": "Luigi",
+        "description": "Green-clad hero from a classic platform series."
+      },
+      "video_game_characters_22": {
+        "name": "Princess Peach",
+        "description": "Princess character from a classic platform series."
+      },
+      "video_game_characters_23": {
+        "name": "Bowser",
+        "description": "Spiky-shelled villain from a classic platform series."
+      },
+      "video_game_characters_24": {
+        "name": "Yoshi",
+        "description": "Friendly dinosaur companion from a platform series."
+      },
+      "video_game_characters_25": {
+        "name": "Kirby",
+        "description": "Pink round hero who copies abilities."
+      },
+      "video_game_characters_26": {
+        "name": "Samus Aran",
+        "description": "Armored bounty hunter from a sci-fi series."
+      },
+      "video_game_characters_27": {
+        "name": "Steve",
+        "description": "Blocky player character from Minecraft."
+      },
+      "video_game_characters_28": {
+        "name": "Creeper",
+        "description": "Green explosive monster from Minecraft."
+      },
+      "video_game_characters_29": {
+        "name": "Enderman",
+        "description": "Tall teleporting mob from Minecraft."
+      },
+      "video_game_characters_30": {
+        "name": "Solid Snake",
+        "description": "Stealth soldier from Metal Gear."
+      },
+      "video_game_characters_31": {
+        "name": "Ezio",
+        "description": "Assassin from Assassin’s Creed."
+      },
+      "video_game_characters_32": {
+        "name": "Altaïr",
+        "description": "Assassin from the first Assassin’s Creed."
+      },
+      "video_game_characters_33": {
+        "name": "Ryu",
+        "description": "Martial artist from Street Fighter."
+      },
+      "video_game_characters_34": {
+        "name": "Ken",
+        "description": "Fighter from Street Fighter, Ryu’s rival."
+      },
+      "video_game_characters_35": {
+        "name": "Chun-Li",
+        "description": "Fighter from Street Fighter."
+      },
+      "video_game_characters_36": {
+        "name": "M. Bison",
+        "description": "Villain leader from Street Fighter."
+      },
+      "video_game_characters_37": {
+        "name": "Scorpion",
+        "description": "Masked ninja from Mortal Kombat."
+      },
+      "video_game_characters_38": {
+        "name": "Sub-Zero",
+        "description": "Ice ninja from Mortal Kombat."
+      },
+      "video_game_characters_39": {
+        "name": "Liu Kang",
+        "description": "Heroic fighter from Mortal Kombat."
+      },
+      "video_game_characters_40": {
+        "name": "Kitana",
+        "description": "Fan-wielding warrior from Mortal Kombat."
+      },
+      "video_game_characters_41": {
+        "name": "Sonya Blade",
+        "description": "Special forces fighter from Mortal Kombat."
+      },
+      "video_game_characters_42": {
+        "name": "Raiden",
+        "description": "Thunder god from Mortal Kombat."
+      },
+      "video_game_characters_43": {
+        "name": "Kazuya",
+        "description": "Fighter from Tekken."
+      },
+      "video_game_characters_44": {
+        "name": "Jin Kazama",
+        "description": "Fighter from Tekken."
+      },
+      "video_game_characters_45": {
+        "name": "Heihachi",
+        "description": "Veteran fighter from Tekken."
+      },
+      "video_game_characters_46": {
+        "name": "Leon Kennedy",
+        "description": "Survivor from Resident Evil."
+      },
+      "video_game_characters_47": {
+        "name": "Jill Valentine",
+        "description": "Survivor from Resident Evil."
+      },
+      "video_game_characters_48": {
+        "name": "Chris Redfield",
+        "description": "Resident Evil protagonist."
+      },
+      "video_game_characters_49": {
+        "name": "Ada Wong",
+        "description": "Mysterious agent from Resident Evil."
+      },
+      "video_game_characters_50": {
+        "name": "Wesker",
+        "description": "Villain from Resident Evil."
+      },
+      "video_game_characters_51": {
+        "name": "Nathan Drake",
+        "description": "Treasure hunter from Uncharted."
+      },
+      "video_game_characters_52": {
+        "name": "Crash Bandicoot",
+        "description": "A mischievous marsupial hero from a colorful platform series."
+      },
+      "video_game_characters_53": {
+        "name": "Spyro",
+        "description": "A small purple dragon who goes on adventure quests."
+      },
+      "video_game_characters_54": {
+        "name": "Mega Man",
+        "description": "A blue robot hero known for arm cannon battles."
+      },
+      "video_game_characters_55": {
+        "name": "Dr. Eggman",
+        "description": "A brilliant villain scientist with a signature mustache."
+      },
+      "video_game_characters_56": {
+        "name": "Amy Rose",
+        "description": "A pink hedgehog character from a fast-paced platform series."
+      },
+      "video_game_characters_57": {
+        "name": "Toad",
+        "description": "A small mushroom-headed helper from a popular family game series."
+      },
+      "video_game_characters_58": {
+        "name": "Toadette",
+        "description": "A cheerful mushroom character often seen in party and racing games."
+      },
+      "video_game_characters_59": {
+        "name": "Wario",
+        "description": "A greedy rival character known for strength and mischief."
+      },
+      "video_game_characters_60": {
+        "name": "Waluigi",
+        "description": "A lanky trickster rival often featured in sports and party games."
+      },
+      "video_game_characters_61": {
+        "name": "Bowser Jr.",
+        "description": "A young turtle-like villain character from a classic platform series."
+      },
+      "video_game_characters_62": {
+        "name": "Rosalina",
+        "description": "A tall space-themed princess character from a major platform franchise."
+      },
+      "video_game_characters_63": {
+        "name": "Princess Daisy",
+        "description": "A sporty princess character often seen in party and sports games."
+      },
+      "video_game_characters_64": {
+        "name": "Diddy Kong",
+        "description": "A playful monkey sidekick from a famous jungle platform series."
+      },
+      "video_game_characters_65": {
+        "name": "King Dedede",
+        "description": "A hammer-wielding king from a cute action platform series."
+      },
+      "video_game_characters_66": {
+        "name": "Ridley",
+        "description": "A dangerous alien dragon-like boss from a sci-fi action series."
+      },
+      "video_game_characters_67": {
+        "name": "Alex (Minecraft)",
+        "description": "A default playable character skin from a block-building game."
+      },
+      "video_game_characters_68": {
+        "name": "Eevee",
+        "description": "A small creature known for multiple evolutions."
+      },
+      "video_game_characters_69": {
+        "name": "Snorlax",
+        "description": "A large sleepy creature from a monster-collecting series."
+      },
+      "video_game_characters_70": {
+        "name": "Gengar",
+        "description": "A grinning ghost-like creature from a monster-collecting series."
+      },
+      "video_game_characters_71": {
+        "name": "Lucario",
+        "description": "A jackal-like fighter creature known for aura powers."
+      },
+      "video_game_characters_72": {
+        "name": "Greninja",
+        "description": "A ninja frog-like creature from a monster-collecting series."
+      },
+      "video_game_characters_73": {
+        "name": "Bulbasaur",
+        "description": "A small plant-backed creature from a monster-collecting series."
+      },
+      "video_game_characters_74": {
+        "name": "Squirtle",
+        "description": "A turtle-like water creature from a monster-collecting series."
+      },
+      "video_game_characters_75": {
+        "name": "Jigglypuff",
+        "description": "A round pink singing creature from a monster-collecting series."
+      },
+      "video_game_characters_76": {
+        "name": "Charmander",
+        "description": "A small fire lizard creature with a flame tail."
+      },
+      "video_game_characters_77": {
+        "name": "Cortana",
+        "description": "An AI companion from a sci‑fi shooter series."
+      },
+      "video_game_characters_78": {
+        "name": "GLaDOS",
+        "description": "A sarcastic AI that runs a test facility."
+      },
+      "video_game_characters_79": {
+        "name": "Chell",
+        "description": "A silent test subject in a puzzle game."
+      },
+      "video_game_characters_80": {
+        "name": "Gordon Freeman",
+        "description": "A scientist-hero from a classic sci‑fi shooter."
+      },
+      "video_game_characters_81": {
+        "name": "Doom Slayer",
+        "description": "A demon hunter in a fast-paced shooter."
+      },
+      "video_game_characters_82": {
+        "name": "Vault Boy",
+        "description": "A cheerful mascot from a post-apocalyptic RPG."
+      },
+      "video_game_characters_83": {
+        "name": "Dragonborn",
+        "description": "A customizable hero from a fantasy RPG."
+      },
+      "video_game_characters_84": {
+        "name": "Big Daddy",
+        "description": "A heavy armored guardian from an underwater game."
+      },
+      "video_game_characters_85": {
+        "name": "Little Sister",
+        "description": "A mysterious child character from an underwater series."
+      },
+      "video_game_characters_86": {
+        "name": "Joel",
+        "description": "A survivor from a post-apocalyptic story game."
+      },
+      "video_game_characters_87": {
+        "name": "Ellie",
+        "description": "A young survivor from a post-apocalyptic story game."
+      },
+      "video_game_characters_88": {
+        "name": "Aloy",
+        "description": "A hunter in a world of machine creatures."
+      },
+      "video_game_characters_89": {
+        "name": "Arthur Morgan",
+        "description": "An outlaw from a western open-world game."
+      },
+      "video_game_characters_90": {
+        "name": "John Marston",
+        "description": "A gunslinger from a western game series."
+      },
+      "video_game_characters_91": {
+        "name": "CJ",
+        "description": "A street gang character from an open-world crime game."
+      },
+      "video_game_characters_92": {
+        "name": "Trevor Philips",
+        "description": "A chaotic criminal from an open-world action game."
+      },
+      "video_game_characters_93": {
+        "name": "Michael De Santa",
+        "description": "A retired criminal from an open-world action game."
+      },
+      "video_game_characters_94": {
+        "name": "Franklin Clinton",
+        "description": "A young criminal from an open-world action game."
+      },
+      "video_game_characters_95": {
+        "name": "Niko Bellic",
+        "description": "A newcomer trying to survive in a crime game."
+      },
+      "video_game_characters_96": {
+        "name": "Agent 47",
+        "description": "A bald professional assassin."
+      },
+      "video_game_characters_97": {
+        "name": "Commander Shepard",
+        "description": "A space commander from a sci‑fi RPG."
+      },
+      "video_game_characters_98": {
+        "name": "Sam Fisher",
+        "description": "A stealth operative from a spy game series."
+      },
+      "video_game_characters_99": {
+        "name": "Big Boss",
+        "description": "A legendary soldier from a stealth action series."
+      },
+      "video_game_characters_100": {
+        "name": "Rayman",
+        "description": "A limbless hero from platform games."
       }
     },
     "celebrities": {
       "celebrities_1": {
         "name": "Tom Cruise",
         "description": "World-famous actor known for major film franchises."
+      },
+      "celebrities_2": {
+        "name": "Taylor Swift",
+        "description": "Pop singer-songwriter"
+      },
+      "celebrities_3": {
+        "name": "Rihanna",
+        "description": "Singer and businesswoman"
+      },
+      "celebrities_4": {
+        "name": "Adele",
+        "description": "Singer with powerful ballads"
+      },
+      "celebrities_5": {
+        "name": "Ed Sheeran",
+        "description": "Pop singer-songwriter"
+      },
+      "celebrities_6": {
+        "name": "Justin Bieber",
+        "description": "Pop singer"
+      },
+      "celebrities_7": {
+        "name": "Lady Gaga",
+        "description": "Singer and actress"
+      },
+      "celebrities_8": {
+        "name": "Shakira",
+        "description": "Latin pop singer"
+      },
+      "celebrities_9": {
+        "name": "Drake",
+        "description": "Rapper and singer"
+      },
+      "celebrities_10": {
+        "name": "Eminem",
+        "description": "Rapper"
+      },
+      "celebrities_11": {
+        "name": "Bruno Mars",
+        "description": "Pop singer and performer"
+      },
+      "celebrities_12": {
+        "name": "Madonna",
+        "description": "Pop icon"
+      },
+      "celebrities_13": {
+        "name": "Michael Jackson",
+        "description": "Pop singer and dancer"
+      },
+      "celebrities_14": {
+        "name": "Elvis Presley",
+        "description": "Rock and roll singer"
+      },
+      "celebrities_15": {
+        "name": "Bob Marley",
+        "description": "Reggae singer"
+      },
+      "celebrities_16": {
+        "name": "Coldplay",
+        "description": "Pop rock band"
+      },
+      "celebrities_17": {
+        "name": "BTS",
+        "description": "K-pop group"
+      },
+      "celebrities_18": {
+        "name": "BLACKPINK",
+        "description": "K-pop group"
+      },
+      "celebrities_19": {
+        "name": "Ariana Grande",
+        "description": "Pop singer and actress"
+      },
+      "celebrities_20": {
+        "name": "Billie Eilish",
+        "description": "Pop singer"
+      },
+      "celebrities_21": {
+        "name": "Dua Lipa",
+        "description": "Pop singer"
+      },
+      "celebrities_22": {
+        "name": "The Weeknd",
+        "description": "Singer and songwriter"
+      },
+      "celebrities_23": {
+        "name": "Selena Gomez",
+        "description": "Singer and actress"
+      },
+      "celebrities_24": {
+        "name": "Snoop Dogg",
+        "description": "Rapper and entertainer"
+      },
+      "celebrities_25": {
+        "name": "Cristiano Ronaldo",
+        "description": "Football superstar"
+      },
+      "celebrities_26": {
+        "name": "Serena Williams",
+        "description": "Tennis champion"
+      },
+      "celebrities_27": {
+        "name": "Leonardo DiCaprio",
+        "description": "Famous film actor and producer."
+      },
+      "celebrities_28": {
+        "name": "Brad Pitt",
+        "description": "Famous film actor and producer."
+      },
+      "celebrities_29": {
+        "name": "Angelina Jolie",
+        "description": "Famous actor and humanitarian."
+      },
+      "celebrities_30": {
+        "name": "Will Smith",
+        "description": "Famous actor and musician."
+      },
+      "celebrities_31": {
+        "name": "Dwayne Johnson",
+        "description": "Actor and former pro wrestler."
+      },
+      "celebrities_32": {
+        "name": "Jackie Chan",
+        "description": "Action-comedy film star."
+      },
+      "celebrities_33": {
+        "name": "Bruce Lee",
+        "description": "Martial arts icon and actor."
+      },
+      "celebrities_34": {
+        "name": "Keanu Reeves",
+        "description": "Famous film actor."
+      },
+      "celebrities_35": {
+        "name": "Robert Downey Jr.",
+        "description": "Famous actor and producer."
+      },
+      "celebrities_36": {
+        "name": "Chris Evans",
+        "description": "Famous film actor."
+      },
+      "celebrities_37": {
+        "name": "Chris Hemsworth",
+        "description": "Famous film actor."
+      },
+      "celebrities_38": {
+        "name": "Scarlett Johansson",
+        "description": "Famous film actor."
+      },
+      "celebrities_39": {
+        "name": "Jennifer Lawrence",
+        "description": "Famous film actor."
+      },
+      "celebrities_40": {
+        "name": "Emma Watson",
+        "description": "Actor known for major films."
+      },
+      "celebrities_41": {
+        "name": "Daniel Radcliffe",
+        "description": "Actor known for major films."
+      },
+      "celebrities_42": {
+        "name": "Morgan Freeman",
+        "description": "Famous actor and narrator."
+      },
+      "celebrities_43": {
+        "name": "Tom Hanks",
+        "description": "Famous film actor."
+      },
+      "celebrities_44": {
+        "name": "Jim Carrey",
+        "description": "Comedy film actor."
+      },
+      "celebrities_45": {
+        "name": "Julia Roberts",
+        "description": "Famous film actor."
+      },
+      "celebrities_46": {
+        "name": "Meryl Streep",
+        "description": "Award-winning film actor."
+      },
+      "celebrities_47": {
+        "name": "Nicole Kidman",
+        "description": "Famous film actor."
+      },
+      "celebrities_48": {
+        "name": "Cate Blanchett",
+        "description": "Award-winning film actor."
+      },
+      "celebrities_49": {
+        "name": "Hugh Jackman",
+        "description": "Actor known for action and musicals."
+      },
+      "celebrities_50": {
+        "name": "Ryan Reynolds",
+        "description": "Film actor known for comedy."
+      },
+      "celebrities_51": {
+        "name": "Jennifer Lopez",
+        "description": "Singer and actor."
+      },
+      "celebrities_52": {
+        "name": "Michael Jordan",
+        "description": "Legendary basketball player."
+      },
+      "celebrities_53": {
+        "name": "LeBron James",
+        "description": "Basketball superstar."
+      },
+      "celebrities_54": {
+        "name": "Usain Bolt",
+        "description": "Record-breaking sprinter."
+      },
+      "celebrities_55": {
+        "name": "Roger Federer",
+        "description": "Champion tennis player."
+      },
+      "celebrities_56": {
+        "name": "Rafael Nadal",
+        "description": "Top tennis player."
+      },
+      "celebrities_57": {
+        "name": "Novak Djokovic",
+        "description": "Grand Slam tennis champion."
+      },
+      "celebrities_58": {
+        "name": "Tiger Woods",
+        "description": "Famous golf player."
+      },
+      "celebrities_59": {
+        "name": "Lewis Hamilton",
+        "description": "Formula 1 champion."
+      },
+      "celebrities_60": {
+        "name": "Michael Schumacher",
+        "description": "Legendary Formula 1 driver."
+      },
+      "celebrities_61": {
+        "name": "Kobe Bryant",
+        "description": "Iconic basketball player."
+      },
+      "celebrities_62": {
+        "name": "Shaquille O'Neal",
+        "description": "Famous basketball star."
+      },
+      "celebrities_63": {
+        "name": "Muhammad Ali",
+        "description": "Legendary boxer."
+      },
+      "celebrities_64": {
+        "name": "Simone Biles",
+        "description": "Elite gymnast."
+      },
+      "celebrities_65": {
+        "name": "Neymar",
+        "description": "Famous football player."
+      },
+      "celebrities_66": {
+        "name": "Kylian Mbappé",
+        "description": "Star football player."
+      },
+      "celebrities_67": {
+        "name": "Stephen Curry",
+        "description": "Basketball star."
+      },
+      "celebrities_68": {
+        "name": "David Beckham",
+        "description": "Famous footballer."
+      },
+      "celebrities_69": {
+        "name": "Zlatan Ibrahimović",
+        "description": "Well-known football player."
+      },
+      "celebrities_70": {
+        "name": "Conor McGregor",
+        "description": "Famous MMA fighter."
+      },
+      "celebrities_71": {
+        "name": "Johnny Depp",
+        "description": "Hollywood actor."
+      },
+      "celebrities_72": {
+        "name": "George Clooney",
+        "description": "Famous actor and director."
+      },
+      "celebrities_73": {
+        "name": "Harrison Ford",
+        "description": "Famous film actor."
+      },
+      "celebrities_74": {
+        "name": "Robert De Niro",
+        "description": "Legendary actor."
+      },
+      "celebrities_75": {
+        "name": "Al Pacino",
+        "description": "Iconic actor."
+      },
+      "celebrities_76": {
+        "name": "Denzel Washington",
+        "description": "Award-winning actor."
+      },
+      "celebrities_77": {
+        "name": "Tom Holland",
+        "description": "Actor known for a famous superhero role."
+      },
+      "celebrities_78": {
+        "name": "Zendaya",
+        "description": "Actress and singer known for major film and TV roles."
+      },
+      "celebrities_79": {
+        "name": "Robert Pattinson",
+        "description": "Actor known for popular fantasy and superhero films."
+      },
+      "celebrities_80": {
+        "name": "Chris Pratt",
+        "description": "Actor known for big sci‑fi and action franchises."
+      },
+      "celebrities_81": {
+        "name": "Ben Affleck",
+        "description": "Actor and filmmaker with major award-winning work."
+      },
+      "celebrities_82": {
+        "name": "Matt Damon",
+        "description": "Actor known for action and drama films."
+      },
+      "celebrities_83": {
+        "name": "Mark Wahlberg",
+        "description": "Actor and producer known for action and comedy films."
+      },
+      "celebrities_84": {
+        "name": "Hugh Grant",
+        "description": "Actor known for romantic comedies."
+      },
+      "celebrities_85": {
+        "name": "Daniel Craig",
+        "description": "Actor known for playing a famous spy."
+      },
+      "celebrities_86": {
+        "name": "Pierce Brosnan",
+        "description": "Actor known for playing a famous spy character."
+      },
+      "celebrities_87": {
+        "name": "Sean Connery",
+        "description": "Classic film star known for a famous spy role."
+      },
+      "celebrities_88": {
+        "name": "Samuel L. Jackson",
+        "description": "Actor known for many blockbuster films."
+      },
+      "celebrities_89": {
+        "name": "Liam Neeson",
+        "description": "Actor known for action and drama roles."
+      },
+      "celebrities_90": {
+        "name": "Jason Statham",
+        "description": "Action star known for fast-paced films."
+      },
+      "celebrities_91": {
+        "name": "Vin Diesel",
+        "description": "Actor known for a major car-racing action franchise."
+      },
+      "celebrities_92": {
+        "name": "Sylvester Stallone",
+        "description": "Action star known for iconic boxing and soldier films."
+      },
+      "celebrities_93": {
+        "name": "Arnold Schwarzenegger",
+        "description": "Action star known for classic sci‑fi films."
+      },
+      "celebrities_94": {
+        "name": "Clint Eastwood",
+        "description": "Actor and director known for classic westerns and dramas."
+      },
+      "celebrities_95": {
+        "name": "Jack Nicholson",
+        "description": "Actor known for famous dramatic roles."
+      },
+      "celebrities_96": {
+        "name": "Keira Knightley",
+        "description": "Actress known for period films and adventure movies."
+      },
+      "celebrities_97": {
+        "name": "Natalie Portman",
+        "description": "Actress known for award-winning films and sci‑fi roles."
+      },
+      "celebrities_98": {
+        "name": "Emma Stone",
+        "description": "Actress known for popular comedies and musicals."
+      },
+      "celebrities_99": {
+        "name": "Anne Hathaway",
+        "description": "Actress known for dramas and family films."
+      },
+      "celebrities_100": {
+        "name": "Sandra Bullock",
+        "description": "Actress known for comedies and thrillers."
       }
     },
     "athletes": {
       "athletes_1": {
         "name": "Lionel Messi",
         "description": "Legendary football player from Argentina."
+      },
+      "athletes_2": {
+        "name": "Pelé",
+        "description": "Brazilian football legend."
+      },
+      "athletes_3": {
+        "name": "Diego Maradona",
+        "description": "Argentine football star."
+      },
+      "athletes_4": {
+        "name": "Zinedine Zidane",
+        "description": "French football icon."
+      },
+      "athletes_5": {
+        "name": "Ronaldinho",
+        "description": "Brazilian football star."
+      },
+      "athletes_6": {
+        "name": "Ronaldo Nazário",
+        "description": "Brazilian striker legend."
+      },
+      "athletes_7": {
+        "name": "Andrés Iniesta",
+        "description": "Spanish football midfielder."
+      },
+      "athletes_8": {
+        "name": "Xavi",
+        "description": "Spanish football midfielder."
+      },
+      "athletes_9": {
+        "name": "Luka Modrić",
+        "description": "Croatian football midfielder."
+      },
+      "athletes_10": {
+        "name": "Mohamed Salah",
+        "description": "Egyptian football forward."
+      },
+      "athletes_11": {
+        "name": "Erling Haaland",
+        "description": "Norwegian football striker."
+      },
+      "athletes_12": {
+        "name": "Robert Lewandowski",
+        "description": "Polish football striker."
+      },
+      "athletes_13": {
+        "name": "Johan Cruyff",
+        "description": "Dutch football legend."
+      },
+      "athletes_14": {
+        "name": "Franz Beckenbauer",
+        "description": "German football legend."
+      },
+      "athletes_15": {
+        "name": "Alfredo Di Stéfano",
+        "description": "Football legend and attacker."
+      },
+      "athletes_16": {
+        "name": "Ferenc Puskás",
+        "description": "Hungarian football legend."
+      },
+      "athletes_17": {
+        "name": "Paolo Maldini",
+        "description": "Italian football defender."
+      },
+      "athletes_18": {
+        "name": "Thierry Henry",
+        "description": "French football forward."
+      },
+      "athletes_19": {
+        "name": "Didier Drogba",
+        "description": "Ivorian football striker."
+      },
+      "athletes_20": {
+        "name": "Samuel Eto'o",
+        "description": "Cameroonian football striker."
+      },
+      "athletes_21": {
+        "name": "George Weah",
+        "description": "Liberian football legend."
+      },
+      "athletes_22": {
+        "name": "Lev Yashin",
+        "description": "Legendary football goalkeeper."
+      },
+      "athletes_23": {
+        "name": "Gianluigi Buffon",
+        "description": "Italian football goalkeeper."
+      },
+      "athletes_24": {
+        "name": "Iker Casillas",
+        "description": "Spanish football goalkeeper."
+      },
+      "athletes_25": {
+        "name": "Manuel Neuer",
+        "description": "German football goalkeeper."
+      },
+      "athletes_26": {
+        "name": "Sergio Ramos",
+        "description": "Spanish football defender."
+      },
+      "athletes_27": {
+        "name": "Michael Phelps",
+        "description": "Swimmer with many Olympic medals."
+      },
+      "athletes_28": {
+        "name": "Mike Tyson",
+        "description": "Former heavyweight boxing champion."
+      },
+      "athletes_29": {
+        "name": "Floyd Mayweather",
+        "description": "Undefeated boxing champion."
+      },
+      "athletes_30": {
+        "name": "Manny Pacquiao",
+        "description": "Multi-division boxing champion."
+      },
+      "athletes_31": {
+        "name": "Khabib Nurmagomedov",
+        "description": "Retired MMA champion."
+      },
+      "athletes_32": {
+        "name": "Michael Johnson",
+        "description": "Olympic sprinter and gold medalist."
+      },
+      "athletes_33": {
+        "name": "Carl Lewis",
+        "description": "Olympic track and field legend."
+      },
+      "athletes_34": {
+        "name": "Jesse Owens",
+        "description": "Historic Olympic sprinter."
+      },
+      "athletes_35": {
+        "name": "Katie Ledecky",
+        "description": "Olympic distance swimmer."
+      },
+      "athletes_36": {
+        "name": "Nadia Comaneci",
+        "description": "Gymnast known for perfect scores."
+      },
+      "athletes_37": {
+        "name": "Steffi Graf",
+        "description": "Grand Slam tennis champion."
+      },
+      "athletes_38": {
+        "name": "Maria Sharapova",
+        "description": "Former world number one tennis player."
+      },
+      "athletes_39": {
+        "name": "Andy Murray",
+        "description": "Grand Slam tennis champion."
+      },
+      "athletes_40": {
+        "name": "Naomi Osaka",
+        "description": "Grand Slam tennis champion."
+      },
+      "athletes_41": {
+        "name": "Ayrton Senna",
+        "description": "Formula 1 world champion."
+      },
+      "athletes_42": {
+        "name": "Max Verstappen",
+        "description": "Formula 1 world champion."
+      },
+      "athletes_43": {
+        "name": "Sebastian Vettel",
+        "description": "Former Formula 1 world champion."
+      },
+      "athletes_44": {
+        "name": "Fernando Alonso",
+        "description": "Formula 1 world champion."
+      },
+      "athletes_45": {
+        "name": "Valentino Rossi",
+        "description": "MotoGP champion rider."
+      },
+      "athletes_46": {
+        "name": "Marc Marquez",
+        "description": "MotoGP champion rider."
+      },
+      "athletes_47": {
+        "name": "Sachin Tendulkar",
+        "description": "Cricket batting legend."
+      },
+      "athletes_48": {
+        "name": "Virat Kohli",
+        "description": "Cricket star and captain."
+      },
+      "athletes_49": {
+        "name": "MS Dhoni",
+        "description": "Cricket captain and champion."
+      },
+      "athletes_50": {
+        "name": "Jonah Lomu",
+        "description": "Legendary rugby player."
+      },
+      "athletes_51": {
+        "name": "Richie McCaw",
+        "description": "Rugby captain and champion."
+      },
+      "athletes_52": {
+        "name": "Tom Brady",
+        "description": "American football quarterback."
+      },
+      "athletes_53": {
+        "name": "Magic Johnson",
+        "description": "NBA basketball legend."
+      },
+      "athletes_54": {
+        "name": "Larry Bird",
+        "description": "Former NBA star."
+      },
+      "athletes_55": {
+        "name": "Kareem Abdul-Jabbar",
+        "description": "NBA all-time great."
+      },
+      "athletes_56": {
+        "name": "Wilt Chamberlain",
+        "description": "Historic NBA center."
+      },
+      "athletes_57": {
+        "name": "Tim Duncan",
+        "description": "NBA champion power forward."
+      },
+      "athletes_58": {
+        "name": "Kevin Durant",
+        "description": "NBA star forward."
+      },
+      "athletes_59": {
+        "name": "Allen Iverson",
+        "description": "Former NBA guard."
+      },
+      "athletes_60": {
+        "name": "Venus Williams",
+        "description": "Tennis champion."
+      },
+      "athletes_61": {
+        "name": "Andre Agassi",
+        "description": "Former tennis star."
+      },
+      "athletes_62": {
+        "name": "Pete Sampras",
+        "description": "Former tennis champion."
+      },
+      "athletes_63": {
+        "name": "Bjorn Borg",
+        "description": "Tennis legend."
+      },
+      "athletes_64": {
+        "name": "Billie Jean King",
+        "description": "Tennis icon."
+      },
+      "athletes_65": {
+        "name": "Martina Navratilova",
+        "description": "Tennis champion."
+      },
+      "athletes_66": {
+        "name": "Rory McIlroy",
+        "description": "Professional golfer."
+      },
+      "athletes_67": {
+        "name": "Jack Nicklaus",
+        "description": "Golf legend."
+      },
+      "athletes_68": {
+        "name": "Arnold Palmer",
+        "description": "Golf legend."
+      },
+      "athletes_69": {
+        "name": "Phil Mickelson",
+        "description": "Professional golfer."
+      },
+      "athletes_70": {
+        "name": "Eliud Kipchoge",
+        "description": "Marathon runner."
+      },
+      "athletes_71": {
+        "name": "Mo Farah",
+        "description": "Distance runner."
+      },
+      "athletes_72": {
+        "name": "Haile Gebrselassie",
+        "description": "Distance running legend."
+      },
+      "athletes_73": {
+        "name": "Mark Spitz",
+        "description": "Olympic swimmer."
+      },
+      "athletes_74": {
+        "name": "Wayne Gretzky",
+        "description": "Ice hockey legend."
+      },
+      "athletes_75": {
+        "name": "Karim Benzema",
+        "description": "Football striker."
+      },
+      "athletes_76": {
+        "name": "Luis Suárez",
+        "description": "Football striker."
+      },
+      "athletes_77": {
+        "name": "Giannis Antetokounmpo",
+        "description": "NBA basketball star from Greece."
+      },
+      "athletes_78": {
+        "name": "Luka Doncic",
+        "description": "NBA basketball player from Slovenia."
+      },
+      "athletes_79": {
+        "name": "Nikola Jokic",
+        "description": "NBA basketball center from Serbia."
+      },
+      "athletes_80": {
+        "name": "Dirk Nowitzki",
+        "description": "German basketball legend and NBA champion."
+      },
+      "athletes_81": {
+        "name": "Yao Ming",
+        "description": "Chinese basketball icon and former NBA center."
+      },
+      "athletes_82": {
+        "name": "Hakeem Olajuwon",
+        "description": "Hall of Fame NBA center, born in Nigeria."
+      },
+      "athletes_83": {
+        "name": "Kawhi Leonard",
+        "description": "NBA star known for defense and championships."
+      },
+      "athletes_84": {
+        "name": "James Harden",
+        "description": "NBA guard known for scoring."
+      },
+      "athletes_85": {
+        "name": "Oscar De La Hoya",
+        "description": "World-famous professional boxer."
+      },
+      "athletes_86": {
+        "name": "Anthony Joshua",
+        "description": "Heavyweight boxing champion from the UK."
+      },
+      "athletes_87": {
+        "name": "Tyson Fury",
+        "description": "Heavyweight boxer known worldwide."
+      },
+      "athletes_88": {
+        "name": "Oleksandr Usyk",
+        "description": "Ukrainian world champion boxer."
+      },
+      "athletes_89": {
+        "name": "Georges St-Pierre",
+        "description": "MMA legend and former champion."
+      },
+      "athletes_90": {
+        "name": "Ronda Rousey",
+        "description": "MMA pioneer and former champion."
+      },
+      "athletes_91": {
+        "name": "Anderson Silva",
+        "description": "Brazilian MMA legend."
+      },
+      "athletes_92": {
+        "name": "Israel Adesanya",
+        "description": "MMA champion known for striking."
+      },
+      "athletes_93": {
+        "name": "John McEnroe",
+        "description": "Tennis legend and former world No. 1."
+      },
+      "athletes_94": {
+        "name": "Boris Becker",
+        "description": "German tennis champion."
+      },
+      "athletes_95": {
+        "name": "Andy Roddick",
+        "description": "American tennis champion known for a big serve."
+      },
+      "athletes_96": {
+        "name": "Martina Hingis",
+        "description": "Grand Slam-winning tennis star."
+      },
+      "athletes_97": {
+        "name": "Kim Clijsters",
+        "description": "Belgian Grand Slam tennis champion."
+      },
+      "athletes_98": {
+        "name": "Monica Seles",
+        "description": "Legendary Grand Slam tennis champion."
+      },
+      "athletes_99": {
+        "name": "Carlos Alcaraz",
+        "description": "Top tennis star and Grand Slam winner."
+      },
+      "athletes_100": {
+        "name": "Sergio Aguero",
+        "description": "Argentine football striker and club legend."
       }
     },
     "musicians": {
       "musicians_1": {
         "name": "Beyonce",
         "description": "Globally recognized singer and performer."
+      },
+      "musicians_2": {
+        "name": "The Beatles",
+        "description": "Iconic English rock band."
+      },
+      "musicians_3": {
+        "name": "Queen",
+        "description": "British rock band with big anthems."
+      },
+      "musicians_4": {
+        "name": "ABBA",
+        "description": "Swedish pop group."
+      },
+      "musicians_5": {
+        "name": "U2",
+        "description": "Irish rock band."
+      },
+      "musicians_6": {
+        "name": "The Rolling Stones",
+        "description": "Long-running British rock band."
+      },
+      "musicians_7": {
+        "name": "Pink Floyd",
+        "description": "British progressive rock band."
+      },
+      "musicians_8": {
+        "name": "Metallica",
+        "description": "American heavy metal band."
+      },
+      "musicians_9": {
+        "name": "Nirvana",
+        "description": "American grunge rock band."
+      },
+      "musicians_10": {
+        "name": "Linkin Park",
+        "description": "Rock band with rap-rock sound."
+      },
+      "musicians_11": {
+        "name": "Imagine Dragons",
+        "description": "Modern pop-rock band."
+      },
+      "musicians_12": {
+        "name": "Maroon 5",
+        "description": "Pop rock band."
+      },
+      "musicians_13": {
+        "name": "One Direction",
+        "description": "Boy band."
+      },
+      "musicians_14": {
+        "name": "Backstreet Boys",
+        "description": "Classic pop boy band."
+      },
+      "musicians_15": {
+        "name": "Spice Girls",
+        "description": "Pop girl group."
+      },
+      "musicians_16": {
+        "name": "Daft Punk",
+        "description": "French electronic music duo."
+      },
+      "musicians_17": {
+        "name": "Calvin Harris",
+        "description": "DJ and producer."
+      },
+      "musicians_18": {
+        "name": "David Guetta",
+        "description": "DJ and producer."
+      },
+      "musicians_19": {
+        "name": "Avicii",
+        "description": "Swedish DJ and producer."
+      },
+      "musicians_20": {
+        "name": "Justin Timberlake",
+        "description": "Pop singer and performer."
+      },
+      "musicians_21": {
+        "name": "Katy Perry",
+        "description": "Pop singer."
+      },
+      "musicians_22": {
+        "name": "Britney Spears",
+        "description": "Pop superstar."
+      },
+      "musicians_23": {
+        "name": "Christina Aguilera",
+        "description": "Pop vocalist."
+      },
+      "musicians_24": {
+        "name": "Mariah Carey",
+        "description": "Singer known for powerful vocals."
+      },
+      "musicians_25": {
+        "name": "Celine Dion",
+        "description": "Singer known for big ballads."
+      },
+      "musicians_26": {
+        "name": "Whitney Houston",
+        "description": "Singer with classic pop and soul hits."
+      },
+      "musicians_27": {
+        "name": "Mozart",
+        "description": "Classical composer from the 1700s."
+      },
+      "musicians_28": {
+        "name": "Beethoven",
+        "description": "Influential classical composer and pianist."
+      },
+      "musicians_29": {
+        "name": "Bach",
+        "description": "Baroque composer known for complex music."
+      },
+      "musicians_30": {
+        "name": "Chopin",
+        "description": "Romantic-era composer famous for piano works."
+      },
+      "musicians_31": {
+        "name": "Vivaldi",
+        "description": "Baroque composer associated with \"The Four Seasons.\""
+      },
+      "musicians_32": {
+        "name": "Tchaikovsky",
+        "description": "Composer known for ballets and orchestral music."
+      },
+      "musicians_33": {
+        "name": "Pavarotti",
+        "description": "Famous opera tenor."
+      },
+      "musicians_34": {
+        "name": "Andrea Bocelli",
+        "description": "Italian singer known for pop and classical crossover."
+      },
+      "musicians_35": {
+        "name": "Frank Sinatra",
+        "description": "Classic American singer and entertainer."
+      },
+      "musicians_36": {
+        "name": "Aretha Franklin",
+        "description": "Legendary soul and R&B singer."
+      },
+      "musicians_37": {
+        "name": "Prince",
+        "description": "Singer, songwriter, and multi-instrumentalist."
+      },
+      "musicians_38": {
+        "name": "David Bowie",
+        "description": "Influential rock musician and songwriter."
+      },
+      "musicians_39": {
+        "name": "Elton John",
+        "description": "Pop and rock singer known for piano songs."
+      },
+      "musicians_40": {
+        "name": "Stevie Wonder",
+        "description": "Soul musician known for hit songs and keyboards."
+      },
+      "musicians_41": {
+        "name": "Bob Dylan",
+        "description": "Singer-songwriter known for folk and rock."
+      },
+      "musicians_42": {
+        "name": "Johnny Cash",
+        "description": "Country singer known for a deep voice."
+      },
+      "musicians_43": {
+        "name": "Dolly Parton",
+        "description": "Singer-songwriter known for country and pop."
+      },
+      "musicians_44": {
+        "name": "Tina Turner",
+        "description": "Rock and soul singer with major hits."
+      },
+      "musicians_45": {
+        "name": "Cher",
+        "description": "Pop singer and actress with a long career."
+      },
+      "musicians_46": {
+        "name": "Barbra Streisand",
+        "description": "Singer and actress known for powerful vocals."
+      },
+      "musicians_47": {
+        "name": "Lionel Richie",
+        "description": "Pop and soul singer-songwriter."
+      },
+      "musicians_48": {
+        "name": "Phil Collins",
+        "description": "Singer and drummer with many pop hits."
+      },
+      "musicians_49": {
+        "name": "Sting",
+        "description": "Rock singer and songwriter."
+      },
+      "musicians_50": {
+        "name": "Eric Clapton",
+        "description": "Guitarist and singer known for blues rock."
+      },
+      "musicians_51": {
+        "name": "Jimi Hendrix",
+        "description": "Iconic rock guitarist."
+      },
+      "musicians_52": {
+        "name": "AC/DC",
+        "description": "Rock band known for loud guitars."
+      },
+      "musicians_53": {
+        "name": "Led Zeppelin",
+        "description": "Classic rock band from the 1970s."
+      },
+      "musicians_54": {
+        "name": "Guns N' Roses",
+        "description": "Hard rock band with famous hits."
+      },
+      "musicians_55": {
+        "name": "Bon Jovi",
+        "description": "Rock act known for stadium anthems."
+      },
+      "musicians_56": {
+        "name": "Aerosmith",
+        "description": "Classic American rock band."
+      },
+      "musicians_57": {
+        "name": "Red Hot Chili Peppers",
+        "description": "Rock band mixing funk and rock."
+      },
+      "musicians_58": {
+        "name": "Green Day",
+        "description": "Pop-punk rock band."
+      },
+      "musicians_59": {
+        "name": "Foo Fighters",
+        "description": "Rock band with energetic songs."
+      },
+      "musicians_60": {
+        "name": "Radiohead",
+        "description": "Alternative rock band known worldwide."
+      },
+      "musicians_61": {
+        "name": "Oasis",
+        "description": "Britpop rock band from the 1990s."
+      },
+      "musicians_62": {
+        "name": "The Who",
+        "description": "Influential classic rock band."
+      },
+      "musicians_63": {
+        "name": "The Doors",
+        "description": "Classic rock band with iconic songs."
+      },
+      "musicians_64": {
+        "name": "The Eagles",
+        "description": "Rock band known for timeless hits."
+      },
+      "musicians_65": {
+        "name": "Bee Gees",
+        "description": "Pop group linked to disco-era hits."
+      },
+      "musicians_66": {
+        "name": "The Beach Boys",
+        "description": "Classic pop-rock vocal group."
+      },
+      "musicians_67": {
+        "name": "The Police",
+        "description": "Rock band with reggae influences."
+      },
+      "musicians_68": {
+        "name": "Genesis",
+        "description": "Rock band with a long career."
+      },
+      "musicians_69": {
+        "name": "Depeche Mode",
+        "description": "Electronic band known for synth sounds."
+      },
+      "musicians_70": {
+        "name": "Arctic Monkeys",
+        "description": "Modern rock band with global hits."
+      },
+      "musicians_71": {
+        "name": "The Killers",
+        "description": "Rock band known for catchy singles."
+      },
+      "musicians_72": {
+        "name": "R.E.M.",
+        "description": "Alternative rock band from the 1980s–90s."
+      },
+      "musicians_73": {
+        "name": "Pearl Jam",
+        "description": "Rock band linked to the grunge era."
+      },
+      "musicians_74": {
+        "name": "The Clash",
+        "description": "Influential punk rock band."
+      },
+      "musicians_75": {
+        "name": "The Cure",
+        "description": "Alternative band known for moody songs."
+      },
+      "musicians_76": {
+        "name": "Iron Maiden",
+        "description": "Heavy metal band with a mascot."
+      },
+      "musicians_77": {
+        "name": "Harry Styles",
+        "description": "Pop singer and songwriter."
+      },
+      "musicians_78": {
+        "name": "Miley Cyrus",
+        "description": "Pop singer and performer."
+      },
+      "musicians_79": {
+        "name": "Usher",
+        "description": "R&B singer and entertainer."
+      },
+      "musicians_80": {
+        "name": "Alicia Keys",
+        "description": "Singer-songwriter and pianist."
+      },
+      "musicians_81": {
+        "name": "Jay-Z",
+        "description": "Rapper and music mogul."
+      },
+      "musicians_82": {
+        "name": "Tupac",
+        "description": "Iconic rapper and actor."
+      },
+      "musicians_83": {
+        "name": "Notorious B.I.G.",
+        "description": "Legendary rapper."
+      },
+      "musicians_84": {
+        "name": "Kendrick Lamar",
+        "description": "Rapper and songwriter."
+      },
+      "musicians_85": {
+        "name": "50 Cent",
+        "description": "Rapper and entrepreneur."
+      },
+      "musicians_86": {
+        "name": "Bad Bunny",
+        "description": "Latin trap and reggaeton star."
+      },
+      "musicians_87": {
+        "name": "J Balvin",
+        "description": "Reggaeton and pop artist."
+      },
+      "musicians_88": {
+        "name": "Daddy Yankee",
+        "description": "Reggaeton pioneer."
+      },
+      "musicians_89": {
+        "name": "Enrique Iglesias",
+        "description": "Pop and Latin singer."
+      },
+      "musicians_90": {
+        "name": "Ricky Martin",
+        "description": "Pop and Latin singer."
+      },
+      "musicians_91": {
+        "name": "Julio Iglesias",
+        "description": "Classic Spanish-language singer."
+      },
+      "musicians_92": {
+        "name": "Rosalía",
+        "description": "Spanish pop and urban artist."
+      },
+      "musicians_93": {
+        "name": "PSY",
+        "description": "K-pop singer and performer."
+      },
+      "musicians_94": {
+        "name": "Shania Twain",
+        "description": "Country-pop singer."
+      },
+      "musicians_95": {
+        "name": "Willie Nelson",
+        "description": "Country singer and songwriter."
+      },
+      "musicians_96": {
+        "name": "Diana Ross",
+        "description": "Soul and pop singer."
+      },
+      "musicians_97": {
+        "name": "Marvin Gaye",
+        "description": "Soul singer and songwriter."
+      },
+      "musicians_98": {
+        "name": "Ray Charles",
+        "description": "Soul and jazz musician."
+      },
+      "musicians_99": {
+        "name": "Ella Fitzgerald",
+        "description": "Jazz singer."
+      },
+      "musicians_100": {
+        "name": "Louis Armstrong",
+        "description": "Jazz musician and singer."
       }
     },
     "cartoons_animation": {
       "cartoons_animation_1": {
         "name": "SpongeBob SquarePants",
         "description": "Main character from the Nickelodeon animated series."
+      },
+      "cartoons_animation_2": {
+        "name": "Bugs Bunny",
+        "description": "A clever rabbit from classic cartoons."
+      },
+      "cartoons_animation_3": {
+        "name": "Daffy Duck",
+        "description": "A loud, funny duck from classic cartoons."
+      },
+      "cartoons_animation_4": {
+        "name": "Tweety",
+        "description": "A small yellow canary from classic cartoons."
+      },
+      "cartoons_animation_5": {
+        "name": "Sylvester Cat",
+        "description": "A black-and-white cat who often chases a bird."
+      },
+      "cartoons_animation_6": {
+        "name": "Road Runner",
+        "description": "A super-fast bird from desert cartoons."
+      },
+      "cartoons_animation_7": {
+        "name": "Wile E. Coyote",
+        "description": "A coyote who invents traps to catch a fast bird."
+      },
+      "cartoons_animation_8": {
+        "name": "Tom and Jerry",
+        "description": "A cat-and-mouse cartoon duo with constant chases."
+      },
+      "cartoons_animation_9": {
+        "name": "Scooby-Doo",
+        "description": "A talking Great Dane in a mystery-solving team."
+      },
+      "cartoons_animation_10": {
+        "name": "Shaggy",
+        "description": "A laid-back mystery solver and best friend of a dog."
+      },
+      "cartoons_animation_11": {
+        "name": "Velma",
+        "description": "A smart mystery solver known for her glasses."
+      },
+      "cartoons_animation_12": {
+        "name": "Fred (Scooby-Doo)",
+        "description": "A mystery team leader who makes plans and traps."
+      },
+      "cartoons_animation_13": {
+        "name": "Daphne",
+        "description": "A mystery solver from a classic cartoon team."
+      },
+      "cartoons_animation_14": {
+        "name": "Popeye",
+        "description": "A sailor who gets strong after eating spinach."
+      },
+      "cartoons_animation_15": {
+        "name": "Olive Oyl",
+        "description": "A classic cartoon character often linked to a sailor."
+      },
+      "cartoons_animation_16": {
+        "name": "Betty Boop",
+        "description": "A famous character from early animation."
+      },
+      "cartoons_animation_17": {
+        "name": "Felix the Cat",
+        "description": "A black cartoon cat from early animation history."
+      },
+      "cartoons_animation_18": {
+        "name": "Garfield",
+        "description": "A lazy orange cat who loves food."
+      },
+      "cartoons_animation_19": {
+        "name": "Odie",
+        "description": "A cheerful dog from a famous cat’s world."
+      },
+      "cartoons_animation_20": {
+        "name": "Snoopy",
+        "description": "A beagle from a classic comic and animation series."
+      },
+      "cartoons_animation_21": {
+        "name": "Charlie Brown",
+        "description": "A kid from a classic comic and animated specials."
+      },
+      "cartoons_animation_22": {
+        "name": "Woodstock (Peanuts)",
+        "description": "A small bird and a beagle’s friend."
+      },
+      "cartoons_animation_23": {
+        "name": "Pink Panther",
+        "description": "A smooth pink character from classic animation."
+      },
+      "cartoons_animation_24": {
+        "name": "Papa Smurf",
+        "description": "The leader of small blue characters."
+      },
+      "cartoons_animation_25": {
+        "name": "Smurfette",
+        "description": "A well-known character from the Smurfs."
+      },
+      "cartoons_animation_26": {
+        "name": "Winnie the Pooh",
+        "description": "A friendly bear who loves honey."
+      },
+      "cartoons_animation_27": {
+        "name": "Donald Duck",
+        "description": "A short-tempered Disney duck in sailor clothes."
+      },
+      "cartoons_animation_28": {
+        "name": "Minnie Mouse",
+        "description": "A classic Disney mouse with a bow and polka dots."
+      },
+      "cartoons_animation_29": {
+        "name": "Goofy",
+        "description": "A tall, clumsy Disney dog-like character."
+      },
+      "cartoons_animation_30": {
+        "name": "Pluto",
+        "description": "Mickey’s pet dog in Disney cartoons."
+      },
+      "cartoons_animation_31": {
+        "name": "Daisy Duck",
+        "description": "A Disney duck often seen with a bow and eyelashes."
+      },
+      "cartoons_animation_32": {
+        "name": "Bart Simpson",
+        "description": "A mischievous boy from an animated sitcom."
+      },
+      "cartoons_animation_33": {
+        "name": "Marge Simpson",
+        "description": "A mother with tall blue hair from an animated sitcom."
+      },
+      "cartoons_animation_34": {
+        "name": "Lisa Simpson",
+        "description": "A smart girl from an animated sitcom."
+      },
+      "cartoons_animation_35": {
+        "name": "Patrick Star",
+        "description": "A friendly pink starfish from an underwater cartoon."
+      },
+      "cartoons_animation_36": {
+        "name": "Squidward",
+        "description": "A grumpy squid-like neighbor in an underwater cartoon."
+      },
+      "cartoons_animation_37": {
+        "name": "Mr. Krabs",
+        "description": "A money-loving crab who runs a restaurant."
+      },
+      "cartoons_animation_38": {
+        "name": "Nemo",
+        "description": "A small clownfish from an animated adventure film."
+      },
+      "cartoons_animation_39": {
+        "name": "Dory",
+        "description": "A blue fish known for forgetfulness."
+      },
+      "cartoons_animation_40": {
+        "name": "Mufasa",
+        "description": "A lion king father figure from an animated film."
+      },
+      "cartoons_animation_41": {
+        "name": "Scar",
+        "description": "A villain lion with a scar over one eye."
+      },
+      "cartoons_animation_42": {
+        "name": "Jessie (Toy Story)",
+        "description": "A cowgirl toy from an animated film series."
+      },
+      "cartoons_animation_43": {
+        "name": "Mr. Potato Head",
+        "description": "A customizable toy face with removable parts."
+      },
+      "cartoons_animation_44": {
+        "name": "Buzz (Toy Story)",
+        "description": "A space ranger toy from an animated film series."
+      },
+      "cartoons_animation_45": {
+        "name": "Lightning McQueen",
+        "description": "A red race car from an animated film."
+      },
+      "cartoons_animation_46": {
+        "name": "Mater",
+        "description": "A rusty tow truck from an animated film."
+      },
+      "cartoons_animation_47": {
+        "name": "Wall-E",
+        "description": "A small trash-compacting robot from an animated film."
+      },
+      "cartoons_animation_48": {
+        "name": "EVE",
+        "description": "A sleek white robot from an animated film."
+      },
+      "cartoons_animation_49": {
+        "name": "Remy",
+        "description": "A rat who loves cooking in an animated film."
+      },
+      "cartoons_animation_50": {
+        "name": "Donkey (Shrek)",
+        "description": "A talkative donkey from an animated film series."
+      },
+      "cartoons_animation_51": {
+        "name": "Puss in Boots",
+        "description": "A swashbuckling cat wearing boots and a hat."
+      },
+      "cartoons_animation_52": {
+        "name": "Mulan",
+        "description": "A brave young woman who becomes a warrior."
+      },
+      "cartoons_animation_53": {
+        "name": "Tinker Bell",
+        "description": "A tiny fairy with a green dress."
+      },
+      "cartoons_animation_54": {
+        "name": "Peter Pan",
+        "description": "A boy who can fly and never grows up."
+      },
+      "cartoons_animation_55": {
+        "name": "Captain Hook",
+        "description": "A pirate captain with a hook for a hand."
+      },
+      "cartoons_animation_56": {
+        "name": "Stitch",
+        "description": "A blue alien creature causing chaos and fun."
+      },
+      "cartoons_animation_57": {
+        "name": "Lilo",
+        "description": "A young girl who befriends an alien."
+      },
+      "cartoons_animation_58": {
+        "name": "Mike Wazowski",
+        "description": "A green, one-eyed monster."
+      },
+      "cartoons_animation_59": {
+        "name": "Sulley",
+        "description": "A big blue monster with purple spots."
+      },
+      "cartoons_animation_60": {
+        "name": "Joy",
+        "description": "A bright, cheerful emotion character."
+      },
+      "cartoons_animation_61": {
+        "name": "Baymax",
+        "description": "A soft, inflatable healthcare robot."
+      },
+      "cartoons_animation_62": {
+        "name": "Toothless",
+        "description": "A friendly black dragon."
+      },
+      "cartoons_animation_63": {
+        "name": "Po",
+        "description": "A panda who becomes a kung fu hero."
+      },
+      "cartoons_animation_64": {
+        "name": "Gru",
+        "description": "A former villain with a big nose and a scarf."
+      },
+      "cartoons_animation_65": {
+        "name": "Minions",
+        "description": "Small yellow helpers who speak in funny sounds."
+      },
+      "cartoons_animation_66": {
+        "name": "Peppa Pig",
+        "description": "A little pig in a red dress."
+      },
+      "cartoons_animation_67": {
+        "name": "Dora",
+        "description": "A young explorer with a backpack."
+      },
+      "cartoons_animation_68": {
+        "name": "Bluey",
+        "description": "A blue cartoon dog from a family show."
+      },
+      "cartoons_animation_69": {
+        "name": "Hello Kitty",
+        "description": "A cute white cat with a bow."
+      },
+      "cartoons_animation_70": {
+        "name": "Twilight Sparkle",
+        "description": "A purple unicorn pony with a horn."
+      },
+      "cartoons_animation_71": {
+        "name": "Rainbow Dash",
+        "description": "A blue flying pony with rainbow hair."
+      },
+      "cartoons_animation_72": {
+        "name": "Pinkie Pie",
+        "description": "A pink pony known for parties and smiles."
+      },
+      "cartoons_animation_73": {
+        "name": "Finn",
+        "description": "A human boy adventurer with a white hat."
+      },
+      "cartoons_animation_74": {
+        "name": "Jake",
+        "description": "A yellow dog with stretchy powers."
+      },
+      "cartoons_animation_75": {
+        "name": "Ice King",
+        "description": "An ice wizard wearing a crown."
+      },
+      "cartoons_animation_76": {
+        "name": "Princess Bubblegum",
+        "description": "A pink princess linked to candy."
+      },
+      "cartoons_animation_77": {
+        "name": "Sailor Moon",
+        "description": "A magical-girl heroine who fights evil."
+      },
+      "cartoons_animation_78": {
+        "name": "Totoro",
+        "description": "A big friendly forest spirit."
+      },
+      "cartoons_animation_79": {
+        "name": "No-Face",
+        "description": "A masked spirit from a bathhouse story."
+      },
+      "cartoons_animation_80": {
+        "name": "Chihiro",
+        "description": "A young girl who enters a spirit world."
+      },
+      "cartoons_animation_81": {
+        "name": "Ponyo",
+        "description": "A fish-girl with magical powers."
+      },
+      "cartoons_animation_82": {
+        "name": "Aang",
+        "description": "A young hero who controls the elements."
+      },
+      "cartoons_animation_83": {
+        "name": "Zuko",
+        "description": "A conflicted prince and firebender."
+      },
+      "cartoons_animation_84": {
+        "name": "Appa",
+        "description": "A flying bison companion."
+      },
+      "cartoons_animation_85": {
+        "name": "Rick Sanchez",
+        "description": "A genius scientist who travels dimensions."
+      },
+      "cartoons_animation_86": {
+        "name": "Morty Smith",
+        "description": "A teenage sidekick on sci-fi adventures."
+      },
+      "cartoons_animation_87": {
+        "name": "Marceline",
+        "description": "A vampire rock star from a fantasy land."
+      },
+      "cartoons_animation_88": {
+        "name": "Blossom",
+        "description": "A leader superhero girl from a trio."
+      },
+      "cartoons_animation_89": {
+        "name": "Bubbles",
+        "description": "A sweet superhero girl from a trio."
+      },
+      "cartoons_animation_90": {
+        "name": "Buttercup",
+        "description": "A tough superhero girl from a trio."
+      },
+      "cartoons_animation_91": {
+        "name": "Porky Pig",
+        "description": "A classic stuttering cartoon pig."
+      },
+      "cartoons_animation_92": {
+        "name": "Lucy van Pelt",
+        "description": "A bossy girl from the Peanuts gang."
+      },
+      "cartoons_animation_93": {
+        "name": "Brainy Smurf",
+        "description": "A know-it-all blue Smurf."
+      },
+      "cartoons_animation_94": {
+        "name": "Vegeta",
+        "description": "A proud warrior prince."
+      },
+      "cartoons_animation_95": {
+        "name": "Luffy",
+        "description": "A pirate captain who seeks a great treasure."
+      },
+      "cartoons_animation_96": {
+        "name": "Eren Yeager",
+        "description": "A soldier in a world of giants."
+      },
+      "cartoons_animation_97": {
+        "name": "Ash Ketchum",
+        "description": "A young trainer who travels with creatures."
+      },
+      "cartoons_animation_98": {
+        "name": "Meowth",
+        "description": "A talking cat-like creature."
+      },
+      "cartoons_animation_99": {
+        "name": "Tigress",
+        "description": "A skilled kung fu tiger warrior."
+      },
+      "cartoons_animation_100": {
+        "name": "Master Shifu",
+        "description": "A small kung fu master and teacher."
       }
     },
     "fantasy_creatures": {
       "fantasy_creatures_1": {
         "name": "Dragon",
         "description": "Legendary fire-breathing creature from fantasy stories."
+      },
+      "fantasy_creatures_2": {
+        "name": "Unicorn",
+        "description": "A legendary horse with a single horn."
+      },
+      "fantasy_creatures_3": {
+        "name": "Phoenix",
+        "description": "A firebird that is reborn from ashes."
+      },
+      "fantasy_creatures_4": {
+        "name": "Mermaid",
+        "description": "A half-human, half-fish sea being."
+      },
+      "fantasy_creatures_5": {
+        "name": "Fairy",
+        "description": "A small magical humanoid being."
+      },
+      "fantasy_creatures_6": {
+        "name": "Elf",
+        "description": "A magical humanoid often linked to forests."
+      },
+      "fantasy_creatures_7": {
+        "name": "Dwarf",
+        "description": "A short, sturdy fantasy humanoid."
+      },
+      "fantasy_creatures_8": {
+        "name": "Orc",
+        "description": "A brutish fantasy humanoid warrior."
+      },
+      "fantasy_creatures_9": {
+        "name": "Goblin",
+        "description": "A small, mischievous fantasy creature."
+      },
+      "fantasy_creatures_10": {
+        "name": "Troll",
+        "description": "A large creature often linked to bridges or caves."
+      },
+      "fantasy_creatures_11": {
+        "name": "Giant",
+        "description": "A humanoid of enormous size."
+      },
+      "fantasy_creatures_12": {
+        "name": "Ogre",
+        "description": "A large, rough-looking humanoid monster."
+      },
+      "fantasy_creatures_13": {
+        "name": "Griffin",
+        "description": "A creature with eagle and lion features."
+      },
+      "fantasy_creatures_14": {
+        "name": "Pegasus",
+        "description": "A winged horse from myth."
+      },
+      "fantasy_creatures_15": {
+        "name": "Centaur",
+        "description": "Half human, half horse creature."
+      },
+      "fantasy_creatures_16": {
+        "name": "Minotaur",
+        "description": "A bull-headed humanoid monster."
+      },
+      "fantasy_creatures_17": {
+        "name": "Hydra",
+        "description": "A many-headed serpent-like monster."
+      },
+      "fantasy_creatures_18": {
+        "name": "Kraken",
+        "description": "A gigantic sea monster, often tentacled."
+      },
+      "fantasy_creatures_19": {
+        "name": "Basilisk",
+        "description": "A deadly reptile or serpent from legend."
+      },
+      "fantasy_creatures_20": {
+        "name": "Chimera",
+        "description": "A multi-animal hybrid monster."
+      },
+      "fantasy_creatures_21": {
+        "name": "Cerberus",
+        "description": "A multi-headed dog that guards an underworld."
+      },
+      "fantasy_creatures_22": {
+        "name": "Werewolf",
+        "description": "A human who transforms into a wolf-like beast."
+      },
+      "fantasy_creatures_23": {
+        "name": "Vampire",
+        "description": "A nocturnal creature that drinks blood."
+      },
+      "fantasy_creatures_24": {
+        "name": "Zombie",
+        "description": "An undead being that moves and attacks."
+      },
+      "fantasy_creatures_25": {
+        "name": "Ghost",
+        "description": "A spirit of a dead person."
+      },
+      "fantasy_creatures_26": {
+        "name": "Poltergeist",
+        "description": "A spirit that causes physical disturbances."
+      },
+      "fantasy_creatures_27": {
+        "name": "Angel",
+        "description": "A winged celestial being from myths and fantasy."
+      },
+      "fantasy_creatures_28": {
+        "name": "Demon",
+        "description": "A malevolent supernatural being."
+      },
+      "fantasy_creatures_29": {
+        "name": "Devil",
+        "description": "A classic embodiment of evil in folklore."
+      },
+      "fantasy_creatures_30": {
+        "name": "Witch",
+        "description": "A magic user from folklore and fantasy stories."
+      },
+      "fantasy_creatures_31": {
+        "name": "Wizard",
+        "description": "A spellcaster, often with a staff or robe."
+      },
+      "fantasy_creatures_32": {
+        "name": "Sorcerer",
+        "description": "A magical practitioner in fantasy settings."
+      },
+      "fantasy_creatures_33": {
+        "name": "Necromancer",
+        "description": "A magic user associated with the dead."
+      },
+      "fantasy_creatures_34": {
+        "name": "Shapeshifter",
+        "description": "A being that can change its form."
+      },
+      "fantasy_creatures_35": {
+        "name": "Doppelganger",
+        "description": "A supernatural double that looks like someone else."
+      },
+      "fantasy_creatures_36": {
+        "name": "Wraith",
+        "description": "A dark, ghostlike spirit."
+      },
+      "fantasy_creatures_37": {
+        "name": "Lich",
+        "description": "An undead sorcerer preserved by magic."
+      },
+      "fantasy_creatures_38": {
+        "name": "Ghoul",
+        "description": "A corpse-eating undead creature from folklore."
+      },
+      "fantasy_creatures_39": {
+        "name": "Banshee",
+        "description": "A spirit known for a chilling wail."
+      },
+      "fantasy_creatures_40": {
+        "name": "Gargoyle",
+        "description": "A stone creature often seen on old buildings."
+      },
+      "fantasy_creatures_41": {
+        "name": "Golem",
+        "description": "A magical being made from clay or stone."
+      },
+      "fantasy_creatures_42": {
+        "name": "Manticore",
+        "description": "A monster with a lion-like body and other features."
+      },
+      "fantasy_creatures_43": {
+        "name": "Sphinx",
+        "description": "A mythical creature known for riddles."
+      },
+      "fantasy_creatures_44": {
+        "name": "Harpy",
+        "description": "A winged creature from ancient myths."
+      },
+      "fantasy_creatures_45": {
+        "name": "Satyr",
+        "description": "A half-goat, half-human creature from mythology."
+      },
+      "fantasy_creatures_46": {
+        "name": "Faun",
+        "description": "A forest creature, part human and part goat."
+      },
+      "fantasy_creatures_47": {
+        "name": "Nymph",
+        "description": "A nature spirit from mythology."
+      },
+      "fantasy_creatures_48": {
+        "name": "Dryad",
+        "description": "A tree spirit from mythology."
+      },
+      "fantasy_creatures_49": {
+        "name": "Sprite",
+        "description": "A small magical nature spirit."
+      },
+      "fantasy_creatures_50": {
+        "name": "Leprechaun",
+        "description": "A mischievous small being from folklore."
+      },
+      "fantasy_creatures_51": {
+        "name": "Yeti",
+        "description": "A legendary ape-like creature from snowy mountains."
+      },
+      "fantasy_creatures_52": {
+        "name": "Medusa",
+        "description": "A woman with snake hair whose gaze turns others to stone."
+      },
+      "fantasy_creatures_53": {
+        "name": "Gorgon",
+        "description": "A monstrous being often linked to petrifying victims."
+      },
+      "fantasy_creatures_54": {
+        "name": "Hippogriff",
+        "description": "A creature that is half eagle and half horse."
+      },
+      "fantasy_creatures_55": {
+        "name": "Wyvern",
+        "description": "A dragon-like creature, often with two legs and wings."
+      },
+      "fantasy_creatures_56": {
+        "name": "Leviathan",
+        "description": "A massive sea monster from myth and fantasy."
+      },
+      "fantasy_creatures_57": {
+        "name": "Behemoth",
+        "description": "A gigantic beast symbolizing immense strength."
+      },
+      "fantasy_creatures_58": {
+        "name": "Imp",
+        "description": "A small mischievous demon-like creature."
+      },
+      "fantasy_creatures_59": {
+        "name": "Roc",
+        "description": "A legendary giant bird capable of carrying huge prey."
+      },
+      "fantasy_creatures_60": {
+        "name": "Sea Serpent",
+        "description": "A huge serpent-like monster said to live in the ocean."
+      },
+      "fantasy_creatures_61": {
+        "name": "Fire Elemental",
+        "description": "A living being made of flame."
+      },
+      "fantasy_creatures_62": {
+        "name": "Water Elemental",
+        "description": "A living being made of water."
+      },
+      "fantasy_creatures_63": {
+        "name": "Earth Elemental",
+        "description": "A creature formed from rock and soil."
+      },
+      "fantasy_creatures_64": {
+        "name": "Air Elemental",
+        "description": "A being of wind and swirling air."
+      },
+      "fantasy_creatures_65": {
+        "name": "Dark Elf",
+        "description": "An elf associated with darkness or the underground."
+      },
+      "fantasy_creatures_66": {
+        "name": "Frost Giant",
+        "description": "A giant linked to ice and cold."
+      },
+      "fantasy_creatures_67": {
+        "name": "Stone Giant",
+        "description": "A giant associated with stone and mountains."
+      },
+      "fantasy_creatures_68": {
+        "name": "Fire Giant",
+        "description": "A giant linked to fire and heat."
+      },
+      "fantasy_creatures_69": {
+        "name": "Direwolf",
+        "description": "An oversized, fearsome wolf from fantasy stories."
+      },
+      "fantasy_creatures_70": {
+        "name": "Warg",
+        "description": "A monstrous wolf-like creature often used as a mount."
+      },
+      "fantasy_creatures_71": {
+        "name": "Ent",
+        "description": "A tree-like walking being from fantasy."
+      },
+      "fantasy_creatures_72": {
+        "name": "Balrog",
+        "description": "A fiery shadow demon from epic fantasy."
+      },
+      "fantasy_creatures_73": {
+        "name": "Nazgûl",
+        "description": "A terrifying ring-wraith-like rider from fantasy."
+      },
+      "fantasy_creatures_74": {
+        "name": "Dementor",
+        "description": "A cloaked creature that drains happiness."
+      },
+      "fantasy_creatures_75": {
+        "name": "Thestral",
+        "description": "A winged horse-like creature, often described as eerie."
+      },
+      "fantasy_creatures_76": {
+        "name": "Giant Spider",
+        "description": "An enormous spider from fantasy tales."
+      },
+      "fantasy_creatures_77": {
+        "name": "Pixie",
+        "description": "A tiny mischievous fairy-like being."
+      },
+      "fantasy_creatures_78": {
+        "name": "Gnome",
+        "description": "A small folkloric creature, often linked to nature."
+      },
+      "fantasy_creatures_79": {
+        "name": "Mummy",
+        "description": "An undead body wrapped in bandages."
+      },
+      "fantasy_creatures_80": {
+        "name": "Grim Reaper",
+        "description": "A personification of death, often with a scythe."
+      },
+      "fantasy_creatures_81": {
+        "name": "Boogeyman",
+        "description": "A scary monster said to haunt the dark."
+      },
+      "fantasy_creatures_82": {
+        "name": "Bigfoot",
+        "description": "A large, hairy, ape-like cryptid."
+      },
+      "fantasy_creatures_83": {
+        "name": "Krampus",
+        "description": "A horned holiday monster that punishes misbehavior."
+      },
+      "fantasy_creatures_84": {
+        "name": "Gremlin",
+        "description": "A small troublemaking creature that causes chaos."
+      },
+      "fantasy_creatures_85": {
+        "name": "Will-o'-wisp",
+        "description": "A mysterious floating light that lures travelers."
+      },
+      "fantasy_creatures_86": {
+        "name": "Hellhound",
+        "description": "A supernatural dog associated with the underworld."
+      },
+      "fantasy_creatures_87": {
+        "name": "Homunculus",
+        "description": "A tiny artificial humanoid from old lore."
+      },
+      "fantasy_creatures_88": {
+        "name": "Cockatrice",
+        "description": "A mythical creature with rooster and reptile traits."
+      },
+      "fantasy_creatures_89": {
+        "name": "Hippocamp",
+        "description": "A sea-horse creature, often horse and fish."
+      },
+      "fantasy_creatures_90": {
+        "name": "Lamia",
+        "description": "A mythical being, often part woman and part serpent."
+      },
+      "fantasy_creatures_91": {
+        "name": "Naga",
+        "description": "A serpent-like humanoid from myth and fantasy."
+      },
+      "fantasy_creatures_92": {
+        "name": "Kitsune",
+        "description": "A magical fox spirit that can change shape."
+      },
+      "fantasy_creatures_93": {
+        "name": "Qilin",
+        "description": "A mythical good-luck beast, often deer-like with scales."
+      },
+      "fantasy_creatures_94": {
+        "name": "Garuda",
+        "description": "A giant bird-like mythical being."
+      },
+      "fantasy_creatures_95": {
+        "name": "Valkyrie",
+        "description": "A mythic warrior spirit associated with fallen heroes."
+      },
+      "fantasy_creatures_96": {
+        "name": "Oni",
+        "description": "A horned ogre-like spirit from folklore."
+      },
+      "fantasy_creatures_97": {
+        "name": "Jackalope",
+        "description": "A rabbit-like creature with antlers."
+      },
+      "fantasy_creatures_98": {
+        "name": "Chupacabra",
+        "description": "A mysterious creature said to attack livestock."
+      },
+      "fantasy_creatures_99": {
+        "name": "Firebird",
+        "description": "A legendary bird linked to flames and light."
+      },
+      "fantasy_creatures_100": {
+        "name": "Sandman",
+        "description": "A mythical figure tied to sleep and dreams."
       }
     },
     "animals": {
       "animals_1": {
         "name": "Dog",
         "description": "Popular domestic animal known as a loyal companion."
+      },
+      "animals_2": {
+        "name": "Lion",
+        "description": "A large wild cat known as the “king of the jungle”."
+      },
+      "animals_3": {
+        "name": "Tiger",
+        "description": "A big striped wild cat."
+      },
+      "animals_4": {
+        "name": "Elephant",
+        "description": "A huge animal with a trunk."
+      },
+      "animals_5": {
+        "name": "Giraffe",
+        "description": "A tall animal with a long neck."
+      },
+      "animals_6": {
+        "name": "Zebra",
+        "description": "A horse-like animal with black-and-white stripes."
+      },
+      "animals_7": {
+        "name": "Hippopotamus",
+        "description": "A large semi-aquatic animal with a big mouth."
+      },
+      "animals_8": {
+        "name": "Leopard",
+        "description": "A spotted big cat."
+      },
+      "animals_9": {
+        "name": "Cheetah",
+        "description": "A fast big cat with spots."
+      },
+      "animals_10": {
+        "name": "Panda",
+        "description": "A black-and-white bear-like animal."
+      },
+      "animals_11": {
+        "name": "Koala",
+        "description": "A tree-dwelling marsupial."
+      },
+      "animals_12": {
+        "name": "Kangaroo",
+        "description": "A hopping marsupial with a pouch."
+      },
+      "animals_13": {
+        "name": "Gorilla",
+        "description": "A large strong ape."
+      },
+      "animals_14": {
+        "name": "Chimpanzee",
+        "description": "A clever ape similar to humans."
+      },
+      "animals_15": {
+        "name": "Orangutan",
+        "description": "A red-haired great ape."
+      },
+      "animals_16": {
+        "name": "Bear",
+        "description": "A large furry mammal."
+      },
+      "animals_17": {
+        "name": "Polar Bear",
+        "description": "A white bear that lives in the Arctic."
+      },
+      "animals_18": {
+        "name": "Wolf",
+        "description": "A wild canine that often lives in packs."
+      },
+      "animals_19": {
+        "name": "Fox",
+        "description": "A small wild canine with a bushy tail."
+      },
+      "animals_20": {
+        "name": "Rabbit",
+        "description": "A small animal with long ears."
+      },
+      "animals_21": {
+        "name": "Deer",
+        "description": "A hoofed animal; males often have antlers."
+      },
+      "animals_22": {
+        "name": "Moose",
+        "description": "A very large deer with broad antlers."
+      },
+      "animals_23": {
+        "name": "Camel",
+        "description": "A desert animal with humps."
+      },
+      "animals_24": {
+        "name": "Llama",
+        "description": "A fluffy animal related to camels."
+      },
+      "animals_25": {
+        "name": "Alpaca",
+        "description": "A woolly animal similar to a llama."
+      },
+      "animals_26": {
+        "name": "Horse",
+        "description": "A large animal commonly ridden by people."
+      },
+      "animals_27": {
+        "name": "Dolphin",
+        "description": "Intelligent marine mammal."
+      },
+      "animals_28": {
+        "name": "Shark",
+        "description": "Large predatory fish."
+      },
+      "animals_29": {
+        "name": "Whale",
+        "description": "Giant marine mammal."
+      },
+      "animals_30": {
+        "name": "Octopus",
+        "description": "Sea animal with eight arms."
+      },
+      "animals_31": {
+        "name": "Penguin",
+        "description": "Flightless seabird."
+      },
+      "animals_32": {
+        "name": "Crocodile",
+        "description": "Large reptile with powerful jaws."
+      },
+      "animals_33": {
+        "name": "Alligator",
+        "description": "Large freshwater reptile."
+      },
+      "animals_34": {
+        "name": "Snake",
+        "description": "Legless reptile."
+      },
+      "animals_35": {
+        "name": "Turtle",
+        "description": "Reptile with a shell."
+      },
+      "animals_36": {
+        "name": "Frog",
+        "description": "Amphibian that jumps."
+      },
+      "animals_37": {
+        "name": "Parrot",
+        "description": "Colorful bird that can mimic sounds."
+      },
+      "animals_38": {
+        "name": "Owl",
+        "description": "Nocturnal bird of prey."
+      },
+      "animals_39": {
+        "name": "Eagle",
+        "description": "Large bird of prey."
+      },
+      "animals_40": {
+        "name": "Hawk",
+        "description": "Fast bird of prey."
+      },
+      "animals_41": {
+        "name": "Flamingo",
+        "description": "Tall pink wading bird."
+      },
+      "animals_42": {
+        "name": "Peacock",
+        "description": "Bird with a large fan tail."
+      },
+      "animals_43": {
+        "name": "Pigeon",
+        "description": "Common city bird."
+      },
+      "animals_44": {
+        "name": "Sparrow",
+        "description": "Small common bird."
+      },
+      "animals_45": {
+        "name": "Crow",
+        "description": "Black intelligent bird."
+      },
+      "animals_46": {
+        "name": "Raven",
+        "description": "Large black bird."
+      },
+      "animals_47": {
+        "name": "Seagull",
+        "description": "Coastal bird."
+      },
+      "animals_48": {
+        "name": "Pelican",
+        "description": "Large bird with a pouch beak."
+      },
+      "animals_49": {
+        "name": "Chicken",
+        "description": "Common farm bird."
+      },
+      "animals_50": {
+        "name": "Rooster",
+        "description": "Male chicken."
+      },
+      "animals_51": {
+        "name": "Turkey",
+        "description": "Large farm bird."
+      },
+      "animals_52": {
+        "name": "Cat",
+        "description": "Common domestic pet feline."
+      },
+      "animals_53": {
+        "name": "Mouse",
+        "description": "Small rodent often found near humans."
+      },
+      "animals_54": {
+        "name": "Hamster",
+        "description": "Small pet rodent kept in cages."
+      },
+      "animals_55": {
+        "name": "Guinea Pig",
+        "description": "Small domesticated rodent-like pet."
+      },
+      "animals_56": {
+        "name": "Ferret",
+        "description": "Long-bodied small mammal sometimes kept as a pet."
+      },
+      "animals_57": {
+        "name": "Weasel",
+        "description": "Small slender wild mammal."
+      },
+      "animals_58": {
+        "name": "Otter",
+        "description": "Playful aquatic mammal."
+      },
+      "animals_59": {
+        "name": "Beaver",
+        "description": "Rodent known for building dams."
+      },
+      "animals_60": {
+        "name": "Squirrel",
+        "description": "Tree-dwelling rodent with a bushy tail."
+      },
+      "animals_61": {
+        "name": "Hedgehog",
+        "description": "Small mammal with spines."
+      },
+      "animals_62": {
+        "name": "Porcupine",
+        "description": "Large rodent with quills."
+      },
+      "animals_63": {
+        "name": "Armadillo",
+        "description": "Mammal with armored plates."
+      },
+      "animals_64": {
+        "name": "Sloth",
+        "description": "Slow-moving tree-dwelling mammal."
+      },
+      "animals_65": {
+        "name": "Anteater",
+        "description": "Mammal that eats ants and termites."
+      },
+      "animals_66": {
+        "name": "Tapir",
+        "description": "Large herbivore with a short trunk-like nose."
+      },
+      "animals_67": {
+        "name": "Bison",
+        "description": "Large shaggy grazing mammal."
+      },
+      "animals_68": {
+        "name": "Buffalo",
+        "description": "Large horned grazing mammal."
+      },
+      "animals_69": {
+        "name": "Hyena",
+        "description": "African carnivore known for a laugh-like call."
+      },
+      "animals_70": {
+        "name": "Jackal",
+        "description": "Small wild canine."
+      },
+      "animals_71": {
+        "name": "Lynx",
+        "description": "Wild cat with tufted ears."
+      },
+      "animals_72": {
+        "name": "Puma",
+        "description": "Large wild cat."
+      },
+      "animals_73": {
+        "name": "Wombat",
+        "description": "Stocky burrowing marsupial."
+      },
+      "animals_74": {
+        "name": "Platypus",
+        "description": "Egg-laying mammal with a duck-like bill."
+      },
+      "animals_75": {
+        "name": "Echidna",
+        "description": "Spiny egg-laying mammal."
+      },
+      "animals_76": {
+        "name": "Dingo",
+        "description": "Wild dog-like canine."
+      },
+      "animals_77": {
+        "name": "Cow",
+        "description": "A farm animal that gives milk."
+      },
+      "animals_78": {
+        "name": "Sheep",
+        "description": "A woolly farm animal."
+      },
+      "animals_79": {
+        "name": "Goat",
+        "description": "A horned farm animal."
+      },
+      "animals_80": {
+        "name": "Pig",
+        "description": "A farm animal with a snout."
+      },
+      "animals_81": {
+        "name": "Duck",
+        "description": "A water bird that quacks."
+      },
+      "animals_82": {
+        "name": "Goose",
+        "description": "A large water bird."
+      },
+      "animals_83": {
+        "name": "Swan",
+        "description": "A large white water bird."
+      },
+      "animals_84": {
+        "name": "Bat",
+        "description": "A flying mammal active at night."
+      },
+      "animals_85": {
+        "name": "Monkey",
+        "description": "A primate that climbs trees."
+      },
+      "animals_86": {
+        "name": "Raccoon",
+        "description": "A masked-looking night animal."
+      },
+      "animals_87": {
+        "name": "Skunk",
+        "description": "A small animal known for a strong smell."
+      },
+      "animals_88": {
+        "name": "Badger",
+        "description": "A burrowing mammal with stripes."
+      },
+      "animals_89": {
+        "name": "Mole",
+        "description": "A small animal that lives underground."
+      },
+      "animals_90": {
+        "name": "Chipmunk",
+        "description": "A small striped squirrel-like animal."
+      },
+      "animals_91": {
+        "name": "Hare",
+        "description": "A fast animal similar to a rabbit."
+      },
+      "animals_92": {
+        "name": "Reindeer",
+        "description": "A deer with antlers from cold regions."
+      },
+      "animals_93": {
+        "name": "Yak",
+        "description": "A long-haired cattle-like animal."
+      },
+      "animals_94": {
+        "name": "Antelope",
+        "description": "A fast hoofed animal from open plains."
+      },
+      "animals_95": {
+        "name": "Gazelle",
+        "description": "A small, fast antelope."
+      },
+      "animals_96": {
+        "name": "Meerkat",
+        "description": "A small animal that stands upright."
+      },
+      "animals_97": {
+        "name": "Lemur",
+        "description": "A primate with a long tail."
+      },
+      "animals_98": {
+        "name": "Jaguar",
+        "description": "A big spotted wild cat."
+      },
+      "animals_99": {
+        "name": "Ocelot",
+        "description": "A small wild cat with spots."
+      },
+      "animals_100": {
+        "name": "Seal",
+        "description": "A marine animal that swims and rests on shores."
       }
     },
     "food": {
       "food_1": {
         "name": "Pizza",
         "description": "Popular dish made with dough, sauce, and toppings."
+      },
+      "food_2": {
+        "name": "Apple",
+        "description": "A common sweet fruit."
+      },
+      "food_3": {
+        "name": "Banana",
+        "description": "A long yellow fruit."
+      },
+      "food_4": {
+        "name": "Orange",
+        "description": "A round citrus fruit."
+      },
+      "food_5": {
+        "name": "Grapes",
+        "description": "Small fruits that grow in bunches."
+      },
+      "food_6": {
+        "name": "Strawberry",
+        "description": "A small red berry."
+      },
+      "food_7": {
+        "name": "Watermelon",
+        "description": "A large juicy fruit."
+      },
+      "food_8": {
+        "name": "Pineapple",
+        "description": "A tropical fruit with a spiky skin."
+      },
+      "food_9": {
+        "name": "Mango",
+        "description": "A sweet tropical fruit."
+      },
+      "food_10": {
+        "name": "Lemon",
+        "description": "A sour citrus fruit."
+      },
+      "food_11": {
+        "name": "Avocado",
+        "description": "A creamy green fruit."
+      },
+      "food_12": {
+        "name": "Tomato",
+        "description": "A common red produce item."
+      },
+      "food_13": {
+        "name": "Potato",
+        "description": "A starchy root vegetable."
+      },
+      "food_14": {
+        "name": "Carrot",
+        "description": "An orange crunchy vegetable."
+      },
+      "food_15": {
+        "name": "Onion",
+        "description": "A strong-smelling vegetable."
+      },
+      "food_16": {
+        "name": "Garlic",
+        "description": "A pungent cooking ingredient."
+      },
+      "food_17": {
+        "name": "Lettuce",
+        "description": "A leafy green vegetable."
+      },
+      "food_18": {
+        "name": "Cucumber",
+        "description": "A crisp green vegetable."
+      },
+      "food_19": {
+        "name": "Mushroom",
+        "description": "An edible fungus used in cooking."
+      },
+      "food_20": {
+        "name": "Corn",
+        "description": "A yellow grain often eaten as kernels."
+      },
+      "food_21": {
+        "name": "Broccoli",
+        "description": "A green vegetable with florets."
+      },
+      "food_22": {
+        "name": "Rice",
+        "description": "A staple grain food."
+      },
+      "food_23": {
+        "name": "Bread",
+        "description": "A baked staple food."
+      },
+      "food_24": {
+        "name": "Noodles",
+        "description": "Long strands of cooked dough."
+      },
+      "food_25": {
+        "name": "Pasta",
+        "description": "A cooked food made from dough."
+      },
+      "food_26": {
+        "name": "Burger",
+        "description": "A sandwich with a patty."
+      },
+      "food_27": {
+        "name": "Cheese",
+        "description": "A dairy food made from milk."
+      },
+      "food_28": {
+        "name": "Chocolate",
+        "description": "A sweet made from cacao."
+      },
+      "food_29": {
+        "name": "Ice Cream",
+        "description": "A frozen sweet dessert."
+      },
+      "food_30": {
+        "name": "Coffee",
+        "description": "A hot drink made from roasted beans."
+      },
+      "food_31": {
+        "name": "Tea",
+        "description": "A drink made by infusing leaves in water."
+      },
+      "food_32": {
+        "name": "Milk",
+        "description": "A common dairy drink."
+      },
+      "food_33": {
+        "name": "Yogurt",
+        "description": "A fermented dairy food."
+      },
+      "food_34": {
+        "name": "Butter",
+        "description": "A spread made from cream."
+      },
+      "food_35": {
+        "name": "Salt",
+        "description": "A common seasoning."
+      },
+      "food_36": {
+        "name": "Sugar",
+        "description": "A sweet crystalline ingredient."
+      },
+      "food_37": {
+        "name": "Honey",
+        "description": "A sweet syrup made by bees."
+      },
+      "food_38": {
+        "name": "Jam",
+        "description": "A sweet fruit spread."
+      },
+      "food_39": {
+        "name": "Peanut Butter",
+        "description": "A thick spread made from peanuts."
+      },
+      "food_40": {
+        "name": "Egg",
+        "description": "A common food from birds."
+      },
+      "food_41": {
+        "name": "Bacon",
+        "description": "A salty cured meat."
+      },
+      "food_42": {
+        "name": "Ham",
+        "description": "A cured meat, often sliced."
+      },
+      "food_43": {
+        "name": "Steak",
+        "description": "A thick cut of meat."
+      },
+      "food_44": {
+        "name": "Salmon",
+        "description": "A popular pink fish to eat."
+      },
+      "food_45": {
+        "name": "Tuna",
+        "description": "A common fish used in many dishes."
+      },
+      "food_46": {
+        "name": "Shrimp",
+        "description": "A small seafood often cooked."
+      },
+      "food_47": {
+        "name": "Lobster",
+        "description": "A large shellfish eaten as seafood."
+      },
+      "food_48": {
+        "name": "Soup",
+        "description": "A warm liquid dish."
+      },
+      "food_49": {
+        "name": "Salad",
+        "description": "A mix of raw or cooked ingredients."
+      },
+      "food_50": {
+        "name": "Sandwich",
+        "description": "Food filled between slices of bread."
+      },
+      "food_51": {
+        "name": "Hot Dog",
+        "description": "A sausage served in a bun."
+      },
+      "food_52": {
+        "name": "Sushi",
+        "description": "Japanese rice rolls, often with fish or vegetables."
+      },
+      "food_53": {
+        "name": "Ramen",
+        "description": "Noodle soup with broth and toppings."
+      },
+      "food_54": {
+        "name": "Dumplings",
+        "description": "Filled dough pieces, steamed or fried."
+      },
+      "food_55": {
+        "name": "Spaghetti",
+        "description": "Long pasta, usually served with sauce."
+      },
+      "food_56": {
+        "name": "Lasagna",
+        "description": "Layered pasta baked with sauce and filling."
+      },
+      "food_57": {
+        "name": "Tacos",
+        "description": "Folded tortilla with fillings."
+      },
+      "food_58": {
+        "name": "Burrito",
+        "description": "Wrapped tortilla with rice, beans, or meat."
+      },
+      "food_59": {
+        "name": "Nachos",
+        "description": "Tortilla chips with melted toppings."
+      },
+      "food_60": {
+        "name": "Curry",
+        "description": "Spiced sauce or stew served with sides."
+      },
+      "food_61": {
+        "name": "Paella",
+        "description": "Rice dish cooked with seafood or meat."
+      },
+      "food_62": {
+        "name": "Falafel",
+        "description": "Fried balls made from chickpeas or beans."
+      },
+      "food_63": {
+        "name": "Hummus",
+        "description": "Creamy chickpea dip."
+      },
+      "food_64": {
+        "name": "Couscous",
+        "description": "Steamed semolina grains served as a side."
+      },
+      "food_65": {
+        "name": "Kebab",
+        "description": "Grilled meat served in pieces or wrap."
+      },
+      "food_66": {
+        "name": "Naan",
+        "description": "Soft flatbread often served with curry."
+      },
+      "food_67": {
+        "name": "Pita",
+        "description": "Round flatbread that can form a pocket."
+      },
+      "food_68": {
+        "name": "Bagel",
+        "description": "Ring-shaped bread, often toasted."
+      },
+      "food_69": {
+        "name": "Croissant",
+        "description": "Flaky crescent-shaped pastry."
+      },
+      "food_70": {
+        "name": "Donut",
+        "description": "Sweet fried ring with glaze or filling."
+      },
+      "food_71": {
+        "name": "Cookie",
+        "description": "Small baked sweet snack."
+      },
+      "food_72": {
+        "name": "Cake",
+        "description": "Sweet baked dessert, often sliced."
+      },
+      "food_73": {
+        "name": "Cupcake",
+        "description": "Small cake with frosting."
+      },
+      "food_74": {
+        "name": "Muffin",
+        "description": "Soft baked snack, often with fruit or chips."
+      },
+      "food_75": {
+        "name": "Brownie",
+        "description": "Dense chocolate baked square."
+      },
+      "food_76": {
+        "name": "Pancakes",
+        "description": "Flat breakfast cakes cooked on a pan."
+      },
+      "food_77": {
+        "name": "Waffle",
+        "description": "A grid-patterned batter cake, often sweet."
+      },
+      "food_78": {
+        "name": "Pretzel",
+        "description": "A baked twisted bread snack, often salty."
+      },
+      "food_79": {
+        "name": "Popcorn",
+        "description": "Popped corn kernels, often salted or buttered."
+      },
+      "food_80": {
+        "name": "Cereal",
+        "description": "Dry breakfast grains, often eaten with milk."
+      },
+      "food_81": {
+        "name": "Oatmeal",
+        "description": "Cooked oats, usually eaten warm."
+      },
+      "food_82": {
+        "name": "Granola",
+        "description": "Baked oat mix, often with nuts or honey."
+      },
+      "food_83": {
+        "name": "Kiwi",
+        "description": "A small fruit with green flesh and tiny black seeds."
+      },
+      "food_84": {
+        "name": "Papaya",
+        "description": "A tropical fruit with orange flesh and black seeds."
+      },
+      "food_85": {
+        "name": "Pomegranate",
+        "description": "A fruit filled with many red seeds."
+      },
+      "food_86": {
+        "name": "Blueberry",
+        "description": "A small round blue-purple berry."
+      },
+      "food_87": {
+        "name": "Raspberry",
+        "description": "A soft red berry made of many small segments."
+      },
+      "food_88": {
+        "name": "Blackberry",
+        "description": "A dark berry made of clustered segments."
+      },
+      "food_89": {
+        "name": "Cherry",
+        "description": "A small red fruit with a pit."
+      },
+      "food_90": {
+        "name": "Peach",
+        "description": "A sweet fuzzy fruit with a large pit."
+      },
+      "food_91": {
+        "name": "Pear",
+        "description": "A sweet fruit with a rounded bottom and narrow top."
+      },
+      "food_92": {
+        "name": "Plum",
+        "description": "A small round fruit with a pit, often purple or red."
+      },
+      "food_93": {
+        "name": "Apricot",
+        "description": "A small orange fruit with a pit."
+      },
+      "food_94": {
+        "name": "Fig",
+        "description": "A soft fruit with many tiny seeds inside."
+      },
+      "food_95": {
+        "name": "Date",
+        "description": "A sweet dried-like fruit, often brown."
+      },
+      "food_96": {
+        "name": "Grapefruit",
+        "description": "A large citrus fruit, often pink inside."
+      },
+      "food_97": {
+        "name": "Lime",
+        "description": "A small green citrus fruit."
+      },
+      "food_98": {
+        "name": "Spinach",
+        "description": "Leafy green vegetable."
+      },
+      "food_99": {
+        "name": "Cabbage",
+        "description": "A round leafy vegetable, often green or purple."
+      },
+      "food_100": {
+        "name": "Cauliflower",
+        "description": "A white clustered vegetable related to broccoli."
       }
     },
     "professions": {
       "professions_1": {
         "name": "Doctor",
         "description": "Healthcare professional who diagnoses and treats patients."
+      },
+      "professions_2": {
+        "name": "Astronaut",
+        "description": "Trained to travel and work in space."
+      },
+      "professions_3": {
+        "name": "Pilot",
+        "description": "Operates an aircraft."
+      },
+      "professions_4": {
+        "name": "Flight Attendant",
+        "description": "Assists passengers on flights."
+      },
+      "professions_5": {
+        "name": "Chef",
+        "description": "Cooks professionally in a kitchen."
+      },
+      "professions_6": {
+        "name": "Baker",
+        "description": "Makes bread and pastries."
+      },
+      "professions_7": {
+        "name": "Farmer",
+        "description": "Grows crops or raises animals."
+      },
+      "professions_8": {
+        "name": "Firefighter",
+        "description": "Responds to fires and emergencies."
+      },
+      "professions_9": {
+        "name": "Police Officer",
+        "description": "Maintains public safety and enforces laws."
+      },
+      "professions_10": {
+        "name": "Nurse",
+        "description": "Provides patient care in healthcare settings."
+      },
+      "professions_11": {
+        "name": "Teacher",
+        "description": "Educates students."
+      },
+      "professions_12": {
+        "name": "Engineer",
+        "description": "Designs or builds technical systems."
+      },
+      "professions_13": {
+        "name": "Architect",
+        "description": "Designs buildings and spaces."
+      },
+      "professions_14": {
+        "name": "Scientist",
+        "description": "Conducts research and experiments."
+      },
+      "professions_15": {
+        "name": "Veterinarian",
+        "description": "Treats animals' health."
+      },
+      "professions_16": {
+        "name": "Dentist",
+        "description": "Treats teeth and gums."
+      },
+      "professions_17": {
+        "name": "Pharmacist",
+        "description": "Prepares and dispenses medicines."
+      },
+      "professions_18": {
+        "name": "Paramedic",
+        "description": "Provides emergency medical care."
+      },
+      "professions_19": {
+        "name": "Surgeon",
+        "description": "Performs medical operations."
+      },
+      "professions_20": {
+        "name": "Electrician",
+        "description": "Installs and repairs electrical systems."
+      },
+      "professions_21": {
+        "name": "Plumber",
+        "description": "Fixes pipes and water systems."
+      },
+      "professions_22": {
+        "name": "Mechanic",
+        "description": "Repairs vehicles and machines."
+      },
+      "professions_23": {
+        "name": "Carpenter",
+        "description": "Builds things from wood."
+      },
+      "professions_24": {
+        "name": "Painter",
+        "description": "Paints walls or surfaces professionally."
+      },
+      "professions_25": {
+        "name": "Photographer",
+        "description": "Takes photos professionally."
+      },
+      "professions_26": {
+        "name": "Journalist",
+        "description": "Reports news and writes stories."
+      },
+      "professions_27": {
+        "name": "Lawyer",
+        "description": "Helps people with legal matters."
+      },
+      "professions_28": {
+        "name": "Judge",
+        "description": "Makes decisions in court."
+      },
+      "professions_29": {
+        "name": "Accountant",
+        "description": "Manages finances and records."
+      },
+      "professions_30": {
+        "name": "Banker",
+        "description": "Works with money and banking services."
+      },
+      "professions_31": {
+        "name": "Bank Teller",
+        "description": "Helps customers at a bank counter."
+      },
+      "professions_32": {
+        "name": "Cashier",
+        "description": "Takes payment at a store."
+      },
+      "professions_33": {
+        "name": "Store Clerk",
+        "description": "Assists customers in a shop."
+      },
+      "professions_34": {
+        "name": "Salesperson",
+        "description": "Sells products or services."
+      },
+      "professions_35": {
+        "name": "Real Estate Agent",
+        "description": "Helps people buy or rent homes."
+      },
+      "professions_36": {
+        "name": "Receptionist",
+        "description": "Greets people and answers calls."
+      },
+      "professions_37": {
+        "name": "Secretary",
+        "description": "Organizes schedules and paperwork."
+      },
+      "professions_38": {
+        "name": "Office Manager",
+        "description": "Keeps an office running smoothly."
+      },
+      "professions_39": {
+        "name": "HR Specialist",
+        "description": "Handles hiring and employee issues."
+      },
+      "professions_40": {
+        "name": "Marketing Specialist",
+        "description": "Promotes products and campaigns."
+      },
+      "professions_41": {
+        "name": "Customer Support Agent",
+        "description": "Helps customers solve problems."
+      },
+      "professions_42": {
+        "name": "Barista",
+        "description": "Prepares coffee drinks."
+      },
+      "professions_43": {
+        "name": "Bartender",
+        "description": "Serves drinks at a bar."
+      },
+      "professions_44": {
+        "name": "Waiter",
+        "description": "Takes orders and serves food."
+      },
+      "professions_45": {
+        "name": "Cook",
+        "description": "Prepares meals."
+      },
+      "professions_46": {
+        "name": "Butcher",
+        "description": "Cuts and sells meat."
+      },
+      "professions_47": {
+        "name": "Grocer",
+        "description": "Sells everyday food items."
+      },
+      "professions_48": {
+        "name": "Gardener",
+        "description": "Takes care of plants and gardens."
+      },
+      "professions_49": {
+        "name": "Florist",
+        "description": "Arranges and sells flowers."
+      },
+      "professions_50": {
+        "name": "Landscaper",
+        "description": "Designs and maintains outdoor spaces."
+      },
+      "professions_51": {
+        "name": "Construction Worker",
+        "description": "Builds structures at job sites."
+      },
+      "professions_52": {
+        "name": "Librarian",
+        "description": "Works in a library, organizing and lending books."
+      },
+      "professions_53": {
+        "name": "Detective",
+        "description": "Investigates crimes and gathers clues."
+      },
+      "professions_54": {
+        "name": "Security Guard",
+        "description": "Protects people and property in a place."
+      },
+      "professions_55": {
+        "name": "Lifeguard",
+        "description": "Watches swimmers and rescues people in water."
+      },
+      "professions_56": {
+        "name": "Zookeeper",
+        "description": "Cares for animals in a zoo."
+      },
+      "professions_57": {
+        "name": "Park Ranger",
+        "description": "Protects nature and helps visitors in parks."
+      },
+      "professions_58": {
+        "name": "Translator",
+        "description": "Converts text from one language to another."
+      },
+      "professions_59": {
+        "name": "Interpreter",
+        "description": "Translates spoken language in real time."
+      },
+      "professions_60": {
+        "name": "Psychologist",
+        "description": "Helps people with mental health and behavior."
+      },
+      "professions_61": {
+        "name": "Therapist",
+        "description": "Supports people through counseling and treatment."
+      },
+      "professions_62": {
+        "name": "Physiotherapist",
+        "description": "Helps people recover movement after injury."
+      },
+      "professions_63": {
+        "name": "Nutritionist",
+        "description": "Advises on healthy eating and diets."
+      },
+      "professions_64": {
+        "name": "Optometrist",
+        "description": "Checks eyesight and prescribes lenses."
+      },
+      "professions_65": {
+        "name": "Pediatrician",
+        "description": "Doctor who treats children."
+      },
+      "professions_66": {
+        "name": "Midwife",
+        "description": "Assists during pregnancy and childbirth."
+      },
+      "professions_67": {
+        "name": "Air Traffic Controller",
+        "description": "Directs airplanes for safe takeoff and landing."
+      },
+      "professions_68": {
+        "name": "Paralegal",
+        "description": "Assists lawyers with legal documents and research."
+      },
+      "professions_69": {
+        "name": "Financial Analyst",
+        "description": "Studies finances to guide decisions and investments."
+      },
+      "professions_70": {
+        "name": "Stockbroker",
+        "description": "Buys and sells stocks for clients."
+      },
+      "professions_71": {
+        "name": "Insurance Agent",
+        "description": "Sells and manages insurance policies."
+      },
+      "professions_72": {
+        "name": "Consultant",
+        "description": "Gives expert advice to businesses or clients."
+      },
+      "professions_73": {
+        "name": "Project Manager",
+        "description": "Plans and coordinates a project and its team."
+      },
+      "professions_74": {
+        "name": "Product Manager",
+        "description": "Guides what a product should be and do."
+      },
+      "professions_75": {
+        "name": "Software Developer",
+        "description": "Builds and maintains software applications."
+      },
+      "professions_76": {
+        "name": "Web Designer",
+        "description": "Designs websites and their layout."
+      },
+      "professions_77": {
+        "name": "Actor",
+        "description": "Performs characters in movies, TV, or theater."
+      },
+      "professions_78": {
+        "name": "Actress",
+        "description": "Performs characters in movies, TV, or theater."
+      },
+      "professions_79": {
+        "name": "Singer",
+        "description": "Sings songs for audiences or recordings."
+      },
+      "professions_80": {
+        "name": "Musician",
+        "description": "Plays an instrument or creates music."
+      },
+      "professions_81": {
+        "name": "Dancer",
+        "description": "Performs dance for shows or events."
+      },
+      "professions_82": {
+        "name": "Film Director",
+        "description": "Leads the creative work of a film."
+      },
+      "professions_83": {
+        "name": "Writer",
+        "description": "Writes books, stories, or scripts."
+      },
+      "professions_84": {
+        "name": "Poet",
+        "description": "Writes poetry and verses."
+      },
+      "professions_85": {
+        "name": "Editor",
+        "description": "Reviews and improves written content."
+      },
+      "professions_86": {
+        "name": "Barber",
+        "description": "Cuts hair and trims beards."
+      },
+      "professions_87": {
+        "name": "Hairdresser",
+        "description": "Styles and cuts hair."
+      },
+      "professions_88": {
+        "name": "Makeup Artist",
+        "description": "Applies makeup for clients or productions."
+      },
+      "professions_89": {
+        "name": "Tailor",
+        "description": "Makes or alters clothing."
+      },
+      "professions_90": {
+        "name": "Fashion Designer",
+        "description": "Designs clothing and accessories."
+      },
+      "professions_91": {
+        "name": "Sailor",
+        "description": "Works on a boat or ship."
+      },
+      "professions_92": {
+        "name": "Fisherman",
+        "description": "Catches fish for food or sale."
+      },
+      "professions_93": {
+        "name": "Miner",
+        "description": "Extracts minerals underground or in open pits."
+      },
+      "professions_94": {
+        "name": "Mason",
+        "description": "Builds with bricks, stone, or concrete."
+      },
+      "professions_95": {
+        "name": "Welder",
+        "description": "Joins metal parts using heat."
+      },
+      "professions_96": {
+        "name": "Blacksmith",
+        "description": "Shapes metal using heat and tools."
+      },
+      "professions_97": {
+        "name": "Locksmith",
+        "description": "Installs and repairs locks and keys."
+      },
+      "professions_98": {
+        "name": "Shoemaker",
+        "description": "Repairs or makes shoes."
+      },
+      "professions_99": {
+        "name": "Cleaner",
+        "description": "Cleans homes, offices, or buildings."
+      },
+      "professions_100": {
+        "name": "Janitor",
+        "description": "Maintains and cleans a building."
       }
     },
     "everyday_objects": {
       "everyday_objects_1": {
         "name": "Smartphone",
         "description": "Portable device used for calls, messages, and apps."
+      },
+      "everyday_objects_2": {
+        "name": "Toothbrush",
+        "description": "Brush used to clean teeth."
+      },
+      "everyday_objects_3": {
+        "name": "Toothpaste",
+        "description": "Cream or gel used for brushing teeth."
+      },
+      "everyday_objects_4": {
+        "name": "Soap",
+        "description": "Item used to wash hands or body."
+      },
+      "everyday_objects_5": {
+        "name": "Shampoo",
+        "description": "Liquid used to wash hair."
+      },
+      "everyday_objects_6": {
+        "name": "Towel",
+        "description": "Cloth used for drying."
+      },
+      "everyday_objects_7": {
+        "name": "Toilet paper",
+        "description": "Paper roll used in the bathroom."
+      },
+      "everyday_objects_8": {
+        "name": "Tissue box",
+        "description": "Box that dispenses tissues."
+      },
+      "everyday_objects_9": {
+        "name": "Comb",
+        "description": "Tool used to style hair."
+      },
+      "everyday_objects_10": {
+        "name": "Hairbrush",
+        "description": "Brush used to untangle hair."
+      },
+      "everyday_objects_11": {
+        "name": "Mirror",
+        "description": "Reflective surface for seeing yourself."
+      },
+      "everyday_objects_12": {
+        "name": "Razor",
+        "description": "Tool used for shaving."
+      },
+      "everyday_objects_13": {
+        "name": "Nail clippers",
+        "description": "Small tool used to cut nails."
+      },
+      "everyday_objects_14": {
+        "name": "Bandage",
+        "description": "Covering used for small wounds."
+      },
+      "everyday_objects_15": {
+        "name": "Thermometer",
+        "description": "Device used to measure temperature."
+      },
+      "everyday_objects_16": {
+        "name": "Pillow",
+        "description": "Soft cushion used for sleeping."
+      },
+      "everyday_objects_17": {
+        "name": "Blanket",
+        "description": "Fabric used to keep warm."
+      },
+      "everyday_objects_18": {
+        "name": "Bed sheet",
+        "description": "Fabric that covers a bed."
+      },
+      "everyday_objects_19": {
+        "name": "Hanger",
+        "description": "Item used to hang clothes."
+      },
+      "everyday_objects_20": {
+        "name": "Laundry basket",
+        "description": "Container for dirty clothes."
+      },
+      "everyday_objects_21": {
+        "name": "Iron",
+        "description": "Appliance used to remove wrinkles from clothes."
+      },
+      "everyday_objects_22": {
+        "name": "Vacuum cleaner",
+        "description": "Machine used to clean floors."
+      },
+      "everyday_objects_23": {
+        "name": "Broom",
+        "description": "Tool used to sweep floors."
+      },
+      "everyday_objects_24": {
+        "name": "Mop",
+        "description": "Tool used to clean wet floors."
+      },
+      "everyday_objects_25": {
+        "name": "Bucket",
+        "description": "Container used to carry liquids."
+      },
+      "everyday_objects_26": {
+        "name": "Trash can",
+        "description": "Container used for waste."
+      },
+      "everyday_objects_27": {
+        "name": "Keys",
+        "description": "Small metal objects used to open locks."
+      },
+      "everyday_objects_28": {
+        "name": "Wallet",
+        "description": "Small holder for cash and cards."
+      },
+      "everyday_objects_29": {
+        "name": "Coin",
+        "description": "Round piece of money made of metal."
+      },
+      "everyday_objects_30": {
+        "name": "Credit card",
+        "description": "Plastic card used to pay."
+      },
+      "everyday_objects_31": {
+        "name": "Passport",
+        "description": "Official document for international travel."
+      },
+      "everyday_objects_32": {
+        "name": "Ticket",
+        "description": "Paper or digital proof of entry or travel."
+      },
+      "everyday_objects_33": {
+        "name": "Book",
+        "description": "Bound pages to read."
+      },
+      "everyday_objects_34": {
+        "name": "Notebook",
+        "description": "Blank or lined pages for writing."
+      },
+      "everyday_objects_35": {
+        "name": "Pen",
+        "description": "Tool for writing with ink."
+      },
+      "everyday_objects_36": {
+        "name": "Pencil",
+        "description": "Tool for writing or drawing."
+      },
+      "everyday_objects_37": {
+        "name": "Eraser",
+        "description": "Removes pencil marks."
+      },
+      "everyday_objects_38": {
+        "name": "Ruler",
+        "description": "Straight tool for measuring or drawing lines."
+      },
+      "everyday_objects_39": {
+        "name": "Scissors",
+        "description": "Tool with two blades for cutting."
+      },
+      "everyday_objects_40": {
+        "name": "Stapler",
+        "description": "Fastens papers with staples."
+      },
+      "everyday_objects_41": {
+        "name": "Paper clip",
+        "description": "Small metal piece that holds papers together."
+      },
+      "everyday_objects_42": {
+        "name": "Envelope",
+        "description": "Paper cover for letters or documents."
+      },
+      "everyday_objects_43": {
+        "name": "Tape",
+        "description": "Sticky strip used to attach or wrap things."
+      },
+      "everyday_objects_44": {
+        "name": "Glue",
+        "description": "Adhesive used to stick objects together."
+      },
+      "everyday_objects_45": {
+        "name": "Marker",
+        "description": "Pen with thick ink for bold writing."
+      },
+      "everyday_objects_46": {
+        "name": "Calculator",
+        "description": "Device used to do math."
+      },
+      "everyday_objects_47": {
+        "name": "Calendar",
+        "description": "Shows days, weeks, and months."
+      },
+      "everyday_objects_48": {
+        "name": "Clock",
+        "description": "Shows the time."
+      },
+      "everyday_objects_49": {
+        "name": "Watch",
+        "description": "A clock worn on the wrist."
+      },
+      "everyday_objects_50": {
+        "name": "Alarm clock",
+        "description": "Clock that can ring to wake you up."
+      },
+      "everyday_objects_51": {
+        "name": "Lamp",
+        "description": "Light source for a room."
+      },
+      "everyday_objects_52": {
+        "name": "Fork",
+        "description": "A utensil with prongs used for eating."
+      },
+      "everyday_objects_53": {
+        "name": "Spoon",
+        "description": "A rounded utensil for eating or serving."
+      },
+      "everyday_objects_54": {
+        "name": "Knife",
+        "description": "A tool with a blade for cutting."
+      },
+      "everyday_objects_55": {
+        "name": "Plate",
+        "description": "A flat dish used to hold food."
+      },
+      "everyday_objects_56": {
+        "name": "Bowl",
+        "description": "A deep dish for food or liquids."
+      },
+      "everyday_objects_57": {
+        "name": "Cup",
+        "description": "A small container for drinking."
+      },
+      "everyday_objects_58": {
+        "name": "Mug",
+        "description": "A handled cup, often for hot drinks."
+      },
+      "everyday_objects_59": {
+        "name": "Drinking glass",
+        "description": "A glass container for beverages."
+      },
+      "everyday_objects_60": {
+        "name": "Water bottle",
+        "description": "A portable bottle for drinking water."
+      },
+      "everyday_objects_61": {
+        "name": "Thermos",
+        "description": "An insulated container for hot or cold drinks."
+      },
+      "everyday_objects_62": {
+        "name": "Kettle",
+        "description": "A container used to boil water."
+      },
+      "everyday_objects_63": {
+        "name": "Frying pan",
+        "description": "A shallow pan used for frying food."
+      },
+      "everyday_objects_64": {
+        "name": "Cooking pot",
+        "description": "A deep pot used for cooking."
+      },
+      "everyday_objects_65": {
+        "name": "Lid",
+        "description": "A cover for a container."
+      },
+      "everyday_objects_66": {
+        "name": "Cutting board",
+        "description": "A board used for cutting food."
+      },
+      "everyday_objects_67": {
+        "name": "Strainer",
+        "description": "A tool with holes used to drain liquids."
+      },
+      "everyday_objects_68": {
+        "name": "Whisk",
+        "description": "A tool used to beat or mix ingredients."
+      },
+      "everyday_objects_69": {
+        "name": "Spatula",
+        "description": "A flat tool used for lifting or scraping."
+      },
+      "everyday_objects_70": {
+        "name": "Ladle",
+        "description": "A large spoon used for serving soup."
+      },
+      "everyday_objects_71": {
+        "name": "Rolling pin",
+        "description": "A cylinder used to flatten dough."
+      },
+      "everyday_objects_72": {
+        "name": "Can opener",
+        "description": "A tool used to open metal cans."
+      },
+      "everyday_objects_73": {
+        "name": "Bottle opener",
+        "description": "A tool used to remove bottle caps."
+      },
+      "everyday_objects_74": {
+        "name": "Corkscrew",
+        "description": "A tool used to pull out corks."
+      },
+      "everyday_objects_75": {
+        "name": "Measuring cup",
+        "description": "A cup with markings for measuring liquids."
+      },
+      "everyday_objects_76": {
+        "name": "Measuring spoon",
+        "description": "A small spoon used for measuring ingredients."
+      },
+      "everyday_objects_77": {
+        "name": "Umbrella",
+        "description": "Portable cover used in rain or sun."
+      },
+      "everyday_objects_78": {
+        "name": "Backpack",
+        "description": "Bag worn on the back to carry items."
+      },
+      "everyday_objects_79": {
+        "name": "Suitcase",
+        "description": "Luggage used for traveling."
+      },
+      "everyday_objects_80": {
+        "name": "Handbag",
+        "description": "Small bag carried by hand or on the shoulder."
+      },
+      "everyday_objects_81": {
+        "name": "Sunglasses",
+        "description": "Tinted glasses that reduce bright light."
+      },
+      "everyday_objects_82": {
+        "name": "Eyeglasses",
+        "description": "Glasses worn to help vision."
+      },
+      "everyday_objects_83": {
+        "name": "Hat",
+        "description": "Headwear used for style or protection."
+      },
+      "everyday_objects_84": {
+        "name": "Gloves",
+        "description": "Clothing worn on the hands."
+      },
+      "everyday_objects_85": {
+        "name": "Scarf",
+        "description": "Long cloth worn around the neck."
+      },
+      "everyday_objects_86": {
+        "name": "Belt",
+        "description": "Strap worn around the waist to hold clothing."
+      },
+      "everyday_objects_87": {
+        "name": "Shoes",
+        "description": "Footwear worn to protect feet."
+      },
+      "everyday_objects_88": {
+        "name": "Socks",
+        "description": "Clothing worn on the feet, often inside shoes."
+      },
+      "everyday_objects_89": {
+        "name": "T-shirt",
+        "description": "Casual shirt with short sleeves."
+      },
+      "everyday_objects_90": {
+        "name": "Jacket",
+        "description": "Outer clothing worn for warmth or protection."
+      },
+      "everyday_objects_91": {
+        "name": "Remote control",
+        "description": "Handheld device used to control electronics."
+      },
+      "everyday_objects_92": {
+        "name": "Flashlight",
+        "description": "Portable light powered by batteries."
+      },
+      "everyday_objects_93": {
+        "name": "Candle",
+        "description": "Wax stick that burns to give light."
+      },
+      "everyday_objects_94": {
+        "name": "Matches",
+        "description": "Small sticks used to make a flame."
+      },
+      "everyday_objects_95": {
+        "name": "Lighter",
+        "description": "Device that creates a flame."
+      },
+      "everyday_objects_96": {
+        "name": "Light bulb",
+        "description": "Glass bulb that produces light when powered."
+      },
+      "everyday_objects_97": {
+        "name": "Battery",
+        "description": "Power source for small devices."
+      },
+      "everyday_objects_98": {
+        "name": "Charger",
+        "description": "Device used to recharge electronics."
+      },
+      "everyday_objects_99": {
+        "name": "Power bank",
+        "description": "Portable battery used to charge devices."
+      },
+      "everyday_objects_100": {
+        "name": "USB cable",
+        "description": "Cable used for charging or data transfer."
       }
     },
     "famous_brands": {
       "famous_brands_1": {
         "name": "Nike",
         "description": "Global sports brand known for shoes and apparel."
+      },
+      "famous_brands_2": {
+        "name": "Coca-Cola",
+        "description": "Global soft drink brand."
+      },
+      "famous_brands_3": {
+        "name": "Pepsi",
+        "description": "Soft drink brand."
+      },
+      "famous_brands_4": {
+        "name": "McDonald's",
+        "description": "Fast-food restaurant chain."
+      },
+      "famous_brands_5": {
+        "name": "Starbucks",
+        "description": "Coffeehouse chain."
+      },
+      "famous_brands_6": {
+        "name": "Samsung",
+        "description": "Electronics and phone brand."
+      },
+      "famous_brands_7": {
+        "name": "Sony",
+        "description": "Electronics and entertainment brand."
+      },
+      "famous_brands_8": {
+        "name": "Microsoft",
+        "description": "Software and technology company."
+      },
+      "famous_brands_9": {
+        "name": "Google",
+        "description": "Search and tech brand."
+      },
+      "famous_brands_10": {
+        "name": "Amazon",
+        "description": "Online shopping and services brand."
+      },
+      "famous_brands_11": {
+        "name": "Netflix",
+        "description": "Streaming service brand."
+      },
+      "famous_brands_12": {
+        "name": "Disney",
+        "description": "Entertainment and media brand."
+      },
+      "famous_brands_13": {
+        "name": "LEGO",
+        "description": "Toy building bricks brand."
+      },
+      "famous_brands_14": {
+        "name": "Adidas",
+        "description": "Sportswear brand."
+      },
+      "famous_brands_15": {
+        "name": "Toyota",
+        "description": "Car manufacturer brand."
+      },
+      "famous_brands_16": {
+        "name": "Honda",
+        "description": "Car and motorcycle brand."
+      },
+      "famous_brands_17": {
+        "name": "BMW",
+        "description": "Car brand."
+      },
+      "famous_brands_18": {
+        "name": "Mercedes-Benz",
+        "description": "Car brand."
+      },
+      "famous_brands_19": {
+        "name": "Tesla",
+        "description": "Electric car brand."
+      },
+      "famous_brands_20": {
+        "name": "Volkswagen",
+        "description": "Car brand."
+      },
+      "famous_brands_21": {
+        "name": "Audi",
+        "description": "Car brand."
+      },
+      "famous_brands_22": {
+        "name": "Ferrari",
+        "description": "Sports car brand."
+      },
+      "famous_brands_23": {
+        "name": "Lamborghini",
+        "description": "Supercar brand."
+      },
+      "famous_brands_24": {
+        "name": "Porsche",
+        "description": "Sports car brand."
+      },
+      "famous_brands_25": {
+        "name": "Visa",
+        "description": "Payment card brand."
+      },
+      "famous_brands_26": {
+        "name": "Mastercard",
+        "description": "Payment card brand."
+      },
+      "famous_brands_27": {
+        "name": "IKEA",
+        "description": "Global furniture and home goods retailer."
+      },
+      "famous_brands_28": {
+        "name": "YouTube",
+        "description": "Video sharing platform."
+      },
+      "famous_brands_29": {
+        "name": "Instagram",
+        "description": "Photo and video social network."
+      },
+      "famous_brands_30": {
+        "name": "WhatsApp",
+        "description": "Messaging and calling app."
+      },
+      "famous_brands_31": {
+        "name": "TikTok",
+        "description": "Short-form video app."
+      },
+      "famous_brands_32": {
+        "name": "Facebook",
+        "description": "Social networking platform."
+      },
+      "famous_brands_33": {
+        "name": "Snapchat",
+        "description": "Messaging app with disappearing photos."
+      },
+      "famous_brands_34": {
+        "name": "LinkedIn",
+        "description": "Professional networking platform."
+      },
+      "famous_brands_35": {
+        "name": "Spotify",
+        "description": "Music streaming service."
+      },
+      "famous_brands_36": {
+        "name": "Uber",
+        "description": "Ride-hailing and delivery app."
+      },
+      "famous_brands_37": {
+        "name": "Airbnb",
+        "description": "Home and room rental platform."
+      },
+      "famous_brands_38": {
+        "name": "PayPal",
+        "description": "Online payments service."
+      },
+      "famous_brands_39": {
+        "name": "American Express",
+        "description": "Credit card and financial services brand."
+      },
+      "famous_brands_40": {
+        "name": "Nintendo",
+        "description": "Video game company."
+      },
+      "famous_brands_41": {
+        "name": "PlayStation",
+        "description": "Gaming console brand."
+      },
+      "famous_brands_42": {
+        "name": "Xbox",
+        "description": "Gaming console brand."
+      },
+      "famous_brands_43": {
+        "name": "Intel",
+        "description": "Computer processor company."
+      },
+      "famous_brands_44": {
+        "name": "AMD",
+        "description": "Computer processors and graphics company."
+      },
+      "famous_brands_45": {
+        "name": "NVIDIA",
+        "description": "Graphics and AI computing company."
+      },
+      "famous_brands_46": {
+        "name": "Dell",
+        "description": "Computer and electronics brand."
+      },
+      "famous_brands_47": {
+        "name": "HP",
+        "description": "Computer and printer brand."
+      },
+      "famous_brands_48": {
+        "name": "Lenovo",
+        "description": "Computer and electronics brand."
+      },
+      "famous_brands_49": {
+        "name": "ASUS",
+        "description": "Computer hardware and laptop brand."
+      },
+      "famous_brands_50": {
+        "name": "Acer",
+        "description": "Computer and laptop brand."
+      },
+      "famous_brands_51": {
+        "name": "Canon",
+        "description": "Camera and printer brand."
+      },
+      "famous_brands_52": {
+        "name": "KFC",
+        "description": "Global fast-food chicken chain."
+      },
+      "famous_brands_53": {
+        "name": "Burger King",
+        "description": "International hamburger fast-food chain."
+      },
+      "famous_brands_54": {
+        "name": "Subway",
+        "description": "Sandwich-focused fast-food chain."
+      },
+      "famous_brands_55": {
+        "name": "Pizza Hut",
+        "description": "International pizza restaurant chain."
+      },
+      "famous_brands_56": {
+        "name": "Domino's",
+        "description": "Global pizza delivery brand."
+      },
+      "famous_brands_57": {
+        "name": "Taco Bell",
+        "description": "Fast-food chain known for tacos."
+      },
+      "famous_brands_58": {
+        "name": "Heineken",
+        "description": "International beer brand."
+      },
+      "famous_brands_59": {
+        "name": "Red Bull",
+        "description": "Energy drink brand."
+      },
+      "famous_brands_60": {
+        "name": "Nescafé",
+        "description": "Instant coffee brand."
+      },
+      "famous_brands_61": {
+        "name": "Nestlé",
+        "description": "Global food and beverage company."
+      },
+      "famous_brands_62": {
+        "name": "Oreo",
+        "description": "Cookie brand."
+      },
+      "famous_brands_63": {
+        "name": "KitKat",
+        "description": "Chocolate wafer bar brand."
+      },
+      "famous_brands_64": {
+        "name": "Nutella",
+        "description": "Chocolate-hazelnut spread brand."
+      },
+      "famous_brands_65": {
+        "name": "L'Oréal",
+        "description": "Beauty and cosmetics brand."
+      },
+      "famous_brands_66": {
+        "name": "Nivea",
+        "description": "Skincare brand."
+      },
+      "famous_brands_67": {
+        "name": "Dove",
+        "description": "Personal care brand."
+      },
+      "famous_brands_68": {
+        "name": "Colgate",
+        "description": "Oral care brand."
+      },
+      "famous_brands_69": {
+        "name": "Gillette",
+        "description": "Shaving products brand."
+      },
+      "famous_brands_70": {
+        "name": "Pampers",
+        "description": "Baby diaper brand."
+      },
+      "famous_brands_71": {
+        "name": "H&M",
+        "description": "Global clothing retailer."
+      },
+      "famous_brands_72": {
+        "name": "Zara",
+        "description": "International fashion retailer."
+      },
+      "famous_brands_73": {
+        "name": "Uniqlo",
+        "description": "Casual clothing retailer."
+      },
+      "famous_brands_74": {
+        "name": "Reebok",
+        "description": "Athletic footwear and apparel brand."
+      },
+      "famous_brands_75": {
+        "name": "Under Armour",
+        "description": "Sports apparel brand."
+      },
+      "famous_brands_76": {
+        "name": "Gucci",
+        "description": "Luxury fashion brand."
+      },
+      "famous_brands_77": {
+        "name": "Chanel",
+        "description": "Luxury fashion brand."
+      },
+      "famous_brands_78": {
+        "name": "Louis Vuitton",
+        "description": "Luxury bags and fashion brand."
+      },
+      "famous_brands_79": {
+        "name": "Prada",
+        "description": "Luxury fashion brand."
+      },
+      "famous_brands_80": {
+        "name": "Rolex",
+        "description": "Luxury watch brand."
+      },
+      "famous_brands_81": {
+        "name": "Cartier",
+        "description": "Luxury jewelry and watches."
+      },
+      "famous_brands_82": {
+        "name": "Tiffany & Co.",
+        "description": "Luxury jewelry brand."
+      },
+      "famous_brands_83": {
+        "name": "Hermès",
+        "description": "Luxury fashion and accessories."
+      },
+      "famous_brands_84": {
+        "name": "Burberry",
+        "description": "Luxury fashion brand."
+      },
+      "famous_brands_85": {
+        "name": "Armani",
+        "description": "Fashion and fragrance brand."
+      },
+      "famous_brands_86": {
+        "name": "Versace",
+        "description": "Luxury fashion brand."
+      },
+      "famous_brands_87": {
+        "name": "Levi's",
+        "description": "Denim and jeans brand."
+      },
+      "famous_brands_88": {
+        "name": "Converse",
+        "description": "Sneaker and footwear brand."
+      },
+      "famous_brands_89": {
+        "name": "Vans",
+        "description": "Shoes and apparel brand."
+      },
+      "famous_brands_90": {
+        "name": "New Balance",
+        "description": "Athletic footwear brand."
+      },
+      "famous_brands_91": {
+        "name": "The North Face",
+        "description": "Outdoor clothing brand."
+      },
+      "famous_brands_92": {
+        "name": "Patagonia",
+        "description": "Outdoor clothing brand."
+      },
+      "famous_brands_93": {
+        "name": "Dyson",
+        "description": "Home appliances brand."
+      },
+      "famous_brands_94": {
+        "name": "Bosch",
+        "description": "Tools and appliances brand."
+      },
+      "famous_brands_95": {
+        "name": "Whirlpool",
+        "description": "Home appliances brand."
+      },
+      "famous_brands_96": {
+        "name": "KitchenAid",
+        "description": "Kitchen appliances brand."
+      },
+      "famous_brands_97": {
+        "name": "Philips",
+        "description": "Electronics and home products."
+      },
+      "famous_brands_98": {
+        "name": "Panasonic",
+        "description": "Electronics brand."
+      },
+      "famous_brands_99": {
+        "name": "LG",
+        "description": "Electronics and appliances brand."
+      },
+      "famous_brands_100": {
+        "name": "Huawei",
+        "description": "Phones and tech brand."
       }
     },
     "countries": {
       "countries_1": {
         "name": "Brazil",
         "description": "Country in South America known for its culture and size."
+      },
+      "countries_2": {
+        "name": "United States",
+        "description": "A country in North America."
+      },
+      "countries_3": {
+        "name": "Canada",
+        "description": "A country in North America."
+      },
+      "countries_4": {
+        "name": "Mexico",
+        "description": "A country in North America."
+      },
+      "countries_5": {
+        "name": "Argentina",
+        "description": "A country in South America."
+      },
+      "countries_6": {
+        "name": "Chile",
+        "description": "A country in South America."
+      },
+      "countries_7": {
+        "name": "Colombia",
+        "description": "A country in South America."
+      },
+      "countries_8": {
+        "name": "Venezuela",
+        "description": "A country in South America."
+      },
+      "countries_9": {
+        "name": "Ecuador",
+        "description": "A country in South America."
+      },
+      "countries_10": {
+        "name": "Bolivia",
+        "description": "A country in South America."
+      },
+      "countries_11": {
+        "name": "Uruguay",
+        "description": "A country in South America."
+      },
+      "countries_12": {
+        "name": "Paraguay",
+        "description": "A country in South America."
+      },
+      "countries_13": {
+        "name": "Panama",
+        "description": "A country in Central America."
+      },
+      "countries_14": {
+        "name": "Costa Rica",
+        "description": "A country in Central America."
+      },
+      "countries_15": {
+        "name": "Cuba",
+        "description": "An island country in the Caribbean."
+      },
+      "countries_16": {
+        "name": "Jamaica",
+        "description": "An island country in the Caribbean."
+      },
+      "countries_17": {
+        "name": "Dominican Republic",
+        "description": "A country in the Caribbean."
+      },
+      "countries_18": {
+        "name": "Haiti",
+        "description": "A country in the Caribbean."
+      },
+      "countries_19": {
+        "name": "Bahamas",
+        "description": "An island country in the Caribbean."
+      },
+      "countries_20": {
+        "name": "United Kingdom",
+        "description": "A country in Europe."
+      },
+      "countries_21": {
+        "name": "Ireland",
+        "description": "A country in Europe."
+      },
+      "countries_22": {
+        "name": "France",
+        "description": "A country in Western Europe."
+      },
+      "countries_23": {
+        "name": "Germany",
+        "description": "A country in Central Europe."
+      },
+      "countries_24": {
+        "name": "Italy",
+        "description": "A country in Southern Europe."
+      },
+      "countries_25": {
+        "name": "Spain",
+        "description": "A country in Southwestern Europe."
+      },
+      "countries_26": {
+        "name": "Portugal",
+        "description": "A country in Southwestern Europe."
+      },
+      "countries_27": {
+        "name": "China",
+        "description": "A country in East Asia."
+      },
+      "countries_28": {
+        "name": "Japan",
+        "description": "An island country in East Asia."
+      },
+      "countries_29": {
+        "name": "India",
+        "description": "A large country in South Asia."
+      },
+      "countries_30": {
+        "name": "Australia",
+        "description": "A country and continent in Oceania."
+      },
+      "countries_31": {
+        "name": "New Zealand",
+        "description": "An island country in Oceania."
+      },
+      "countries_32": {
+        "name": "South Korea",
+        "description": "A country in East Asia."
+      },
+      "countries_33": {
+        "name": "Singapore",
+        "description": "A city-state in Southeast Asia."
+      },
+      "countries_34": {
+        "name": "Malaysia",
+        "description": "A country in Southeast Asia."
+      },
+      "countries_35": {
+        "name": "Indonesia",
+        "description": "An archipelago country in Southeast Asia."
+      },
+      "countries_36": {
+        "name": "Philippines",
+        "description": "An island country in Southeast Asia."
+      },
+      "countries_37": {
+        "name": "Thailand",
+        "description": "A country in Southeast Asia."
+      },
+      "countries_38": {
+        "name": "Vietnam",
+        "description": "A country in Southeast Asia."
+      },
+      "countries_39": {
+        "name": "Pakistan",
+        "description": "A country in South Asia."
+      },
+      "countries_40": {
+        "name": "Bangladesh",
+        "description": "A country in South Asia."
+      },
+      "countries_41": {
+        "name": "Sri Lanka",
+        "description": "An island country in South Asia."
+      },
+      "countries_42": {
+        "name": "Nepal",
+        "description": "A country in South Asia."
+      },
+      "countries_43": {
+        "name": "Mongolia",
+        "description": "A country in East and Central Asia."
+      },
+      "countries_44": {
+        "name": "Kazakhstan",
+        "description": "A large country in Central Asia."
+      },
+      "countries_45": {
+        "name": "Sweden",
+        "description": "A country in Northern Europe."
+      },
+      "countries_46": {
+        "name": "Norway",
+        "description": "A country in Northern Europe."
+      },
+      "countries_47": {
+        "name": "Denmark",
+        "description": "A country in Northern Europe."
+      },
+      "countries_48": {
+        "name": "Finland",
+        "description": "A country in Northern Europe."
+      },
+      "countries_49": {
+        "name": "Iceland",
+        "description": "An island country in the North Atlantic."
+      },
+      "countries_50": {
+        "name": "Netherlands",
+        "description": "A country in Western Europe."
+      },
+      "countries_51": {
+        "name": "Belgium",
+        "description": "A country in Western Europe."
+      },
+      "countries_52": {
+        "name": "Switzerland",
+        "description": "A European country known for Alps and neutrality."
+      },
+      "countries_53": {
+        "name": "Austria",
+        "description": "A landlocked country in Central Europe."
+      },
+      "countries_54": {
+        "name": "Greece",
+        "description": "A country in southeastern Europe with many islands."
+      },
+      "countries_55": {
+        "name": "Poland",
+        "description": "A country in Central Europe."
+      },
+      "countries_56": {
+        "name": "Czechia",
+        "description": "A landlocked country in Central Europe."
+      },
+      "countries_57": {
+        "name": "Hungary",
+        "description": "A landlocked country in Central Europe."
+      },
+      "countries_58": {
+        "name": "Romania",
+        "description": "A country in Eastern Europe."
+      },
+      "countries_59": {
+        "name": "Bulgaria",
+        "description": "A country in southeastern Europe."
+      },
+      "countries_60": {
+        "name": "Serbia",
+        "description": "A landlocked country in southeastern Europe."
+      },
+      "countries_61": {
+        "name": "Croatia",
+        "description": "A European country on the Adriatic Sea."
+      },
+      "countries_62": {
+        "name": "Slovenia",
+        "description": "A small country in Central Europe."
+      },
+      "countries_63": {
+        "name": "Slovakia",
+        "description": "A landlocked country in Central Europe."
+      },
+      "countries_64": {
+        "name": "Egypt",
+        "description": "A country in North Africa."
+      },
+      "countries_65": {
+        "name": "Morocco",
+        "description": "A country in North Africa."
+      },
+      "countries_66": {
+        "name": "Algeria",
+        "description": "A large country in North Africa."
+      },
+      "countries_67": {
+        "name": "Tunisia",
+        "description": "A country in North Africa."
+      },
+      "countries_68": {
+        "name": "South Africa",
+        "description": "A country at the southern tip of Africa."
+      },
+      "countries_69": {
+        "name": "Nigeria",
+        "description": "A major country in West Africa."
+      },
+      "countries_70": {
+        "name": "Kenya",
+        "description": "A country in East Africa."
+      },
+      "countries_71": {
+        "name": "Ethiopia",
+        "description": "A country in the Horn of Africa."
+      },
+      "countries_72": {
+        "name": "Tanzania",
+        "description": "A country in East Africa."
+      },
+      "countries_73": {
+        "name": "Uganda",
+        "description": "A landlocked country in East Africa."
+      },
+      "countries_74": {
+        "name": "Ghana",
+        "description": "A country in West Africa."
+      },
+      "countries_75": {
+        "name": "Senegal",
+        "description": "A country in West Africa."
+      },
+      "countries_76": {
+        "name": "Cameroon",
+        "description": "A country in Central Africa."
+      },
+      "countries_77": {
+        "name": "Albania",
+        "description": "A country in Southeast Europe."
+      },
+      "countries_79": {
+        "name": "Angola",
+        "description": "A country on Africa’s Atlantic coast."
+      },
+      "countries_83": {
+        "name": "Bahrain",
+        "description": "A small island country in the Gulf."
+      },
+      "countries_84": {
+        "name": "Barbados",
+        "description": "A Caribbean island nation."
+      },
+      "countries_85": {
+        "name": "Belarus",
+        "description": "A landlocked country in Eastern Europe."
+      },
+      "countries_93": {
+        "name": "Cambodia",
+        "description": "A country in Southeast Asia."
+      },
+      "countries_96": {
+        "name": "Cyprus",
+        "description": "An island country in the Mediterranean."
+      },
+      "countries_98": {
+        "name": "Congo",
+        "description": "A country in Central Africa."
+      },
+      "countries_99": {
+        "name": "DR Congo",
+        "description": "A large country in Central Africa."
       }
     },
     "party_mode": {
       "party_mode_1": {
-        "name": "Mime Challenge",
-        "description": "Group challenge where one person acts and the others guess."
+        "name": "Eiffel Tower",
+        "description": "Famous iron tower in Paris."
+      },
+      "party_mode_2": {
+        "name": "Great Wall",
+        "description": "Ancient wall built across China."
+      },
+      "party_mode_3": {
+        "name": "Taj Mahal",
+        "description": "White marble mausoleum in India."
+      },
+      "party_mode_4": {
+        "name": "Pyramids",
+        "description": "Ancient triangular monuments in Egypt."
+      },
+      "party_mode_5": {
+        "name": "Statue of Liberty",
+        "description": "Giant statue in New York Harbor."
+      },
+      "party_mode_6": {
+        "name": "Big Ben",
+        "description": "Famous clock tower in London."
+      },
+      "party_mode_7": {
+        "name": "Colosseum",
+        "description": "Ancient Roman amphitheater in Rome."
+      },
+      "party_mode_8": {
+        "name": "Mount Everest",
+        "description": "The world’s highest mountain."
+      },
+      "party_mode_9": {
+        "name": "Grand Canyon",
+        "description": "Huge canyon in the United States."
+      },
+      "party_mode_10": {
+        "name": "Niagara Falls",
+        "description": "Major waterfalls on the US–Canada border."
+      },
+      "party_mode_11": {
+        "name": "Sydney Opera House",
+        "description": "Iconic performing arts building in Sydney."
+      },
+      "party_mode_12": {
+        "name": "Stonehenge",
+        "description": "Ancient stone circle in England."
+      },
+      "party_mode_13": {
+        "name": "Moon",
+        "description": "Earth’s natural satellite."
+      },
+      "party_mode_14": {
+        "name": "Sun",
+        "description": "The star at the center of our solar system."
+      },
+      "party_mode_15": {
+        "name": "Earth",
+        "description": "The planet we live on."
+      },
+      "party_mode_16": {
+        "name": "Rainbow",
+        "description": "Colored arc seen after rain."
+      },
+      "party_mode_17": {
+        "name": "Volcano",
+        "description": "Mountain that can erupt lava."
+      },
+      "party_mode_18": {
+        "name": "Tornado",
+        "description": "Fast-spinning column of air."
+      },
+      "party_mode_19": {
+        "name": "Iceberg",
+        "description": "Large floating piece of ice."
+      },
+      "party_mode_20": {
+        "name": "Compass",
+        "description": "Tool that shows direction."
+      },
+      "party_mode_21": {
+        "name": "Bicycle",
+        "description": "Two-wheeled vehicle you pedal."
+      },
+      "party_mode_22": {
+        "name": "Skateboard",
+        "description": "Board with wheels used for riding."
+      },
+      "party_mode_23": {
+        "name": "Guitar",
+        "description": "String instrument played by strumming."
+      },
+      "party_mode_24": {
+        "name": "Microphone",
+        "description": "Device used to amplify sound."
+      },
+      "party_mode_25": {
+        "name": "Telescope",
+        "description": "Instrument for viewing distant objects."
+      },
+      "party_mode_26": {
+        "name": "Dinosaur",
+        "description": "A prehistoric reptile from long ago."
+      },
+      "party_mode_27": {
+        "name": "Soccer Ball",
+        "description": "A ball used to play soccer/football."
+      },
+      "party_mode_28": {
+        "name": "Basketball",
+        "description": "An orange ball used in basketball."
+      },
+      "party_mode_29": {
+        "name": "Tennis Racket",
+        "description": "A racket used to hit a tennis ball."
+      },
+      "party_mode_30": {
+        "name": "Surfboard",
+        "description": "A board used to surf waves."
+      },
+      "party_mode_31": {
+        "name": "Airplane",
+        "description": "A vehicle that flies in the sky."
+      },
+      "party_mode_32": {
+        "name": "Helicopter",
+        "description": "An aircraft with spinning rotors."
+      },
+      "party_mode_33": {
+        "name": "Rocket",
+        "description": "A vehicle that launches into space."
+      },
+      "party_mode_34": {
+        "name": "Submarine",
+        "description": "A vessel that travels underwater."
+      },
+      "party_mode_35": {
+        "name": "Hot Air Balloon",
+        "description": "A balloon that floats using hot air."
+      },
+      "party_mode_36": {
+        "name": "Lighthouse",
+        "description": "A tower with a bright guiding light."
+      },
+      "party_mode_37": {
+        "name": "Castle",
+        "description": "A large fortified building."
+      },
+      "party_mode_38": {
+        "name": "Bridge",
+        "description": "A structure that crosses over water or land."
+      },
+      "party_mode_39": {
+        "name": "Skyscraper",
+        "description": "A very tall city building."
+      },
+      "party_mode_40": {
+        "name": "Desert",
+        "description": "A dry region with little rain."
+      },
+      "party_mode_41": {
+        "name": "Jungle",
+        "description": "A dense tropical forest."
+      },
+      "party_mode_42": {
+        "name": "Mars",
+        "description": "The red planet in our solar system."
+      },
+      "party_mode_43": {
+        "name": "Jupiter",
+        "description": "The largest planet in our solar system."
+      },
+      "party_mode_44": {
+        "name": "Saturn",
+        "description": "A planet famous for its rings."
+      },
+      "party_mode_45": {
+        "name": "Comet",
+        "description": "An icy object that can have a tail."
+      },
+      "party_mode_46": {
+        "name": "Black Hole",
+        "description": "A space region with extremely strong gravity."
+      },
+      "party_mode_47": {
+        "name": "Hurricane",
+        "description": "A powerful tropical storm."
+      },
+      "party_mode_48": {
+        "name": "Earthquake",
+        "description": "A sudden shaking of the ground."
+      },
+      "party_mode_49": {
+        "name": "Tsunami",
+        "description": "A huge ocean wave caused by disturbance."
+      },
+      "party_mode_50": {
+        "name": "Thunder",
+        "description": "The loud sound during a storm."
+      },
+      "party_mode_51": {
+        "name": "Pirate",
+        "description": "A sea robber from old stories, often with a ship and treasure."
+      },
+      "party_mode_52": {
+        "name": "Robot",
+        "description": "A machine that can move or act like a person."
+      },
+      "party_mode_53": {
+        "name": "Santa Claus",
+        "description": "A famous gift-giver character linked to Christmas."
+      },
+      "party_mode_54": {
+        "name": "Dracula",
+        "description": "A classic vampire character from horror stories."
+      },
+      "party_mode_55": {
+        "name": "Frankenstein",
+        "description": "A famous monster from classic horror fiction."
+      },
+      "party_mode_56": {
+        "name": "King Kong",
+        "description": "A giant gorilla from classic movies."
+      },
+      "party_mode_57": {
+        "name": "Hercules",
+        "description": "A legendary hero known for super strength."
+      },
+      "party_mode_58": {
+        "name": "Mona Lisa",
+        "description": "A world-famous portrait painting."
+      },
+      "party_mode_59": {
+        "name": "Butterfly",
+        "description": "An insect with colorful wings."
+      },
+      "party_mode_60": {
+        "name": "Chameleon",
+        "description": "A lizard known for changing color."
+      },
+      "party_mode_61": {
+        "name": "Seahorse",
+        "description": "A small ocean animal shaped like a horse."
+      },
+      "party_mode_62": {
+        "name": "French Fries",
+        "description": "Thin fried potato sticks."
+      },
+      "party_mode_63": {
+        "name": "Popsicle",
+        "description": "A frozen treat on a stick."
+      },
+      "party_mode_64": {
+        "name": "Marshmallow",
+        "description": "A soft, sweet, fluffy candy."
+      },
+      "party_mode_65": {
+        "name": "Lightning",
+        "description": "A bright flash of electricity in the sky during storms."
+      },
+      "party_mode_66": {
+        "name": "Fireworks",
+        "description": "Exploding lights used in celebrations."
+      },
+      "party_mode_67": {
+        "name": "Snowman",
+        "description": "A figure made from packed snow."
+      },
+      "party_mode_68": {
+        "name": "Sandcastle",
+        "description": "A small castle shape built from sand."
+      },
+      "party_mode_69": {
+        "name": "Hammer",
+        "description": "A tool used to hit nails."
+      },
+      "party_mode_70": {
+        "name": "Screwdriver",
+        "description": "A tool used to turn screws."
+      },
+      "party_mode_71": {
+        "name": "Wrench",
+        "description": "A tool used to grip and turn nuts and bolts."
+      },
+      "party_mode_72": {
+        "name": "Camera",
+        "description": "A device used to take photos or videos."
+      },
+      "party_mode_73": {
+        "name": "Binoculars",
+        "description": "A tool for seeing far away objects closer."
+      },
+      "party_mode_74": {
+        "name": "Headphones",
+        "description": "A device you wear to listen to audio privately."
+      },
+      "party_mode_75": {
+        "name": "Microwave",
+        "description": "An appliance that heats food quickly."
+      },
+      "party_mode_76": {
+        "name": "Ostrich",
+        "description": "A large bird that cannot fly."
+      },
+      "party_mode_77": {
+        "name": "Toucan",
+        "description": "A bird with a large colorful beak."
+      },
+      "party_mode_78": {
+        "name": "Starfish",
+        "description": "A sea animal shaped like a star."
+      },
+      "party_mode_79": {
+        "name": "Ladybug",
+        "description": "A small red beetle with black spots."
+      },
+      "party_mode_80": {
+        "name": "Caterpillar",
+        "description": "A larva that becomes a butterfly."
+      },
+      "party_mode_81": {
+        "name": "Chinchilla",
+        "description": "A small fluffy rodent."
+      },
+      "party_mode_82": {
+        "name": "Pufferfish",
+        "description": "A fish that can inflate like a ball."
+      },
+      "party_mode_83": {
+        "name": "Crab",
+        "description": "A sea animal with claws and a shell."
+      },
+      "party_mode_84": {
+        "name": "Drone",
+        "description": "A small flying device controlled remotely."
+      },
+      "party_mode_85": {
+        "name": "Rubik's Cube",
+        "description": "A colorful puzzle cube you twist."
+      },
+      "party_mode_86": {
+        "name": "Fire Extinguisher",
+        "description": "A safety device used to put out fires."
+      },
+      "party_mode_87": {
+        "name": "Helmet",
+        "description": "Protective headgear."
+      },
+      "party_mode_88": {
+        "name": "Magnet",
+        "description": "An object that attracts metal."
+      },
+      "party_mode_89": {
+        "name": "Globe",
+        "description": "A spherical model of the Earth."
+      },
+      "party_mode_90": {
+        "name": "Piano",
+        "description": "A musical instrument with keys."
+      },
+      "party_mode_91": {
+        "name": "Violin",
+        "description": "A small string instrument played with a bow."
+      },
+      "party_mode_92": {
+        "name": "Roller Skates",
+        "description": "Shoes with wheels for skating."
+      },
+      "party_mode_93": {
+        "name": "Microscope",
+        "description": "A tool for seeing very small things."
+      },
+      "party_mode_94": {
+        "name": "Stopwatch",
+        "description": "A timer for measuring time precisely."
+      },
+      "party_mode_95": {
+        "name": "Smartwatch",
+        "description": "A watch with apps and notifications."
+      },
+      "party_mode_96": {
+        "name": "Electric Guitar",
+        "description": "A guitar used with an amplifier."
+      },
+      "party_mode_97": {
+        "name": "Teddy Bear",
+        "description": "A soft stuffed toy bear."
+      },
+      "party_mode_98": {
+        "name": "Balloon",
+        "description": "An inflatable object filled with air."
+      },
+      "party_mode_99": {
+        "name": "Bowling Ball",
+        "description": "A heavy ball used in bowling."
+      },
+      "party_mode_100": {
+        "name": "Dice",
+        "description": "A small cube with numbered sides."
       }
     }
   }

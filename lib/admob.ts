@@ -11,6 +11,7 @@ const ANDROID_INTERSTITIAL_AD_UNIT_ID = extra.admobAndroidInterstitialAdUnitId a
 const IOS_TEST_INTERSTITIAL_AD_UNIT_ID = extra.admobIosTestInterstitialAdUnitId as string | undefined;
 const ANDROID_TEST_INTERSTITIAL_AD_UNIT_ID = extra.admobAndroidTestInterstitialAdUnitId as string | undefined;
 const REWARDED_LOAD_TIMEOUT_MS = 30_000;
+const REWARDED_CLOSE_GRACE_MS = 700;
 const INTERSTITIAL_LOAD_TIMEOUT_MS = 8_000;
 
 function getRewardedAdUnitId() {
@@ -80,7 +81,10 @@ export async function showRewardedAdForPremiumSession() {
 
     return await new Promise<boolean>((resolve) => {
       let didEarnReward = false;
+      let didShowAd = false;
+      let didCloseAd = false;
       let didSettle = false;
+      let closeGraceTimeout: ReturnType<typeof setTimeout> | null = null;
       const unsubscribers: (() => void)[] = [];
 
       const finish = (result: boolean) => {
@@ -90,6 +94,10 @@ export async function showRewardedAdForPremiumSession() {
 
         didSettle = true;
         clearTimeout(timeout);
+        if (closeGraceTimeout) {
+          clearTimeout(closeGraceTimeout);
+          closeGraceTimeout = null;
+        }
         unsubscribers.forEach((unsubscribe) => unsubscribe());
         resolve(result);
       };
@@ -107,11 +115,34 @@ export async function showRewardedAdForPremiumSession() {
       unsubscribers.push(
         rewardedAd.addAdEventListener(RewardedAdEventType.EARNED_REWARD, () => {
           didEarnReward = true;
+
+          if (didCloseAd) {
+            finish(true);
+          }
+        })
+      );
+      unsubscribers.push(
+        rewardedAd.addAdEventListener(AdEventType.OPENED, () => {
+          didShowAd = true;
         })
       );
       unsubscribers.push(
         rewardedAd.addAdEventListener(AdEventType.CLOSED, () => {
-          finish(didEarnReward);
+          didCloseAd = true;
+
+          if (didEarnReward) {
+            finish(true);
+            return;
+          }
+
+          if (!didShowAd) {
+            finish(false);
+            return;
+          }
+
+          closeGraceTimeout = setTimeout(() => {
+            finish(false);
+          }, REWARDED_CLOSE_GRACE_MS);
         })
       );
       unsubscribers.push(

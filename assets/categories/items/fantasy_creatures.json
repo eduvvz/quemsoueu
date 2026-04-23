@@ -5,5 +5,698 @@
     "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_1.name",
     "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_1.description",
     "order": 1
+  },
+  {
+    "id": "fantasy_creatures_2",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_2.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_2.description",
+    "order": 2
+  },
+  {
+    "id": "fantasy_creatures_3",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_3.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_3.description",
+    "order": 3
+  },
+  {
+    "id": "fantasy_creatures_4",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_4.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_4.description",
+    "order": 4
+  },
+  {
+    "id": "fantasy_creatures_5",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_5.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_5.description",
+    "order": 5
+  },
+  {
+    "id": "fantasy_creatures_6",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_6.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_6.description",
+    "order": 6
+  },
+  {
+    "id": "fantasy_creatures_7",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_7.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_7.description",
+    "order": 7
+  },
+  {
+    "id": "fantasy_creatures_8",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_8.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_8.description",
+    "order": 8
+  },
+  {
+    "id": "fantasy_creatures_9",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_9.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_9.description",
+    "order": 9
+  },
+  {
+    "id": "fantasy_creatures_10",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_10.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_10.description",
+    "order": 10
+  },
+  {
+    "id": "fantasy_creatures_11",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_11.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_11.description",
+    "order": 11
+  },
+  {
+    "id": "fantasy_creatures_12",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_12.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_12.description",
+    "order": 12
+  },
+  {
+    "id": "fantasy_creatures_13",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_13.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_13.description",
+    "order": 13
+  },
+  {
+    "id": "fantasy_creatures_14",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_14.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_14.description",
+    "order": 14
+  },
+  {
+    "id": "fantasy_creatures_15",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_15.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_15.description",
+    "order": 15
+  },
+  {
+    "id": "fantasy_creatures_16",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_16.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_16.description",
+    "order": 16
+  },
+  {
+    "id": "fantasy_creatures_17",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_17.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_17.description",
+    "order": 17
+  },
+  {
+    "id": "fantasy_creatures_18",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_18.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_18.description",
+    "order": 18
+  },
+  {
+    "id": "fantasy_creatures_19",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_19.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_19.description",
+    "order": 19
+  },
+  {
+    "id": "fantasy_creatures_20",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_20.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_20.description",
+    "order": 20
+  },
+  {
+    "id": "fantasy_creatures_21",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_21.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_21.description",
+    "order": 21
+  },
+  {
+    "id": "fantasy_creatures_22",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_22.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_22.description",
+    "order": 22
+  },
+  {
+    "id": "fantasy_creatures_23",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_23.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_23.description",
+    "order": 23
+  },
+  {
+    "id": "fantasy_creatures_24",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_24.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_24.description",
+    "order": 24
+  },
+  {
+    "id": "fantasy_creatures_25",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_25.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_25.description",
+    "order": 25
+  },
+  {
+    "id": "fantasy_creatures_26",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_26.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_26.description",
+    "order": 26
+  },
+  {
+    "id": "fantasy_creatures_27",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_27.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_27.description",
+    "order": 27
+  },
+  {
+    "id": "fantasy_creatures_28",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_28.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_28.description",
+    "order": 28
+  },
+  {
+    "id": "fantasy_creatures_29",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_29.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_29.description",
+    "order": 29
+  },
+  {
+    "id": "fantasy_creatures_30",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_30.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_30.description",
+    "order": 30
+  },
+  {
+    "id": "fantasy_creatures_31",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_31.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_31.description",
+    "order": 31
+  },
+  {
+    "id": "fantasy_creatures_32",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_32.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_32.description",
+    "order": 32
+  },
+  {
+    "id": "fantasy_creatures_33",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_33.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_33.description",
+    "order": 33
+  },
+  {
+    "id": "fantasy_creatures_34",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_34.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_34.description",
+    "order": 34
+  },
+  {
+    "id": "fantasy_creatures_35",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_35.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_35.description",
+    "order": 35
+  },
+  {
+    "id": "fantasy_creatures_36",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_36.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_36.description",
+    "order": 36
+  },
+  {
+    "id": "fantasy_creatures_37",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_37.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_37.description",
+    "order": 37
+  },
+  {
+    "id": "fantasy_creatures_38",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_38.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_38.description",
+    "order": 38
+  },
+  {
+    "id": "fantasy_creatures_39",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_39.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_39.description",
+    "order": 39
+  },
+  {
+    "id": "fantasy_creatures_40",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_40.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_40.description",
+    "order": 40
+  },
+  {
+    "id": "fantasy_creatures_41",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_41.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_41.description",
+    "order": 41
+  },
+  {
+    "id": "fantasy_creatures_42",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_42.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_42.description",
+    "order": 42
+  },
+  {
+    "id": "fantasy_creatures_43",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_43.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_43.description",
+    "order": 43
+  },
+  {
+    "id": "fantasy_creatures_44",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_44.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_44.description",
+    "order": 44
+  },
+  {
+    "id": "fantasy_creatures_45",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_45.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_45.description",
+    "order": 45
+  },
+  {
+    "id": "fantasy_creatures_46",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_46.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_46.description",
+    "order": 46
+  },
+  {
+    "id": "fantasy_creatures_47",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_47.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_47.description",
+    "order": 47
+  },
+  {
+    "id": "fantasy_creatures_48",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_48.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_48.description",
+    "order": 48
+  },
+  {
+    "id": "fantasy_creatures_49",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_49.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_49.description",
+    "order": 49
+  },
+  {
+    "id": "fantasy_creatures_50",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_50.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_50.description",
+    "order": 50
+  },
+  {
+    "id": "fantasy_creatures_51",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_51.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_51.description",
+    "order": 51
+  },
+  {
+    "id": "fantasy_creatures_52",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_52.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_52.description",
+    "order": 52
+  },
+  {
+    "id": "fantasy_creatures_53",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_53.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_53.description",
+    "order": 53
+  },
+  {
+    "id": "fantasy_creatures_54",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_54.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_54.description",
+    "order": 54
+  },
+  {
+    "id": "fantasy_creatures_55",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_55.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_55.description",
+    "order": 55
+  },
+  {
+    "id": "fantasy_creatures_56",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_56.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_56.description",
+    "order": 56
+  },
+  {
+    "id": "fantasy_creatures_57",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_57.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_57.description",
+    "order": 57
+  },
+  {
+    "id": "fantasy_creatures_58",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_58.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_58.description",
+    "order": 58
+  },
+  {
+    "id": "fantasy_creatures_59",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_59.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_59.description",
+    "order": 59
+  },
+  {
+    "id": "fantasy_creatures_60",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_60.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_60.description",
+    "order": 60
+  },
+  {
+    "id": "fantasy_creatures_61",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_61.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_61.description",
+    "order": 61
+  },
+  {
+    "id": "fantasy_creatures_62",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_62.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_62.description",
+    "order": 62
+  },
+  {
+    "id": "fantasy_creatures_63",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_63.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_63.description",
+    "order": 63
+  },
+  {
+    "id": "fantasy_creatures_64",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_64.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_64.description",
+    "order": 64
+  },
+  {
+    "id": "fantasy_creatures_65",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_65.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_65.description",
+    "order": 65
+  },
+  {
+    "id": "fantasy_creatures_66",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_66.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_66.description",
+    "order": 66
+  },
+  {
+    "id": "fantasy_creatures_67",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_67.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_67.description",
+    "order": 67
+  },
+  {
+    "id": "fantasy_creatures_68",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_68.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_68.description",
+    "order": 68
+  },
+  {
+    "id": "fantasy_creatures_69",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_69.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_69.description",
+    "order": 69
+  },
+  {
+    "id": "fantasy_creatures_70",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_70.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_70.description",
+    "order": 70
+  },
+  {
+    "id": "fantasy_creatures_71",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_71.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_71.description",
+    "order": 71
+  },
+  {
+    "id": "fantasy_creatures_72",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_72.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_72.description",
+    "order": 72
+  },
+  {
+    "id": "fantasy_creatures_73",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_73.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_73.description",
+    "order": 73
+  },
+  {
+    "id": "fantasy_creatures_74",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_74.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_74.description",
+    "order": 74
+  },
+  {
+    "id": "fantasy_creatures_75",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_75.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_75.description",
+    "order": 75
+  },
+  {
+    "id": "fantasy_creatures_76",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_76.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_76.description",
+    "order": 76
+  },
+  {
+    "id": "fantasy_creatures_77",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_77.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_77.description",
+    "order": 77
+  },
+  {
+    "id": "fantasy_creatures_78",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_78.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_78.description",
+    "order": 78
+  },
+  {
+    "id": "fantasy_creatures_79",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_79.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_79.description",
+    "order": 79
+  },
+  {
+    "id": "fantasy_creatures_80",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_80.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_80.description",
+    "order": 80
+  },
+  {
+    "id": "fantasy_creatures_81",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_81.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_81.description",
+    "order": 81
+  },
+  {
+    "id": "fantasy_creatures_82",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_82.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_82.description",
+    "order": 82
+  },
+  {
+    "id": "fantasy_creatures_83",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_83.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_83.description",
+    "order": 83
+  },
+  {
+    "id": "fantasy_creatures_84",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_84.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_84.description",
+    "order": 84
+  },
+  {
+    "id": "fantasy_creatures_85",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_85.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_85.description",
+    "order": 85
+  },
+  {
+    "id": "fantasy_creatures_86",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_86.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_86.description",
+    "order": 86
+  },
+  {
+    "id": "fantasy_creatures_87",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_87.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_87.description",
+    "order": 87
+  },
+  {
+    "id": "fantasy_creatures_88",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_88.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_88.description",
+    "order": 88
+  },
+  {
+    "id": "fantasy_creatures_89",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_89.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_89.description",
+    "order": 89
+  },
+  {
+    "id": "fantasy_creatures_90",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_90.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_90.description",
+    "order": 90
+  },
+  {
+    "id": "fantasy_creatures_91",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_91.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_91.description",
+    "order": 91
+  },
+  {
+    "id": "fantasy_creatures_92",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_92.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_92.description",
+    "order": 92
+  },
+  {
+    "id": "fantasy_creatures_93",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_93.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_93.description",
+    "order": 93
+  },
+  {
+    "id": "fantasy_creatures_94",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_94.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_94.description",
+    "order": 94
+  },
+  {
+    "id": "fantasy_creatures_95",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_95.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_95.description",
+    "order": 95
+  },
+  {
+    "id": "fantasy_creatures_96",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_96.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_96.description",
+    "order": 96
+  },
+  {
+    "id": "fantasy_creatures_97",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_97.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_97.description",
+    "order": 97
+  },
+  {
+    "id": "fantasy_creatures_98",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_98.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_98.description",
+    "order": 98
+  },
+  {
+    "id": "fantasy_creatures_99",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_99.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_99.description",
+    "order": 99
+  },
+  {
+    "id": "fantasy_creatures_100",
+    "categoryId": "fantasy_creatures",
+    "nameKey": "categoryItems.fantasy_creatures.fantasy_creatures_100.name",
+    "descriptionKey": "categoryItems.fantasy_creatures.fantasy_creatures_100.description",
+    "order": 100
   }
 ]
