@@ -4,6 +4,7 @@ import { Platform } from 'react-native';
 import Purchases, {
   CustomerInfo,
   LOG_LEVEL,
+  PRODUCT_CATEGORY,
   PurchasesOfferings,
   PurchasesPackage,
 } from 'react-native-purchases';
@@ -38,9 +39,9 @@ type PurchaseResult = {
 type RevenueCatContextValue = {
   customerInfo: CustomerInfo | null;
   errorMessage: string | null;
+  hasLifetimeAccess: boolean;
   isConfigured: boolean;
   isLoading: boolean;
-  isPro: boolean;
   lifetimePriceString: string | null;
   offerings: PurchasesOfferings | null;
   pass24hPriceString: string | null;
@@ -63,8 +64,18 @@ function isExpoGo() {
   return Constants.executionEnvironment === ExecutionEnvironment.StoreClient;
 }
 
-function hasProEntitlement(customerInfo: CustomerInfo | null) {
-  return Boolean(customerInfo?.entitlements.active[revenueCatConfig.entitlementId]);
+function hasLifetimeProductAccess(customerInfo: CustomerInfo | null) {
+  const activeEntitlement = customerInfo?.entitlements.active[revenueCatConfig.entitlementId];
+
+  if (activeEntitlement?.productIdentifier === revenueCatConfig.products.lifetime.productId) {
+    return true;
+  }
+
+  return (
+    customerInfo?.allPurchasedProductIdentifiers.includes(
+      revenueCatConfig.products.lifetime.productId
+    ) ?? false
+  );
 }
 
 function getErrorMessage(error: unknown) {
@@ -79,6 +90,62 @@ function getErrorMessage(error: unknown) {
   }
 
   return 'Unable to complete the purchase. Please try again.';
+}
+
+async function buildOfferingsDiagnosticMessage() {
+  const productIds = [
+    revenueCatConfig.products.consumable.productId,
+    revenueCatConfig.products.lifetime.productId,
+  ].filter(Boolean);
+
+  try {
+    const [storefront, storeProducts] = await Promise.all([
+      Purchases.getStorefront().catch(() => null),
+      productIds.length > 0
+        ? Purchases.getProducts(productIds, PRODUCT_CATEGORY.NON_SUBSCRIPTION)
+        : Promise.resolve([]),
+    ]);
+
+    const resolvedProductIds = storeProducts.map((product) => product.identifier);
+    const missingProductIds = productIds.filter(
+      (productId) => !resolvedProductIds.includes(productId)
+    );
+    const storefrontCode =
+      storefront?.countryCode ??
+      storefront?.identifier ??
+      'unknown storefront';
+
+    console.warn('[revenuecat] offerings diagnostic', {
+      configuredOfferingId: revenueCatConfig.offeringId,
+      configuredProductIds: productIds,
+      missingProductIds,
+      resolvedProductIds,
+      storefront: storefront,
+    });
+
+    if (resolvedProductIds.length === 0) {
+      return (
+        `StoreKit did not return any App Store products for "${productIds.join(', ')}" ` +
+        `(${storefrontCode}). Check App Store Connect agreements, region availability, ` +
+        'and wait for product propagation in TestFlight.'
+      );
+    }
+
+    if (missingProductIds.length > 0) {
+      return (
+        `StoreKit only returned "${resolvedProductIds.join(', ')}". Missing "${missingProductIds.join(', ')}" ` +
+        `for ${storefrontCode}. Check product availability and identifiers in App Store Connect.`
+      );
+    }
+
+    return (
+      `App Store products loaded (${resolvedProductIds.join(', ')}), but RevenueCat offering "${revenueCatConfig.offeringId}" ` +
+      'still failed. Check the current offering packages and app assignment in RevenueCat.'
+    );
+  } catch (diagnosticError) {
+    console.warn('[revenuecat] failed to build offerings diagnostic', diagnosticError);
+    return null;
+  }
 }
 
 function findPackageByProductId(
@@ -110,7 +177,7 @@ export function RevenueCatProvider({ children }: PropsWithChildren) {
   const [isConfigured, setIsConfigured] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [offerings, setOfferings] = useState<PurchasesOfferings | null>(null);
-  const isPro = hasProEntitlement(customerInfo);
+  const hasLifetimeAccess = hasLifetimeProductAccess(customerInfo);
   const pass24hPackage = findPackageByProductId(
     offerings,
     revenueCatConfig.products.consumable
@@ -154,7 +221,8 @@ export function RevenueCatProvider({ children }: PropsWithChildren) {
 
       return nextOfferings;
     } catch (error) {
-      const message = getErrorMessage(error);
+      const diagnosticMessage = await buildOfferingsDiagnosticMessage();
+      const message = diagnosticMessage ?? getErrorMessage(error);
 
       if (message) {
         setErrorMessage(message);
@@ -182,7 +250,10 @@ export function RevenueCatProvider({ children }: PropsWithChildren) {
 
     try {
       Purchases.setLogLevel(__DEV__ ? LOG_LEVEL.VERBOSE : LOG_LEVEL.WARN);
-      Purchases.configure({ apiKey: revenueCatConfig.apiKey });
+      Purchases.configure({
+        apiKey: revenueCatConfig.apiKey,
+        diagnosticsEnabled: true,
+      });
       setIsConfigured(true);
     } catch (error) {
       setIsConfigured(false);
@@ -227,8 +298,37 @@ export function RevenueCatProvider({ children }: PropsWithChildren) {
         const packageToPurchase = findPackageByProductId(nextOfferings, productConfig);
 
         if (!packageToPurchase) {
+          const currentOffering =
+            nextOfferings?.all[revenueCatConfig.offeringId] ?? nextOfferings?.current;
+          const availablePackages =
+            currentOffering?.availablePackages.map((item) => ({
+              identifier: item.identifier,
+              productIdentifier: item.product.identifier,
+              packageType: item.packageType,
+            })) ?? [];
+          const availablePackagesSummary =
+            availablePackages.length > 0
+              ? availablePackages
+                  .map(
+                    (item) =>
+                      `${item.identifier} -> ${item.productIdentifier} (${item.packageType})`
+                  )
+                  .join(', ')
+              : 'none';
+
+          console.warn('[revenuecat] package lookup failed', {
+            configuredOfferingId: revenueCatConfig.offeringId,
+            configuredPackageId: productConfig.packageId,
+            configuredProductId: productConfig.productId,
+            currentOfferingIdentifier: currentOffering?.identifier ?? null,
+            availablePackages,
+          });
+
           throw new Error(
-            `RevenueCat package not found for product "${productConfig.productId}" in offering "${revenueCatConfig.offeringId}". Check the current offering.`
+            `RevenueCat package not found for product "${productConfig.productId}" in offering "${revenueCatConfig.offeringId}". ` +
+              `Configured package id: "${productConfig.packageId}". ` +
+              `Current offering: "${currentOffering?.identifier ?? 'none'}". ` +
+              `Available packages: ${availablePackagesSummary}.`
           );
         }
 
@@ -259,9 +359,10 @@ export function RevenueCatProvider({ children }: PropsWithChildren) {
   const purchaseLifetime = useCallback(async () => {
     const result = await purchasePackage(revenueCatConfig.products.lifetime);
 
-    if (result.success && !hasProEntitlement(result.customerInfo)) {
+    if (result.success && !hasLifetimeProductAccess(result.customerInfo)) {
       setErrorMessage(
-        `Purchase completed, but entitlement "${revenueCatConfig.entitlementId}" is not active. Check RevenueCat product setup.`
+        `Purchase completed, but lifetime access was not detected for product "${revenueCatConfig.products.lifetime.productId}". ` +
+          `Check the RevenueCat entitlement and product mapping.`
       );
 
       return { customerInfo: result.customerInfo, success: false };
@@ -379,9 +480,9 @@ export function RevenueCatProvider({ children }: PropsWithChildren) {
     () => ({
       customerInfo,
       errorMessage,
+      hasLifetimeAccess,
       isConfigured,
       isLoading,
-      isPro,
       lifetimePriceString,
       offerings,
       pass24hPriceString,
@@ -396,9 +497,9 @@ export function RevenueCatProvider({ children }: PropsWithChildren) {
     [
       customerInfo,
       errorMessage,
+      hasLifetimeAccess,
       isConfigured,
       isLoading,
-      isPro,
       lifetimePriceString,
       offerings,
       pass24hPriceString,

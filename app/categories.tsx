@@ -52,7 +52,6 @@ export default function CategoriesScreen() {
     isPremiumUser,
     trackMonetizationEvent,
     unlock24hPass,
-    unlockLifetime,
     watchAdToUnlockSession,
   } = useMonetization();
   const {
@@ -160,8 +159,6 @@ export default function CategoriesScreen() {
     if (!result.success) {
       return;
     }
-
-    unlockLifetime();
 
     if (paywallCategory) {
       setSelectedIds((current) =>

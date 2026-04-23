@@ -1,4 +1,6 @@
 const env = (name) => process.env[name];
+const admobAndroidAppId = env('ADMOB_ANDROID_APP_ID');
+const admobIosAppId = env('ADMOB_IOS_APP_ID') ?? 'ca-app-pub-7037052370613478~3586939135';
 
 export default {
   expo: {
@@ -16,6 +18,7 @@ export default {
       infoPlist: {
         ITSAppUsesNonExemptEncryption: false,
         CFBundleAllowMixedLocalizations: true,
+        GADApplicationIdentifier: admobIosAppId,
       },
     },
     android: {
@@ -78,8 +81,8 @@ export default {
       [
         'react-native-google-mobile-ads',
         {
-          androidAppId: env('ADMOB_ANDROID_APP_ID'),
-          iosAppId: env('ADMOB_IOS_APP_ID'),
+          androidAppId: admobAndroidAppId,
+          iosAppId: admobIosAppId,
           userTrackingUsageDescription:
             'Este identificador pode ser usado para entregar anuncios personalizados.',
         },
@@ -96,6 +99,8 @@ export default {
       },
       posthogProjectToken: env('POSTHOG_PROJECT_TOKEN'),
       posthogHost: env('POSTHOG_HOST'),
+      admobAndroidAppId,
+      admobIosAppId,
       admobAndroidRewardedAdUnitId: env('ADMOB_ANDROID_REWARDED_AD_UNIT_ID'),
       admobIosRewardedAdUnitId: env('ADMOB_IOS_REWARDED_AD_UNIT_ID'),
       admobAndroidTestRewardedAdUnitId: env('ADMOB_ANDROID_TEST_REWARDED_AD_UNIT_ID'),

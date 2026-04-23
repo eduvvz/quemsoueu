@@ -72,7 +72,7 @@ type MonetizationContextValue = {
   watchAdToUnlockSession: (categoryId: string) => boolean;
   unlock24hPass: () => void;
   unlockLifetime: () => void;
-  activateLifetimeEntitlement: () => void;
+  setLifetimeEntitlementActive: (active: boolean) => void;
 };
 
 const MonetizationContext = createContext<MonetizationContextValue | null>(
@@ -248,15 +248,14 @@ export function MonetizationProvider({ children }: PropsWithChildren) {
         posthog.capture("purchase_completed", { product_id: "pass_24h" });
       },
       unlockLifetime: () => {
-        setLifetimeUnlocked(true);
         posthog.capture("lifetime_purchase_initiated", {
           price: monetizationConfig.pricing.lifetime,
           currency: monetizationConfig.pricing.currency,
         });
         posthog.capture("purchase_completed", { product_id: "lifetime" });
       },
-      activateLifetimeEntitlement: () => {
-        setLifetimeUnlocked(true);
+      setLifetimeEntitlementActive: (active) => {
+        setLifetimeUnlocked(active);
       },
     }),
     [

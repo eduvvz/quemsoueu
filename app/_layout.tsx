@@ -14,14 +14,12 @@ import { posthog } from '@/lib/posthog';
 import { RevenueCatProvider, useRevenueCat } from '@/lib/revenuecat';
 
 function RevenueCatEntitlementBridge() {
-  const { isPro } = useRevenueCat();
-  const { activateLifetimeEntitlement } = useMonetization();
+  const { hasLifetimeAccess } = useRevenueCat();
+  const { setLifetimeEntitlementActive } = useMonetization();
 
   useEffect(() => {
-    if (isPro) {
-      activateLifetimeEntitlement();
-    }
-  }, [activateLifetimeEntitlement, isPro]);
+    setLifetimeEntitlementActive(hasLifetimeAccess);
+  }, [hasLifetimeAccess, setLifetimeEntitlementActive]);
 
   return null;
 }

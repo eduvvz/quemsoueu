@@ -236,7 +236,6 @@ export default function GameScreen() {
     shouldShowPaywall,
     trackMonetizationEvent,
     unlock24hPass,
-    unlockLifetime,
   } = useMonetization();
   const {
     errorMessage: revenueCatError,
@@ -996,7 +995,6 @@ export default function GameScreen() {
     const result = await purchaseLifetime();
 
     if (result.success) {
-      unlockLifetime();
       closePostRoundPaywall();
     }
   }

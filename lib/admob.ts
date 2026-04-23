@@ -2,6 +2,8 @@ import Constants from 'expo-constants';
 import { Platform } from 'react-native';
 
 const extra = Constants.expoConfig?.extra ?? {};
+const IOS_APP_ID = extra.admobIosAppId as string | undefined;
+const ANDROID_APP_ID = extra.admobAndroidAppId as string | undefined;
 const IOS_REWARDED_AD_UNIT_ID = extra.admobIosRewardedAdUnitId as string | undefined;
 const ANDROID_REWARDED_AD_UNIT_ID = extra.admobAndroidRewardedAdUnitId as string | undefined;
 const IOS_TEST_REWARDED_AD_UNIT_ID = extra.admobIosTestRewardedAdUnitId as string | undefined;
@@ -13,6 +15,16 @@ const ANDROID_TEST_INTERSTITIAL_AD_UNIT_ID = extra.admobAndroidTestInterstitialA
 const REWARDED_LOAD_TIMEOUT_MS = 30_000;
 const REWARDED_CLOSE_GRACE_MS = 700;
 const INTERSTITIAL_LOAD_TIMEOUT_MS = 8_000;
+
+function hasGoogleMobileAdsAppId() {
+  return Boolean(
+    Platform.select({
+      ios: IOS_APP_ID,
+      android: ANDROID_APP_ID,
+      default: undefined,
+    })
+  );
+}
 
 function getRewardedAdUnitId() {
   const fallbackAdUnitId =
@@ -50,6 +62,11 @@ function getInterstitialAdUnitId() {
 
 export async function initializeGoogleMobileAds() {
   if (Platform.OS === 'web') {
+    return;
+  }
+
+  if (!hasGoogleMobileAdsAppId()) {
+    console.warn('[admob] app id not configured; skipping initialization');
     return;
   }
 

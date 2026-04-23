@@ -18,7 +18,6 @@ export default function HomeScreen() {
     isPremiumUser,
     trackMonetizationEvent,
     unlock24hPass,
-    unlockLifetime,
   } = useMonetization();
   const {
     errorMessage: revenueCatError,
@@ -55,7 +54,6 @@ export default function HomeScreen() {
     const result = await purchaseLifetime();
 
     if (result.success) {
-      unlockLifetime();
       setIsPremiumOpen(false);
     }
   }
