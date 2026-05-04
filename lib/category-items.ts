@@ -1,5 +1,6 @@
 import animals from '@/assets/categories/items/animals.json';
 import athletes from '@/assets/categories/items/athletes.json';
+import brazilianPersonalities from '@/assets/categories/items/brazilian_personalities.json';
 import cartoonsAnimation from '@/assets/categories/items/cartoons_animation.json';
 import celebrities from '@/assets/categories/items/celebrities.json';
 import countries from '@/assets/categories/items/countries.json';
@@ -25,6 +26,7 @@ export type CategoryItem = {
 const itemsByCategory: Record<string, CategoryItem[]> = {
   animals,
   athletes,
+  brazilian_personalities: brazilianPersonalities,
   cartoons_animation: cartoonsAnimation,
   celebrities,
   countries,

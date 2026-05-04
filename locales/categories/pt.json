@@ -56,6 +56,10 @@
       "name": "Países",
       "description": "Países, bandeiras, pontos turísticos e geografia mundial."
     },
+    "brazilian_personalities": {
+      "name": "Personalidades Brasileiras",
+      "description": "Ícones do esporte, TV, música, literatura e cultura do Brasil."
+    },
     "party_mode": {
       "name": "Modo Festa",
       "description": "Uma mistura aleatória de pessoas famosas, objetos, lugares, comidas, animais, marcas e conceitos."

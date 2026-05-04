@@ -133,5 +133,14 @@
     "icon": "party-popper",
     "isPremium": true,
     "order": 15
+  },
+  {
+    "id": "brazilian_personalities",
+    "nameKey": "categories.brazilian_personalities.name",
+    "descriptionKey": "categories.brazilian_personalities.description",
+    "itemsFile": "items/brazilian_personalities.json",
+    "icon": "flag",
+    "isPremium": true,
+    "order": 16
   }
 ]

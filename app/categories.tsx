@@ -23,6 +23,7 @@ const categoryMarks: Record<string, string> = {
   movies_tv: 'TV',
   superheroes_villains: 'HERO',
   video_game_characters: 'GAME',
+  brazilian_personalities: 'BR',
   celebrities: 'STAR',
   athletes: 'CUP',
   musicians: 'BEAT',

@@ -56,6 +56,10 @@
       "name": "Countries",
       "description": "Countries, flags, landmarks, and world geography."
     },
+    "brazilian_personalities": {
+      "name": "Brazilian Personalities",
+      "description": "Icons from Brazilian sports, TV, music, literature, and culture."
+    },
     "party_mode": {
       "name": "Party Mode",
       "description": "A random mix of famous people, objects, places, food, animals, brands, and concepts."

@@ -6,7 +6,7 @@ export default {
   expo: {
     name: 'Who Am I? Party Game',
     slug: 'quemsoueu',
-    version: '1.0.0',
+    version: '1.0.1',
     orientation: 'default',
     icon: './assets/icon.png',
     scheme: 'quemsoueu',

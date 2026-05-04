@@ -4337,6 +4337,208 @@
         "name": "Dado",
         "description": "Um cubinho com lados numerados."
       }
+    },
+    "brazilian_personalities": {
+      "brazilian_personalities_1": {
+        "name": "Ayrton Senna",
+        "description": "Piloto brasileiro tricampeão de Fórmula 1."
+      },
+      "brazilian_personalities_2": {
+        "name": "Pelé",
+        "description": "Rei do futebol e campeão mundial."
+      },
+      "brazilian_personalities_3": {
+        "name": "Neymar",
+        "description": "Craque brasileiro de futebol."
+      },
+      "brazilian_personalities_4": {
+        "name": "Marta",
+        "description": "Ícone do futebol feminino brasileiro."
+      },
+      "brazilian_personalities_5": {
+        "name": "Rebeca Andrade",
+        "description": "Ginasta brasileira medalhista olímpica."
+      },
+      "brazilian_personalities_6": {
+        "name": "Xuxa",
+        "description": "Apresentadora infantil famosa da TV brasileira."
+      },
+      "brazilian_personalities_7": {
+        "name": "Silvio Santos",
+        "description": "Apresentador e empresário marcante da televisão."
+      },
+      "brazilian_personalities_8": {
+        "name": "Anitta",
+        "description": "Cantora pop e empresária brasileira."
+      },
+      "brazilian_personalities_9": {
+        "name": "Ivete Sangalo",
+        "description": "Cantora baiana famosa no axé e no pop."
+      },
+      "brazilian_personalities_10": {
+        "name": "Gisele Bündchen",
+        "description": "Supermodelo brasileira conhecida no mundo todo."
+      },
+      "brazilian_personalities_11": {
+        "name": "Oscar Niemeyer",
+        "description": "Arquiteto de Brasília e do modernismo brasileiro."
+      },
+      "brazilian_personalities_12": {
+        "name": "Paulo Coelho",
+        "description": "Escritor brasileiro autor de O Alquimista."
+      },
+      "brazilian_personalities_13": {
+        "name": "Clarice Lispector",
+        "description": "Escritora brasileira de romances e crônicas."
+      },
+      "brazilian_personalities_14": {
+        "name": "Machado de Assis",
+        "description": "Autor clássico e fundador da Academia Brasileira de Letras."
+      },
+      "brazilian_personalities_15": {
+        "name": "Santos Dumont",
+        "description": "Inventor brasileiro ligado aos primórdios da aviação."
+      },
+      "brazilian_personalities_16": {
+        "name": "Carmen Miranda",
+        "description": "Cantora e atriz lembrada pelo chapéu de frutas."
+      },
+      "brazilian_personalities_17": {
+        "name": "Tom Jobim",
+        "description": "Compositor brasileiro símbolo da bossa nova."
+      },
+      "brazilian_personalities_18": {
+        "name": "Rita Lee",
+        "description": "Ícone do rock brasileiro."
+      },
+      "brazilian_personalities_19": {
+        "name": "Gilberto Gil",
+        "description": "Cantor e compositor importante da MPB."
+      },
+      "brazilian_personalities_20": {
+        "name": "Caetano Veloso",
+        "description": "Cantor e compositor ligado ao tropicalismo."
+      },
+      "brazilian_personalities_21": {
+        "name": "Roberto Carlos",
+        "description": "Cantor romântico conhecido como Rei."
+      },
+      "brazilian_personalities_22": {
+        "name": "Chico Buarque",
+        "description": "Cantor, compositor e escritor brasileiro."
+      },
+      "brazilian_personalities_23": {
+        "name": "Fernanda Montenegro",
+        "description": "Grande nome da dramaturgia brasileira."
+      },
+      "brazilian_personalities_24": {
+        "name": "Paulo Gustavo",
+        "description": "Humorista e ator de Minha Mãe É uma Peça."
+      },
+      "brazilian_personalities_25": {
+        "name": "Tatá Werneck",
+        "description": "Humorista, atriz e apresentadora brasileira."
+      },
+      "brazilian_personalities_26": {
+        "name": "Luciano Huck",
+        "description": "Apresentador brasileiro de programas dominicais."
+      },
+      "brazilian_personalities_27": {
+        "name": "Fausto Silva",
+        "description": "Apresentador de TV conhecido como Faustão."
+      },
+      "brazilian_personalities_28": {
+        "name": "Hebe Camargo",
+        "description": "Apresentadora clássica da televisão brasileira."
+      },
+      "brazilian_personalities_29": {
+        "name": "Seu Jorge",
+        "description": "Cantor e ator brasileiro."
+      },
+      "brazilian_personalities_30": {
+        "name": "Rodrigo Faro",
+        "description": "Apresentador e ator da televisão brasileira."
+      },
+      "brazilian_personalities_31": {
+        "name": "Zico",
+        "description": "Ídolo do Flamengo e ex-jogador da seleção brasileira."
+      },
+      "brazilian_personalities_32": {
+        "name": "Ronaldo",
+        "description": "Atacante bicampeão mundial conhecido como Fenômeno."
+      },
+      "brazilian_personalities_33": {
+        "name": "Ronaldinho Gaúcho",
+        "description": "Craque conhecido pelos dribles e sorriso marcante."
+      },
+      "brazilian_personalities_34": {
+        "name": "Romário",
+        "description": "Atacante campeão mundial com o Brasil em 1994."
+      },
+      "brazilian_personalities_35": {
+        "name": "Gustavo Kuerten",
+        "description": "Tenista brasileiro tricampeão de Roland Garros."
+      },
+      "brazilian_personalities_36": {
+        "name": "Isaquias Queiroz",
+        "description": "Canoísta brasileiro medalhista olímpico."
+      },
+      "brazilian_personalities_37": {
+        "name": "Fernanda Torres",
+        "description": "Atriz brasileira premiada no cinema e na televisão."
+      },
+      "brazilian_personalities_38": {
+        "name": "Wagner Moura",
+        "description": "Ator brasileiro de Tropa de Elite e Narcos."
+      },
+      "brazilian_personalities_39": {
+        "name": "Lázaro Ramos",
+        "description": "Ator, diretor e apresentador brasileiro."
+      },
+      "brazilian_personalities_40": {
+        "name": "Glória Maria",
+        "description": "Jornalista e apresentadora histórica da TV brasileira."
+      },
+      "brazilian_personalities_41": {
+        "name": "Jô Soares",
+        "description": "Humorista, escritor e apresentador brasileiro."
+      },
+      "brazilian_personalities_42": {
+        "name": "Adriana Lima",
+        "description": "Supermodelo brasileira conhecida internacionalmente."
+      },
+      "brazilian_personalities_43": {
+        "name": "Sabrina Sato",
+        "description": "Apresentadora e personalidade da TV brasileira."
+      },
+      "brazilian_personalities_44": {
+        "name": "Tarsila do Amaral",
+        "description": "Pintora modernista autora de Abaporu."
+      },
+      "brazilian_personalities_45": {
+        "name": "Elza Soares",
+        "description": "Cantora brasileira de voz marcante."
+      },
+      "brazilian_personalities_46": {
+        "name": "Cazuza",
+        "description": "Cantor e compositor ícone do rock nacional."
+      },
+      "brazilian_personalities_47": {
+        "name": "Djavan",
+        "description": "Cantor e compositor alagoano da MPB."
+      },
+      "brazilian_personalities_48": {
+        "name": "Milton Nascimento",
+        "description": "Cantor e compositor mineiro da MPB."
+      },
+      "brazilian_personalities_49": {
+        "name": "Ziraldo",
+        "description": "Cartunista e escritor criador de O Menino Maluquinho."
+      },
+      "brazilian_personalities_50": {
+        "name": "Ariano Suassuna",
+        "description": "Escritor e dramaturgo autor de Auto da Compadecida."
+      }
     }
   }
 }

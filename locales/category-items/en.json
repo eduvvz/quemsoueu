@@ -4337,6 +4337,208 @@
         "name": "Dice",
         "description": "A small cube with numbered sides."
       }
+    },
+    "brazilian_personalities": {
+      "brazilian_personalities_1": {
+        "name": "Ayrton Senna",
+        "description": "Brazilian three-time Formula 1 champion."
+      },
+      "brazilian_personalities_2": {
+        "name": "Pelé",
+        "description": "Football king and world champion from Brazil."
+      },
+      "brazilian_personalities_3": {
+        "name": "Neymar",
+        "description": "Brazilian football star."
+      },
+      "brazilian_personalities_4": {
+        "name": "Marta",
+        "description": "Icon of Brazilian women's football."
+      },
+      "brazilian_personalities_5": {
+        "name": "Rebeca Andrade",
+        "description": "Brazilian Olympic medal-winning gymnast."
+      },
+      "brazilian_personalities_6": {
+        "name": "Xuxa",
+        "description": "Famous Brazilian children's TV host."
+      },
+      "brazilian_personalities_7": {
+        "name": "Silvio Santos",
+        "description": "Legendary Brazilian TV host and businessman."
+      },
+      "brazilian_personalities_8": {
+        "name": "Anitta",
+        "description": "Brazilian pop singer and entrepreneur."
+      },
+      "brazilian_personalities_9": {
+        "name": "Ivete Sangalo",
+        "description": "Brazilian singer known for axé and pop."
+      },
+      "brazilian_personalities_10": {
+        "name": "Gisele Bundchen",
+        "description": "Brazilian supermodel known worldwide."
+      },
+      "brazilian_personalities_11": {
+        "name": "Oscar Niemeyer",
+        "description": "Architect of Brasília and Brazilian modernism."
+      },
+      "brazilian_personalities_12": {
+        "name": "Paulo Coelho",
+        "description": "Brazilian writer who authored The Alchemist."
+      },
+      "brazilian_personalities_13": {
+        "name": "Clarice Lispector",
+        "description": "Brazilian writer of novels and chronicles."
+      },
+      "brazilian_personalities_14": {
+        "name": "Machado de Assis",
+        "description": "Classic author and founder of the Brazilian Academy of Letters."
+      },
+      "brazilian_personalities_15": {
+        "name": "Santos Dumont",
+        "description": "Brazilian inventor tied to the dawn of aviation."
+      },
+      "brazilian_personalities_16": {
+        "name": "Carmen Miranda",
+        "description": "Singer and actress remembered for her fruit hat."
+      },
+      "brazilian_personalities_17": {
+        "name": "Tom Jobim",
+        "description": "Brazilian composer and bossa nova icon."
+      },
+      "brazilian_personalities_18": {
+        "name": "Rita Lee",
+        "description": "Icon of Brazilian rock."
+      },
+      "brazilian_personalities_19": {
+        "name": "Gilberto Gil",
+        "description": "Important Brazilian singer and songwriter."
+      },
+      "brazilian_personalities_20": {
+        "name": "Caetano Veloso",
+        "description": "Singer and songwriter linked to Tropicalia."
+      },
+      "brazilian_personalities_21": {
+        "name": "Roberto Carlos",
+        "description": "Romantic singer known in Brazil as the King."
+      },
+      "brazilian_personalities_22": {
+        "name": "Chico Buarque",
+        "description": "Brazilian singer, songwriter, and writer."
+      },
+      "brazilian_personalities_23": {
+        "name": "Fernanda Montenegro",
+        "description": "Major name in Brazilian acting and theater."
+      },
+      "brazilian_personalities_24": {
+        "name": "Paulo Gustavo",
+        "description": "Comedian and actor from My Mom Is a Character."
+      },
+      "brazilian_personalities_25": {
+        "name": "Tata Werneck",
+        "description": "Brazilian comedian, actress, and TV host."
+      },
+      "brazilian_personalities_26": {
+        "name": "Luciano Huck",
+        "description": "Brazilian TV host of Sunday variety shows."
+      },
+      "brazilian_personalities_27": {
+        "name": "Fausto Silva",
+        "description": "TV host widely known as Faustao."
+      },
+      "brazilian_personalities_28": {
+        "name": "Hebe Camargo",
+        "description": "Classic host from Brazilian television."
+      },
+      "brazilian_personalities_29": {
+        "name": "Seu Jorge",
+        "description": "Brazilian singer and actor."
+      },
+      "brazilian_personalities_30": {
+        "name": "Rodrigo Faro",
+        "description": "Brazilian TV host and actor."
+      },
+      "brazilian_personalities_31": {
+        "name": "Zico",
+        "description": "Flamengo idol and former Brazil national team player."
+      },
+      "brazilian_personalities_32": {
+        "name": "Ronaldo",
+        "description": "Two-time world champion striker known as the Phenomenon."
+      },
+      "brazilian_personalities_33": {
+        "name": "Ronaldinho Gaucho",
+        "description": "Brazilian star known for dazzling dribbles and a famous smile."
+      },
+      "brazilian_personalities_34": {
+        "name": "Romario",
+        "description": "Striker who won the 1994 World Cup with Brazil."
+      },
+      "brazilian_personalities_35": {
+        "name": "Gustavo Kuerten",
+        "description": "Brazilian tennis player and three-time Roland Garros champion."
+      },
+      "brazilian_personalities_36": {
+        "name": "Isaquias Queiroz",
+        "description": "Brazilian canoe sprinter and Olympic medalist."
+      },
+      "brazilian_personalities_37": {
+        "name": "Fernanda Torres",
+        "description": "Award-winning Brazilian actress from film and television."
+      },
+      "brazilian_personalities_38": {
+        "name": "Wagner Moura",
+        "description": "Brazilian actor from Elite Squad and Narcos."
+      },
+      "brazilian_personalities_39": {
+        "name": "Lazaro Ramos",
+        "description": "Brazilian actor, director, and TV host."
+      },
+      "brazilian_personalities_40": {
+        "name": "Gloria Maria",
+        "description": "Historic Brazilian journalist and television host."
+      },
+      "brazilian_personalities_41": {
+        "name": "Jo Soares",
+        "description": "Brazilian comedian, writer, and talk show host."
+      },
+      "brazilian_personalities_42": {
+        "name": "Adriana Lima",
+        "description": "Brazilian supermodel known around the world."
+      },
+      "brazilian_personalities_43": {
+        "name": "Sabrina Sato",
+        "description": "Brazilian TV host and media personality."
+      },
+      "brazilian_personalities_44": {
+        "name": "Tarsila do Amaral",
+        "description": "Modernist painter who created Abaporu."
+      },
+      "brazilian_personalities_45": {
+        "name": "Elza Soares",
+        "description": "Brazilian singer with a striking voice."
+      },
+      "brazilian_personalities_46": {
+        "name": "Cazuza",
+        "description": "Singer and songwriter who became a Brazilian rock icon."
+      },
+      "brazilian_personalities_47": {
+        "name": "Djavan",
+        "description": "Singer and songwriter from the MPB scene."
+      },
+      "brazilian_personalities_48": {
+        "name": "Milton Nascimento",
+        "description": "Singer and songwriter from Minas Gerais and MPB legend."
+      },
+      "brazilian_personalities_49": {
+        "name": "Ziraldo",
+        "description": "Cartoonist and writer who created The Nutty Boy."
+      },
+      "brazilian_personalities_50": {
+        "name": "Ariano Suassuna",
+        "description": "Writer and playwright who authored A Dog's Will."
+      }
     }
   }
 }

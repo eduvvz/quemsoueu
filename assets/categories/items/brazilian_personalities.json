@@ -1,0 +1,352 @@
+[
+  {
+    "id": "brazilian_personalities_1",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_1.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_1.description",
+    "order": 1
+  },
+  {
+    "id": "brazilian_personalities_2",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_2.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_2.description",
+    "order": 2
+  },
+  {
+    "id": "brazilian_personalities_3",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_3.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_3.description",
+    "order": 3
+  },
+  {
+    "id": "brazilian_personalities_4",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_4.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_4.description",
+    "order": 4
+  },
+  {
+    "id": "brazilian_personalities_5",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_5.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_5.description",
+    "order": 5
+  },
+  {
+    "id": "brazilian_personalities_6",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_6.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_6.description",
+    "order": 6
+  },
+  {
+    "id": "brazilian_personalities_7",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_7.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_7.description",
+    "order": 7
+  },
+  {
+    "id": "brazilian_personalities_8",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_8.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_8.description",
+    "order": 8
+  },
+  {
+    "id": "brazilian_personalities_9",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_9.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_9.description",
+    "order": 9
+  },
+  {
+    "id": "brazilian_personalities_10",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_10.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_10.description",
+    "order": 10
+  },
+  {
+    "id": "brazilian_personalities_11",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_11.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_11.description",
+    "order": 11
+  },
+  {
+    "id": "brazilian_personalities_12",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_12.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_12.description",
+    "order": 12
+  },
+  {
+    "id": "brazilian_personalities_13",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_13.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_13.description",
+    "order": 13
+  },
+  {
+    "id": "brazilian_personalities_14",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_14.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_14.description",
+    "order": 14
+  },
+  {
+    "id": "brazilian_personalities_15",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_15.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_15.description",
+    "order": 15
+  },
+  {
+    "id": "brazilian_personalities_16",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_16.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_16.description",
+    "order": 16
+  },
+  {
+    "id": "brazilian_personalities_17",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_17.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_17.description",
+    "order": 17
+  },
+  {
+    "id": "brazilian_personalities_18",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_18.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_18.description",
+    "order": 18
+  },
+  {
+    "id": "brazilian_personalities_19",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_19.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_19.description",
+    "order": 19
+  },
+  {
+    "id": "brazilian_personalities_20",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_20.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_20.description",
+    "order": 20
+  },
+  {
+    "id": "brazilian_personalities_21",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_21.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_21.description",
+    "order": 21
+  },
+  {
+    "id": "brazilian_personalities_22",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_22.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_22.description",
+    "order": 22
+  },
+  {
+    "id": "brazilian_personalities_23",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_23.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_23.description",
+    "order": 23
+  },
+  {
+    "id": "brazilian_personalities_24",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_24.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_24.description",
+    "order": 24
+  },
+  {
+    "id": "brazilian_personalities_25",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_25.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_25.description",
+    "order": 25
+  },
+  {
+    "id": "brazilian_personalities_26",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_26.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_26.description",
+    "order": 26
+  },
+  {
+    "id": "brazilian_personalities_27",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_27.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_27.description",
+    "order": 27
+  },
+  {
+    "id": "brazilian_personalities_28",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_28.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_28.description",
+    "order": 28
+  },
+  {
+    "id": "brazilian_personalities_29",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_29.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_29.description",
+    "order": 29
+  },
+  {
+    "id": "brazilian_personalities_30",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_30.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_30.description",
+    "order": 30
+  },
+  {
+    "id": "brazilian_personalities_31",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_31.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_31.description",
+    "order": 31
+  },
+  {
+    "id": "brazilian_personalities_32",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_32.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_32.description",
+    "order": 32
+  },
+  {
+    "id": "brazilian_personalities_33",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_33.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_33.description",
+    "order": 33
+  },
+  {
+    "id": "brazilian_personalities_34",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_34.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_34.description",
+    "order": 34
+  },
+  {
+    "id": "brazilian_personalities_35",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_35.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_35.description",
+    "order": 35
+  },
+  {
+    "id": "brazilian_personalities_36",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_36.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_36.description",
+    "order": 36
+  },
+  {
+    "id": "brazilian_personalities_37",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_37.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_37.description",
+    "order": 37
+  },
+  {
+    "id": "brazilian_personalities_38",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_38.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_38.description",
+    "order": 38
+  },
+  {
+    "id": "brazilian_personalities_39",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_39.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_39.description",
+    "order": 39
+  },
+  {
+    "id": "brazilian_personalities_40",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_40.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_40.description",
+    "order": 40
+  },
+  {
+    "id": "brazilian_personalities_41",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_41.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_41.description",
+    "order": 41
+  },
+  {
+    "id": "brazilian_personalities_42",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_42.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_42.description",
+    "order": 42
+  },
+  {
+    "id": "brazilian_personalities_43",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_43.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_43.description",
+    "order": 43
+  },
+  {
+    "id": "brazilian_personalities_44",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_44.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_44.description",
+    "order": 44
+  },
+  {
+    "id": "brazilian_personalities_45",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_45.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_45.description",
+    "order": 45
+  },
+  {
+    "id": "brazilian_personalities_46",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_46.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_46.description",
+    "order": 46
+  },
+  {
+    "id": "brazilian_personalities_47",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_47.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_47.description",
+    "order": 47
+  },
+  {
+    "id": "brazilian_personalities_48",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_48.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_48.description",
+    "order": 48
+  },
+  {
+    "id": "brazilian_personalities_49",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_49.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_49.description",
+    "order": 49
+  },
+  {
+    "id": "brazilian_personalities_50",
+    "categoryId": "brazilian_personalities",
+    "nameKey": "categoryItems.brazilian_personalities.brazilian_personalities_50.name",
+    "descriptionKey": "categoryItems.brazilian_personalities.brazilian_personalities_50.description",
+    "order": 50
+  }
+]
